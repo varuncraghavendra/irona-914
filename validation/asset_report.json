@@ -1,0 +1,4619 @@
+{
+  "checks": {
+    "usd_composition": "pass",
+    "units": "metres, Z-up",
+    "rigid_bodies": 63,
+    "actuated_joints": 62,
+    "free_floating_root": "pass",
+    "joint_anchor_coincidence": "pass",
+    "positive_physical_inertias": "pass",
+    "mass_kg": 15.085999958217144,
+    "geometry_bounds_m": [
+      [
+        -0.12099999934434891,
+        -0.22999999982118605,
+        -2.98023217215615e-10
+      ],
+      [
+        0.10750000178813934,
+        0.22999999982118605,
+        0.9143999978303909
+      ]
+    ],
+    "height_mm": 914.3999981284142,
+    "jet_frames": "pass",
+    "print_mesh_count": 458,
+    "all_print_meshes_watertight_and_bed_sized": true,
+    "leg_ik_home_pose": "pass",
+    "vectored_thrust_allocation_rank": 6,
+    "python_syntax": "pass"
+  },
+  "limitations": [
+    "Isaac Sim / PhysX not installed in the authoring environment.",
+    "No physical print, actuator test, structural FEA or measured inertial identification.",
+    "Collision boxes are simplified; full moving shell clearance is not certified."
+  ],
+  "print_failures": [],
+  "print_meshes": [
+    {
+      "file": "print/display_armature/16mm_core_sleeve_print_as_needed.stl",
+      "watertight": true,
+      "volume_cm3": 6.077593316489204,
+      "size_mm": [
+        22.0,
+        21.993162155151367,
+        36.0
+      ]
+    },
+    {
+      "file": "print/display_armature/display_core_01.stl",
+      "watertight": true,
+      "volume_cm3": 8.25834835932922,
+      "size_mm": [
+        25.987456634640694,
+        25.991421231999993,
+        23.5
+      ]
+    },
+    {
+      "file": "print/display_armature/display_core_02.stl",
+      "watertight": true,
+      "volume_cm3": 8.25834835932922,
+      "size_mm": [
+        25.987456634640694,
+        25.991421231999993,
+        23.5
+      ]
+    },
+    {
+      "file": "print/display_armature/display_core_03.stl",
+      "watertight": true,
+      "volume_cm3": 55.676923530538254,
+      "size_mm": [
+        60.0,
+        42.0,
+        198.75
+      ]
+    },
+    {
+      "file": "print/display_armature/display_core_04.stl",
+      "watertight": true,
+      "volume_cm3": 44.439037537302475,
+      "size_mm": [
+        25.988166871480644,
+        26.0,
+        198.75
+      ]
+    },
+    {
+      "file": "print/display_armature/display_core_05.stl",
+      "watertight": true,
+      "volume_cm3": 49.130452082896625,
+      "size_mm": [
+        25.98910152260214,
+        87.99850950227119,
+        198.75
+      ]
+    },
+    {
+      "file": "print/display_armature/display_core_06.stl",
+      "watertight": true,
+      "volume_cm3": 36.92701926666855,
+      "size_mm": [
+        25.9883546885103,
+        25.98447704873979,
+        198.75
+      ]
+    },
+    {
+      "file": "print/display_armature/display_core_07.stl",
+      "watertight": true,
+      "volume_cm3": 35.38516138225181,
+      "size_mm": [
+        25.99364621285349,
+        104.98912031482905,
+        94.75
+      ]
+    },
+    {
+      "file": "print/display_armature/display_core_08.stl",
+      "watertight": true,
+      "volume_cm3": 39.71436241609314,
+      "size_mm": [
+        16.0,
+        105.0,
+        198.75
+      ]
+    },
+    {
+      "file": "print/display_armature/display_core_09.stl",
+      "watertight": true,
+      "volume_cm3": 55.676923530538254,
+      "size_mm": [
+        60.0,
+        42.0,
+        198.75
+      ]
+    },
+    {
+      "file": "print/display_armature/display_core_10.stl",
+      "watertight": true,
+      "volume_cm3": 44.439037537302475,
+      "size_mm": [
+        25.988166871480644,
+        26.0,
+        198.75
+      ]
+    },
+    {
+      "file": "print/display_armature/display_core_11.stl",
+      "watertight": true,
+      "volume_cm3": 49.130452529218125,
+      "size_mm": [
+        25.98910152260214,
+        87.9985122680664,
+        198.75
+      ]
+    },
+    {
+      "file": "print/display_armature/display_core_12.stl",
+      "watertight": true,
+      "volume_cm3": 36.92701926666855,
+      "size_mm": [
+        25.9883546885103,
+        25.98447704873979,
+        198.75
+      ]
+    },
+    {
+      "file": "print/display_armature/display_core_13.stl",
+      "watertight": true,
+      "volume_cm3": 39.71436215620149,
+      "size_mm": [
+        16.0,
+        105.0,
+        198.75
+      ]
+    },
+    {
+      "file": "print/display_armature/display_core_14.stl",
+      "watertight": true,
+      "volume_cm3": 35.38516004841528,
+      "size_mm": [
+        25.99364621285349,
+        104.98912048339844,
+        94.75
+      ]
+    },
+    {
+      "file": "print/display_armature/seam_strap_print_as_needed.stl",
+      "watertight": true,
+      "volume_cm3": 1.1065736863413156,
+      "size_mm": [
+        40.0,
+        12.0,
+        2.4000000953674316
+      ]
+    },
+    {
+      "file": "print/stl/001_pelvis_shell_01.stl",
+      "watertight": true,
+      "volume_cm3": 97.44680653513615,
+      "size_mm": [
+        61.99999815970659,
+        198.00000578910112,
+        75.99999815970659
+      ]
+    },
+    {
+      "file": "print/stl/001_pelvis_shell_02.stl",
+      "watertight": true,
+      "volume_cm3": 97.446822478652,
+      "size_mm": [
+        62.0,
+        198.00000578910112,
+        75.99999815970659
+      ]
+    },
+    {
+      "file": "print/stl/002_skirt_01.stl",
+      "watertight": true,
+      "volume_cm3": 10.978059241774055,
+      "size_mm": [
+        80.99999989999999,
+        118.99999989999999,
+        71.99999986085595
+      ]
+    },
+    {
+      "file": "print/stl/002_skirt_02.stl",
+      "watertight": true,
+      "volume_cm3": 11.85004199595344,
+      "size_mm": [
+        80.9999999,
+        118.99999990000003,
+        71.9999998979053
+      ]
+    },
+    {
+      "file": "print/stl/002_skirt_03.stl",
+      "watertight": true,
+      "volume_cm3": 1.9491693677033508,
+      "size_mm": [
+        18.86626803252615,
+        37.19121473323321,
+        48.195899863378884
+      ]
+    },
+    {
+      "file": "print/stl/002_skirt_04.stl",
+      "watertight": true,
+      "volume_cm3": 7.246425238998956,
+      "size_mm": [
+        59.59999834868833,
+        37.191882987158166,
+        66.65896411408903
+      ]
+    },
+    {
+      "file": "print/stl/002_skirt_05.stl",
+      "watertight": true,
+      "volume_cm3": 7.257805358434416,
+      "size_mm": [
+        59.59999834945734,
+        37.191882968152655,
+        66.65508205955848
+      ]
+    },
+    {
+      "file": "print/stl/002_skirt_06.stl",
+      "watertight": true,
+      "volume_cm3": 1.9606649707773334,
+      "size_mm": [
+        18.866268033295228,
+        37.191547293798756,
+        48.19589986337877
+      ]
+    },
+    {
+      "file": "print/stl/002_skirt_07.stl",
+      "watertight": true,
+      "volume_cm3": 11.859862529606442,
+      "size_mm": [
+        80.9999998999999,
+        118.99999989999999,
+        71.99999986085595
+      ]
+    },
+    {
+      "file": "print/stl/002_skirt_08.stl",
+      "watertight": true,
+      "volume_cm3": 10.98393886104067,
+      "size_mm": [
+        80.99999989999975,
+        118.99999989952357,
+        71.99999989790416
+      ]
+    },
+    {
+      "file": "print/stl/002_skirt_09.stl",
+      "watertight": true,
+      "volume_cm3": 1.9606648746265225,
+      "size_mm": [
+        18.86626805795897,
+        37.19154562125914,
+        48.195899863378884
+      ]
+    },
+    {
+      "file": "print/stl/002_skirt_10.stl",
+      "watertight": true,
+      "volume_cm3": 7.479961034789895,
+      "size_mm": [
+        59.59999837412097,
+        37.1918829871582,
+        66.65729324053973
+      ]
+    },
+    {
+      "file": "print/stl/002_skirt_11.stl",
+      "watertight": true,
+      "volume_cm3": 7.170987746921087,
+      "size_mm": [
+        59.59999837412109,
+        37.191882968152655,
+        66.65833149186801
+      ]
+    },
+    {
+      "file": "print/stl/002_skirt_12.stl",
+      "watertight": true,
+      "volume_cm3": 1.9491696225235817,
+      "size_mm": [
+        18.866268057959026,
+        37.19121541513672,
+        48.19589986337883
+      ]
+    },
+    {
+      "file": "print/stl/003_skirt_apron_01.stl",
+      "watertight": true,
+      "volume_cm3": 27.354168960802006,
+      "size_mm": [
+        2.9999999115243554,
+        144.99999848101288,
+        63.99999848101288
+      ]
+    },
+    {
+      "file": "print/stl/004_waist_band_01.stl",
+      "watertight": true,
+      "volume_cm3": 2.763112919955843,
+      "size_mm": [
+        63.999999900000006,
+        127.9999999,
+        12.00000025367433
+      ]
+    },
+    {
+      "file": "print/stl/004_waist_band_02.stl",
+      "watertight": true,
+      "volume_cm3": 0.9583690190870274,
+      "size_mm": [
+        55.73899449838867,
+        37.77550115122071,
+        6.599999788323203
+      ]
+    },
+    {
+      "file": "print/stl/004_waist_band_03.stl",
+      "watertight": true,
+      "volume_cm3": 0.9585600364089345,
+      "size_mm": [
+        55.73899449838867,
+        37.7755011512207,
+        6.59999979696363
+      ]
+    },
+    {
+      "file": "print/stl/004_waist_band_04.stl",
+      "watertight": true,
+      "volume_cm3": 2.7628702547685533,
+      "size_mm": [
+        63.9999999,
+        127.9999999,
+        12.00000025367433
+      ]
+    },
+    {
+      "file": "print/stl/004_waist_band_05.stl",
+      "watertight": true,
+      "volume_cm3": 0.9585599934556304,
+      "size_mm": [
+        55.73899449838867,
+        37.77550115122071,
+        6.5999997969622655
+      ]
+    },
+    {
+      "file": "print/stl/004_waist_band_06.stl",
+      "watertight": true,
+      "volume_cm3": 0.9583690803772515,
+      "size_mm": [
+        55.73899449838867,
+        37.775501151220695,
+        6.599999788325363
+      ]
+    },
+    {
+      "file": "print/stl/005_torso_shell_01.stl",
+      "watertight": true,
+      "volume_cm3": 52.170299532103584,
+      "size_mm": [
+        76.02457139268517,
+        113.07658841460943,
+        166.30659474863285
+      ]
+    },
+    {
+      "file": "print/stl/005_torso_shell_02.stl",
+      "watertight": true,
+      "volume_cm3": 52.511547628761114,
+      "size_mm": [
+        76.02457139268517,
+        113.1049422217327,
+        166.30659474863285
+      ]
+    },
+    {
+      "file": "print/stl/005_torso_shell_03.stl",
+      "watertight": true,
+      "volume_cm3": 51.93152475958256,
+      "size_mm": [
+        76.02146138681557,
+        113.07658843696117,
+        166.30659474863285
+      ]
+    },
+    {
+      "file": "print/stl/005_torso_shell_04.stl",
+      "watertight": true,
+      "volume_cm3": 51.238253420429615,
+      "size_mm": [
+        76.02146138681641,
+        113.0765837622823,
+        166.30659474863285
+      ]
+    },
+    {
+      "file": "print/stl/006_chest_apron_01.stl",
+      "watertight": true,
+      "volume_cm3": 44.94671223675044,
+      "size_mm": [
+        33.17594909667969,
+        130.00000381469727,
+        111.00000381469727
+      ]
+    },
+    {
+      "file": "print/stl/007_collar_0_01.stl",
+      "watertight": true,
+      "volume_cm3": 13.394206177391824,
+      "size_mm": [
+        9.999999932944775,
+        60.839526399970055,
+        42.86007249541581
+      ]
+    },
+    {
+      "file": "print/stl/008_collar_2_01.stl",
+      "watertight": true,
+      "volume_cm3": 13.393407034225117,
+      "size_mm": [
+        9.999999932944775,
+        60.839525155723095,
+        42.861014725640416
+      ]
+    },
+    {
+      "file": "print/stl/009_chest_badge_01.stl",
+      "watertight": true,
+      "volume_cm3": 1.5349159587964387,
+      "size_mm": [
+        2.9999998999999917,
+        25.999999899999885,
+        25.99999989999992
+      ]
+    },
+    {
+      "file": "print/stl/010_badge_center_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.30758906009248393,
+      "size_mm": [
+        2.0,
+        13.999999899999885,
+        13.99999989999992
+      ]
+    },
+    {
+      "file": "print/stl/011_apron_button_638_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.20703510766549985,
+      "size_mm": [
+        6.420280694961548,
+        7.589584598317742,
+        7.599999904632568
+      ]
+    },
+    {
+      "file": "print/stl/012_apron_button_624_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.22889167407166067,
+      "size_mm": [
+        7.594792036339641,
+        7.589584497734904,
+        7.600000051781535
+      ]
+    },
+    {
+      "file": "print/stl/013_apron_button_610_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.22889167407166067,
+      "size_mm": [
+        7.594792036339641,
+        7.589584497734904,
+        7.600000051781535
+      ]
+    },
+    {
+      "file": "print/stl/014_neck_sleeve_01.stl",
+      "watertight": true,
+      "volume_cm3": 3.486176865555691,
+      "size_mm": [
+        19.0,
+        38.0,
+        26.0
+      ]
+    },
+    {
+      "file": "print/stl/014_neck_sleeve_02.stl",
+      "watertight": true,
+      "volume_cm3": 3.486177017749738,
+      "size_mm": [
+        19.0,
+        38.0,
+        26.0
+      ]
+    },
+    {
+      "file": "print/stl/015_neck_base_01.stl",
+      "watertight": true,
+      "volume_cm3": 6.779514079306105,
+      "size_mm": [
+        20.0,
+        40.0,
+        30.0
+      ]
+    },
+    {
+      "file": "print/stl/015_neck_base_02.stl",
+      "watertight": true,
+      "volume_cm3": 6.779514256526028,
+      "size_mm": [
+        20.0,
+        40.0,
+        30.0
+      ]
+    },
+    {
+      "file": "print/stl/016_head_shell_01.stl",
+      "watertight": true,
+      "volume_cm3": 88.29510353370944,
+      "size_mm": [
+        57.99999815970659,
+        143.00000578910112,
+        107.99999815970659
+      ]
+    },
+    {
+      "file": "print/stl/016_head_shell_02.stl",
+      "watertight": true,
+      "volume_cm3": 88.29512082661067,
+      "size_mm": [
+        58.0,
+        143.00000578910112,
+        107.99999815970659
+      ]
+    },
+    {
+      "file": "print/stl/017_camera_mount_bezel_01.stl",
+      "watertight": true,
+      "volume_cm3": 9.568105705651632,
+      "size_mm": [
+        13.000000418163836,
+        69.00000137183815,
+        40.00000137183815
+      ]
+    },
+    {
+      "file": "print/stl/017_camera_mount_bezel_02.stl",
+      "watertight": true,
+      "volume_cm3": 2.0938962839902815,
+      "size_mm": [
+        1.1000000430511463,
+        57.624542136328124,
+        36.257793326513706
+      ]
+    },
+    {
+      "file": "print/stl/017_camera_mount_bezel_03.stl",
+      "watertight": true,
+      "volume_cm3": 9.568105215761292,
+      "size_mm": [
+        13.000000418163836,
+        68.9999999,
+        40.00000137183815
+      ]
+    },
+    {
+      "file": "print/stl/017_camera_mount_bezel_04.stl",
+      "watertight": true,
+      "volume_cm3": 2.093896237266861,
+      "size_mm": [
+        1.1000000430511463,
+        57.624542136328124,
+        36.257793326513706
+      ]
+    },
+    {
+      "file": "print/stl/018_d455_housing_01.stl",
+      "watertight": true,
+      "volume_cm3": 2.908464831448399,
+      "size_mm": [
+        3.0,
+        60.621063132421874,
+        25.165151594069357
+      ]
+    },
+    {
+      "file": "print/stl/018_d455_housing_02.stl",
+      "watertight": true,
+      "volume_cm3": 2.0922182390518786,
+      "size_mm": [
+        8.199999708116643,
+        61.9999999,
+        25.999999900000034
+      ]
+    },
+    {
+      "file": "print/stl/018_d455_housing_03.stl",
+      "watertight": true,
+      "volume_cm3": 5.839197652738919,
+      "size_mm": [
+        13.0,
+        62.00000137183815,
+        25.99999946448952
+      ]
+    },
+    {
+      "file": "print/stl/018_d455_housing_04.stl",
+      "watertight": true,
+      "volume_cm3": 2.908473340712865,
+      "size_mm": [
+        3.0,
+        60.621063232421875,
+        25.165151594069357
+      ]
+    },
+    {
+      "file": "print/stl/018_d455_housing_05.stl",
+      "watertight": true,
+      "volume_cm3": 2.0922182810868475,
+      "size_mm": [
+        8.199999708120103,
+        62.0,
+        25.999999900000034
+      ]
+    },
+    {
+      "file": "print/stl/018_d455_housing_06.stl",
+      "watertight": true,
+      "volume_cm3": 5.839197580012108,
+      "size_mm": [
+        13.0,
+        62.0,
+        25.99999946448952
+      ]
+    },
+    {
+      "file": "print/stl/019_d455_front_panel_01.stl",
+      "watertight": true,
+      "volume_cm3": 4.095741963103211,
+      "size_mm": [
+        1.999999906634912,
+        119.99999799928628,
+        21.999999906634912
+      ]
+    },
+    {
+      "file": "print/stl/020_camera_optical_window_0_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.05021862098577311,
+      "size_mm": [
+        0.9999999650754035,
+        7.999999845866114,
+        7.999999845866114
+      ]
+    },
+    {
+      "file": "print/stl/021_camera_optical_window_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.05021862098577311,
+      "size_mm": [
+        0.9999999650754035,
+        7.999999845866114,
+        7.999999845866114
+      ]
+    },
+    {
+      "file": "print/stl/022_camera_optical_window_2_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.05021862098577311,
+      "size_mm": [
+        0.9999999650754035,
+        7.999999845866114,
+        7.999999845866114
+      ]
+    },
+    {
+      "file": "print/stl/023_camera_optical_window_3_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.05021862098577311,
+      "size_mm": [
+        0.9999999650754035,
+        7.999999845866114,
+        7.999999845866114
+      ]
+    },
+    {
+      "file": "print/stl/024_head_service_plate_m1_01.stl",
+      "watertight": true,
+      "volume_cm3": 5.30613460025826,
+      "size_mm": [
+        61.99999943142757,
+        1.6000000513158739,
+        53.99999943142757
+      ]
+    },
+    {
+      "file": "print/stl/025_head_fastener_m1_801_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.04675353732833252,
+      "size_mm": [
+        5.5999998046324535,
+        1.899999995367324,
+        5.599999804632532
+      ]
+    },
+    {
+      "file": "print/stl/026_head_fastener_m1_834_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.04675353732833252,
+      "size_mm": [
+        5.5999998046324535,
+        1.899999995367324,
+        5.599999804632532
+      ]
+    },
+    {
+      "file": "print/stl/027_head_service_plate_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 5.306134520528288,
+      "size_mm": [
+        61.99999943142757,
+        1.6000000295462087,
+        53.99999943142757
+      ]
+    },
+    {
+      "file": "print/stl/028_head_fastener_1_801_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.04675353685564978,
+      "size_mm": [
+        5.5999998046324535,
+        1.899999976158142,
+        5.599999804632532
+      ]
+    },
+    {
+      "file": "print/stl/029_head_fastener_1_834_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.04675353685564978,
+      "size_mm": [
+        5.5999998046324535,
+        1.899999976158142,
+        5.599999804632532
+      ]
+    },
+    {
+      "file": "print/stl/030_lidar_pedestal_01.stl",
+      "watertight": true,
+      "volume_cm3": 11.186198293743606,
+      "size_mm": [
+        35.99999989999999,
+        35.99999989999999,
+        11.0
+      ]
+    },
+    {
+      "file": "print/stl/031_lidar_base_01.stl",
+      "watertight": true,
+      "volume_cm3": 14.544568576679618,
+      "size_mm": [
+        63.99999946728349,
+        63.99999946728349,
+        4.9999999441206455
+      ]
+    },
+    {
+      "file": "print/stl/032_lidar_upper_cap_01.stl",
+      "watertight": true,
+      "volume_cm3": 18.097536711963187,
+      "size_mm": [
+        62.0000006724149,
+        62.0000006724149,
+        6.000000195577741
+      ]
+    },
+    {
+      "file": "print/stl/033_lidar_cap_trim_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.07808999130756758,
+      "size_mm": [
+        62.39999966882169,
+        62.39999966882169,
+        2.000000050291419
+      ]
+    },
+    {
+      "file": "print/stl/034_left_thigh_shell_01.stl",
+      "watertight": true,
+      "volume_cm3": 41.12654145448812,
+      "size_mm": [
+        39.0,
+        78.0,
+        155.0
+      ]
+    },
+    {
+      "file": "print/stl/034_left_thigh_shell_02.stl",
+      "watertight": true,
+      "volume_cm3": 41.137654888801045,
+      "size_mm": [
+        39.0,
+        78.0,
+        155.0
+      ]
+    },
+    {
+      "file": "print/stl/035_left_shin_shell_01.stl",
+      "watertight": true,
+      "volume_cm3": 36.5741275321783,
+      "size_mm": [
+        34.0,
+        68.0,
+        157.99999999999955
+      ]
+    },
+    {
+      "file": "print/stl/035_left_shin_shell_02.stl",
+      "watertight": true,
+      "volume_cm3": 36.584202945350285,
+      "size_mm": [
+        34.0,
+        68.0,
+        157.99999999999955
+      ]
+    },
+    {
+      "file": "print/stl/036_left_hip_hub_01.stl",
+      "watertight": true,
+      "volume_cm3": 16.83893027806767,
+      "size_mm": [
+        41.999999899999885,
+        28.999999899999885,
+        41.999999899999864
+      ]
+    },
+    {
+      "file": "print/stl/036_left_hip_hub_02.stl",
+      "watertight": true,
+      "volume_cm3": 16.838930336133025,
+      "size_mm": [
+        41.999999899999885,
+        29.0,
+        41.999999899999864
+      ]
+    },
+    {
+      "file": "print/stl/037_left_hip_disc_01.stl",
+      "watertight": true,
+      "volume_cm3": 2.4607126544652522,
+      "size_mm": [
+        28.000000187195837,
+        4.0000001871958375,
+        28.000000187195837
+      ]
+    },
+    {
+      "file": "print/stl/038_left_hip_bolt_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.3323060464713568,
+      "size_mm": [
+        10.999999899999942,
+        3.5,
+        10.99999989999992
+      ]
+    },
+    {
+      "file": "print/stl/039_left_knee_hub_01.stl",
+      "watertight": true,
+      "volume_cm3": 16.838930278067714,
+      "size_mm": [
+        41.99999989999994,
+        28.999999899999942,
+        41.99999989999995
+      ]
+    },
+    {
+      "file": "print/stl/039_left_knee_hub_02.stl",
+      "watertight": true,
+      "volume_cm3": 16.83893033613303,
+      "size_mm": [
+        41.99999989999994,
+        29.0,
+        41.99999989999995
+      ]
+    },
+    {
+      "file": "print/stl/040_left_knee_disc_01.stl",
+      "watertight": true,
+      "volume_cm3": 2.4607126544652522,
+      "size_mm": [
+        28.000000187195837,
+        4.0000001871958375,
+        28.000000187195837
+      ]
+    },
+    {
+      "file": "print/stl/041_left_knee_bolt_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.3323060464713568,
+      "size_mm": [
+        10.999999899999942,
+        3.5,
+        10.99999989999992
+      ]
+    },
+    {
+      "file": "print/stl/042_left_ankle_hub_01.stl",
+      "watertight": true,
+      "volume_cm3": 16.838930278067743,
+      "size_mm": [
+        41.999999899999985,
+        28.999999899999985,
+        41.999999899999985
+      ]
+    },
+    {
+      "file": "print/stl/042_left_ankle_hub_02.stl",
+      "watertight": true,
+      "volume_cm3": 16.838930336133036,
+      "size_mm": [
+        41.999999899999985,
+        29.0,
+        41.999999899999985
+      ]
+    },
+    {
+      "file": "print/stl/043_left_ankle_disc_01.stl",
+      "watertight": true,
+      "volume_cm3": 2.4607126544652522,
+      "size_mm": [
+        28.000000187195837,
+        4.0000001871958375,
+        28.000000187195837
+      ]
+    },
+    {
+      "file": "print/stl/044_left_ankle_bolt_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.332306046471357,
+      "size_mm": [
+        10.999999899999985,
+        3.5,
+        10.999999899999992
+      ]
+    },
+    {
+      "file": "print/stl/045_left_boot_shell_01.stl",
+      "watertight": true,
+      "volume_cm3": 64.3684660664397,
+      "size_mm": [
+        85.00000096857548,
+        92.00000096857548,
+        67.00000096857548
+      ]
+    },
+    {
+      "file": "print/stl/045_left_boot_shell_02.stl",
+      "watertight": true,
+      "volume_cm3": 66.09521475781051,
+      "size_mm": [
+        85.0,
+        92.00000096857548,
+        67.00000096857548
+      ]
+    },
+    {
+      "file": "print/stl/046_left_sole_01.stl",
+      "watertight": true,
+      "volume_cm3": 46.901341815438386,
+      "size_mm": [
+        162.9999930066988,
+        87.00000063609332,
+        6.00000015925616
+      ]
+    },
+    {
+      "file": "print/stl/047_left_shin_band_123_01.stl",
+      "watertight": true,
+      "volume_cm3": 1.7295292943279243,
+      "size_mm": [
+        34.0,
+        68.0,
+        7.0
+      ]
+    },
+    {
+      "file": "print/stl/047_left_shin_band_123_02.stl",
+      "watertight": true,
+      "volume_cm3": 1.7295293309197926,
+      "size_mm": [
+        34.0,
+        68.0,
+        7.0
+      ]
+    },
+    {
+      "file": "print/stl/048_left_shin_band_169_01.stl",
+      "watertight": true,
+      "volume_cm3": 1.4259273667856105,
+      "size_mm": [
+        34.0,
+        68.0,
+        7.0
+      ]
+    },
+    {
+      "file": "print/stl/048_left_shin_band_169_02.stl",
+      "watertight": true,
+      "volume_cm3": 1.425999267503607,
+      "size_mm": [
+        34.0,
+        68.0,
+        7.0
+      ]
+    },
+    {
+      "file": "print/stl/049_left_shin_band_215_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.5896803165366254,
+      "size_mm": [
+        34.0,
+        68.0,
+        6.999999999999773
+      ]
+    },
+    {
+      "file": "print/stl/049_left_shin_band_215_02.stl",
+      "watertight": true,
+      "volume_cm3": 0.5919090438372683,
+      "size_mm": [
+        34.0,
+        68.0,
+        6.999999999999773
+      ]
+    },
+    {
+      "file": "print/stl/050_left_boot_nozzle_01.stl",
+      "watertight": true,
+      "volume_cm3": 4.355680933292567,
+      "size_mm": [
+        33.99999847821891,
+        33.99999847821891,
+        13.000000385567546
+      ]
+    },
+    {
+      "file": "print/stl/051_left_boot_nozzle_ring_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.9039351608831354,
+      "size_mm": [
+        37.99999988172203,
+        37.99999988172203,
+        3.999999881722033
+      ]
+    },
+    {
+      "file": "print/stl/052_left_shoulder_mount_01.stl",
+      "watertight": true,
+      "volume_cm3": 38.747711652597374,
+      "size_mm": [
+        23.999999932944775,
+        67.99999802559614,
+        24.999999932944775
+      ]
+    },
+    {
+      "file": "print/stl/053_left_shoulder_roll_yoke_rail_01.stl",
+      "watertight": true,
+      "volume_cm3": 3.096082792850608,
+      "size_mm": [
+        10.200000297278166,
+        31.186198769137263,
+        33.200000297278166
+      ]
+    },
+    {
+      "file": "print/stl/054_left_shoulder_yaw_yoke_rail_01.stl",
+      "watertight": true,
+      "volume_cm3": 2.4593152265459697,
+      "size_mm": [
+        10.199999948963523,
+        14.18750605173409,
+        33.20000090263784
+      ]
+    },
+    {
+      "file": "print/stl/055_left_elbow_yoke_rail_01.stl",
+      "watertight": true,
+      "volume_cm3": 9.043610671299199,
+      "size_mm": [
+        10.199999989941716,
+        10.199999989941716,
+        114.19999712891877
+      ]
+    },
+    {
+      "file": "print/stl/056_left_forearm_roll_yoke_rail_01.stl",
+      "watertight": true,
+      "volume_cm3": 3.5739552064266444,
+      "size_mm": [
+        10.199999989941716,
+        10.199999989941716,
+        47.20000094361603
+      ]
+    },
+    {
+      "file": "print/stl/057_left_wrist_pitch_yoke_rail_01.stl",
+      "watertight": true,
+      "volume_cm3": 7.00269442063227,
+      "size_mm": [
+        10.199999989941716,
+        10.199999989941716,
+        89.19999712891877
+      ]
+    },
+    {
+      "file": "print/stl/058_left_wrist_roll_yoke_rail_01.stl",
+      "watertight": true,
+      "volume_cm3": 2.1861320678998175,
+      "size_mm": [
+        10.199999989941716,
+        10.199999989941716,
+        30.200000943616033
+      ]
+    },
+    {
+      "file": "print/stl/059_left_thumb_support_01.stl",
+      "watertight": true,
+      "volume_cm3": 3.5640875715081473,
+      "size_mm": [
+        15.000000401865691,
+        20.00000040186569,
+        13.000000401865691
+      ]
+    },
+    {
+      "file": "print/stl/060_left_shoulder_pitch_shaft_01.stl",
+      "watertight": true,
+      "volume_cm3": 1.0169271247427616,
+      "size_mm": [
+        6.00000009778887,
+        36.00000009778887,
+        6.00000009778887
+      ]
+    },
+    {
+      "file": "print/stl/061_left_shoulder_pitch_bearing_m1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.6797426033800922,
+      "size_mm": [
+        20.300662994384766,
+        4.0,
+        27.995533859357238
+      ]
+    },
+    {
+      "file": "print/stl/062_left_shoulder_pitch_horn_m1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.4472596107032511,
+      "size_mm": [
+        21.99999998975545,
+        2.4999999897554517,
+        21.99999998975545
+      ]
+    },
+    {
+      "file": "print/stl/063_left_shoulder_pitch_screw_m1_0_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990674733271,
+      "size_mm": [
+        2.999999899999885,
+        1.5000000192091818,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/064_left_shoulder_pitch_screw_m1_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990674733273,
+      "size_mm": [
+        2.999999899999885,
+        1.5000000192091818,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/065_left_shoulder_pitch_screw_m1_2_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.01059299071773839,
+      "size_mm": [
+        2.999999899999885,
+        1.5000000192091818,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/066_left_shoulder_pitch_screw_m1_3_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990674733271,
+      "size_mm": [
+        2.999999899999885,
+        1.5000000192091818,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/067_left_shoulder_pitch_bearing_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 1.2052470272941893,
+      "size_mm": [
+        28.000000187195837,
+        4.0000001871958375,
+        28.000000187195837
+      ]
+    },
+    {
+      "file": "print/stl/068_left_shoulder_pitch_horn_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.4472596107032511,
+      "size_mm": [
+        21.99999998975545,
+        2.4999999897554517,
+        21.99999998975545
+      ]
+    },
+    {
+      "file": "print/stl/069_left_shoulder_pitch_screw_1_0_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.01059299053907815,
+      "size_mm": [
+        2.999999899999885,
+        1.5,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/070_left_shoulder_pitch_screw_1_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.01059299053907815,
+      "size_mm": [
+        2.999999899999885,
+        1.5,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/071_left_shoulder_pitch_screw_1_2_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990582083272,
+      "size_mm": [
+        2.999999899999885,
+        1.5,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/072_left_shoulder_pitch_screw_1_3_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.01059299053907815,
+      "size_mm": [
+        2.999999899999885,
+        1.5,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/073_left_shoulder_roll_shaft_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.7550813339257112,
+      "size_mm": [
+        35.9999999,
+        5.999999899999892,
+        5.9999998997019475
+      ]
+    },
+    {
+      "file": "print/stl/074_left_shoulder_roll_bearing_m1_01.stl",
+      "watertight": true,
+      "volume_cm3": 1.042864382247082,
+      "size_mm": [
+        3.999999899999935,
+        27.999160930048674,
+        27.999664322065655
+      ]
+    },
+    {
+      "file": "print/stl/075_left_shoulder_roll_horn_m1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.40626123972254863,
+      "size_mm": [
+        2.499999899999878,
+        21.999999899999892,
+        21.99999989999992
+      ]
+    },
+    {
+      "file": "print/stl/076_left_shoulder_roll_screw_m1_0_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.01059299067473317,
+      "size_mm": [
+        1.5000000192091676,
+        2.9999998999998922,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/077_left_shoulder_roll_screw_m1_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.01059299067473317,
+      "size_mm": [
+        1.5000000192091676,
+        2.9999998999998922,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/078_left_shoulder_roll_screw_m1_2_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.01059299067473317,
+      "size_mm": [
+        1.5000000192091676,
+        2.9999998999998922,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/079_left_shoulder_roll_screw_m1_3_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.01059299067473317,
+      "size_mm": [
+        1.5000000192091676,
+        2.9999998999998922,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/080_left_shoulder_roll_bearing_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 1.205247027294189,
+      "size_mm": [
+        4.0000001871958375,
+        28.000000187195837,
+        28.000000187195837
+      ]
+    },
+    {
+      "file": "print/stl/081_left_shoulder_roll_horn_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.447259610703251,
+      "size_mm": [
+        2.4999999897554517,
+        21.99999998975545,
+        21.99999998975545
+      ]
+    },
+    {
+      "file": "print/stl/082_left_shoulder_roll_screw_1_0_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990539078152,
+      "size_mm": [
+        1.5,
+        2.9999998999998922,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/083_left_shoulder_roll_screw_1_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990539078152,
+      "size_mm": [
+        1.5,
+        2.9999998999998922,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/084_left_shoulder_roll_screw_1_2_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990539078152,
+      "size_mm": [
+        1.5,
+        2.9999998999998922,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/085_left_shoulder_roll_screw_1_3_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990539078152,
+      "size_mm": [
+        1.5,
+        2.9999998999998922,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/086_left_shoulder_yaw_shaft_01.stl",
+      "watertight": true,
+      "volume_cm3": 1.0169271247427614,
+      "size_mm": [
+        6.00000009778887,
+        6.00000009778887,
+        36.00000009778887
+      ]
+    },
+    {
+      "file": "print/stl/087_left_shoulder_yaw_bearing_m1_01.stl",
+      "watertight": true,
+      "volume_cm3": 1.2052470272941889,
+      "size_mm": [
+        28.000000187195837,
+        28.000000187195837,
+        4.0000001871958375
+      ]
+    },
+    {
+      "file": "print/stl/088_left_shoulder_yaw_horn_m1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.4101001628129363,
+      "size_mm": [
+        21.244403839110618,
+        21.999995566109646,
+        2.5000000302679837
+      ]
+    },
+    {
+      "file": "print/stl/089_left_shoulder_yaw_screw_m1_0_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990674733486,
+      "size_mm": [
+        2.999999899999942,
+        2.999999899999949,
+        1.5000000192092102
+      ]
+    },
+    {
+      "file": "print/stl/090_left_shoulder_yaw_screw_m1_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990673641098,
+      "size_mm": [
+        2.999999899999942,
+        2.999999899999949,
+        1.5000000192092102
+      ]
+    },
+    {
+      "file": "print/stl/091_left_shoulder_yaw_screw_m1_2_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.000643106291996045,
+      "size_mm": [
+        0.40384614467397384,
+        2.047873735425469,
+        1.5
+      ]
+    },
+    {
+      "file": "print/stl/092_left_shoulder_yaw_screw_m1_3_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990679975777,
+      "size_mm": [
+        2.999999899999942,
+        2.999999899999949,
+        1.5000000192092102
+      ]
+    },
+    {
+      "file": "print/stl/093_left_shoulder_yaw_bearing_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 1.0621714132378322,
+      "size_mm": [
+        27.796514411107346,
+        27.99986226472538,
+        3.9999998999996933
+      ]
+    },
+    {
+      "file": "print/stl/094_left_shoulder_yaw_horn_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.4472596107032511,
+      "size_mm": [
+        21.99999998975545,
+        21.99999998975545,
+        2.4999999897554517
+      ]
+    },
+    {
+      "file": "print/stl/095_left_shoulder_yaw_screw_1_0_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990539078164,
+      "size_mm": [
+        2.999999899999942,
+        2.999999899999949,
+        1.5
+      ]
+    },
+    {
+      "file": "print/stl/096_left_shoulder_yaw_screw_1_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990537985777,
+      "size_mm": [
+        2.999999899999942,
+        2.999999899999949,
+        1.5
+      ]
+    },
+    {
+      "file": "print/stl/097_left_shoulder_yaw_screw_1_2_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990539078164,
+      "size_mm": [
+        2.999999899999942,
+        2.999999899999949,
+        1.5
+      ]
+    },
+    {
+      "file": "print/stl/098_left_shoulder_yaw_screw_1_3_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990544320455,
+      "size_mm": [
+        2.999999899999942,
+        2.999999899999949,
+        1.5
+      ]
+    },
+    {
+      "file": "print/stl/099_left_elbow_shaft_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.8474392710793573,
+      "size_mm": [
+        6.00000009778887,
+        30.00000009778887,
+        6.00000009778887
+      ]
+    },
+    {
+      "file": "print/stl/100_left_elbow_bearing_m1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.8034979216290143,
+      "size_mm": [
+        19.99999928800389,
+        3.99999976484105,
+        19.99999928800389
+      ]
+    },
+    {
+      "file": "print/stl/101_left_elbow_horn_m1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.25893977695297454,
+      "size_mm": [
+        14.000000043772161,
+        2.500000043772161,
+        14.000000043772161
+      ]
+    },
+    {
+      "file": "print/stl/102_left_elbow_screw_m1_0_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990674733271,
+      "size_mm": [
+        2.999999899999885,
+        1.5000000192091818,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/103_left_elbow_screw_m1_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990674733273,
+      "size_mm": [
+        2.999999899999885,
+        1.5000000192091818,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/104_left_elbow_screw_m1_2_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990746095607,
+      "size_mm": [
+        2.999999899999885,
+        1.5000000192091818,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/105_left_elbow_screw_m1_3_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990674733271,
+      "size_mm": [
+        2.999999899999885,
+        1.5000000192091818,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/106_left_elbow_bearing_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.8034979216290143,
+      "size_mm": [
+        19.99999928800389,
+        3.99999976484105,
+        19.99999928800389
+      ]
+    },
+    {
+      "file": "print/stl/107_left_elbow_horn_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.25893977695297454,
+      "size_mm": [
+        14.000000043772161,
+        2.500000043772161,
+        14.000000043772161
+      ]
+    },
+    {
+      "file": "print/stl/108_left_elbow_screw_1_0_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.01059299053907815,
+      "size_mm": [
+        2.999999899999885,
+        1.5,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/109_left_elbow_screw_1_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.01059299053907815,
+      "size_mm": [
+        2.999999899999885,
+        1.5,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/110_left_elbow_screw_1_2_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990610440481,
+      "size_mm": [
+        2.999999899999885,
+        1.5,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/111_left_elbow_screw_1_3_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.01059299053907815,
+      "size_mm": [
+        2.999999899999885,
+        1.5,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/112_left_forearm_roll_shaft_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.8474392710793576,
+      "size_mm": [
+        6.00000009778887,
+        6.00000009778887,
+        30.00000009778887
+      ]
+    },
+    {
+      "file": "print/stl/113_left_forearm_roll_bearing_m1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.8034979216290146,
+      "size_mm": [
+        19.99999928800389,
+        19.99999928800389,
+        3.99999976484105
+      ]
+    },
+    {
+      "file": "print/stl/114_left_forearm_roll_horn_m1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.2589397769529746,
+      "size_mm": [
+        14.000000043772161,
+        14.000000043772161,
+        2.500000043772161
+      ]
+    },
+    {
+      "file": "print/stl/115_left_forearm_roll_screw_m1_0_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990674733896,
+      "size_mm": [
+        2.9999998999999704,
+        2.9999998999999775,
+        1.500000019209267
+      ]
+    },
+    {
+      "file": "print/stl/116_left_forearm_roll_screw_m1_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990674733486,
+      "size_mm": [
+        2.999999899999942,
+        2.999999899999949,
+        1.5000000192092102
+      ]
+    },
+    {
+      "file": "print/stl/117_left_forearm_roll_screw_m1_2_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990674733896,
+      "size_mm": [
+        2.9999998999999704,
+        2.9999998999999775,
+        1.500000019209267
+      ]
+    },
+    {
+      "file": "print/stl/118_left_forearm_roll_screw_m1_3_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990770419697,
+      "size_mm": [
+        2.999999899999942,
+        2.999999899999949,
+        1.5000000192092102
+      ]
+    },
+    {
+      "file": "print/stl/119_left_forearm_roll_bearing_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.7737792452075051,
+      "size_mm": [
+        19.460821151732514,
+        19.99712667078711,
+        3.9999998188577592
+      ]
+    },
+    {
+      "file": "print/stl/120_left_forearm_roll_horn_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.2589397769529746,
+      "size_mm": [
+        14.000000043772161,
+        14.000000043772161,
+        2.500000043772161
+      ]
+    },
+    {
+      "file": "print/stl/121_left_forearm_roll_screw_1_0_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990539078173,
+      "size_mm": [
+        2.9999998999999704,
+        2.9999998999999775,
+        1.5
+      ]
+    },
+    {
+      "file": "print/stl/122_left_forearm_roll_screw_1_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990539078164,
+      "size_mm": [
+        2.999999899999942,
+        2.999999899999949,
+        1.5
+      ]
+    },
+    {
+      "file": "print/stl/123_left_forearm_roll_screw_1_2_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990539078173,
+      "size_mm": [
+        2.9999998999999704,
+        2.9999998999999775,
+        1.5
+      ]
+    },
+    {
+      "file": "print/stl/124_left_forearm_roll_screw_1_3_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990634764375,
+      "size_mm": [
+        2.999999899999942,
+        2.999999899999949,
+        1.5
+      ]
+    },
+    {
+      "file": "print/stl/125_left_wrist_pitch_shaft_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.8474392710793573,
+      "size_mm": [
+        6.00000009778887,
+        30.00000009778887,
+        6.00000009778887
+      ]
+    },
+    {
+      "file": "print/stl/126_left_wrist_pitch_bearing_m1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.8034979216290143,
+      "size_mm": [
+        19.99999928800389,
+        3.99999976484105,
+        19.99999928800389
+      ]
+    },
+    {
+      "file": "print/stl/127_left_wrist_pitch_horn_m1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.25893977695297454,
+      "size_mm": [
+        14.000000043772161,
+        2.500000043772161,
+        14.000000043772161
+      ]
+    },
+    {
+      "file": "print/stl/128_left_wrist_pitch_screw_m1_0_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990674733682,
+      "size_mm": [
+        2.999999899999942,
+        1.5000000192092386,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/129_left_wrist_pitch_screw_m1_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990674733682,
+      "size_mm": [
+        2.999999899999942,
+        1.5000000192092386,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/130_left_wrist_pitch_screw_m1_2_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990708327312,
+      "size_mm": [
+        2.999999899999942,
+        1.5000000192092386,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/131_left_wrist_pitch_screw_m1_3_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990674733682,
+      "size_mm": [
+        2.999999899999942,
+        1.5000000192092386,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/132_left_wrist_pitch_bearing_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.8034979216290143,
+      "size_mm": [
+        19.99999928800389,
+        3.99999976484105,
+        19.99999928800389
+      ]
+    },
+    {
+      "file": "print/stl/133_left_wrist_pitch_horn_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.25893977695297454,
+      "size_mm": [
+        14.000000043772161,
+        2.500000043772161,
+        14.000000043772161
+      ]
+    },
+    {
+      "file": "print/stl/134_left_wrist_pitch_screw_1_0_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990539078159,
+      "size_mm": [
+        2.999999899999942,
+        1.5,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/135_left_wrist_pitch_screw_1_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990539078159,
+      "size_mm": [
+        2.999999899999942,
+        1.5,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/136_left_wrist_pitch_screw_1_2_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990572671789,
+      "size_mm": [
+        2.999999899999942,
+        1.5,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/137_left_wrist_pitch_screw_1_3_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990539078159,
+      "size_mm": [
+        2.999999899999942,
+        1.5,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/138_left_wrist_roll_shaft_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.8474392710793573,
+      "size_mm": [
+        30.00000009778887,
+        6.00000009778887,
+        6.00000009778887
+      ]
+    },
+    {
+      "file": "print/stl/139_left_wrist_roll_bearing_m1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.6570113995391385,
+      "size_mm": [
+        3.9999998999998496,
+        19.999656755302567,
+        19.661781211035134
+      ]
+    },
+    {
+      "file": "print/stl/140_left_wrist_roll_horn_m1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.25893977695297454,
+      "size_mm": [
+        2.500000043772161,
+        14.000000043772161,
+        14.000000043772161
+      ]
+    },
+    {
+      "file": "print/stl/141_left_wrist_roll_screw_m1_0_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.01059299067473358,
+      "size_mm": [
+        1.5000000192092244,
+        2.999999899999949,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/142_left_wrist_roll_screw_m1_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.01059299067473358,
+      "size_mm": [
+        1.5000000192092244,
+        2.999999899999949,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/143_left_wrist_roll_screw_m1_2_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990674733582,
+      "size_mm": [
+        1.5000000192092244,
+        2.999999899999949,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/144_left_wrist_roll_screw_m1_3_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.01059299067473358,
+      "size_mm": [
+        1.5000000192092244,
+        2.999999899999949,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/145_left_wrist_roll_bearing_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.8034979216290143,
+      "size_mm": [
+        3.99999976484105,
+        19.99999928800389,
+        19.99999928800389
+      ]
+    },
+    {
+      "file": "print/stl/146_left_wrist_roll_horn_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.25893977695297454,
+      "size_mm": [
+        2.500000043772161,
+        14.000000043772161,
+        14.000000043772161
+      ]
+    },
+    {
+      "file": "print/stl/147_left_wrist_roll_screw_1_0_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.01059299053907816,
+      "size_mm": [
+        1.5,
+        2.999999899999949,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/148_left_wrist_roll_screw_1_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.01059299053907816,
+      "size_mm": [
+        1.5,
+        2.999999899999949,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/149_left_wrist_roll_screw_1_2_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.01059299053907816,
+      "size_mm": [
+        1.5,
+        2.999999899999949,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/150_left_wrist_roll_screw_1_3_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.01059299053907816,
+      "size_mm": [
+        1.5,
+        2.999999899999949,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/151_left_upper_arm_backbone_01.stl",
+      "watertight": true,
+      "volume_cm3": 18.14468082697719,
+      "size_mm": [
+        7.99999991664663,
+        38.99999896297231,
+        76.99999896297231
+      ]
+    },
+    {
+      "file": "print/stl/152_left_upper_arm_cover_01.stl",
+      "watertight": true,
+      "volume_cm3": 14.378511338033931,
+      "size_mm": [
+        21.00503378873691,
+        47.00000029569492,
+        67.99999990000003
+      ]
+    },
+    {
+      "file": "print/stl/152_left_upper_arm_cover_02.stl",
+      "watertight": true,
+      "volume_cm3": 15.947920828079194,
+      "size_mm": [
+        20.994966506958008,
+        47.0000009033829,
+        67.99999708868563
+      ]
+    },
+    {
+      "file": "print/stl/153_left_forearm_cover_01.stl",
+      "watertight": true,
+      "volume_cm3": 17.67392529925268,
+      "size_mm": [
+        23.500000435858965,
+        58.000000435858965,
+        61.000000435858965
+      ]
+    },
+    {
+      "file": "print/stl/153_left_forearm_cover_02.stl",
+      "watertight": true,
+      "volume_cm3": 18.066563607632414,
+      "size_mm": [
+        23.5,
+        58.000000435858965,
+        61.000000435858965
+      ]
+    },
+    {
+      "file": "print/stl/154_left_forearm_tendon_panel_01.stl",
+      "watertight": true,
+      "volume_cm3": 2.182402684258382,
+      "size_mm": [
+        1.499999999999993,
+        35.000001813983545,
+        42.000001813983545
+      ]
+    },
+    {
+      "file": "print/stl/155_left_tendon_port_0_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.03035921708922665,
+      "size_mm": [
+        4.999999899999999,
+        4.999999900000006,
+        3.9999998999999775
+      ]
+    },
+    {
+      "file": "print/stl/156_left_tendon_port_12_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.05021862174192407,
+      "size_mm": [
+        4.99999989999997,
+        4.9999998999999775,
+        3.9999998999999775
+      ]
+    },
+    {
+      "file": "print/stl/157_left_tendon_port_24_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.030358246040534737,
+      "size_mm": [
+        4.999999897628925,
+        4.999999900000006,
+        3.9999998999999775
+      ]
+    },
+    {
+      "file": "print/stl/158_left_palm_01.stl",
+      "watertight": true,
+      "volume_cm3": 8.130320888012966,
+      "size_mm": [
+        12.500000418163836,
+        66.00000137183815,
+        38.00000137183815
+      ]
+    },
+    {
+      "file": "print/stl/158_left_palm_02.stl",
+      "watertight": true,
+      "volume_cm3": 8.130320782631475,
+      "size_mm": [
+        12.499999899999999,
+        66.00000137183815,
+        38.00000137183815
+      ]
+    },
+    {
+      "file": "print/stl/159_left_palm_pad_01.stl",
+      "watertight": true,
+      "volume_cm3": 2.932063098726354,
+      "size_mm": [
+        1.9999998864950612,
+        52.99999943142757,
+        27.999999431427568
+      ]
+    },
+    {
+      "file": "print/stl/160_left_index_mcp_phalanx_01.stl",
+      "watertight": true,
+      "volume_cm3": 2.9626160103427996,
+      "size_mm": [
+        10.99999991664663,
+        11.99999991664663,
+        24.000000870320946
+      ]
+    },
+    {
+      "file": "print/stl/161_left_index_mcp_pad_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.2672871140285914,
+      "size_mm": [
+        1.7449834538858084,
+        8.999999906634912,
+        17.999999906634912
+      ]
+    },
+    {
+      "file": "print/stl/162_left_index_mcp_knuckle_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.5104012064708658,
+      "size_mm": [
+        8.400000472204532,
+        12.999999667867087,
+        8.400000472204525
+      ]
+    },
+    {
+      "file": "print/stl/163_left_index_pip_phalanx_01.stl",
+      "watertight": true,
+      "volume_cm3": 1.9341787760255253,
+      "size_mm": [
+        10.99999991664663,
+        11.99999991664663,
+        16.000000870320946
+      ]
+    },
+    {
+      "file": "print/stl/164_left_index_pip_pad_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.14707793384844664,
+      "size_mm": [
+        1.7449834538858084,
+        8.999999906634912,
+        9.999999906634912
+      ]
+    },
+    {
+      "file": "print/stl/165_left_index_pip_knuckle_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.5104012064708658,
+      "size_mm": [
+        8.400000472204532,
+        12.999999667867087,
+        8.400000472204525
+      ]
+    },
+    {
+      "file": "print/stl/166_left_index_dip_phalanx_01.stl",
+      "watertight": true,
+      "volume_cm3": 1.2914054460882587,
+      "size_mm": [
+        10.99999991664663,
+        11.99999991664663,
+        10.99999991664663
+      ]
+    },
+    {
+      "file": "print/stl/167_left_index_dip_pad_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.07194719780366005,
+      "size_mm": [
+        1.7449834538858084,
+        8.999999906634912,
+        4.999999906634912
+      ]
+    },
+    {
+      "file": "print/stl/168_left_index_dip_knuckle_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.5104012064708658,
+      "size_mm": [
+        8.400000472204532,
+        12.999999667867087,
+        8.400000472204525
+      ]
+    },
+    {
+      "file": "print/stl/169_left_middle_mcp_phalanx_01.stl",
+      "watertight": true,
+      "volume_cm3": 3.3482799752179178,
+      "size_mm": [
+        10.99999991664663,
+        11.99999991664663,
+        27.000000870320946
+      ]
+    },
+    {
+      "file": "print/stl/170_left_middle_mcp_pad_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.31236555608280886,
+      "size_mm": [
+        1.7449834538841174,
+        8.999999906634912,
+        20.999999906634912
+      ]
+    },
+    {
+      "file": "print/stl/171_left_middle_mcp_knuckle_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.5104012064708658,
+      "size_mm": [
+        8.400000472204532,
+        12.999999667867087,
+        8.400000472204525
+      ]
+    },
+    {
+      "file": "print/stl/172_left_middle_pip_phalanx_01.stl",
+      "watertight": true,
+      "volume_cm3": 2.1912880832669437,
+      "size_mm": [
+        10.99999991664663,
+        11.99999991664663,
+        18.000000870320946
+      ]
+    },
+    {
+      "file": "print/stl/173_left_middle_pip_pad_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.17713023062643568,
+      "size_mm": [
+        1.7449834538841174,
+        8.999999906634912,
+        11.999999906634912
+      ]
+    },
+    {
+      "file": "print/stl/174_left_middle_pip_knuckle_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.5104012064708658,
+      "size_mm": [
+        8.400000472204532,
+        12.999999667867087,
+        8.400000472204525
+      ]
+    },
+    {
+      "file": "print/stl/175_left_middle_dip_phalanx_01.stl",
+      "watertight": true,
+      "volume_cm3": 1.4199601006205957,
+      "size_mm": [
+        10.99999991664663,
+        11.99999991664663,
+        11.99999991664663
+      ]
+    },
+    {
+      "file": "print/stl/176_left_middle_dip_pad_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.08697334996723065,
+      "size_mm": [
+        1.7449834538841174,
+        8.999999906634912,
+        5.999999906634912
+      ]
+    },
+    {
+      "file": "print/stl/177_left_middle_dip_knuckle_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.5104012064708658,
+      "size_mm": [
+        8.400000472204532,
+        12.999999667867087,
+        8.400000472204525
+      ]
+    },
+    {
+      "file": "print/stl/178_left_ring_mcp_phalanx_01.stl",
+      "watertight": true,
+      "volume_cm3": 3.091170665301173,
+      "size_mm": [
+        10.99999991664663,
+        11.99999991664663,
+        25.000000870320946
+      ]
+    },
+    {
+      "file": "print/stl/179_left_ring_mcp_pad_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.2823132609761389,
+      "size_mm": [
+        1.7449834538841174,
+        8.999999906634912,
+        18.999999906634912
+      ]
+    },
+    {
+      "file": "print/stl/180_left_ring_mcp_knuckle_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.5104012064708658,
+      "size_mm": [
+        8.400000472204532,
+        12.999999667867087,
+        8.400000472204525
+      ]
+    },
+    {
+      "file": "print/stl/181_left_ring_pip_phalanx_01.stl",
+      "watertight": true,
+      "volume_cm3": 2.062733428165729,
+      "size_mm": [
+        10.99999991664663,
+        11.99999991664663,
+        17.000000870320946
+      ]
+    },
+    {
+      "file": "print/stl/182_left_ring_pip_pad_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.162104080938135,
+      "size_mm": [
+        1.7449834538841174,
+        8.999999906634912,
+        10.999999906634912
+      ]
+    },
+    {
+      "file": "print/stl/183_left_ring_pip_knuckle_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.5104012064708658,
+      "size_mm": [
+        8.400000472204532,
+        12.999999667867087,
+        8.400000472204525
+      ]
+    },
+    {
+      "file": "print/stl/184_left_ring_dip_phalanx_01.stl",
+      "watertight": true,
+      "volume_cm3": 1.2914054460882587,
+      "size_mm": [
+        10.99999991664663,
+        11.99999991664663,
+        10.99999991664663
+      ]
+    },
+    {
+      "file": "print/stl/185_left_ring_dip_pad_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.07194719780365967,
+      "size_mm": [
+        1.7449834538841174,
+        8.999999906634912,
+        4.999999906634912
+      ]
+    },
+    {
+      "file": "print/stl/186_left_ring_dip_knuckle_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.5104012064708658,
+      "size_mm": [
+        8.400000472204532,
+        12.999999667867087,
+        8.400000472204525
+      ]
+    },
+    {
+      "file": "print/stl/187_left_little_mcp_phalanx_01.stl",
+      "watertight": true,
+      "volume_cm3": 2.319842736848537,
+      "size_mm": [
+        10.99999991664663,
+        11.99999991664663,
+        19.000000870320946
+      ]
+    },
+    {
+      "file": "print/stl/188_left_little_mcp_pad_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.1921563792511315,
+      "size_mm": [
+        1.7449834538841174,
+        8.999999906634912,
+        12.999999906634912
+      ]
+    },
+    {
+      "file": "print/stl/189_left_little_mcp_knuckle_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.5104012064708658,
+      "size_mm": [
+        8.400000472204532,
+        12.999999667867087,
+        8.400000472204525
+      ]
+    },
+    {
+      "file": "print/stl/190_left_little_pip_phalanx_01.stl",
+      "watertight": true,
+      "volume_cm3": 1.5485147555780383,
+      "size_mm": [
+        10.99999991664663,
+        11.99999991664663,
+        12.99999991664663
+      ]
+    },
+    {
+      "file": "print/stl/191_left_little_pip_pad_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.10199949750800999,
+      "size_mm": [
+        1.7449834538841174,
+        8.999999906634912,
+        6.999999906634912
+      ]
+    },
+    {
+      "file": "print/stl/192_left_little_pip_knuckle_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.5104012064708658,
+      "size_mm": [
+        8.400000472204532,
+        12.999999667867087,
+        8.400000472204525
+      ]
+    },
+    {
+      "file": "print/stl/193_left_little_dip_phalanx_01.stl",
+      "watertight": true,
+      "volume_cm3": 1.034296135060252,
+      "size_mm": [
+        10.99999991664663,
+        11.99999991664663,
+        8.99999991664663
+      ]
+    },
+    {
+      "file": "print/stl/194_left_little_dip_pad_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.05692104365712871,
+      "size_mm": [
+        1.7449834538841174,
+        8.999999906634912,
+        3.999999906634912
+      ]
+    },
+    {
+      "file": "print/stl/195_left_little_dip_knuckle_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.5104012064708658,
+      "size_mm": [
+        8.400000472204532,
+        12.999999667867087,
+        8.400000472204525
+      ]
+    },
+    {
+      "file": "print/stl/196_left_thumb_opposition_mount_01.stl",
+      "watertight": true,
+      "volume_cm3": 2.2694623122598063,
+      "size_mm": [
+        16.000000870320946,
+        14.99999991664663,
+        9.99999991664663
+      ]
+    },
+    {
+      "file": "print/stl/197_left_thumb_spread_phalanx_01.stl",
+      "watertight": true,
+      "volume_cm3": 3.0684671827911916,
+      "size_mm": [
+        12.99999991664663,
+        13.99999991664663,
+        18.000000870320946
+      ]
+    },
+    {
+      "file": "print/stl/198_left_thumb_spread_pad_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.21735563976707328,
+      "size_mm": [
+        1.7449834538864124,
+        10.999999906634912,
+        11.999999906634912
+      ]
+    },
+    {
+      "file": "print/stl/199_left_thumb_spread_knuckle_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.5749715051118195,
+      "size_mm": [
+        14.999999667867087,
+        8.400000472204553,
+        8.400000472204525
+      ]
+    },
+    {
+      "file": "print/stl/200_left_thumb_mcp_phalanx_01.stl",
+      "watertight": true,
+      "volume_cm3": 2.8899125276729416,
+      "size_mm": [
+        12.99999991664663,
+        13.99999991664663,
+        17.000000870320946
+      ]
+    },
+    {
+      "file": "print/stl/201_left_thumb_mcp_pad_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.19892948997595464,
+      "size_mm": [
+        1.7449834538864124,
+        10.999999906634912,
+        10.999999906634912
+      ]
+    },
+    {
+      "file": "print/stl/202_left_thumb_mcp_knuckle_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.5848614819838216,
+      "size_mm": [
+        8.400000472204532,
+        14.999999667867087,
+        8.400000472204525
+      ]
+    },
+    {
+      "file": "print/stl/203_left_thumb_ip_phalanx_01.stl",
+      "watertight": true,
+      "volume_cm3": 2.3542484787523827,
+      "size_mm": [
+        12.99999991664663,
+        13.99999991664663,
+        13.99999991664663
+      ]
+    },
+    {
+      "file": "print/stl/204_left_thumb_ip_pad_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.14365105862976066,
+      "size_mm": [
+        1.7449834538864124,
+        10.999999906634912,
+        7.999999906634912
+      ]
+    },
+    {
+      "file": "print/stl/205_left_thumb_ip_knuckle_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.5848614819838216,
+      "size_mm": [
+        8.400000472204532,
+        14.999999667867087,
+        8.400000472204525
+      ]
+    },
+    {
+      "file": "print/stl/206_left_back_jet_01.stl",
+      "watertight": true,
+      "volume_cm3": 21.459044886262184,
+      "size_mm": [
+        28.0,
+        56.0,
+        86.0
+      ]
+    },
+    {
+      "file": "print/stl/206_left_back_jet_02.stl",
+      "watertight": true,
+      "volume_cm3": 21.45904471954754,
+      "size_mm": [
+        28.0,
+        56.0,
+        86.0
+      ]
+    },
+    {
+      "file": "print/stl/207_left_back_nozzle_01.stl",
+      "watertight": true,
+      "volume_cm3": 8.474392373872805,
+      "size_mm": [
+        48.00000148266554,
+        48.00000148266554,
+        19.999999575316906
+      ]
+    },
+    {
+      "file": "print/stl/208_left_back_nozzle_ring_01.stl",
+      "watertight": true,
+      "volume_cm3": 1.6430903410098825,
+      "size_mm": [
+        51.999999072402716,
+        51.999999072402716,
+        5.000000026077032
+      ]
+    },
+    {
+      "file": "print/stl/209_left_jet_mount_01.stl",
+      "watertight": true,
+      "volume_cm3": 7.36505196219996,
+      "size_mm": [
+        37.99999849451706,
+        14.000000401865691,
+        16.00000040186569
+      ]
+    },
+    {
+      "file": "print/stl/210_right_thigh_shell_01.stl",
+      "watertight": true,
+      "volume_cm3": 41.12654145448812,
+      "size_mm": [
+        39.0,
+        78.0,
+        155.0
+      ]
+    },
+    {
+      "file": "print/stl/210_right_thigh_shell_02.stl",
+      "watertight": true,
+      "volume_cm3": 41.137654888801045,
+      "size_mm": [
+        39.0,
+        78.0,
+        155.0
+      ]
+    },
+    {
+      "file": "print/stl/211_right_shin_shell_01.stl",
+      "watertight": true,
+      "volume_cm3": 36.5741275321783,
+      "size_mm": [
+        34.0,
+        68.0,
+        157.99999999999955
+      ]
+    },
+    {
+      "file": "print/stl/211_right_shin_shell_02.stl",
+      "watertight": true,
+      "volume_cm3": 36.584202945350285,
+      "size_mm": [
+        34.0,
+        68.0,
+        157.99999999999955
+      ]
+    },
+    {
+      "file": "print/stl/212_right_hip_hub_01.stl",
+      "watertight": true,
+      "volume_cm3": 16.83893027806767,
+      "size_mm": [
+        41.999999899999885,
+        28.999999899999892,
+        41.999999899999864
+      ]
+    },
+    {
+      "file": "print/stl/212_right_hip_hub_02.stl",
+      "watertight": true,
+      "volume_cm3": 16.838930336133025,
+      "size_mm": [
+        41.999999899999885,
+        29.0,
+        41.999999899999864
+      ]
+    },
+    {
+      "file": "print/stl/213_right_hip_disc_01.stl",
+      "watertight": true,
+      "volume_cm3": 2.4607126544652522,
+      "size_mm": [
+        28.000000187195837,
+        4.0000001871958375,
+        28.000000187195837
+      ]
+    },
+    {
+      "file": "print/stl/214_right_hip_bolt_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.3323060369768935,
+      "size_mm": [
+        10.999999899999942,
+        3.499999899999949,
+        10.99999989999992
+      ]
+    },
+    {
+      "file": "print/stl/215_right_knee_hub_01.stl",
+      "watertight": true,
+      "volume_cm3": 16.83893027806772,
+      "size_mm": [
+        41.99999989999994,
+        28.99999989999995,
+        41.99999989999995
+      ]
+    },
+    {
+      "file": "print/stl/215_right_knee_hub_02.stl",
+      "watertight": true,
+      "volume_cm3": 16.83893033613303,
+      "size_mm": [
+        41.99999989999994,
+        29.0,
+        41.99999989999995
+      ]
+    },
+    {
+      "file": "print/stl/216_right_knee_disc_01.stl",
+      "watertight": true,
+      "volume_cm3": 2.4607126544652522,
+      "size_mm": [
+        28.000000187195837,
+        4.0000001871958375,
+        28.000000187195837
+      ]
+    },
+    {
+      "file": "print/stl/217_right_knee_bolt_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.3323060369768935,
+      "size_mm": [
+        10.999999899999942,
+        3.499999899999949,
+        10.99999989999992
+      ]
+    },
+    {
+      "file": "print/stl/218_right_ankle_hub_01.stl",
+      "watertight": true,
+      "volume_cm3": 16.838930278067743,
+      "size_mm": [
+        41.999999899999985,
+        28.999999899999978,
+        41.999999899999985
+      ]
+    },
+    {
+      "file": "print/stl/218_right_ankle_hub_02.stl",
+      "watertight": true,
+      "volume_cm3": 16.838930336133036,
+      "size_mm": [
+        41.999999899999985,
+        29.0,
+        41.999999899999985
+      ]
+    },
+    {
+      "file": "print/stl/219_right_ankle_disc_01.stl",
+      "watertight": true,
+      "volume_cm3": 2.4607126544652522,
+      "size_mm": [
+        28.000000187195837,
+        4.0000001871958375,
+        28.000000187195837
+      ]
+    },
+    {
+      "file": "print/stl/220_right_ankle_bolt_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.3323060369768977,
+      "size_mm": [
+        10.999999899999985,
+        3.4999998999999917,
+        10.999999899999992
+      ]
+    },
+    {
+      "file": "print/stl/221_right_boot_shell_01.stl",
+      "watertight": true,
+      "volume_cm3": 64.36846620176902,
+      "size_mm": [
+        85.00000096857548,
+        92.00000096857548,
+        67.00000096857548
+      ]
+    },
+    {
+      "file": "print/stl/221_right_boot_shell_02.stl",
+      "watertight": true,
+      "volume_cm3": 66.0952147544523,
+      "size_mm": [
+        85.0,
+        92.00000096857548,
+        67.00000096857548
+      ]
+    },
+    {
+      "file": "print/stl/222_right_sole_01.stl",
+      "watertight": true,
+      "volume_cm3": 46.901341815438386,
+      "size_mm": [
+        162.9999930066988,
+        87.00000063609332,
+        6.00000015925616
+      ]
+    },
+    {
+      "file": "print/stl/223_right_shin_band_123_01.stl",
+      "watertight": true,
+      "volume_cm3": 1.7295292943279243,
+      "size_mm": [
+        34.0,
+        68.0,
+        7.0
+      ]
+    },
+    {
+      "file": "print/stl/223_right_shin_band_123_02.stl",
+      "watertight": true,
+      "volume_cm3": 1.7295293309197926,
+      "size_mm": [
+        34.0,
+        68.0,
+        7.0
+      ]
+    },
+    {
+      "file": "print/stl/224_right_shin_band_169_01.stl",
+      "watertight": true,
+      "volume_cm3": 1.4259273667856105,
+      "size_mm": [
+        34.0,
+        68.0,
+        7.0
+      ]
+    },
+    {
+      "file": "print/stl/224_right_shin_band_169_02.stl",
+      "watertight": true,
+      "volume_cm3": 1.425999267503607,
+      "size_mm": [
+        34.0,
+        68.0,
+        7.0
+      ]
+    },
+    {
+      "file": "print/stl/225_right_shin_band_215_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.5896803165366254,
+      "size_mm": [
+        34.0,
+        68.0,
+        6.999999999999773
+      ]
+    },
+    {
+      "file": "print/stl/225_right_shin_band_215_02.stl",
+      "watertight": true,
+      "volume_cm3": 0.5919090438372683,
+      "size_mm": [
+        34.0,
+        68.0,
+        6.999999999999773
+      ]
+    },
+    {
+      "file": "print/stl/226_right_boot_nozzle_01.stl",
+      "watertight": true,
+      "volume_cm3": 4.355680933292567,
+      "size_mm": [
+        33.99999847821891,
+        33.99999847821891,
+        13.000000385567546
+      ]
+    },
+    {
+      "file": "print/stl/227_right_boot_nozzle_ring_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.9039351608831354,
+      "size_mm": [
+        37.99999988172203,
+        37.99999988172203,
+        3.999999881722033
+      ]
+    },
+    {
+      "file": "print/stl/228_right_shoulder_mount_01.stl",
+      "watertight": true,
+      "volume_cm3": 38.74650938846937,
+      "size_mm": [
+        23.999999932944775,
+        67.99999802559614,
+        24.999999932944775
+      ]
+    },
+    {
+      "file": "print/stl/229_right_shoulder_roll_yoke_rail_01.stl",
+      "watertight": true,
+      "volume_cm3": 3.096083950255124,
+      "size_mm": [
+        10.200000343844295,
+        31.186198823153973,
+        33.19999849051237
+      ]
+    },
+    {
+      "file": "print/stl/230_right_shoulder_yaw_yoke_rail_01.stl",
+      "watertight": true,
+      "volume_cm3": 2.459315209747539,
+      "size_mm": [
+        10.199999941512942,
+        14.187505854293704,
+        33.20000089518726
+      ]
+    },
+    {
+      "file": "print/stl/231_right_elbow_yoke_rail_01.stl",
+      "watertight": true,
+      "volume_cm3": 9.043610671299199,
+      "size_mm": [
+        10.199999989941716,
+        10.199999989941716,
+        114.19999712891877
+      ]
+    },
+    {
+      "file": "print/stl/232_right_forearm_roll_yoke_rail_01.stl",
+      "watertight": true,
+      "volume_cm3": 3.5739552064266444,
+      "size_mm": [
+        10.199999989941716,
+        10.199999989941716,
+        47.20000094361603
+      ]
+    },
+    {
+      "file": "print/stl/233_right_wrist_pitch_yoke_rail_01.stl",
+      "watertight": true,
+      "volume_cm3": 7.00269442063227,
+      "size_mm": [
+        10.199999989941716,
+        10.199999989941716,
+        89.19999712891877
+      ]
+    },
+    {
+      "file": "print/stl/234_right_wrist_roll_yoke_rail_01.stl",
+      "watertight": true,
+      "volume_cm3": 2.1861320678998175,
+      "size_mm": [
+        10.199999989941716,
+        10.199999989941716,
+        30.200000943616033
+      ]
+    },
+    {
+      "file": "print/stl/235_right_thumb_support_01.stl",
+      "watertight": true,
+      "volume_cm3": 3.5640875715081473,
+      "size_mm": [
+        15.000000401865691,
+        20.00000040186569,
+        13.000000401865691
+      ]
+    },
+    {
+      "file": "print/stl/236_right_shoulder_pitch_shaft_01.stl",
+      "watertight": true,
+      "volume_cm3": 1.0169271247427616,
+      "size_mm": [
+        6.00000009778887,
+        36.00000009778887,
+        6.00000009778887
+      ]
+    },
+    {
+      "file": "print/stl/237_right_shoulder_pitch_bearing_m1_01.stl",
+      "watertight": true,
+      "volume_cm3": 1.2052470272941893,
+      "size_mm": [
+        28.000000187195837,
+        4.0000001871958375,
+        28.000000187195837
+      ]
+    },
+    {
+      "file": "print/stl/238_right_shoulder_pitch_horn_m1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.4472596107032511,
+      "size_mm": [
+        21.99999998975545,
+        2.4999999897554517,
+        21.99999998975545
+      ]
+    },
+    {
+      "file": "print/stl/239_right_shoulder_pitch_screw_m1_0_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990674733271,
+      "size_mm": [
+        2.999999899999885,
+        1.5000000192091818,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/240_right_shoulder_pitch_screw_m1_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990674733273,
+      "size_mm": [
+        2.999999899999885,
+        1.5000000192091818,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/241_right_shoulder_pitch_screw_m1_2_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.01059299071773839,
+      "size_mm": [
+        2.999999899999885,
+        1.5000000192091818,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/242_right_shoulder_pitch_screw_m1_3_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990674733271,
+      "size_mm": [
+        2.999999899999885,
+        1.5000000192091818,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/243_right_shoulder_pitch_bearing_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.6797426033800922,
+      "size_mm": [
+        20.300662994384766,
+        4.0,
+        27.995533859357238
+      ]
+    },
+    {
+      "file": "print/stl/244_right_shoulder_pitch_horn_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.4472596107032511,
+      "size_mm": [
+        21.99999998975545,
+        2.4999999897554517,
+        21.99999998975545
+      ]
+    },
+    {
+      "file": "print/stl/245_right_shoulder_pitch_screw_1_0_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.01059299053907815,
+      "size_mm": [
+        2.999999899999885,
+        1.5,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/246_right_shoulder_pitch_screw_1_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.01059299053907815,
+      "size_mm": [
+        2.999999899999885,
+        1.5,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/247_right_shoulder_pitch_screw_1_2_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990582083272,
+      "size_mm": [
+        2.999999899999885,
+        1.5,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/248_right_shoulder_pitch_screw_1_3_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.01059299053907815,
+      "size_mm": [
+        2.999999899999885,
+        1.5,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/249_right_shoulder_roll_shaft_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.7550802002231616,
+      "size_mm": [
+        35.9999999,
+        5.9999998982862905,
+        5.999999899793693
+      ]
+    },
+    {
+      "file": "print/stl/250_right_shoulder_roll_bearing_m1_01.stl",
+      "watertight": true,
+      "volume_cm3": 1.0428650631495733,
+      "size_mm": [
+        3.9999998999999846,
+        27.99916069520259,
+        27.999664322065655
+      ]
+    },
+    {
+      "file": "print/stl/251_right_shoulder_roll_horn_m1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.40625853845517523,
+      "size_mm": [
+        2.499999899999878,
+        21.999999899999892,
+        21.99999989999992
+      ]
+    },
+    {
+      "file": "print/stl/252_right_shoulder_roll_screw_m1_0_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990674733165,
+      "size_mm": [
+        1.5000000192091676,
+        2.999999899999864,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/253_right_shoulder_roll_screw_m1_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990674733165,
+      "size_mm": [
+        1.5000000192091676,
+        2.999999899999864,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/254_right_shoulder_roll_screw_m1_2_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990674733165,
+      "size_mm": [
+        1.5000000192091676,
+        2.999999899999864,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/255_right_shoulder_roll_screw_m1_3_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990674733165,
+      "size_mm": [
+        1.5000000192091676,
+        2.999999899999864,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/256_right_shoulder_roll_bearing_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 1.205247027294189,
+      "size_mm": [
+        4.0000001871958375,
+        28.000000187195837,
+        28.000000187195837
+      ]
+    },
+    {
+      "file": "print/stl/257_right_shoulder_roll_horn_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.447259610703251,
+      "size_mm": [
+        2.4999999897554517,
+        21.99999998975545,
+        21.99999998975545
+      ]
+    },
+    {
+      "file": "print/stl/258_right_shoulder_roll_screw_1_0_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990539078147,
+      "size_mm": [
+        1.5,
+        2.999999899999864,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/259_right_shoulder_roll_screw_1_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990539078147,
+      "size_mm": [
+        1.5,
+        2.999999899999864,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/260_right_shoulder_roll_screw_1_2_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990539078147,
+      "size_mm": [
+        1.5,
+        2.999999899999864,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/261_right_shoulder_roll_screw_1_3_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990539078147,
+      "size_mm": [
+        1.5,
+        2.999999899999864,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/262_right_shoulder_yaw_shaft_01.stl",
+      "watertight": true,
+      "volume_cm3": 1.0169271247427614,
+      "size_mm": [
+        6.00000009778887,
+        6.00000009778887,
+        36.00000009778887
+      ]
+    },
+    {
+      "file": "print/stl/263_right_shoulder_yaw_bearing_m1_01.stl",
+      "watertight": true,
+      "volume_cm3": 1.2052470272941889,
+      "size_mm": [
+        28.000000187195837,
+        28.000000187195837,
+        4.0000001871958375
+      ]
+    },
+    {
+      "file": "print/stl/264_right_shoulder_yaw_horn_m1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.4101001628129363,
+      "size_mm": [
+        21.244403839110618,
+        21.999995566109646,
+        2.5000000302679837
+      ]
+    },
+    {
+      "file": "print/stl/265_right_shoulder_yaw_screw_m1_0_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990674733495,
+      "size_mm": [
+        2.9999998999999704,
+        2.9999998999999775,
+        1.5000000192092102
+      ]
+    },
+    {
+      "file": "print/stl/266_right_shoulder_yaw_screw_m1_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990673641108,
+      "size_mm": [
+        2.9999998999999704,
+        2.9999998999999775,
+        1.5000000192092102
+      ]
+    },
+    {
+      "file": "print/stl/267_right_shoulder_yaw_screw_m1_2_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.000643106291996045,
+      "size_mm": [
+        0.40384614467397384,
+        2.047873735425469,
+        1.5
+      ]
+    },
+    {
+      "file": "print/stl/268_right_shoulder_yaw_screw_m1_3_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990679975786,
+      "size_mm": [
+        2.9999998999999704,
+        2.9999998999999775,
+        1.5000000192092102
+      ]
+    },
+    {
+      "file": "print/stl/269_right_shoulder_yaw_bearing_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 1.0621685043949072,
+      "size_mm": [
+        27.79651441110734,
+        27.99986269793135,
+        3.999999899999807
+      ]
+    },
+    {
+      "file": "print/stl/270_right_shoulder_yaw_horn_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.4472596107032511,
+      "size_mm": [
+        21.99999998975545,
+        21.99999998975545,
+        2.4999999897554517
+      ]
+    },
+    {
+      "file": "print/stl/271_right_shoulder_yaw_screw_1_0_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990539078173,
+      "size_mm": [
+        2.9999998999999704,
+        2.9999998999999775,
+        1.5
+      ]
+    },
+    {
+      "file": "print/stl/272_right_shoulder_yaw_screw_1_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990537985786,
+      "size_mm": [
+        2.9999998999999704,
+        2.9999998999999775,
+        1.5
+      ]
+    },
+    {
+      "file": "print/stl/273_right_shoulder_yaw_screw_1_2_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990539078173,
+      "size_mm": [
+        2.9999998999999704,
+        2.9999998999999775,
+        1.5
+      ]
+    },
+    {
+      "file": "print/stl/274_right_shoulder_yaw_screw_1_3_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990544320464,
+      "size_mm": [
+        2.9999998999999704,
+        2.9999998999999775,
+        1.5
+      ]
+    },
+    {
+      "file": "print/stl/275_right_elbow_shaft_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.8474392710793573,
+      "size_mm": [
+        6.00000009778887,
+        30.00000009778887,
+        6.00000009778887
+      ]
+    },
+    {
+      "file": "print/stl/276_right_elbow_bearing_m1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.8034979216290143,
+      "size_mm": [
+        19.99999928800389,
+        3.99999976484105,
+        19.99999928800389
+      ]
+    },
+    {
+      "file": "print/stl/277_right_elbow_horn_m1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.25893977695297454,
+      "size_mm": [
+        14.000000043772161,
+        2.500000043772161,
+        14.000000043772161
+      ]
+    },
+    {
+      "file": "print/stl/278_right_elbow_screw_m1_0_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990674733271,
+      "size_mm": [
+        2.999999899999885,
+        1.5000000192091818,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/279_right_elbow_screw_m1_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990674733273,
+      "size_mm": [
+        2.999999899999885,
+        1.5000000192091818,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/280_right_elbow_screw_m1_2_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990746095607,
+      "size_mm": [
+        2.999999899999885,
+        1.5000000192091818,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/281_right_elbow_screw_m1_3_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990674733271,
+      "size_mm": [
+        2.999999899999885,
+        1.5000000192091818,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/282_right_elbow_bearing_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.8034979216290143,
+      "size_mm": [
+        19.99999928800389,
+        3.99999976484105,
+        19.99999928800389
+      ]
+    },
+    {
+      "file": "print/stl/283_right_elbow_horn_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.25893977695297454,
+      "size_mm": [
+        14.000000043772161,
+        2.500000043772161,
+        14.000000043772161
+      ]
+    },
+    {
+      "file": "print/stl/284_right_elbow_screw_1_0_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.01059299053907815,
+      "size_mm": [
+        2.999999899999885,
+        1.5,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/285_right_elbow_screw_1_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.01059299053907815,
+      "size_mm": [
+        2.999999899999885,
+        1.5,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/286_right_elbow_screw_1_2_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990610440481,
+      "size_mm": [
+        2.999999899999885,
+        1.5,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/287_right_elbow_screw_1_3_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.01059299053907815,
+      "size_mm": [
+        2.999999899999885,
+        1.5,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/288_right_forearm_roll_shaft_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.8474392710793576,
+      "size_mm": [
+        6.00000009778887,
+        6.00000009778887,
+        30.00000009778887
+      ]
+    },
+    {
+      "file": "print/stl/289_right_forearm_roll_bearing_m1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.8034979216290146,
+      "size_mm": [
+        19.99999928800389,
+        19.99999928800389,
+        3.99999976484105
+      ]
+    },
+    {
+      "file": "print/stl/290_right_forearm_roll_horn_m1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.2589397769529746,
+      "size_mm": [
+        14.000000043772161,
+        14.000000043772161,
+        2.500000043772161
+      ]
+    },
+    {
+      "file": "print/stl/291_right_forearm_roll_screw_m1_0_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990674733896,
+      "size_mm": [
+        2.9999998999999704,
+        2.9999998999999775,
+        1.500000019209267
+      ]
+    },
+    {
+      "file": "print/stl/292_right_forearm_roll_screw_m1_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990674733896,
+      "size_mm": [
+        2.9999998999999704,
+        2.9999998999999775,
+        1.500000019209267
+      ]
+    },
+    {
+      "file": "print/stl/293_right_forearm_roll_screw_m1_2_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990674733896,
+      "size_mm": [
+        2.9999998999999704,
+        2.9999998999999775,
+        1.500000019209267
+      ]
+    },
+    {
+      "file": "print/stl/294_right_forearm_roll_screw_m1_3_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990770420106,
+      "size_mm": [
+        2.9999998999999704,
+        2.9999998999999775,
+        1.500000019209267
+      ]
+    },
+    {
+      "file": "print/stl/295_right_forearm_roll_bearing_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.7737792452075051,
+      "size_mm": [
+        19.460821151732514,
+        19.99712667078711,
+        3.9999998188577592
+      ]
+    },
+    {
+      "file": "print/stl/296_right_forearm_roll_horn_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.2589397769529746,
+      "size_mm": [
+        14.000000043772161,
+        14.000000043772161,
+        2.500000043772161
+      ]
+    },
+    {
+      "file": "print/stl/297_right_forearm_roll_screw_1_0_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990539078173,
+      "size_mm": [
+        2.9999998999999704,
+        2.9999998999999775,
+        1.5
+      ]
+    },
+    {
+      "file": "print/stl/298_right_forearm_roll_screw_1_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990539078173,
+      "size_mm": [
+        2.9999998999999704,
+        2.9999998999999775,
+        1.5
+      ]
+    },
+    {
+      "file": "print/stl/299_right_forearm_roll_screw_1_2_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990539078173,
+      "size_mm": [
+        2.9999998999999704,
+        2.9999998999999775,
+        1.5
+      ]
+    },
+    {
+      "file": "print/stl/300_right_forearm_roll_screw_1_3_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990634764383,
+      "size_mm": [
+        2.9999998999999704,
+        2.9999998999999775,
+        1.5
+      ]
+    },
+    {
+      "file": "print/stl/301_right_wrist_pitch_shaft_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.8474392710793573,
+      "size_mm": [
+        6.00000009778887,
+        30.00000009778887,
+        6.00000009778887
+      ]
+    },
+    {
+      "file": "print/stl/302_right_wrist_pitch_bearing_m1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.8034979216290143,
+      "size_mm": [
+        19.99999928800389,
+        3.99999976484105,
+        19.99999928800389
+      ]
+    },
+    {
+      "file": "print/stl/303_right_wrist_pitch_horn_m1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.25893977695297454,
+      "size_mm": [
+        14.000000043772161,
+        2.500000043772161,
+        14.000000043772161
+      ]
+    },
+    {
+      "file": "print/stl/304_right_wrist_pitch_screw_m1_0_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990674733682,
+      "size_mm": [
+        2.999999899999942,
+        1.5000000192092386,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/305_right_wrist_pitch_screw_m1_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990674733682,
+      "size_mm": [
+        2.999999899999942,
+        1.5000000192092386,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/306_right_wrist_pitch_screw_m1_2_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990708327312,
+      "size_mm": [
+        2.999999899999942,
+        1.5000000192092386,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/307_right_wrist_pitch_screw_m1_3_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990674733682,
+      "size_mm": [
+        2.999999899999942,
+        1.5000000192092386,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/308_right_wrist_pitch_bearing_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.8034979216290143,
+      "size_mm": [
+        19.99999928800389,
+        3.99999976484105,
+        19.99999928800389
+      ]
+    },
+    {
+      "file": "print/stl/309_right_wrist_pitch_horn_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.25893977695297454,
+      "size_mm": [
+        14.000000043772161,
+        2.500000043772161,
+        14.000000043772161
+      ]
+    },
+    {
+      "file": "print/stl/310_right_wrist_pitch_screw_1_0_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990539078159,
+      "size_mm": [
+        2.999999899999942,
+        1.5,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/311_right_wrist_pitch_screw_1_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990539078159,
+      "size_mm": [
+        2.999999899999942,
+        1.5,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/312_right_wrist_pitch_screw_1_2_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990572671789,
+      "size_mm": [
+        2.999999899999942,
+        1.5,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/313_right_wrist_pitch_screw_1_3_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990539078159,
+      "size_mm": [
+        2.999999899999942,
+        1.5,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/314_right_wrist_roll_shaft_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.8474392710793573,
+      "size_mm": [
+        30.00000009778887,
+        6.00000009778887,
+        6.00000009778887
+      ]
+    },
+    {
+      "file": "print/stl/315_right_wrist_roll_bearing_m1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.6570113995391395,
+      "size_mm": [
+        3.9999998999998567,
+        19.999656755302567,
+        19.661781211035134
+      ]
+    },
+    {
+      "file": "print/stl/316_right_wrist_roll_horn_m1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.25893977695297454,
+      "size_mm": [
+        2.500000043772161,
+        14.000000043772161,
+        14.000000043772161
+      ]
+    },
+    {
+      "file": "print/stl/317_right_wrist_roll_screw_m1_0_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.01059299067473358,
+      "size_mm": [
+        1.5000000192092244,
+        2.999999899999949,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/318_right_wrist_roll_screw_m1_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.01059299067473358,
+      "size_mm": [
+        1.5000000192092244,
+        2.999999899999949,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/319_right_wrist_roll_screw_m1_2_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.010592990674733582,
+      "size_mm": [
+        1.5000000192092244,
+        2.999999899999949,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/320_right_wrist_roll_screw_m1_3_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.01059299067473358,
+      "size_mm": [
+        1.5000000192092244,
+        2.999999899999949,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/321_right_wrist_roll_bearing_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.8034979216290143,
+      "size_mm": [
+        3.99999976484105,
+        19.99999928800389,
+        19.99999928800389
+      ]
+    },
+    {
+      "file": "print/stl/322_right_wrist_roll_horn_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.25893977695297454,
+      "size_mm": [
+        2.500000043772161,
+        14.000000043772161,
+        14.000000043772161
+      ]
+    },
+    {
+      "file": "print/stl/323_right_wrist_roll_screw_1_0_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.01059299053907816,
+      "size_mm": [
+        1.5,
+        2.999999899999949,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/324_right_wrist_roll_screw_1_1_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.01059299053907816,
+      "size_mm": [
+        1.5,
+        2.999999899999949,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/325_right_wrist_roll_screw_1_2_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.01059299053907816,
+      "size_mm": [
+        1.5,
+        2.999999899999949,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/326_right_wrist_roll_screw_1_3_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.01059299053907816,
+      "size_mm": [
+        1.5,
+        2.999999899999949,
+        2.9999998999999207
+      ]
+    },
+    {
+      "file": "print/stl/327_right_upper_arm_backbone_01.stl",
+      "watertight": true,
+      "volume_cm3": 18.14468083438353,
+      "size_mm": [
+        7.99999991664663,
+        38.99999896297231,
+        76.99999896297231
+      ]
+    },
+    {
+      "file": "print/stl/328_right_upper_arm_cover_01.stl",
+      "watertight": true,
+      "volume_cm3": 14.378511338033931,
+      "size_mm": [
+        21.00503378873691,
+        47.00000029569492,
+        67.99999990000003
+      ]
+    },
+    {
+      "file": "print/stl/328_right_upper_arm_cover_02.stl",
+      "watertight": true,
+      "volume_cm3": 15.947920828079194,
+      "size_mm": [
+        20.994966506958008,
+        47.0000009033829,
+        67.99999708868563
+      ]
+    },
+    {
+      "file": "print/stl/329_right_forearm_cover_01.stl",
+      "watertight": true,
+      "volume_cm3": 17.67392529925268,
+      "size_mm": [
+        23.500000435858965,
+        58.000000435858965,
+        61.000000435858965
+      ]
+    },
+    {
+      "file": "print/stl/329_right_forearm_cover_02.stl",
+      "watertight": true,
+      "volume_cm3": 18.066563607632414,
+      "size_mm": [
+        23.5,
+        58.000000435858965,
+        61.000000435858965
+      ]
+    },
+    {
+      "file": "print/stl/330_right_forearm_tendon_panel_01.stl",
+      "watertight": true,
+      "volume_cm3": 2.182402684258382,
+      "size_mm": [
+        1.499999999999993,
+        35.000001813983545,
+        42.000001813983545
+      ]
+    },
+    {
+      "file": "print/stl/331_right_tendon_port_0_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.03035921708922665,
+      "size_mm": [
+        4.999999899999999,
+        4.999999900000006,
+        3.9999998999999775
+      ]
+    },
+    {
+      "file": "print/stl/332_right_tendon_port_12_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.05021862174192407,
+      "size_mm": [
+        4.99999989999997,
+        4.9999998999999775,
+        3.9999998999999775
+      ]
+    },
+    {
+      "file": "print/stl/333_right_tendon_port_24_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.030358246040534557,
+      "size_mm": [
+        4.999999897628925,
+        4.999999900000006,
+        3.9999998999999775
+      ]
+    },
+    {
+      "file": "print/stl/334_right_palm_01.stl",
+      "watertight": true,
+      "volume_cm3": 8.130320882519733,
+      "size_mm": [
+        12.500000418163836,
+        66.00000137183815,
+        38.00000137183815
+      ]
+    },
+    {
+      "file": "print/stl/334_right_palm_02.stl",
+      "watertight": true,
+      "volume_cm3": 8.130320777138245,
+      "size_mm": [
+        12.499999899999999,
+        66.00000137183815,
+        38.00000137183815
+      ]
+    },
+    {
+      "file": "print/stl/335_right_palm_pad_01.stl",
+      "watertight": true,
+      "volume_cm3": 2.932063098726354,
+      "size_mm": [
+        1.9999998864950612,
+        52.99999943142757,
+        27.999999431427568
+      ]
+    },
+    {
+      "file": "print/stl/336_right_index_mcp_phalanx_01.stl",
+      "watertight": true,
+      "volume_cm3": 2.9626160103427996,
+      "size_mm": [
+        10.99999991664663,
+        11.99999991664663,
+        24.000000870320946
+      ]
+    },
+    {
+      "file": "print/stl/337_right_index_mcp_pad_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.26728711402855054,
+      "size_mm": [
+        1.7449834538858084,
+        8.999999906634912,
+        17.999999906634912
+      ]
+    },
+    {
+      "file": "print/stl/338_right_index_mcp_knuckle_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.5104012064708658,
+      "size_mm": [
+        8.400000472204532,
+        12.999999667867087,
+        8.400000472204525
+      ]
+    },
+    {
+      "file": "print/stl/339_right_index_pip_phalanx_01.stl",
+      "watertight": true,
+      "volume_cm3": 1.9341787760255253,
+      "size_mm": [
+        10.99999991664663,
+        11.99999991664663,
+        16.000000870320946
+      ]
+    },
+    {
+      "file": "print/stl/340_right_index_pip_pad_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.14707793384844664,
+      "size_mm": [
+        1.7449834538858084,
+        8.999999906634912,
+        9.999999906634912
+      ]
+    },
+    {
+      "file": "print/stl/341_right_index_pip_knuckle_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.5104012064708658,
+      "size_mm": [
+        8.400000472204532,
+        12.999999667867087,
+        8.400000472204525
+      ]
+    },
+    {
+      "file": "print/stl/342_right_index_dip_phalanx_01.stl",
+      "watertight": true,
+      "volume_cm3": 1.2914054460882587,
+      "size_mm": [
+        10.99999991664663,
+        11.99999991664663,
+        10.99999991664663
+      ]
+    },
+    {
+      "file": "print/stl/343_right_index_dip_pad_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.07194719780366006,
+      "size_mm": [
+        1.7449834538858084,
+        8.999999906634912,
+        4.999999906634912
+      ]
+    },
+    {
+      "file": "print/stl/344_right_index_dip_knuckle_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.5104012064708658,
+      "size_mm": [
+        8.400000472204532,
+        12.999999667867087,
+        8.400000472204525
+      ]
+    },
+    {
+      "file": "print/stl/345_right_middle_mcp_phalanx_01.stl",
+      "watertight": true,
+      "volume_cm3": 3.3482799752179178,
+      "size_mm": [
+        10.99999991664663,
+        11.99999991664663,
+        27.000000870320946
+      ]
+    },
+    {
+      "file": "print/stl/346_right_middle_mcp_pad_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.31236555608280886,
+      "size_mm": [
+        1.7449834538841174,
+        8.999999906634912,
+        20.999999906634912
+      ]
+    },
+    {
+      "file": "print/stl/347_right_middle_mcp_knuckle_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.5104012064708658,
+      "size_mm": [
+        8.400000472204532,
+        12.999999667867087,
+        8.400000472204525
+      ]
+    },
+    {
+      "file": "print/stl/348_right_middle_pip_phalanx_01.stl",
+      "watertight": true,
+      "volume_cm3": 2.1912880832669437,
+      "size_mm": [
+        10.99999991664663,
+        11.99999991664663,
+        18.000000870320946
+      ]
+    },
+    {
+      "file": "print/stl/349_right_middle_pip_pad_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.17713023062643568,
+      "size_mm": [
+        1.7449834538841174,
+        8.999999906634912,
+        11.999999906634912
+      ]
+    },
+    {
+      "file": "print/stl/350_right_middle_pip_knuckle_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.5104012064708658,
+      "size_mm": [
+        8.400000472204532,
+        12.999999667867087,
+        8.400000472204525
+      ]
+    },
+    {
+      "file": "print/stl/351_right_middle_dip_phalanx_01.stl",
+      "watertight": true,
+      "volume_cm3": 1.4199601006205957,
+      "size_mm": [
+        10.99999991664663,
+        11.99999991664663,
+        11.99999991664663
+      ]
+    },
+    {
+      "file": "print/stl/352_right_middle_dip_pad_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.08697334996723062,
+      "size_mm": [
+        1.7449834538841174,
+        8.999999906634912,
+        5.999999906634912
+      ]
+    },
+    {
+      "file": "print/stl/353_right_middle_dip_knuckle_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.5104012064708658,
+      "size_mm": [
+        8.400000472204532,
+        12.999999667867087,
+        8.400000472204525
+      ]
+    },
+    {
+      "file": "print/stl/354_right_ring_mcp_phalanx_01.stl",
+      "watertight": true,
+      "volume_cm3": 3.091170665301173,
+      "size_mm": [
+        10.99999991664663,
+        11.99999991664663,
+        25.000000870320946
+      ]
+    },
+    {
+      "file": "print/stl/355_right_ring_mcp_pad_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.282313260976139,
+      "size_mm": [
+        1.7449834538841174,
+        8.999999906634912,
+        18.999999906634912
+      ]
+    },
+    {
+      "file": "print/stl/356_right_ring_mcp_knuckle_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.5104012064708658,
+      "size_mm": [
+        8.400000472204532,
+        12.999999667867087,
+        8.400000472204525
+      ]
+    },
+    {
+      "file": "print/stl/357_right_ring_pip_phalanx_01.stl",
+      "watertight": true,
+      "volume_cm3": 2.062733428165729,
+      "size_mm": [
+        10.99999991664663,
+        11.99999991664663,
+        17.000000870320946
+      ]
+    },
+    {
+      "file": "print/stl/358_right_ring_pip_pad_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.162104080938135,
+      "size_mm": [
+        1.7449834538841174,
+        8.999999906634912,
+        10.999999906634912
+      ]
+    },
+    {
+      "file": "print/stl/359_right_ring_pip_knuckle_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.5104012064708658,
+      "size_mm": [
+        8.400000472204532,
+        12.999999667867087,
+        8.400000472204525
+      ]
+    },
+    {
+      "file": "print/stl/360_right_ring_dip_phalanx_01.stl",
+      "watertight": true,
+      "volume_cm3": 1.2914054460882587,
+      "size_mm": [
+        10.99999991664663,
+        11.99999991664663,
+        10.99999991664663
+      ]
+    },
+    {
+      "file": "print/stl/361_right_ring_dip_pad_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.07194719780365967,
+      "size_mm": [
+        1.7449834538841174,
+        8.999999906634912,
+        4.999999906634912
+      ]
+    },
+    {
+      "file": "print/stl/362_right_ring_dip_knuckle_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.5104012064708658,
+      "size_mm": [
+        8.400000472204532,
+        12.999999667867087,
+        8.400000472204525
+      ]
+    },
+    {
+      "file": "print/stl/363_right_little_mcp_phalanx_01.stl",
+      "watertight": true,
+      "volume_cm3": 2.319842736848537,
+      "size_mm": [
+        10.99999991664663,
+        11.99999991664663,
+        19.000000870320946
+      ]
+    },
+    {
+      "file": "print/stl/364_right_little_mcp_pad_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.19215637925113163,
+      "size_mm": [
+        1.7449834538841174,
+        8.999999906634912,
+        12.999999906634912
+      ]
+    },
+    {
+      "file": "print/stl/365_right_little_mcp_knuckle_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.5104012064708658,
+      "size_mm": [
+        8.400000472204532,
+        12.999999667867087,
+        8.400000472204525
+      ]
+    },
+    {
+      "file": "print/stl/366_right_little_pip_phalanx_01.stl",
+      "watertight": true,
+      "volume_cm3": 1.5485147555780383,
+      "size_mm": [
+        10.99999991664663,
+        11.99999991664663,
+        12.99999991664663
+      ]
+    },
+    {
+      "file": "print/stl/367_right_little_pip_pad_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.10199949750800988,
+      "size_mm": [
+        1.7449834538841174,
+        8.999999906634912,
+        6.999999906634912
+      ]
+    },
+    {
+      "file": "print/stl/368_right_little_pip_knuckle_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.5104012064708658,
+      "size_mm": [
+        8.400000472204532,
+        12.999999667867087,
+        8.400000472204525
+      ]
+    },
+    {
+      "file": "print/stl/369_right_little_dip_phalanx_01.stl",
+      "watertight": true,
+      "volume_cm3": 1.034296135060252,
+      "size_mm": [
+        10.99999991664663,
+        11.99999991664663,
+        8.99999991664663
+      ]
+    },
+    {
+      "file": "print/stl/370_right_little_dip_pad_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.056921043657128696,
+      "size_mm": [
+        1.7449834538841174,
+        8.999999906634912,
+        3.999999906634912
+      ]
+    },
+    {
+      "file": "print/stl/371_right_little_dip_knuckle_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.5104012064708658,
+      "size_mm": [
+        8.400000472204532,
+        12.999999667867087,
+        8.400000472204525
+      ]
+    },
+    {
+      "file": "print/stl/372_right_thumb_opposition_mount_01.stl",
+      "watertight": true,
+      "volume_cm3": 2.2694623122598063,
+      "size_mm": [
+        16.000000870320946,
+        14.99999991664663,
+        9.99999991664663
+      ]
+    },
+    {
+      "file": "print/stl/373_right_thumb_spread_phalanx_01.stl",
+      "watertight": true,
+      "volume_cm3": 3.0684671827911916,
+      "size_mm": [
+        12.99999991664663,
+        13.99999991664663,
+        18.000000870320946
+      ]
+    },
+    {
+      "file": "print/stl/374_right_thumb_spread_pad_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.21735563976707328,
+      "size_mm": [
+        1.7449834538864124,
+        10.999999906634912,
+        11.999999906634912
+      ]
+    },
+    {
+      "file": "print/stl/375_right_thumb_spread_knuckle_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.5749715051118195,
+      "size_mm": [
+        14.999999667867087,
+        8.400000472204553,
+        8.400000472204525
+      ]
+    },
+    {
+      "file": "print/stl/376_right_thumb_mcp_phalanx_01.stl",
+      "watertight": true,
+      "volume_cm3": 2.8899125276729416,
+      "size_mm": [
+        12.99999991664663,
+        13.99999991664663,
+        17.000000870320946
+      ]
+    },
+    {
+      "file": "print/stl/377_right_thumb_mcp_pad_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.19892948997595467,
+      "size_mm": [
+        1.7449834538864124,
+        10.999999906634912,
+        10.999999906634912
+      ]
+    },
+    {
+      "file": "print/stl/378_right_thumb_mcp_knuckle_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.5848614819838216,
+      "size_mm": [
+        8.400000472204532,
+        14.999999667867087,
+        8.400000472204525
+      ]
+    },
+    {
+      "file": "print/stl/379_right_thumb_ip_phalanx_01.stl",
+      "watertight": true,
+      "volume_cm3": 2.3542484787523827,
+      "size_mm": [
+        12.99999991664663,
+        13.99999991664663,
+        13.99999991664663
+      ]
+    },
+    {
+      "file": "print/stl/380_right_thumb_ip_pad_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.1436510586297607,
+      "size_mm": [
+        1.7449834538864124,
+        10.999999906634912,
+        7.999999906634912
+      ]
+    },
+    {
+      "file": "print/stl/381_right_thumb_ip_knuckle_01.stl",
+      "watertight": true,
+      "volume_cm3": 0.5848614819838216,
+      "size_mm": [
+        8.400000472204532,
+        14.999999667867087,
+        8.400000472204525
+      ]
+    },
+    {
+      "file": "print/stl/382_right_back_jet_01.stl",
+      "watertight": true,
+      "volume_cm3": 21.459044886262184,
+      "size_mm": [
+        28.0,
+        56.0,
+        86.0
+      ]
+    },
+    {
+      "file": "print/stl/382_right_back_jet_02.stl",
+      "watertight": true,
+      "volume_cm3": 21.45904471954754,
+      "size_mm": [
+        28.0,
+        56.0,
+        86.0
+      ]
+    },
+    {
+      "file": "print/stl/383_right_back_nozzle_01.stl",
+      "watertight": true,
+      "volume_cm3": 8.474392373872805,
+      "size_mm": [
+        48.00000148266554,
+        48.00000148266554,
+        19.999999575316906
+      ]
+    },
+    {
+      "file": "print/stl/384_right_back_nozzle_ring_01.stl",
+      "watertight": true,
+      "volume_cm3": 1.6430903410098825,
+      "size_mm": [
+        51.999999072402716,
+        51.999999072402716,
+        5.000000026077032
+      ]
+    },
+    {
+      "file": "print/stl/385_right_jet_mount_01.stl",
+      "watertight": true,
+      "volume_cm3": 7.36505196219996,
+      "size_mm": [
+        37.99999849451706,
+        14.000000401865691,
+        16.00000040186569
+      ]
+    }
+  ]
+}

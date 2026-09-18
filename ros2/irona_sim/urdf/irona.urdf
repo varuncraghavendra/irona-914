@@ -1,0 +1,1638 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="irona_914">
+  <link name="pelvis">
+    <inertial>
+      <origin xyz="0 0 0.01" rpy="0 0 0" />
+      <mass value="2.0" />
+      <inertia ixx="0.0075208333333333325" iyy="0.004108333333333333" izz="0.008620833333333333" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/pelvis.stl" />
+      </geometry>
+      <material name="silver_pelvis">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.01" rpy="0 0 0" />
+      <geometry>
+        <box size="0.125 0.19 0.095" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="waist_yaw_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.12" />
+      <inertia ixx="2.2250000000000006e-05" iyy="2.2250000000000006e-05" izz="3.2000000000000005e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+  </link>
+  <link name="torso">
+    <inertial>
+      <origin xyz="-0.012 0 0.076" rpy="0 0 0" />
+      <mass value="3.6" />
+      <inertia ixx="0.019979999999999998" iyy="0.013057499999999998" izz="0.019537499999999996" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/torso.stl" />
+      </geometry>
+      <material name="silver_torso">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.012 0 0.076" rpy="0 0 0" />
+      <geometry>
+        <box size="0.145 0.21 0.15" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="neck_yaw_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.5416666666666668e-05" iyy="1.5416666666666668e-05" izz="2.041666666666667e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/neck_yaw_link.stl" />
+      </geometry>
+      <material name="silver_neck_yaw_link">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="head">
+    <inertial>
+      <origin xyz="0.01 0 0.069" rpy="0 0 0" />
+      <mass value="0.91" />
+      <inertia ixx="0.002875979166666667" iyy="0.002602903333333334" izz="0.002915715833333333" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/head.stl" />
+      </geometry>
+      <material name="silver_head">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.01 0 0.069" rpy="0 0 0" />
+      <geometry>
+        <box size="0.132 0.145 0.13" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="left_hip_yaw_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="2.041666666666667e-05" iyy="2.041666666666667e-05" izz="2.041666666666667e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+  </link>
+  <link name="left_hip_roll_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.15" />
+      <inertia ixx="3.6099999999999997e-05" iyy="3.6099999999999997e-05" izz="3.6099999999999997e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+  </link>
+  <link name="left_thigh">
+    <inertial>
+      <origin xyz="0 0 -0.095" rpy="0 0 0" />
+      <mass value="0.95" />
+      <inertia ixx="0.0023820458333333335" iyy="0.0024370666666666666" izz="0.0007657791666666668" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/left_thigh.stl" />
+      </geometry>
+      <material name="silver_left_thigh">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.095" rpy="0 0 0" />
+      <geometry>
+        <box size="0.072 0.067 0.16" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="left_shin">
+    <inertial>
+      <origin xyz="0 0 -0.094" rpy="0 0 0" />
+      <mass value="0.7" />
+      <inertia ixx="0.0017033333333333332" iyy="0.0017322666666666664" izz="0.00044893333333333326" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/left_shin.stl" />
+      </geometry>
+      <material name="silver_left_shin">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.094" rpy="0 0 0" />
+      <geometry>
+        <box size="0.064 0.06 0.16" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="left_ankle_pitch_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.12" />
+      <inertia ixx="2.4500000000000003e-05" iyy="2.4500000000000003e-05" izz="2.4500000000000003e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+  </link>
+  <link name="left_foot">
+    <inertial>
+      <origin xyz="0.0225 0 -0.0425" rpy="0 0 0" />
+      <mass value="0.6" />
+      <inertia ixx="0.0005744499999999999" iyy="0.0015962500000000002" izz="0.0018682000000000002" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/left_foot.stl" />
+      </geometry>
+      <material name="silver_left_foot">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0225 0 -0.0425" rpy="0 0 0" />
+      <geometry>
+        <box size="0.17 0.092 0.055" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="left_shoulder_pitch_link">
+    <inertial>
+      <origin xyz="0 0 -0.012" rpy="0 0 0" />
+      <mass value="0.2" />
+      <inertia ixx="6.833333333333333e-05" iyy="7.106666666666667e-05" izz="5.606666666666667e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/left_shoulder_pitch_link.stl" />
+      </geometry>
+      <material name="silver_left_shoulder_pitch_link">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="left_shoulder_roll_link">
+    <inertial>
+      <origin xyz="0 0 -0.006" rpy="0 0 0" />
+      <mass value="0.2" />
+      <inertia ixx="4.813333333333333e-05" iyy="4.9416666666666664e-05" izz="4.9416666666666664e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/left_shoulder_roll_link.stl" />
+      </geometry>
+      <material name="silver_left_shoulder_roll_link">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="left_upper_arm">
+    <inertial>
+      <origin xyz="0 0 -0.049" rpy="0 0 0" />
+      <mass value="0.33" />
+      <inertia ixx="0.0002336675" iyy="0.0002244275" izz="9.724e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/left_upper_arm.stl" />
+      </geometry>
+      <material name="silver_left_upper_arm">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.049" rpy="0 0 0" />
+      <geometry>
+        <box size="0.04 0.044 0.081" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="left_forearm">
+    <inertial>
+      <origin xyz="0 0 -0.017" rpy="0 0 0" />
+      <mass value="0.22" />
+      <inertia ixx="5.3093333333333335e-05" iyy="4.885833333333333e-05" izz="5.443166666666666e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/left_forearm.stl" />
+      </geometry>
+      <material name="silver_left_forearm">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.017" rpy="0 0 0" />
+      <geometry>
+        <box size="0.037 0.04 0.036" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="left_forearm_roll_link">
+    <inertial>
+      <origin xyz="0 0 -0.035" rpy="0 0 0" />
+      <mass value="0.24" />
+      <inertia ixx="0.00011764" iyy="0.00010324" izz="8.164000000000001e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/left_forearm_roll_link.stl" />
+      </geometry>
+      <material name="silver_left_forearm_roll_link">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.035" rpy="0 0 0" />
+      <geometry>
+        <box size="0.041 0.049 0.059" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="left_wrist_pitch_link">
+    <inertial>
+      <origin xyz="0 0 -0.008" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.4841666666666669e-05" iyy="1.3741666666666668e-05" izz="1.8166666666666667e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/left_wrist_pitch_link.stl" />
+      </geometry>
+      <material name="silver_left_wrist_pitch_link">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="left_hand">
+    <inertial>
+      <origin xyz="0 0 -0.021" rpy="0 0 0" />
+      <mass value="0.16" />
+      <inertia ixx="7.386666666666667e-05" iyy="2.6306666666666667e-05" izz="6.166666666666667e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/left_hand.stl" />
+      </geometry>
+      <material name="silver_left_hand">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.021" rpy="0 0 0" />
+      <geometry>
+        <box size="0.023 0.064 0.038" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="left_index_mcp_link">
+    <inertial>
+      <origin xyz="0 0 -0.0135" rpy="0 0 0" />
+      <mass value="0.009" />
+      <inertia ixx="5.4e-07" iyy="5.2275e-07" izz="1.9874999999999998e-07" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/left_index_mcp_link.stl" />
+      </geometry>
+      <material name="silver_left_index_mcp_link">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.0135" rpy="0 0 0" />
+      <geometry>
+        <box size="0.011 0.012 0.024" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="left_index_pip_link">
+    <inertial>
+      <origin xyz="0 0 -0.0095" rpy="0 0 0" />
+      <mass value="0.006" />
+      <inertia ixx="2e-07" iyy="1.8849999999999997e-07" izz="1.325e-07" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/left_index_pip_link.stl" />
+      </geometry>
+      <material name="silver_left_index_pip_link">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.0095" rpy="0 0 0" />
+      <geometry>
+        <box size="0.011 0.012 0.016" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="left_index_dip_link">
+    <inertial>
+      <origin xyz="0 0 -0.007" rpy="0 0 0" />
+      <mass value="0.004" />
+      <inertia ixx="8.833333333333333e-08" iyy="8.066666666666666e-08" izz="8.833333333333333e-08" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/left_index_dip_link.stl" />
+      </geometry>
+      <material name="silver_left_index_dip_link">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.007" rpy="0 0 0" />
+      <geometry>
+        <box size="0.011 0.012 0.011" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="left_middle_mcp_link">
+    <inertial>
+      <origin xyz="0 0 -0.015" rpy="0 0 0" />
+      <mass value="0.009" />
+      <inertia ixx="6.547499999999999e-07" iyy="6.374999999999999e-07" izz="1.9874999999999998e-07" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/left_middle_mcp_link.stl" />
+      </geometry>
+      <material name="silver_left_middle_mcp_link">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.015" rpy="0 0 0" />
+      <geometry>
+        <box size="0.011 0.012 0.027" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="left_middle_pip_link">
+    <inertial>
+      <origin xyz="0 0 -0.0105" rpy="0 0 0" />
+      <mass value="0.006" />
+      <inertia ixx="2.3400000000000006e-07" iyy="2.2250000000000004e-07" izz="1.325e-07" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/left_middle_pip_link.stl" />
+      </geometry>
+      <material name="silver_left_middle_pip_link">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.0105" rpy="0 0 0" />
+      <geometry>
+        <box size="0.011 0.012 0.018" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="left_middle_dip_link">
+    <inertial>
+      <origin xyz="0 0 -0.0075" rpy="0 0 0" />
+      <mass value="0.004" />
+      <inertia ixx="9.6e-08" iyy="8.833333333333333e-08" izz="8.833333333333333e-08" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/left_middle_dip_link.stl" />
+      </geometry>
+      <material name="silver_left_middle_dip_link">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.0075" rpy="0 0 0" />
+      <geometry>
+        <box size="0.011 0.012 0.012" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="left_ring_mcp_link">
+    <inertial>
+      <origin xyz="0 0 -0.014" rpy="0 0 0" />
+      <mass value="0.009" />
+      <inertia ixx="5.7675e-07" iyy="5.595e-07" izz="1.9874999999999998e-07" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/left_ring_mcp_link.stl" />
+      </geometry>
+      <material name="silver_left_ring_mcp_link">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.014" rpy="0 0 0" />
+      <geometry>
+        <box size="0.011 0.012 0.025" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="left_ring_pip_link">
+    <inertial>
+      <origin xyz="0 0 -0.01" rpy="0 0 0" />
+      <mass value="0.006" />
+      <inertia ixx="2.165e-07" iyy="2.05e-07" izz="1.325e-07" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/left_ring_pip_link.stl" />
+      </geometry>
+      <material name="silver_left_ring_pip_link">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.01" rpy="0 0 0" />
+      <geometry>
+        <box size="0.011 0.012 0.017" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="left_ring_dip_link">
+    <inertial>
+      <origin xyz="0 0 -0.007" rpy="0 0 0" />
+      <mass value="0.004" />
+      <inertia ixx="8.833333333333333e-08" iyy="8.066666666666666e-08" izz="8.833333333333333e-08" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/left_ring_dip_link.stl" />
+      </geometry>
+      <material name="silver_left_ring_dip_link">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.007" rpy="0 0 0" />
+      <geometry>
+        <box size="0.011 0.012 0.011" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="left_little_mcp_link">
+    <inertial>
+      <origin xyz="0 0 -0.011" rpy="0 0 0" />
+      <mass value="0.009" />
+      <inertia ixx="3.7875e-07" iyy="3.6149999999999995e-07" izz="1.9874999999999998e-07" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/left_little_mcp_link.stl" />
+      </geometry>
+      <material name="silver_left_little_mcp_link">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.011" rpy="0 0 0" />
+      <geometry>
+        <box size="0.011 0.012 0.019" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="left_little_pip_link">
+    <inertial>
+      <origin xyz="0 0 -0.008" rpy="0 0 0" />
+      <mass value="0.006" />
+      <inertia ixx="1.565e-07" iyy="1.4500000000000001e-07" izz="1.325e-07" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/left_little_pip_link.stl" />
+      </geometry>
+      <material name="silver_left_little_pip_link">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.008" rpy="0 0 0" />
+      <geometry>
+        <box size="0.011 0.012 0.013" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="left_little_dip_link">
+    <inertial>
+      <origin xyz="0 0 -0.006" rpy="0 0 0" />
+      <mass value="0.004" />
+      <inertia ixx="7.500000000000001e-08" iyy="6.733333333333333e-08" izz="8.833333333333333e-08" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/left_little_dip_link.stl" />
+      </geometry>
+      <material name="silver_left_little_dip_link">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.006" rpy="0 0 0" />
+      <geometry>
+        <box size="0.011 0.012 0.009" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="left_thumb_cmc_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.009" />
+      <inertia ixx="2.9549999999999997e-07" iyy="3.1874999999999997e-07" izz="3.6074999999999994e-07" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/left_thumb_cmc_link.stl" />
+      </geometry>
+      <material name="silver_left_thumb_cmc_link">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="left_thumb_spread_link">
+    <inertial>
+      <origin xyz="0 0 -0.0105" rpy="0 0 0" />
+      <mass value="0.01" />
+      <inertia ixx="4.333333333333334e-07" iyy="4.108333333333334e-07" izz="3.041666666666667e-07" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/left_thumb_spread_link.stl" />
+      </geometry>
+      <material name="silver_left_thumb_spread_link">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.0105" rpy="0 0 0" />
+      <geometry>
+        <box size="0.013 0.014 0.018" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="left_thumb_mcp_link">
+    <inertial>
+      <origin xyz="0 0 -0.01" rpy="0 0 0" />
+      <mass value="0.008" />
+      <inertia ixx="3.233333333333334e-07" iyy="3.053333333333333e-07" izz="2.433333333333333e-07" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/left_thumb_mcp_link.stl" />
+      </geometry>
+      <material name="silver_left_thumb_mcp_link">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.01" rpy="0 0 0" />
+      <geometry>
+        <box size="0.013 0.014 0.017" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="left_thumb_ip_link">
+    <inertial>
+      <origin xyz="0 0 -0.0085" rpy="0 0 0" />
+      <mass value="0.005" />
+      <inertia ixx="1.633333333333334e-07" iyy="1.5208333333333337e-07" izz="1.5208333333333334e-07" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/left_thumb_ip_link.stl" />
+      </geometry>
+      <material name="silver_left_thumb_ip_link">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.0085" rpy="0 0 0" />
+      <geometry>
+        <box size="0.013 0.014 0.014" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="right_hip_yaw_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="2.041666666666667e-05" iyy="2.041666666666667e-05" izz="2.041666666666667e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+  </link>
+  <link name="right_hip_roll_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.15" />
+      <inertia ixx="3.6099999999999997e-05" iyy="3.6099999999999997e-05" izz="3.6099999999999997e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+  </link>
+  <link name="right_thigh">
+    <inertial>
+      <origin xyz="0 0 -0.095" rpy="0 0 0" />
+      <mass value="0.95" />
+      <inertia ixx="0.0023820458333333335" iyy="0.0024370666666666666" izz="0.0007657791666666668" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/right_thigh.stl" />
+      </geometry>
+      <material name="silver_right_thigh">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.095" rpy="0 0 0" />
+      <geometry>
+        <box size="0.072 0.067 0.16" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="right_shin">
+    <inertial>
+      <origin xyz="0 0 -0.094" rpy="0 0 0" />
+      <mass value="0.7" />
+      <inertia ixx="0.0017033333333333332" iyy="0.0017322666666666664" izz="0.00044893333333333326" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/right_shin.stl" />
+      </geometry>
+      <material name="silver_right_shin">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.094" rpy="0 0 0" />
+      <geometry>
+        <box size="0.064 0.06 0.16" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="right_ankle_pitch_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.12" />
+      <inertia ixx="2.4500000000000003e-05" iyy="2.4500000000000003e-05" izz="2.4500000000000003e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+  </link>
+  <link name="right_foot">
+    <inertial>
+      <origin xyz="0.0225 0 -0.0425" rpy="0 0 0" />
+      <mass value="0.6" />
+      <inertia ixx="0.0005744499999999999" iyy="0.0015962500000000002" izz="0.0018682000000000002" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/right_foot.stl" />
+      </geometry>
+      <material name="silver_right_foot">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0225 0 -0.0425" rpy="0 0 0" />
+      <geometry>
+        <box size="0.17 0.092 0.055" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="right_shoulder_pitch_link">
+    <inertial>
+      <origin xyz="0 0 -0.012" rpy="0 0 0" />
+      <mass value="0.2" />
+      <inertia ixx="6.833333333333333e-05" iyy="7.106666666666667e-05" izz="5.606666666666667e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/right_shoulder_pitch_link.stl" />
+      </geometry>
+      <material name="silver_right_shoulder_pitch_link">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="right_shoulder_roll_link">
+    <inertial>
+      <origin xyz="0 0 -0.006" rpy="0 0 0" />
+      <mass value="0.2" />
+      <inertia ixx="4.813333333333333e-05" iyy="4.9416666666666664e-05" izz="4.9416666666666664e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/right_shoulder_roll_link.stl" />
+      </geometry>
+      <material name="silver_right_shoulder_roll_link">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="right_upper_arm">
+    <inertial>
+      <origin xyz="0 0 -0.049" rpy="0 0 0" />
+      <mass value="0.33" />
+      <inertia ixx="0.0002336675" iyy="0.0002244275" izz="9.724e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/right_upper_arm.stl" />
+      </geometry>
+      <material name="silver_right_upper_arm">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.049" rpy="0 0 0" />
+      <geometry>
+        <box size="0.04 0.044 0.081" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="right_forearm">
+    <inertial>
+      <origin xyz="0 0 -0.017" rpy="0 0 0" />
+      <mass value="0.22" />
+      <inertia ixx="5.3093333333333335e-05" iyy="4.885833333333333e-05" izz="5.443166666666666e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/right_forearm.stl" />
+      </geometry>
+      <material name="silver_right_forearm">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.017" rpy="0 0 0" />
+      <geometry>
+        <box size="0.037 0.04 0.036" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="right_forearm_roll_link">
+    <inertial>
+      <origin xyz="0 0 -0.035" rpy="0 0 0" />
+      <mass value="0.24" />
+      <inertia ixx="0.00011764" iyy="0.00010324" izz="8.164000000000001e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/right_forearm_roll_link.stl" />
+      </geometry>
+      <material name="silver_right_forearm_roll_link">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.035" rpy="0 0 0" />
+      <geometry>
+        <box size="0.041 0.049 0.059" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="right_wrist_pitch_link">
+    <inertial>
+      <origin xyz="0 0 -0.008" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.4841666666666669e-05" iyy="1.3741666666666668e-05" izz="1.8166666666666667e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/right_wrist_pitch_link.stl" />
+      </geometry>
+      <material name="silver_right_wrist_pitch_link">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="right_hand">
+    <inertial>
+      <origin xyz="0 0 -0.021" rpy="0 0 0" />
+      <mass value="0.16" />
+      <inertia ixx="7.386666666666667e-05" iyy="2.6306666666666667e-05" izz="6.166666666666667e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/right_hand.stl" />
+      </geometry>
+      <material name="silver_right_hand">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.021" rpy="0 0 0" />
+      <geometry>
+        <box size="0.023 0.064 0.038" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="right_index_mcp_link">
+    <inertial>
+      <origin xyz="0 0 -0.0135" rpy="0 0 0" />
+      <mass value="0.009" />
+      <inertia ixx="5.4e-07" iyy="5.2275e-07" izz="1.9874999999999998e-07" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/right_index_mcp_link.stl" />
+      </geometry>
+      <material name="silver_right_index_mcp_link">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.0135" rpy="0 0 0" />
+      <geometry>
+        <box size="0.011 0.012 0.024" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="right_index_pip_link">
+    <inertial>
+      <origin xyz="0 0 -0.0095" rpy="0 0 0" />
+      <mass value="0.006" />
+      <inertia ixx="2e-07" iyy="1.8849999999999997e-07" izz="1.325e-07" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/right_index_pip_link.stl" />
+      </geometry>
+      <material name="silver_right_index_pip_link">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.0095" rpy="0 0 0" />
+      <geometry>
+        <box size="0.011 0.012 0.016" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="right_index_dip_link">
+    <inertial>
+      <origin xyz="0 0 -0.007" rpy="0 0 0" />
+      <mass value="0.004" />
+      <inertia ixx="8.833333333333333e-08" iyy="8.066666666666666e-08" izz="8.833333333333333e-08" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/right_index_dip_link.stl" />
+      </geometry>
+      <material name="silver_right_index_dip_link">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.007" rpy="0 0 0" />
+      <geometry>
+        <box size="0.011 0.012 0.011" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="right_middle_mcp_link">
+    <inertial>
+      <origin xyz="0 0 -0.015" rpy="0 0 0" />
+      <mass value="0.009" />
+      <inertia ixx="6.547499999999999e-07" iyy="6.374999999999999e-07" izz="1.9874999999999998e-07" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/right_middle_mcp_link.stl" />
+      </geometry>
+      <material name="silver_right_middle_mcp_link">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.015" rpy="0 0 0" />
+      <geometry>
+        <box size="0.011 0.012 0.027" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="right_middle_pip_link">
+    <inertial>
+      <origin xyz="0 0 -0.0105" rpy="0 0 0" />
+      <mass value="0.006" />
+      <inertia ixx="2.3400000000000006e-07" iyy="2.2250000000000004e-07" izz="1.325e-07" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/right_middle_pip_link.stl" />
+      </geometry>
+      <material name="silver_right_middle_pip_link">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.0105" rpy="0 0 0" />
+      <geometry>
+        <box size="0.011 0.012 0.018" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="right_middle_dip_link">
+    <inertial>
+      <origin xyz="0 0 -0.0075" rpy="0 0 0" />
+      <mass value="0.004" />
+      <inertia ixx="9.6e-08" iyy="8.833333333333333e-08" izz="8.833333333333333e-08" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/right_middle_dip_link.stl" />
+      </geometry>
+      <material name="silver_right_middle_dip_link">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.0075" rpy="0 0 0" />
+      <geometry>
+        <box size="0.011 0.012 0.012" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="right_ring_mcp_link">
+    <inertial>
+      <origin xyz="0 0 -0.014" rpy="0 0 0" />
+      <mass value="0.009" />
+      <inertia ixx="5.7675e-07" iyy="5.595e-07" izz="1.9874999999999998e-07" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/right_ring_mcp_link.stl" />
+      </geometry>
+      <material name="silver_right_ring_mcp_link">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.014" rpy="0 0 0" />
+      <geometry>
+        <box size="0.011 0.012 0.025" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="right_ring_pip_link">
+    <inertial>
+      <origin xyz="0 0 -0.01" rpy="0 0 0" />
+      <mass value="0.006" />
+      <inertia ixx="2.165e-07" iyy="2.05e-07" izz="1.325e-07" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/right_ring_pip_link.stl" />
+      </geometry>
+      <material name="silver_right_ring_pip_link">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.01" rpy="0 0 0" />
+      <geometry>
+        <box size="0.011 0.012 0.017" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="right_ring_dip_link">
+    <inertial>
+      <origin xyz="0 0 -0.007" rpy="0 0 0" />
+      <mass value="0.004" />
+      <inertia ixx="8.833333333333333e-08" iyy="8.066666666666666e-08" izz="8.833333333333333e-08" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/right_ring_dip_link.stl" />
+      </geometry>
+      <material name="silver_right_ring_dip_link">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.007" rpy="0 0 0" />
+      <geometry>
+        <box size="0.011 0.012 0.011" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="right_little_mcp_link">
+    <inertial>
+      <origin xyz="0 0 -0.011" rpy="0 0 0" />
+      <mass value="0.009" />
+      <inertia ixx="3.7875e-07" iyy="3.6149999999999995e-07" izz="1.9874999999999998e-07" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/right_little_mcp_link.stl" />
+      </geometry>
+      <material name="silver_right_little_mcp_link">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.011" rpy="0 0 0" />
+      <geometry>
+        <box size="0.011 0.012 0.019" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="right_little_pip_link">
+    <inertial>
+      <origin xyz="0 0 -0.008" rpy="0 0 0" />
+      <mass value="0.006" />
+      <inertia ixx="1.565e-07" iyy="1.4500000000000001e-07" izz="1.325e-07" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/right_little_pip_link.stl" />
+      </geometry>
+      <material name="silver_right_little_pip_link">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.008" rpy="0 0 0" />
+      <geometry>
+        <box size="0.011 0.012 0.013" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="right_little_dip_link">
+    <inertial>
+      <origin xyz="0 0 -0.006" rpy="0 0 0" />
+      <mass value="0.004" />
+      <inertia ixx="7.500000000000001e-08" iyy="6.733333333333333e-08" izz="8.833333333333333e-08" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/right_little_dip_link.stl" />
+      </geometry>
+      <material name="silver_right_little_dip_link">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.006" rpy="0 0 0" />
+      <geometry>
+        <box size="0.011 0.012 0.009" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="right_thumb_cmc_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.009" />
+      <inertia ixx="2.9549999999999997e-07" iyy="3.1874999999999997e-07" izz="3.6074999999999994e-07" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/right_thumb_cmc_link.stl" />
+      </geometry>
+      <material name="silver_right_thumb_cmc_link">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="right_thumb_spread_link">
+    <inertial>
+      <origin xyz="0 0 -0.0105" rpy="0 0 0" />
+      <mass value="0.01" />
+      <inertia ixx="4.333333333333334e-07" iyy="4.108333333333334e-07" izz="3.041666666666667e-07" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/right_thumb_spread_link.stl" />
+      </geometry>
+      <material name="silver_right_thumb_spread_link">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.0105" rpy="0 0 0" />
+      <geometry>
+        <box size="0.013 0.014 0.018" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="right_thumb_mcp_link">
+    <inertial>
+      <origin xyz="0 0 -0.01" rpy="0 0 0" />
+      <mass value="0.008" />
+      <inertia ixx="3.233333333333334e-07" iyy="3.053333333333333e-07" izz="2.433333333333333e-07" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/right_thumb_mcp_link.stl" />
+      </geometry>
+      <material name="silver_right_thumb_mcp_link">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.01" rpy="0 0 0" />
+      <geometry>
+        <box size="0.013 0.014 0.017" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="right_thumb_ip_link">
+    <inertial>
+      <origin xyz="0 0 -0.0085" rpy="0 0 0" />
+      <mass value="0.005" />
+      <inertia ixx="1.633333333333334e-07" iyy="1.5208333333333337e-07" izz="1.5208333333333334e-07" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://irona_sim/meshes/right_thumb_ip_link.stl" />
+      </geometry>
+      <material name="silver_right_thumb_ip_link">
+        <color rgba=".58 .66 .71 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.0085" rpy="0 0 0" />
+      <geometry>
+        <box size="0.013 0.014 0.014" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="waist_yaw" type="revolute">
+    <parent link="pelvis" />
+    <child link="waist_yaw_link" />
+    <origin xyz="0 0 0.055" rpy="0 0 0" />
+    <axis xyz="0 0 1" />
+    <limit lower="-0.7853981633974483" upper="0.7853981633974483" effort="25" velocity="5.0" />
+  </joint>
+  <joint name="waist_pitch" type="revolute">
+    <parent link="waist_yaw_link" />
+    <child link="torso" />
+    <origin xyz="0 0 0.01" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-0.3490658503988659" upper="0.4363323129985824" effort="40" velocity="5.0" />
+  </joint>
+  <joint name="neck_yaw" type="revolute">
+    <parent link="torso" />
+    <child link="neck_yaw_link" />
+    <origin xyz="0 0 0.199" rpy="0 0 0" />
+    <axis xyz="0 0 1" />
+    <limit lower="-1.3962634015954636" upper="1.3962634015954636" effort="4" velocity="5.0" />
+  </joint>
+  <joint name="neck_pitch" type="revolute">
+    <parent link="neck_yaw_link" />
+    <child link="head" />
+    <origin xyz="0 0 0.02" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-0.5235987755982988" upper="0.6108652381980153" effort="5" velocity="5.0" />
+  </joint>
+  <joint name="left_hip_yaw" type="revolute">
+    <parent link="pelvis" />
+    <child link="left_hip_yaw_link" />
+    <origin xyz="0 0.075 -0.02" rpy="0 0 0" />
+    <axis xyz="0 0 1" />
+    <limit lower="-0.6981317007977318" upper="0.6981317007977318" effort="30" velocity="5.0" />
+  </joint>
+  <joint name="left_hip_roll" type="revolute">
+    <parent link="left_hip_yaw_link" />
+    <child link="left_hip_roll_link" />
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-0.6981317007977318" upper="0.6981317007977318" effort="55" velocity="5.0" />
+  </joint>
+  <joint name="left_hip_pitch" type="revolute">
+    <parent link="left_hip_roll_link" />
+    <child link="left_thigh" />
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.8325957145940461" upper="1.0471975511965976" effort="65" velocity="5.0" />
+  </joint>
+  <joint name="left_knee" type="revolute">
+    <parent link="left_thigh" />
+    <child link="left_shin" />
+    <origin xyz="0 0 -0.195" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="0.0" upper="2.530727415391778" effort="65" velocity="5.0" />
+  </joint>
+  <joint name="left_ankle_pitch" type="revolute">
+    <parent link="left_shin" />
+    <child link="left_ankle_pitch_link" />
+    <origin xyz="0 0 -0.195" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.0471975511965976" upper="0.8726646259971648" effort="40" velocity="5.0" />
+  </joint>
+  <joint name="left_ankle_roll" type="revolute">
+    <parent link="left_ankle_pitch_link" />
+    <child link="left_foot" />
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-0.6108652381980153" upper="0.6108652381980153" effort="35" velocity="5.0" />
+  </joint>
+  <joint name="left_shoulder_pitch" type="revolute">
+    <parent link="torso" />
+    <child link="left_shoulder_pitch_link" />
+    <origin xyz="0 0.172 0.158" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.9198621771937625" upper="1.6580627893946132" effort="4.0" velocity="2.0" />
+  </joint>
+  <joint name="left_shoulder_roll" type="revolute">
+    <parent link="left_shoulder_pitch_link" />
+    <child link="left_shoulder_roll_link" />
+    <origin xyz="0 0.021 -0.023" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-1.3962634015954636" upper="1.3962634015954636" effort="4.0" velocity="2.0" />
+  </joint>
+  <joint name="left_shoulder_yaw" type="revolute">
+    <parent link="left_shoulder_roll_link" />
+    <child link="left_upper_arm" />
+    <origin xyz="0 0.004 -0.023" rpy="0 0 0" />
+    <axis xyz="0 0 1" />
+    <limit lower="-1.7453292519943295" upper="1.7453292519943295" effort="3.5" velocity="2.0" />
+  </joint>
+  <joint name="left_elbow" type="revolute">
+    <parent link="left_upper_arm" />
+    <child link="left_forearm" />
+    <origin xyz="0 0 -0.104" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-2.356194490192345" upper="0.0" effort="1.5" velocity="3.0" />
+  </joint>
+  <joint name="left_forearm_roll" type="revolute">
+    <parent link="left_forearm" />
+    <child link="left_forearm_roll_link" />
+    <origin xyz="0 0 -0.037" rpy="0 0 0" />
+    <axis xyz="0 0 1" />
+    <limit lower="-1.9198621771937625" upper="1.9198621771937625" effort="1.0" velocity="3.0" />
+  </joint>
+  <joint name="left_wrist_pitch" type="revolute">
+    <parent link="left_forearm_roll_link" />
+    <child link="left_wrist_pitch_link" />
+    <origin xyz="0 0 -0.079" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.1344640137963142" upper="1.1344640137963142" effort="0.85" velocity="3.0" />
+  </joint>
+  <joint name="left_wrist_roll" type="revolute">
+    <parent link="left_wrist_pitch_link" />
+    <child link="left_hand" />
+    <origin xyz="0 0 -0.02" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-0.6108652381980153" upper="0.6108652381980153" effort="0.65" velocity="3.0" />
+  </joint>
+  <joint name="left_index_mcp" type="revolute">
+    <parent link="left_hand" />
+    <child link="left_index_mcp_link" />
+    <origin xyz="0 -0.025 -0.044" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.4835298641951802" upper="0.17453292519943295" effort="0.08" velocity="2.5" />
+  </joint>
+  <joint name="left_index_pip" type="revolute">
+    <parent link="left_index_mcp_link" />
+    <child link="left_index_pip_link" />
+    <origin xyz="0 0 -0.027" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.7453292519943295" upper="0.0" effort="0.05" velocity="2.5" />
+  </joint>
+  <joint name="left_index_dip" type="revolute">
+    <parent link="left_index_pip_link" />
+    <child link="left_index_dip_link" />
+    <origin xyz="0 0 -0.019" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.3089969389957472" upper="0.0" effort="0.025" velocity="2.5" />
+  </joint>
+  <joint name="left_middle_mcp" type="revolute">
+    <parent link="left_hand" />
+    <child link="left_middle_mcp_link" />
+    <origin xyz="0 -0.008 -0.044" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.4835298641951802" upper="0.17453292519943295" effort="0.08" velocity="2.5" />
+  </joint>
+  <joint name="left_middle_pip" type="revolute">
+    <parent link="left_middle_mcp_link" />
+    <child link="left_middle_pip_link" />
+    <origin xyz="0 0 -0.03" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.7453292519943295" upper="0.0" effort="0.05" velocity="2.5" />
+  </joint>
+  <joint name="left_middle_dip" type="revolute">
+    <parent link="left_middle_pip_link" />
+    <child link="left_middle_dip_link" />
+    <origin xyz="0 0 -0.021" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.3089969389957472" upper="0.0" effort="0.025" velocity="2.5" />
+  </joint>
+  <joint name="left_ring_mcp" type="revolute">
+    <parent link="left_hand" />
+    <child link="left_ring_mcp_link" />
+    <origin xyz="0 0.009 -0.044" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.4835298641951802" upper="0.17453292519943295" effort="0.08" velocity="2.5" />
+  </joint>
+  <joint name="left_ring_pip" type="revolute">
+    <parent link="left_ring_mcp_link" />
+    <child link="left_ring_pip_link" />
+    <origin xyz="0 0 -0.028" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.7453292519943295" upper="0.0" effort="0.05" velocity="2.5" />
+  </joint>
+  <joint name="left_ring_dip" type="revolute">
+    <parent link="left_ring_pip_link" />
+    <child link="left_ring_dip_link" />
+    <origin xyz="0 0 -0.02" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.3089969389957472" upper="0.0" effort="0.025" velocity="2.5" />
+  </joint>
+  <joint name="left_little_mcp" type="revolute">
+    <parent link="left_hand" />
+    <child link="left_little_mcp_link" />
+    <origin xyz="0 0.026 -0.044" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.4835298641951802" upper="0.17453292519943295" effort="0.08" velocity="2.5" />
+  </joint>
+  <joint name="left_little_pip" type="revolute">
+    <parent link="left_little_mcp_link" />
+    <child link="left_little_pip_link" />
+    <origin xyz="0 0 -0.022" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.7453292519943295" upper="0.0" effort="0.05" velocity="2.5" />
+  </joint>
+  <joint name="left_little_dip" type="revolute">
+    <parent link="left_little_pip_link" />
+    <child link="left_little_dip_link" />
+    <origin xyz="0 0 -0.016" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.3089969389957472" upper="0.0" effort="0.025" velocity="2.5" />
+  </joint>
+  <joint name="left_thumb_opposition" type="revolute">
+    <parent link="left_hand" />
+    <child link="left_thumb_cmc_link" />
+    <origin xyz="0 -0.045 -0.021" rpy="0 0 0" />
+    <axis xyz="0 0 1" />
+    <limit lower="-1.1344640137963142" upper="1.1344640137963142" effort="0.1" velocity="2.0" />
+  </joint>
+  <joint name="left_thumb_spread" type="revolute">
+    <parent link="left_thumb_cmc_link" />
+    <child link="left_thumb_spread_link" />
+    <origin xyz="0 0 -0.003" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-0.6981317007977318" upper="0.6981317007977318" effort="0.08" velocity="2.0" />
+  </joint>
+  <joint name="left_thumb_mcp" type="revolute">
+    <parent link="left_thumb_spread_link" />
+    <child link="left_thumb_mcp_link" />
+    <origin xyz="0 0 -0.021" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.3089969389957472" upper="0.17453292519943295" effort="0.07" velocity="2.0" />
+  </joint>
+  <joint name="left_thumb_ip" type="revolute">
+    <parent link="left_thumb_mcp_link" />
+    <child link="left_thumb_ip_link" />
+    <origin xyz="0 0 -0.02" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.3962634015954636" upper="0.0" effort="0.04" velocity="2.0" />
+  </joint>
+  <joint name="right_hip_yaw" type="revolute">
+    <parent link="pelvis" />
+    <child link="right_hip_yaw_link" />
+    <origin xyz="0 -0.075 -0.02" rpy="0 0 0" />
+    <axis xyz="0 0 1" />
+    <limit lower="-0.6981317007977318" upper="0.6981317007977318" effort="30" velocity="5.0" />
+  </joint>
+  <joint name="right_hip_roll" type="revolute">
+    <parent link="right_hip_yaw_link" />
+    <child link="right_hip_roll_link" />
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-0.6981317007977318" upper="0.6981317007977318" effort="55" velocity="5.0" />
+  </joint>
+  <joint name="right_hip_pitch" type="revolute">
+    <parent link="right_hip_roll_link" />
+    <child link="right_thigh" />
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.8325957145940461" upper="1.0471975511965976" effort="65" velocity="5.0" />
+  </joint>
+  <joint name="right_knee" type="revolute">
+    <parent link="right_thigh" />
+    <child link="right_shin" />
+    <origin xyz="0 0 -0.195" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="0.0" upper="2.530727415391778" effort="65" velocity="5.0" />
+  </joint>
+  <joint name="right_ankle_pitch" type="revolute">
+    <parent link="right_shin" />
+    <child link="right_ankle_pitch_link" />
+    <origin xyz="0 0 -0.195" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.0471975511965976" upper="0.8726646259971648" effort="40" velocity="5.0" />
+  </joint>
+  <joint name="right_ankle_roll" type="revolute">
+    <parent link="right_ankle_pitch_link" />
+    <child link="right_foot" />
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-0.6108652381980153" upper="0.6108652381980153" effort="35" velocity="5.0" />
+  </joint>
+  <joint name="right_shoulder_pitch" type="revolute">
+    <parent link="torso" />
+    <child link="right_shoulder_pitch_link" />
+    <origin xyz="0 -0.172 0.158" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.9198621771937625" upper="1.6580627893946132" effort="4.0" velocity="2.0" />
+  </joint>
+  <joint name="right_shoulder_roll" type="revolute">
+    <parent link="right_shoulder_pitch_link" />
+    <child link="right_shoulder_roll_link" />
+    <origin xyz="0 -0.021 -0.023" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-1.3962634015954636" upper="1.3962634015954636" effort="4.0" velocity="2.0" />
+  </joint>
+  <joint name="right_shoulder_yaw" type="revolute">
+    <parent link="right_shoulder_roll_link" />
+    <child link="right_upper_arm" />
+    <origin xyz="0 -0.004 -0.023" rpy="0 0 0" />
+    <axis xyz="0 0 1" />
+    <limit lower="-1.7453292519943295" upper="1.7453292519943295" effort="3.5" velocity="2.0" />
+  </joint>
+  <joint name="right_elbow" type="revolute">
+    <parent link="right_upper_arm" />
+    <child link="right_forearm" />
+    <origin xyz="0 0 -0.104" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-2.356194490192345" upper="0.0" effort="1.5" velocity="3.0" />
+  </joint>
+  <joint name="right_forearm_roll" type="revolute">
+    <parent link="right_forearm" />
+    <child link="right_forearm_roll_link" />
+    <origin xyz="0 0 -0.037" rpy="0 0 0" />
+    <axis xyz="0 0 1" />
+    <limit lower="-1.9198621771937625" upper="1.9198621771937625" effort="1.0" velocity="3.0" />
+  </joint>
+  <joint name="right_wrist_pitch" type="revolute">
+    <parent link="right_forearm_roll_link" />
+    <child link="right_wrist_pitch_link" />
+    <origin xyz="0 0 -0.079" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.1344640137963142" upper="1.1344640137963142" effort="0.85" velocity="3.0" />
+  </joint>
+  <joint name="right_wrist_roll" type="revolute">
+    <parent link="right_wrist_pitch_link" />
+    <child link="right_hand" />
+    <origin xyz="0 0 -0.02" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-0.6108652381980153" upper="0.6108652381980153" effort="0.65" velocity="3.0" />
+  </joint>
+  <joint name="right_index_mcp" type="revolute">
+    <parent link="right_hand" />
+    <child link="right_index_mcp_link" />
+    <origin xyz="0 0.025 -0.044" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.4835298641951802" upper="0.17453292519943295" effort="0.08" velocity="2.5" />
+  </joint>
+  <joint name="right_index_pip" type="revolute">
+    <parent link="right_index_mcp_link" />
+    <child link="right_index_pip_link" />
+    <origin xyz="0 0 -0.027" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.7453292519943295" upper="0.0" effort="0.05" velocity="2.5" />
+  </joint>
+  <joint name="right_index_dip" type="revolute">
+    <parent link="right_index_pip_link" />
+    <child link="right_index_dip_link" />
+    <origin xyz="0 0 -0.019" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.3089969389957472" upper="0.0" effort="0.025" velocity="2.5" />
+  </joint>
+  <joint name="right_middle_mcp" type="revolute">
+    <parent link="right_hand" />
+    <child link="right_middle_mcp_link" />
+    <origin xyz="0 0.008 -0.044" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.4835298641951802" upper="0.17453292519943295" effort="0.08" velocity="2.5" />
+  </joint>
+  <joint name="right_middle_pip" type="revolute">
+    <parent link="right_middle_mcp_link" />
+    <child link="right_middle_pip_link" />
+    <origin xyz="0 0 -0.03" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.7453292519943295" upper="0.0" effort="0.05" velocity="2.5" />
+  </joint>
+  <joint name="right_middle_dip" type="revolute">
+    <parent link="right_middle_pip_link" />
+    <child link="right_middle_dip_link" />
+    <origin xyz="0 0 -0.021" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.3089969389957472" upper="0.0" effort="0.025" velocity="2.5" />
+  </joint>
+  <joint name="right_ring_mcp" type="revolute">
+    <parent link="right_hand" />
+    <child link="right_ring_mcp_link" />
+    <origin xyz="0 -0.009 -0.044" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.4835298641951802" upper="0.17453292519943295" effort="0.08" velocity="2.5" />
+  </joint>
+  <joint name="right_ring_pip" type="revolute">
+    <parent link="right_ring_mcp_link" />
+    <child link="right_ring_pip_link" />
+    <origin xyz="0 0 -0.028" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.7453292519943295" upper="0.0" effort="0.05" velocity="2.5" />
+  </joint>
+  <joint name="right_ring_dip" type="revolute">
+    <parent link="right_ring_pip_link" />
+    <child link="right_ring_dip_link" />
+    <origin xyz="0 0 -0.02" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.3089969389957472" upper="0.0" effort="0.025" velocity="2.5" />
+  </joint>
+  <joint name="right_little_mcp" type="revolute">
+    <parent link="right_hand" />
+    <child link="right_little_mcp_link" />
+    <origin xyz="0 -0.026 -0.044" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.4835298641951802" upper="0.17453292519943295" effort="0.08" velocity="2.5" />
+  </joint>
+  <joint name="right_little_pip" type="revolute">
+    <parent link="right_little_mcp_link" />
+    <child link="right_little_pip_link" />
+    <origin xyz="0 0 -0.022" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.7453292519943295" upper="0.0" effort="0.05" velocity="2.5" />
+  </joint>
+  <joint name="right_little_dip" type="revolute">
+    <parent link="right_little_pip_link" />
+    <child link="right_little_dip_link" />
+    <origin xyz="0 0 -0.016" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.3089969389957472" upper="0.0" effort="0.025" velocity="2.5" />
+  </joint>
+  <joint name="right_thumb_opposition" type="revolute">
+    <parent link="right_hand" />
+    <child link="right_thumb_cmc_link" />
+    <origin xyz="0 0.045 -0.021" rpy="0 0 0" />
+    <axis xyz="0 0 1" />
+    <limit lower="-1.1344640137963142" upper="1.1344640137963142" effort="0.1" velocity="2.0" />
+  </joint>
+  <joint name="right_thumb_spread" type="revolute">
+    <parent link="right_thumb_cmc_link" />
+    <child link="right_thumb_spread_link" />
+    <origin xyz="0 0 -0.003" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-0.6981317007977318" upper="0.6981317007977318" effort="0.08" velocity="2.0" />
+  </joint>
+  <joint name="right_thumb_mcp" type="revolute">
+    <parent link="right_thumb_spread_link" />
+    <child link="right_thumb_mcp_link" />
+    <origin xyz="0 0 -0.021" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.3089969389957472" upper="0.17453292519943295" effort="0.07" velocity="2.0" />
+  </joint>
+  <joint name="right_thumb_ip" type="revolute">
+    <parent link="right_thumb_mcp_link" />
+    <child link="right_thumb_ip_link" />
+    <origin xyz="0 0 -0.02" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.3962634015954636" upper="0.0" effort="0.04" velocity="2.0" />
+  </joint>
+  <link name="camera_link" />
+  <joint name="camera_link_fixed" type="fixed">
+    <parent link="head" />
+    <child link="camera_link" />
+    <origin xyz="0.083 0 0.062" rpy="0 0 0" />
+  </joint>
+  <link name="lidar_link" />
+  <joint name="lidar_link_fixed" type="fixed">
+    <parent link="head" />
+    <child link="lidar_link" />
+    <origin xyz="-0.006 0 0.1344" rpy="0 0 0" />
+  </joint>
+  <link name="camera_depth_optical_frame" />
+  <joint name="camera_depth_optical_frame_fixed" type="fixed">
+    <parent link="camera_link" />
+    <child link="camera_depth_optical_frame" />
+    <origin xyz="0 0.0475 0" rpy="-1.570796327 0 -1.570796327" />
+  </joint>
+  <link name="camera_color_optical_frame" />
+  <joint name="camera_color_optical_frame_fixed" type="fixed">
+    <parent link="camera_link" />
+    <child link="camera_color_optical_frame" />
+    <origin xyz="0 0.015 0" rpy="-1.570796327 0 -1.570796327" />
+  </joint>
+  <link name="camera_right_ir_optical_frame" />
+  <joint name="camera_right_ir_optical_frame_fixed" type="fixed">
+    <parent link="camera_link" />
+    <child link="camera_right_ir_optical_frame" />
+    <origin xyz="0 -0.0475 0" rpy="-1.570796327 0 -1.570796327" />
+  </joint>
+</robot>

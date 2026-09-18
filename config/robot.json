@@ -1,0 +1,2997 @@
+{
+  "name": "Irona 914 \u2014 hands and perception revision",
+  "height_m": 0.9144,
+  "units": "m, kg, s, N, Nm, rad",
+  "frame": "X forward, Y left, Z up",
+  "nominal_mass_kg": 15.086,
+  "mass_status": "assumed engineering budget; replace with measured hardware",
+  "links": {
+    "pelvis": {
+      "name": "pelvis",
+      "position": [
+        0,
+        0,
+        0.48
+      ],
+      "mass": 2.0,
+      "size": [
+        0.125,
+        0.19,
+        0.095
+      ],
+      "com": [
+        0,
+        0,
+        0.01
+      ],
+      "inertia": [
+        0.0075208333333333325,
+        0.004108333333333333,
+        0.008620833333333333
+      ],
+      "collision": true
+    },
+    "waist_yaw_link": {
+      "name": "waist_yaw_link",
+      "position": [
+        0,
+        0,
+        0.535
+      ],
+      "mass": 0.12,
+      "size": [
+        0.04,
+        0.04,
+        0.025
+      ],
+      "com": [
+        0,
+        0,
+        0
+      ],
+      "inertia": [
+        2.2250000000000006e-05,
+        2.2250000000000006e-05,
+        3.2000000000000005e-05
+      ],
+      "collision": false
+    },
+    "torso": {
+      "name": "torso",
+      "position": [
+        0,
+        0,
+        0.545
+      ],
+      "mass": 3.6,
+      "size": [
+        0.145,
+        0.21,
+        0.15
+      ],
+      "com": [
+        -0.012,
+        0,
+        0.076
+      ],
+      "inertia": [
+        0.019979999999999998,
+        0.013057499999999998,
+        0.019537499999999996
+      ],
+      "collision": true
+    },
+    "neck_yaw_link": {
+      "name": "neck_yaw_link",
+      "position": [
+        0,
+        0,
+        0.744
+      ],
+      "mass": 0.1,
+      "size": [
+        0.035,
+        0.035,
+        0.025
+      ],
+      "com": [
+        0,
+        0,
+        0
+      ],
+      "inertia": [
+        1.5416666666666668e-05,
+        1.5416666666666668e-05,
+        2.041666666666667e-05
+      ],
+      "collision": false
+    },
+    "head": {
+      "name": "head",
+      "position": [
+        0,
+        0,
+        0.764
+      ],
+      "mass": 0.91,
+      "size": [
+        0.132,
+        0.145,
+        0.13
+      ],
+      "com": [
+        0.01,
+        0,
+        0.069
+      ],
+      "inertia": [
+        0.002875979166666667,
+        0.002602903333333334,
+        0.002915715833333333
+      ],
+      "collision": true
+    },
+    "left_hip_yaw_link": {
+      "name": "left_hip_yaw_link",
+      "position": [
+        0,
+        0.075,
+        0.46
+      ],
+      "mass": 0.1,
+      "size": [
+        0.035,
+        0.035,
+        0.035
+      ],
+      "com": [
+        0,
+        0,
+        0
+      ],
+      "inertia": [
+        2.041666666666667e-05,
+        2.041666666666667e-05,
+        2.041666666666667e-05
+      ],
+      "collision": false
+    },
+    "left_hip_roll_link": {
+      "name": "left_hip_roll_link",
+      "position": [
+        0,
+        0.075,
+        0.46
+      ],
+      "mass": 0.15,
+      "size": [
+        0.038,
+        0.038,
+        0.038
+      ],
+      "com": [
+        0,
+        0,
+        0
+      ],
+      "inertia": [
+        3.6099999999999997e-05,
+        3.6099999999999997e-05,
+        3.6099999999999997e-05
+      ],
+      "collision": false
+    },
+    "left_thigh": {
+      "name": "left_thigh",
+      "position": [
+        0,
+        0.075,
+        0.46
+      ],
+      "mass": 0.95,
+      "size": [
+        0.072,
+        0.067,
+        0.16
+      ],
+      "com": [
+        0,
+        0,
+        -0.095
+      ],
+      "inertia": [
+        0.0023820458333333335,
+        0.0024370666666666666,
+        0.0007657791666666668
+      ],
+      "collision": true
+    },
+    "left_shin": {
+      "name": "left_shin",
+      "position": [
+        0,
+        0.075,
+        0.265
+      ],
+      "mass": 0.7,
+      "size": [
+        0.064,
+        0.06,
+        0.16
+      ],
+      "com": [
+        0,
+        0,
+        -0.094
+      ],
+      "inertia": [
+        0.0017033333333333332,
+        0.0017322666666666664,
+        0.00044893333333333326
+      ],
+      "collision": true
+    },
+    "left_ankle_pitch_link": {
+      "name": "left_ankle_pitch_link",
+      "position": [
+        0,
+        0.075,
+        0.07
+      ],
+      "mass": 0.12,
+      "size": [
+        0.035,
+        0.035,
+        0.035
+      ],
+      "com": [
+        0,
+        0,
+        0
+      ],
+      "inertia": [
+        2.4500000000000003e-05,
+        2.4500000000000003e-05,
+        2.4500000000000003e-05
+      ],
+      "collision": false
+    },
+    "left_foot": {
+      "name": "left_foot",
+      "position": [
+        0,
+        0.075,
+        0.07
+      ],
+      "mass": 0.6,
+      "size": [
+        0.17,
+        0.092,
+        0.055
+      ],
+      "com": [
+        0.0225,
+        0,
+        -0.0425
+      ],
+      "inertia": [
+        0.0005744499999999999,
+        0.0015962500000000002,
+        0.0018682000000000002
+      ],
+      "collision": true
+    },
+    "left_shoulder_pitch_link": {
+      "name": "left_shoulder_pitch_link",
+      "position": [
+        0,
+        0.172,
+        0.703
+      ],
+      "mass": 0.2,
+      "size": [
+        0.042,
+        0.04,
+        0.05
+      ],
+      "com": [
+        0,
+        0,
+        -0.012
+      ],
+      "inertia": [
+        6.833333333333333e-05,
+        7.106666666666667e-05,
+        5.606666666666667e-05
+      ],
+      "collision": false
+    },
+    "left_shoulder_roll_link": {
+      "name": "left_shoulder_roll_link",
+      "position": [
+        0,
+        0.19299999999999998,
+        0.68
+      ],
+      "mass": 0.2,
+      "size": [
+        0.039,
+        0.038,
+        0.038
+      ],
+      "com": [
+        0,
+        0,
+        -0.006
+      ],
+      "inertia": [
+        4.813333333333333e-05,
+        4.9416666666666664e-05,
+        4.9416666666666664e-05
+      ],
+      "collision": false
+    },
+    "left_upper_arm": {
+      "name": "left_upper_arm",
+      "position": [
+        0,
+        0.19699999999999998,
+        0.657
+      ],
+      "mass": 0.33,
+      "size": [
+        0.04,
+        0.044,
+        0.081
+      ],
+      "com": [
+        0,
+        0,
+        -0.049
+      ],
+      "inertia": [
+        0.0002336675,
+        0.0002244275,
+        9.724e-05
+      ],
+      "collision": true
+    },
+    "left_forearm": {
+      "name": "left_forearm",
+      "position": [
+        0,
+        0.19699999999999998,
+        0.553
+      ],
+      "mass": 0.22,
+      "size": [
+        0.037,
+        0.04,
+        0.036
+      ],
+      "com": [
+        0,
+        0,
+        -0.017
+      ],
+      "inertia": [
+        5.3093333333333335e-05,
+        4.885833333333333e-05,
+        5.443166666666666e-05
+      ],
+      "collision": true
+    },
+    "left_forearm_roll_link": {
+      "name": "left_forearm_roll_link",
+      "position": [
+        0,
+        0.19699999999999998,
+        0.516
+      ],
+      "mass": 0.24,
+      "size": [
+        0.041,
+        0.049,
+        0.059
+      ],
+      "com": [
+        0,
+        0,
+        -0.035
+      ],
+      "inertia": [
+        0.00011764,
+        0.00010324,
+        8.164000000000001e-05
+      ],
+      "collision": true
+    },
+    "left_wrist_pitch_link": {
+      "name": "left_wrist_pitch_link",
+      "position": [
+        0,
+        0.19699999999999998,
+        0.437
+      ],
+      "mass": 0.1,
+      "size": [
+        0.032,
+        0.034,
+        0.025
+      ],
+      "com": [
+        0,
+        0,
+        -0.008
+      ],
+      "inertia": [
+        1.4841666666666669e-05,
+        1.3741666666666668e-05,
+        1.8166666666666667e-05
+      ],
+      "collision": false
+    },
+    "left_hand": {
+      "name": "left_hand",
+      "position": [
+        0,
+        0.19699999999999998,
+        0.417
+      ],
+      "mass": 0.16,
+      "size": [
+        0.023,
+        0.064,
+        0.038
+      ],
+      "com": [
+        0,
+        0,
+        -0.021
+      ],
+      "inertia": [
+        7.386666666666667e-05,
+        2.6306666666666667e-05,
+        6.166666666666667e-05
+      ],
+      "collision": true
+    },
+    "left_index_mcp_link": {
+      "name": "left_index_mcp_link",
+      "position": [
+        0,
+        0.172,
+        0.373
+      ],
+      "mass": 0.009,
+      "size": [
+        0.011,
+        0.012,
+        0.024
+      ],
+      "com": [
+        0,
+        0,
+        -0.0135
+      ],
+      "inertia": [
+        5.4e-07,
+        5.2275e-07,
+        1.9874999999999998e-07
+      ],
+      "collision": true
+    },
+    "left_index_pip_link": {
+      "name": "left_index_pip_link",
+      "position": [
+        0,
+        0.172,
+        0.346
+      ],
+      "mass": 0.006,
+      "size": [
+        0.011,
+        0.012,
+        0.016
+      ],
+      "com": [
+        0,
+        0,
+        -0.0095
+      ],
+      "inertia": [
+        2e-07,
+        1.8849999999999997e-07,
+        1.325e-07
+      ],
+      "collision": true
+    },
+    "left_index_dip_link": {
+      "name": "left_index_dip_link",
+      "position": [
+        0,
+        0.172,
+        0.32699999999999996
+      ],
+      "mass": 0.004,
+      "size": [
+        0.011,
+        0.012,
+        0.011
+      ],
+      "com": [
+        0,
+        0,
+        -0.007
+      ],
+      "inertia": [
+        8.833333333333333e-08,
+        8.066666666666666e-08,
+        8.833333333333333e-08
+      ],
+      "collision": true
+    },
+    "left_middle_mcp_link": {
+      "name": "left_middle_mcp_link",
+      "position": [
+        0,
+        0.18899999999999997,
+        0.373
+      ],
+      "mass": 0.009,
+      "size": [
+        0.011,
+        0.012,
+        0.027
+      ],
+      "com": [
+        0,
+        0,
+        -0.015
+      ],
+      "inertia": [
+        6.547499999999999e-07,
+        6.374999999999999e-07,
+        1.9874999999999998e-07
+      ],
+      "collision": true
+    },
+    "left_middle_pip_link": {
+      "name": "left_middle_pip_link",
+      "position": [
+        0,
+        0.18899999999999997,
+        0.34299999999999997
+      ],
+      "mass": 0.006,
+      "size": [
+        0.011,
+        0.012,
+        0.018000000000000002
+      ],
+      "com": [
+        0,
+        0,
+        -0.0105
+      ],
+      "inertia": [
+        2.3400000000000006e-07,
+        2.2250000000000004e-07,
+        1.325e-07
+      ],
+      "collision": true
+    },
+    "left_middle_dip_link": {
+      "name": "left_middle_dip_link",
+      "position": [
+        0,
+        0.18899999999999997,
+        0.32199999999999995
+      ],
+      "mass": 0.004,
+      "size": [
+        0.011,
+        0.012,
+        0.012
+      ],
+      "com": [
+        0,
+        0,
+        -0.0075
+      ],
+      "inertia": [
+        9.6e-08,
+        8.833333333333333e-08,
+        8.833333333333333e-08
+      ],
+      "collision": true
+    },
+    "left_ring_mcp_link": {
+      "name": "left_ring_mcp_link",
+      "position": [
+        0,
+        0.206,
+        0.373
+      ],
+      "mass": 0.009,
+      "size": [
+        0.011,
+        0.012,
+        0.025
+      ],
+      "com": [
+        0,
+        0,
+        -0.014
+      ],
+      "inertia": [
+        5.7675e-07,
+        5.595e-07,
+        1.9874999999999998e-07
+      ],
+      "collision": true
+    },
+    "left_ring_pip_link": {
+      "name": "left_ring_pip_link",
+      "position": [
+        0,
+        0.206,
+        0.345
+      ],
+      "mass": 0.006,
+      "size": [
+        0.011,
+        0.012,
+        0.017
+      ],
+      "com": [
+        0,
+        0,
+        -0.01
+      ],
+      "inertia": [
+        2.165e-07,
+        2.05e-07,
+        1.325e-07
+      ],
+      "collision": true
+    },
+    "left_ring_dip_link": {
+      "name": "left_ring_dip_link",
+      "position": [
+        0,
+        0.206,
+        0.32499999999999996
+      ],
+      "mass": 0.004,
+      "size": [
+        0.011,
+        0.012,
+        0.011
+      ],
+      "com": [
+        0,
+        0,
+        -0.007
+      ],
+      "inertia": [
+        8.833333333333333e-08,
+        8.066666666666666e-08,
+        8.833333333333333e-08
+      ],
+      "collision": true
+    },
+    "left_little_mcp_link": {
+      "name": "left_little_mcp_link",
+      "position": [
+        0,
+        0.22299999999999998,
+        0.373
+      ],
+      "mass": 0.009,
+      "size": [
+        0.011,
+        0.012,
+        0.019
+      ],
+      "com": [
+        0,
+        0,
+        -0.011
+      ],
+      "inertia": [
+        3.7875e-07,
+        3.6149999999999995e-07,
+        1.9874999999999998e-07
+      ],
+      "collision": true
+    },
+    "left_little_pip_link": {
+      "name": "left_little_pip_link",
+      "position": [
+        0,
+        0.22299999999999998,
+        0.351
+      ],
+      "mass": 0.006,
+      "size": [
+        0.011,
+        0.012,
+        0.013000000000000001
+      ],
+      "com": [
+        0,
+        0,
+        -0.008
+      ],
+      "inertia": [
+        1.565e-07,
+        1.4500000000000001e-07,
+        1.325e-07
+      ],
+      "collision": true
+    },
+    "left_little_dip_link": {
+      "name": "left_little_dip_link",
+      "position": [
+        0,
+        0.22299999999999998,
+        0.33499999999999996
+      ],
+      "mass": 0.004,
+      "size": [
+        0.011,
+        0.012,
+        0.009000000000000001
+      ],
+      "com": [
+        0,
+        0,
+        -0.006
+      ],
+      "inertia": [
+        7.500000000000001e-08,
+        6.733333333333333e-08,
+        8.833333333333333e-08
+      ],
+      "collision": true
+    },
+    "left_thumb_cmc_link": {
+      "name": "left_thumb_cmc_link",
+      "position": [
+        0,
+        0.15199999999999997,
+        0.396
+      ],
+      "mass": 0.009,
+      "size": [
+        0.016,
+        0.015,
+        0.013
+      ],
+      "com": [
+        0,
+        0,
+        0
+      ],
+      "inertia": [
+        2.9549999999999997e-07,
+        3.1874999999999997e-07,
+        3.6074999999999994e-07
+      ],
+      "collision": false
+    },
+    "left_thumb_spread_link": {
+      "name": "left_thumb_spread_link",
+      "position": [
+        0,
+        0.15199999999999997,
+        0.393
+      ],
+      "mass": 0.01,
+      "size": [
+        0.013,
+        0.014,
+        0.018000000000000002
+      ],
+      "com": [
+        0,
+        0,
+        -0.0105
+      ],
+      "inertia": [
+        4.333333333333334e-07,
+        4.108333333333334e-07,
+        3.041666666666667e-07
+      ],
+      "collision": true
+    },
+    "left_thumb_mcp_link": {
+      "name": "left_thumb_mcp_link",
+      "position": [
+        0,
+        0.15199999999999997,
+        0.372
+      ],
+      "mass": 0.008,
+      "size": [
+        0.013,
+        0.014,
+        0.017
+      ],
+      "com": [
+        0,
+        0,
+        -0.01
+      ],
+      "inertia": [
+        3.233333333333334e-07,
+        3.053333333333333e-07,
+        2.433333333333333e-07
+      ],
+      "collision": true
+    },
+    "left_thumb_ip_link": {
+      "name": "left_thumb_ip_link",
+      "position": [
+        0,
+        0.15199999999999997,
+        0.352
+      ],
+      "mass": 0.005,
+      "size": [
+        0.013,
+        0.014,
+        0.014000000000000002
+      ],
+      "com": [
+        0,
+        0,
+        -0.0085
+      ],
+      "inertia": [
+        1.633333333333334e-07,
+        1.5208333333333337e-07,
+        1.5208333333333334e-07
+      ],
+      "collision": true
+    },
+    "right_hip_yaw_link": {
+      "name": "right_hip_yaw_link",
+      "position": [
+        0,
+        -0.075,
+        0.46
+      ],
+      "mass": 0.1,
+      "size": [
+        0.035,
+        0.035,
+        0.035
+      ],
+      "com": [
+        0,
+        0,
+        0
+      ],
+      "inertia": [
+        2.041666666666667e-05,
+        2.041666666666667e-05,
+        2.041666666666667e-05
+      ],
+      "collision": false
+    },
+    "right_hip_roll_link": {
+      "name": "right_hip_roll_link",
+      "position": [
+        0,
+        -0.075,
+        0.46
+      ],
+      "mass": 0.15,
+      "size": [
+        0.038,
+        0.038,
+        0.038
+      ],
+      "com": [
+        0,
+        0,
+        0
+      ],
+      "inertia": [
+        3.6099999999999997e-05,
+        3.6099999999999997e-05,
+        3.6099999999999997e-05
+      ],
+      "collision": false
+    },
+    "right_thigh": {
+      "name": "right_thigh",
+      "position": [
+        0,
+        -0.075,
+        0.46
+      ],
+      "mass": 0.95,
+      "size": [
+        0.072,
+        0.067,
+        0.16
+      ],
+      "com": [
+        0,
+        0,
+        -0.095
+      ],
+      "inertia": [
+        0.0023820458333333335,
+        0.0024370666666666666,
+        0.0007657791666666668
+      ],
+      "collision": true
+    },
+    "right_shin": {
+      "name": "right_shin",
+      "position": [
+        0,
+        -0.075,
+        0.265
+      ],
+      "mass": 0.7,
+      "size": [
+        0.064,
+        0.06,
+        0.16
+      ],
+      "com": [
+        0,
+        0,
+        -0.094
+      ],
+      "inertia": [
+        0.0017033333333333332,
+        0.0017322666666666664,
+        0.00044893333333333326
+      ],
+      "collision": true
+    },
+    "right_ankle_pitch_link": {
+      "name": "right_ankle_pitch_link",
+      "position": [
+        0,
+        -0.075,
+        0.07
+      ],
+      "mass": 0.12,
+      "size": [
+        0.035,
+        0.035,
+        0.035
+      ],
+      "com": [
+        0,
+        0,
+        0
+      ],
+      "inertia": [
+        2.4500000000000003e-05,
+        2.4500000000000003e-05,
+        2.4500000000000003e-05
+      ],
+      "collision": false
+    },
+    "right_foot": {
+      "name": "right_foot",
+      "position": [
+        0,
+        -0.075,
+        0.07
+      ],
+      "mass": 0.6,
+      "size": [
+        0.17,
+        0.092,
+        0.055
+      ],
+      "com": [
+        0.0225,
+        0,
+        -0.0425
+      ],
+      "inertia": [
+        0.0005744499999999999,
+        0.0015962500000000002,
+        0.0018682000000000002
+      ],
+      "collision": true
+    },
+    "right_shoulder_pitch_link": {
+      "name": "right_shoulder_pitch_link",
+      "position": [
+        0,
+        -0.172,
+        0.703
+      ],
+      "mass": 0.2,
+      "size": [
+        0.042,
+        0.04,
+        0.05
+      ],
+      "com": [
+        0,
+        0,
+        -0.012
+      ],
+      "inertia": [
+        6.833333333333333e-05,
+        7.106666666666667e-05,
+        5.606666666666667e-05
+      ],
+      "collision": false
+    },
+    "right_shoulder_roll_link": {
+      "name": "right_shoulder_roll_link",
+      "position": [
+        0,
+        -0.19299999999999998,
+        0.68
+      ],
+      "mass": 0.2,
+      "size": [
+        0.039,
+        0.038,
+        0.038
+      ],
+      "com": [
+        0,
+        0,
+        -0.006
+      ],
+      "inertia": [
+        4.813333333333333e-05,
+        4.9416666666666664e-05,
+        4.9416666666666664e-05
+      ],
+      "collision": false
+    },
+    "right_upper_arm": {
+      "name": "right_upper_arm",
+      "position": [
+        0,
+        -0.19699999999999998,
+        0.657
+      ],
+      "mass": 0.33,
+      "size": [
+        0.04,
+        0.044,
+        0.081
+      ],
+      "com": [
+        0,
+        0,
+        -0.049
+      ],
+      "inertia": [
+        0.0002336675,
+        0.0002244275,
+        9.724e-05
+      ],
+      "collision": true
+    },
+    "right_forearm": {
+      "name": "right_forearm",
+      "position": [
+        0,
+        -0.19699999999999998,
+        0.553
+      ],
+      "mass": 0.22,
+      "size": [
+        0.037,
+        0.04,
+        0.036
+      ],
+      "com": [
+        0,
+        0,
+        -0.017
+      ],
+      "inertia": [
+        5.3093333333333335e-05,
+        4.885833333333333e-05,
+        5.443166666666666e-05
+      ],
+      "collision": true
+    },
+    "right_forearm_roll_link": {
+      "name": "right_forearm_roll_link",
+      "position": [
+        0,
+        -0.19699999999999998,
+        0.516
+      ],
+      "mass": 0.24,
+      "size": [
+        0.041,
+        0.049,
+        0.059
+      ],
+      "com": [
+        0,
+        0,
+        -0.035
+      ],
+      "inertia": [
+        0.00011764,
+        0.00010324,
+        8.164000000000001e-05
+      ],
+      "collision": true
+    },
+    "right_wrist_pitch_link": {
+      "name": "right_wrist_pitch_link",
+      "position": [
+        0,
+        -0.19699999999999998,
+        0.437
+      ],
+      "mass": 0.1,
+      "size": [
+        0.032,
+        0.034,
+        0.025
+      ],
+      "com": [
+        0,
+        0,
+        -0.008
+      ],
+      "inertia": [
+        1.4841666666666669e-05,
+        1.3741666666666668e-05,
+        1.8166666666666667e-05
+      ],
+      "collision": false
+    },
+    "right_hand": {
+      "name": "right_hand",
+      "position": [
+        0,
+        -0.19699999999999998,
+        0.417
+      ],
+      "mass": 0.16,
+      "size": [
+        0.023,
+        0.064,
+        0.038
+      ],
+      "com": [
+        0,
+        0,
+        -0.021
+      ],
+      "inertia": [
+        7.386666666666667e-05,
+        2.6306666666666667e-05,
+        6.166666666666667e-05
+      ],
+      "collision": true
+    },
+    "right_index_mcp_link": {
+      "name": "right_index_mcp_link",
+      "position": [
+        0,
+        -0.172,
+        0.373
+      ],
+      "mass": 0.009,
+      "size": [
+        0.011,
+        0.012,
+        0.024
+      ],
+      "com": [
+        0,
+        0,
+        -0.0135
+      ],
+      "inertia": [
+        5.4e-07,
+        5.2275e-07,
+        1.9874999999999998e-07
+      ],
+      "collision": true
+    },
+    "right_index_pip_link": {
+      "name": "right_index_pip_link",
+      "position": [
+        0,
+        -0.172,
+        0.346
+      ],
+      "mass": 0.006,
+      "size": [
+        0.011,
+        0.012,
+        0.016
+      ],
+      "com": [
+        0,
+        0,
+        -0.0095
+      ],
+      "inertia": [
+        2e-07,
+        1.8849999999999997e-07,
+        1.325e-07
+      ],
+      "collision": true
+    },
+    "right_index_dip_link": {
+      "name": "right_index_dip_link",
+      "position": [
+        0,
+        -0.172,
+        0.32699999999999996
+      ],
+      "mass": 0.004,
+      "size": [
+        0.011,
+        0.012,
+        0.011
+      ],
+      "com": [
+        0,
+        0,
+        -0.007
+      ],
+      "inertia": [
+        8.833333333333333e-08,
+        8.066666666666666e-08,
+        8.833333333333333e-08
+      ],
+      "collision": true
+    },
+    "right_middle_mcp_link": {
+      "name": "right_middle_mcp_link",
+      "position": [
+        0,
+        -0.18899999999999997,
+        0.373
+      ],
+      "mass": 0.009,
+      "size": [
+        0.011,
+        0.012,
+        0.027
+      ],
+      "com": [
+        0,
+        0,
+        -0.015
+      ],
+      "inertia": [
+        6.547499999999999e-07,
+        6.374999999999999e-07,
+        1.9874999999999998e-07
+      ],
+      "collision": true
+    },
+    "right_middle_pip_link": {
+      "name": "right_middle_pip_link",
+      "position": [
+        0,
+        -0.18899999999999997,
+        0.34299999999999997
+      ],
+      "mass": 0.006,
+      "size": [
+        0.011,
+        0.012,
+        0.018000000000000002
+      ],
+      "com": [
+        0,
+        0,
+        -0.0105
+      ],
+      "inertia": [
+        2.3400000000000006e-07,
+        2.2250000000000004e-07,
+        1.325e-07
+      ],
+      "collision": true
+    },
+    "right_middle_dip_link": {
+      "name": "right_middle_dip_link",
+      "position": [
+        0,
+        -0.18899999999999997,
+        0.32199999999999995
+      ],
+      "mass": 0.004,
+      "size": [
+        0.011,
+        0.012,
+        0.012
+      ],
+      "com": [
+        0,
+        0,
+        -0.0075
+      ],
+      "inertia": [
+        9.6e-08,
+        8.833333333333333e-08,
+        8.833333333333333e-08
+      ],
+      "collision": true
+    },
+    "right_ring_mcp_link": {
+      "name": "right_ring_mcp_link",
+      "position": [
+        0,
+        -0.206,
+        0.373
+      ],
+      "mass": 0.009,
+      "size": [
+        0.011,
+        0.012,
+        0.025
+      ],
+      "com": [
+        0,
+        0,
+        -0.014
+      ],
+      "inertia": [
+        5.7675e-07,
+        5.595e-07,
+        1.9874999999999998e-07
+      ],
+      "collision": true
+    },
+    "right_ring_pip_link": {
+      "name": "right_ring_pip_link",
+      "position": [
+        0,
+        -0.206,
+        0.345
+      ],
+      "mass": 0.006,
+      "size": [
+        0.011,
+        0.012,
+        0.017
+      ],
+      "com": [
+        0,
+        0,
+        -0.01
+      ],
+      "inertia": [
+        2.165e-07,
+        2.05e-07,
+        1.325e-07
+      ],
+      "collision": true
+    },
+    "right_ring_dip_link": {
+      "name": "right_ring_dip_link",
+      "position": [
+        0,
+        -0.206,
+        0.32499999999999996
+      ],
+      "mass": 0.004,
+      "size": [
+        0.011,
+        0.012,
+        0.011
+      ],
+      "com": [
+        0,
+        0,
+        -0.007
+      ],
+      "inertia": [
+        8.833333333333333e-08,
+        8.066666666666666e-08,
+        8.833333333333333e-08
+      ],
+      "collision": true
+    },
+    "right_little_mcp_link": {
+      "name": "right_little_mcp_link",
+      "position": [
+        0,
+        -0.22299999999999998,
+        0.373
+      ],
+      "mass": 0.009,
+      "size": [
+        0.011,
+        0.012,
+        0.019
+      ],
+      "com": [
+        0,
+        0,
+        -0.011
+      ],
+      "inertia": [
+        3.7875e-07,
+        3.6149999999999995e-07,
+        1.9874999999999998e-07
+      ],
+      "collision": true
+    },
+    "right_little_pip_link": {
+      "name": "right_little_pip_link",
+      "position": [
+        0,
+        -0.22299999999999998,
+        0.351
+      ],
+      "mass": 0.006,
+      "size": [
+        0.011,
+        0.012,
+        0.013000000000000001
+      ],
+      "com": [
+        0,
+        0,
+        -0.008
+      ],
+      "inertia": [
+        1.565e-07,
+        1.4500000000000001e-07,
+        1.325e-07
+      ],
+      "collision": true
+    },
+    "right_little_dip_link": {
+      "name": "right_little_dip_link",
+      "position": [
+        0,
+        -0.22299999999999998,
+        0.33499999999999996
+      ],
+      "mass": 0.004,
+      "size": [
+        0.011,
+        0.012,
+        0.009000000000000001
+      ],
+      "com": [
+        0,
+        0,
+        -0.006
+      ],
+      "inertia": [
+        7.500000000000001e-08,
+        6.733333333333333e-08,
+        8.833333333333333e-08
+      ],
+      "collision": true
+    },
+    "right_thumb_cmc_link": {
+      "name": "right_thumb_cmc_link",
+      "position": [
+        0,
+        -0.15199999999999997,
+        0.396
+      ],
+      "mass": 0.009,
+      "size": [
+        0.016,
+        0.015,
+        0.013
+      ],
+      "com": [
+        0,
+        0,
+        0
+      ],
+      "inertia": [
+        2.9549999999999997e-07,
+        3.1874999999999997e-07,
+        3.6074999999999994e-07
+      ],
+      "collision": false
+    },
+    "right_thumb_spread_link": {
+      "name": "right_thumb_spread_link",
+      "position": [
+        0,
+        -0.15199999999999997,
+        0.393
+      ],
+      "mass": 0.01,
+      "size": [
+        0.013,
+        0.014,
+        0.018000000000000002
+      ],
+      "com": [
+        0,
+        0,
+        -0.0105
+      ],
+      "inertia": [
+        4.333333333333334e-07,
+        4.108333333333334e-07,
+        3.041666666666667e-07
+      ],
+      "collision": true
+    },
+    "right_thumb_mcp_link": {
+      "name": "right_thumb_mcp_link",
+      "position": [
+        0,
+        -0.15199999999999997,
+        0.372
+      ],
+      "mass": 0.008,
+      "size": [
+        0.013,
+        0.014,
+        0.017
+      ],
+      "com": [
+        0,
+        0,
+        -0.01
+      ],
+      "inertia": [
+        3.233333333333334e-07,
+        3.053333333333333e-07,
+        2.433333333333333e-07
+      ],
+      "collision": true
+    },
+    "right_thumb_ip_link": {
+      "name": "right_thumb_ip_link",
+      "position": [
+        0,
+        -0.15199999999999997,
+        0.352
+      ],
+      "mass": 0.005,
+      "size": [
+        0.013,
+        0.014,
+        0.014000000000000002
+      ],
+      "com": [
+        0,
+        0,
+        -0.0085
+      ],
+      "inertia": [
+        1.633333333333334e-07,
+        1.5208333333333337e-07,
+        1.5208333333333334e-07
+      ],
+      "collision": true
+    }
+  },
+  "joints": [
+    {
+      "name": "waist_yaw",
+      "parent": "pelvis",
+      "child": "waist_yaw_link",
+      "axis": "Z",
+      "limits": [
+        -45,
+        45
+      ],
+      "effort": 25,
+      "kp": 260,
+      "kd": 12,
+      "kind": "revolute",
+      "velocity": 5.0,
+      "actuator": "custom high-torque drive",
+      "friction": 0.03,
+      "anchor": [
+        0,
+        0,
+        0.535
+      ]
+    },
+    {
+      "name": "waist_pitch",
+      "parent": "waist_yaw_link",
+      "child": "torso",
+      "axis": "Y",
+      "limits": [
+        -20,
+        25
+      ],
+      "effort": 40,
+      "kp": 450,
+      "kd": 16,
+      "kind": "revolute",
+      "velocity": 5.0,
+      "actuator": "custom high-torque drive",
+      "friction": 0.03,
+      "anchor": [
+        0,
+        0,
+        0.545
+      ]
+    },
+    {
+      "name": "neck_yaw",
+      "parent": "torso",
+      "child": "neck_yaw_link",
+      "axis": "Z",
+      "limits": [
+        -80,
+        80
+      ],
+      "effort": 4,
+      "kp": 35,
+      "kd": 2,
+      "kind": "revolute",
+      "velocity": 5.0,
+      "actuator": "custom high-torque drive",
+      "friction": 0.03,
+      "anchor": [
+        0,
+        0,
+        0.744
+      ]
+    },
+    {
+      "name": "neck_pitch",
+      "parent": "neck_yaw_link",
+      "child": "head",
+      "axis": "Y",
+      "limits": [
+        -30,
+        35
+      ],
+      "effort": 5,
+      "kp": 45,
+      "kd": 2.5,
+      "kind": "revolute",
+      "velocity": 5.0,
+      "actuator": "custom high-torque drive",
+      "friction": 0.03,
+      "anchor": [
+        0,
+        0,
+        0.764
+      ]
+    },
+    {
+      "name": "left_hip_yaw",
+      "parent": "pelvis",
+      "child": "left_hip_yaw_link",
+      "axis": "Z",
+      "limits": [
+        -40,
+        40
+      ],
+      "effort": 30,
+      "kp": 320,
+      "kd": 10,
+      "kind": "revolute",
+      "velocity": 5.0,
+      "actuator": "custom high-torque drive",
+      "friction": 0.03,
+      "anchor": [
+        0,
+        0.075,
+        0.46
+      ]
+    },
+    {
+      "name": "left_hip_roll",
+      "parent": "left_hip_yaw_link",
+      "child": "left_hip_roll_link",
+      "axis": "X",
+      "limits": [
+        -40,
+        40
+      ],
+      "effort": 55,
+      "kp": 550,
+      "kd": 16,
+      "kind": "revolute",
+      "velocity": 5.0,
+      "actuator": "custom high-torque drive",
+      "friction": 0.03,
+      "anchor": [
+        0,
+        0.075,
+        0.46
+      ]
+    },
+    {
+      "name": "left_hip_pitch",
+      "parent": "left_hip_roll_link",
+      "child": "left_thigh",
+      "axis": "Y",
+      "limits": [
+        -105,
+        60
+      ],
+      "effort": 65,
+      "kp": 600,
+      "kd": 18,
+      "kind": "revolute",
+      "velocity": 5.0,
+      "actuator": "custom high-torque drive",
+      "friction": 0.03,
+      "anchor": [
+        0,
+        0.075,
+        0.46
+      ]
+    },
+    {
+      "name": "left_knee",
+      "parent": "left_thigh",
+      "child": "left_shin",
+      "axis": "Y",
+      "limits": [
+        0,
+        145
+      ],
+      "effort": 65,
+      "kp": 650,
+      "kd": 18,
+      "kind": "revolute",
+      "velocity": 5.0,
+      "actuator": "custom high-torque drive",
+      "friction": 0.03,
+      "anchor": [
+        0,
+        0.075,
+        0.265
+      ]
+    },
+    {
+      "name": "left_ankle_pitch",
+      "parent": "left_shin",
+      "child": "left_ankle_pitch_link",
+      "axis": "Y",
+      "limits": [
+        -60,
+        50
+      ],
+      "effort": 40,
+      "kp": 500,
+      "kd": 12,
+      "kind": "revolute",
+      "velocity": 5.0,
+      "actuator": "custom high-torque drive",
+      "friction": 0.03,
+      "anchor": [
+        0,
+        0.075,
+        0.07
+      ]
+    },
+    {
+      "name": "left_ankle_roll",
+      "parent": "left_ankle_pitch_link",
+      "child": "left_foot",
+      "axis": "X",
+      "limits": [
+        -35,
+        35
+      ],
+      "effort": 35,
+      "kp": 500,
+      "kd": 12,
+      "kind": "revolute",
+      "velocity": 5.0,
+      "actuator": "custom high-torque drive",
+      "friction": 0.03,
+      "anchor": [
+        0,
+        0.075,
+        0.07
+      ]
+    },
+    {
+      "name": "left_shoulder_pitch",
+      "parent": "torso",
+      "child": "left_shoulder_pitch_link",
+      "axis": "Y",
+      "limits": [
+        -110,
+        95
+      ],
+      "effort": 4.0,
+      "kp": 95,
+      "kd": 3.5,
+      "kind": "revolute",
+      "velocity": 2.0,
+      "actuator": "XM540-W270",
+      "friction": 0.04,
+      "anchor": [
+        0,
+        0.172,
+        0.703
+      ]
+    },
+    {
+      "name": "left_shoulder_roll",
+      "parent": "left_shoulder_pitch_link",
+      "child": "left_shoulder_roll_link",
+      "axis": "X",
+      "limits": [
+        -80,
+        80
+      ],
+      "effort": 4.0,
+      "kp": 90,
+      "kd": 3.2,
+      "kind": "revolute",
+      "velocity": 2.0,
+      "actuator": "XM540-W270",
+      "friction": 0.04,
+      "anchor": [
+        0,
+        0.19299999999999998,
+        0.68
+      ]
+    },
+    {
+      "name": "left_shoulder_yaw",
+      "parent": "left_shoulder_roll_link",
+      "child": "left_upper_arm",
+      "axis": "Z",
+      "limits": [
+        -100,
+        100
+      ],
+      "effort": 3.5,
+      "kp": 65,
+      "kd": 2.2,
+      "kind": "revolute",
+      "velocity": 2.0,
+      "actuator": "XM540-W270",
+      "friction": 0.04,
+      "anchor": [
+        0,
+        0.19699999999999998,
+        0.657
+      ]
+    },
+    {
+      "name": "left_elbow",
+      "parent": "left_upper_arm",
+      "child": "left_forearm",
+      "axis": "Y",
+      "limits": [
+        -135,
+        0
+      ],
+      "effort": 1.5,
+      "kp": 55,
+      "kd": 1.8,
+      "kind": "revolute",
+      "velocity": 3.0,
+      "actuator": "XM430-W350",
+      "friction": 0.04,
+      "anchor": [
+        0,
+        0.19699999999999998,
+        0.553
+      ]
+    },
+    {
+      "name": "left_forearm_roll",
+      "parent": "left_forearm",
+      "child": "left_forearm_roll_link",
+      "axis": "Z",
+      "limits": [
+        -110,
+        110
+      ],
+      "effort": 1.0,
+      "kp": 40,
+      "kd": 1.0,
+      "kind": "revolute",
+      "velocity": 3.0,
+      "actuator": "XM430-W350",
+      "friction": 0.04,
+      "anchor": [
+        0,
+        0.19699999999999998,
+        0.516
+      ]
+    },
+    {
+      "name": "left_wrist_pitch",
+      "parent": "left_forearm_roll_link",
+      "child": "left_wrist_pitch_link",
+      "axis": "Y",
+      "limits": [
+        -65,
+        65
+      ],
+      "effort": 0.85,
+      "kp": 20,
+      "kd": 0.6,
+      "kind": "revolute",
+      "velocity": 3.0,
+      "actuator": "XM430-W350",
+      "friction": 0.04,
+      "anchor": [
+        0,
+        0.19699999999999998,
+        0.437
+      ]
+    },
+    {
+      "name": "left_wrist_roll",
+      "parent": "left_wrist_pitch_link",
+      "child": "left_hand",
+      "axis": "X",
+      "limits": [
+        -35,
+        35
+      ],
+      "effort": 0.65,
+      "kp": 15,
+      "kd": 0.4,
+      "kind": "revolute",
+      "velocity": 3.0,
+      "actuator": "XM430-W350",
+      "friction": 0.04,
+      "anchor": [
+        0,
+        0.19699999999999998,
+        0.417
+      ]
+    },
+    {
+      "name": "left_index_mcp",
+      "parent": "left_hand",
+      "child": "left_index_mcp_link",
+      "axis": "Y",
+      "limits": [
+        -85,
+        10
+      ],
+      "effort": 0.08,
+      "kp": 1.3,
+      "kd": 0.035,
+      "kind": "revolute",
+      "velocity": 2.5,
+      "actuator": "XL330-M288 remote tendon equivalent",
+      "friction": 0.02,
+      "anchor": [
+        0,
+        0.172,
+        0.373
+      ]
+    },
+    {
+      "name": "left_index_pip",
+      "parent": "left_index_mcp_link",
+      "child": "left_index_pip_link",
+      "axis": "Y",
+      "limits": [
+        -100,
+        0
+      ],
+      "effort": 0.05,
+      "kp": 0.8,
+      "kd": 0.025,
+      "kind": "revolute",
+      "velocity": 2.5,
+      "actuator": "XL330-M288 remote tendon equivalent",
+      "friction": 0.02,
+      "anchor": [
+        0,
+        0.172,
+        0.346
+      ]
+    },
+    {
+      "name": "left_index_dip",
+      "parent": "left_index_pip_link",
+      "child": "left_index_dip_link",
+      "axis": "Y",
+      "limits": [
+        -75,
+        0
+      ],
+      "effort": 0.025,
+      "kp": 0.5,
+      "kd": 0.015,
+      "kind": "revolute",
+      "velocity": 2.5,
+      "actuator": "XL330-M288 remote tendon equivalent",
+      "friction": 0.02,
+      "anchor": [
+        0,
+        0.172,
+        0.32699999999999996
+      ]
+    },
+    {
+      "name": "left_middle_mcp",
+      "parent": "left_hand",
+      "child": "left_middle_mcp_link",
+      "axis": "Y",
+      "limits": [
+        -85,
+        10
+      ],
+      "effort": 0.08,
+      "kp": 1.3,
+      "kd": 0.035,
+      "kind": "revolute",
+      "velocity": 2.5,
+      "actuator": "XL330-M288 remote tendon equivalent",
+      "friction": 0.02,
+      "anchor": [
+        0,
+        0.18899999999999997,
+        0.373
+      ]
+    },
+    {
+      "name": "left_middle_pip",
+      "parent": "left_middle_mcp_link",
+      "child": "left_middle_pip_link",
+      "axis": "Y",
+      "limits": [
+        -100,
+        0
+      ],
+      "effort": 0.05,
+      "kp": 0.8,
+      "kd": 0.025,
+      "kind": "revolute",
+      "velocity": 2.5,
+      "actuator": "XL330-M288 remote tendon equivalent",
+      "friction": 0.02,
+      "anchor": [
+        0,
+        0.18899999999999997,
+        0.34299999999999997
+      ]
+    },
+    {
+      "name": "left_middle_dip",
+      "parent": "left_middle_pip_link",
+      "child": "left_middle_dip_link",
+      "axis": "Y",
+      "limits": [
+        -75,
+        0
+      ],
+      "effort": 0.025,
+      "kp": 0.5,
+      "kd": 0.015,
+      "kind": "revolute",
+      "velocity": 2.5,
+      "actuator": "XL330-M288 remote tendon equivalent",
+      "friction": 0.02,
+      "anchor": [
+        0,
+        0.18899999999999997,
+        0.32199999999999995
+      ]
+    },
+    {
+      "name": "left_ring_mcp",
+      "parent": "left_hand",
+      "child": "left_ring_mcp_link",
+      "axis": "Y",
+      "limits": [
+        -85,
+        10
+      ],
+      "effort": 0.08,
+      "kp": 1.3,
+      "kd": 0.035,
+      "kind": "revolute",
+      "velocity": 2.5,
+      "actuator": "XL330-M288 remote tendon equivalent",
+      "friction": 0.02,
+      "anchor": [
+        0,
+        0.206,
+        0.373
+      ]
+    },
+    {
+      "name": "left_ring_pip",
+      "parent": "left_ring_mcp_link",
+      "child": "left_ring_pip_link",
+      "axis": "Y",
+      "limits": [
+        -100,
+        0
+      ],
+      "effort": 0.05,
+      "kp": 0.8,
+      "kd": 0.025,
+      "kind": "revolute",
+      "velocity": 2.5,
+      "actuator": "XL330-M288 remote tendon equivalent",
+      "friction": 0.02,
+      "anchor": [
+        0,
+        0.206,
+        0.345
+      ]
+    },
+    {
+      "name": "left_ring_dip",
+      "parent": "left_ring_pip_link",
+      "child": "left_ring_dip_link",
+      "axis": "Y",
+      "limits": [
+        -75,
+        0
+      ],
+      "effort": 0.025,
+      "kp": 0.5,
+      "kd": 0.015,
+      "kind": "revolute",
+      "velocity": 2.5,
+      "actuator": "XL330-M288 remote tendon equivalent",
+      "friction": 0.02,
+      "anchor": [
+        0,
+        0.206,
+        0.32499999999999996
+      ]
+    },
+    {
+      "name": "left_little_mcp",
+      "parent": "left_hand",
+      "child": "left_little_mcp_link",
+      "axis": "Y",
+      "limits": [
+        -85,
+        10
+      ],
+      "effort": 0.08,
+      "kp": 1.3,
+      "kd": 0.035,
+      "kind": "revolute",
+      "velocity": 2.5,
+      "actuator": "XL330-M288 remote tendon equivalent",
+      "friction": 0.02,
+      "anchor": [
+        0,
+        0.22299999999999998,
+        0.373
+      ]
+    },
+    {
+      "name": "left_little_pip",
+      "parent": "left_little_mcp_link",
+      "child": "left_little_pip_link",
+      "axis": "Y",
+      "limits": [
+        -100,
+        0
+      ],
+      "effort": 0.05,
+      "kp": 0.8,
+      "kd": 0.025,
+      "kind": "revolute",
+      "velocity": 2.5,
+      "actuator": "XL330-M288 remote tendon equivalent",
+      "friction": 0.02,
+      "anchor": [
+        0,
+        0.22299999999999998,
+        0.351
+      ]
+    },
+    {
+      "name": "left_little_dip",
+      "parent": "left_little_pip_link",
+      "child": "left_little_dip_link",
+      "axis": "Y",
+      "limits": [
+        -75,
+        0
+      ],
+      "effort": 0.025,
+      "kp": 0.5,
+      "kd": 0.015,
+      "kind": "revolute",
+      "velocity": 2.5,
+      "actuator": "XL330-M288 remote tendon equivalent",
+      "friction": 0.02,
+      "anchor": [
+        0,
+        0.22299999999999998,
+        0.33499999999999996
+      ]
+    },
+    {
+      "name": "left_thumb_opposition",
+      "parent": "left_hand",
+      "child": "left_thumb_cmc_link",
+      "axis": "Z",
+      "limits": [
+        -65,
+        65
+      ],
+      "effort": 0.1,
+      "kp": 1.5,
+      "kd": 0.04,
+      "kind": "revolute",
+      "velocity": 2.0,
+      "actuator": "XL330-M288 remote tendon equivalent",
+      "friction": 0.02,
+      "anchor": [
+        0,
+        0.15199999999999997,
+        0.396
+      ]
+    },
+    {
+      "name": "left_thumb_spread",
+      "parent": "left_thumb_cmc_link",
+      "child": "left_thumb_spread_link",
+      "axis": "X",
+      "limits": [
+        -40,
+        40
+      ],
+      "effort": 0.08,
+      "kp": 1.0,
+      "kd": 0.03,
+      "kind": "revolute",
+      "velocity": 2.0,
+      "actuator": "XL330-M288 remote tendon equivalent",
+      "friction": 0.02,
+      "anchor": [
+        0,
+        0.15199999999999997,
+        0.393
+      ]
+    },
+    {
+      "name": "left_thumb_mcp",
+      "parent": "left_thumb_spread_link",
+      "child": "left_thumb_mcp_link",
+      "axis": "Y",
+      "limits": [
+        -75,
+        10
+      ],
+      "effort": 0.07,
+      "kp": 1.0,
+      "kd": 0.03,
+      "kind": "revolute",
+      "velocity": 2.0,
+      "actuator": "XL330-M288 remote tendon equivalent",
+      "friction": 0.02,
+      "anchor": [
+        0,
+        0.15199999999999997,
+        0.372
+      ]
+    },
+    {
+      "name": "left_thumb_ip",
+      "parent": "left_thumb_mcp_link",
+      "child": "left_thumb_ip_link",
+      "axis": "Y",
+      "limits": [
+        -80,
+        0
+      ],
+      "effort": 0.04,
+      "kp": 1.0,
+      "kd": 0.03,
+      "kind": "revolute",
+      "velocity": 2.0,
+      "actuator": "XL330-M288 remote tendon equivalent",
+      "friction": 0.02,
+      "anchor": [
+        0,
+        0.15199999999999997,
+        0.352
+      ]
+    },
+    {
+      "name": "right_hip_yaw",
+      "parent": "pelvis",
+      "child": "right_hip_yaw_link",
+      "axis": "Z",
+      "limits": [
+        -40,
+        40
+      ],
+      "effort": 30,
+      "kp": 320,
+      "kd": 10,
+      "kind": "revolute",
+      "velocity": 5.0,
+      "actuator": "custom high-torque drive",
+      "friction": 0.03,
+      "anchor": [
+        0,
+        -0.075,
+        0.46
+      ]
+    },
+    {
+      "name": "right_hip_roll",
+      "parent": "right_hip_yaw_link",
+      "child": "right_hip_roll_link",
+      "axis": "X",
+      "limits": [
+        -40,
+        40
+      ],
+      "effort": 55,
+      "kp": 550,
+      "kd": 16,
+      "kind": "revolute",
+      "velocity": 5.0,
+      "actuator": "custom high-torque drive",
+      "friction": 0.03,
+      "anchor": [
+        0,
+        -0.075,
+        0.46
+      ]
+    },
+    {
+      "name": "right_hip_pitch",
+      "parent": "right_hip_roll_link",
+      "child": "right_thigh",
+      "axis": "Y",
+      "limits": [
+        -105,
+        60
+      ],
+      "effort": 65,
+      "kp": 600,
+      "kd": 18,
+      "kind": "revolute",
+      "velocity": 5.0,
+      "actuator": "custom high-torque drive",
+      "friction": 0.03,
+      "anchor": [
+        0,
+        -0.075,
+        0.46
+      ]
+    },
+    {
+      "name": "right_knee",
+      "parent": "right_thigh",
+      "child": "right_shin",
+      "axis": "Y",
+      "limits": [
+        0,
+        145
+      ],
+      "effort": 65,
+      "kp": 650,
+      "kd": 18,
+      "kind": "revolute",
+      "velocity": 5.0,
+      "actuator": "custom high-torque drive",
+      "friction": 0.03,
+      "anchor": [
+        0,
+        -0.075,
+        0.265
+      ]
+    },
+    {
+      "name": "right_ankle_pitch",
+      "parent": "right_shin",
+      "child": "right_ankle_pitch_link",
+      "axis": "Y",
+      "limits": [
+        -60,
+        50
+      ],
+      "effort": 40,
+      "kp": 500,
+      "kd": 12,
+      "kind": "revolute",
+      "velocity": 5.0,
+      "actuator": "custom high-torque drive",
+      "friction": 0.03,
+      "anchor": [
+        0,
+        -0.075,
+        0.07
+      ]
+    },
+    {
+      "name": "right_ankle_roll",
+      "parent": "right_ankle_pitch_link",
+      "child": "right_foot",
+      "axis": "X",
+      "limits": [
+        -35,
+        35
+      ],
+      "effort": 35,
+      "kp": 500,
+      "kd": 12,
+      "kind": "revolute",
+      "velocity": 5.0,
+      "actuator": "custom high-torque drive",
+      "friction": 0.03,
+      "anchor": [
+        0,
+        -0.075,
+        0.07
+      ]
+    },
+    {
+      "name": "right_shoulder_pitch",
+      "parent": "torso",
+      "child": "right_shoulder_pitch_link",
+      "axis": "Y",
+      "limits": [
+        -110,
+        95
+      ],
+      "effort": 4.0,
+      "kp": 95,
+      "kd": 3.5,
+      "kind": "revolute",
+      "velocity": 2.0,
+      "actuator": "XM540-W270",
+      "friction": 0.04,
+      "anchor": [
+        0,
+        -0.172,
+        0.703
+      ]
+    },
+    {
+      "name": "right_shoulder_roll",
+      "parent": "right_shoulder_pitch_link",
+      "child": "right_shoulder_roll_link",
+      "axis": "X",
+      "limits": [
+        -80,
+        80
+      ],
+      "effort": 4.0,
+      "kp": 90,
+      "kd": 3.2,
+      "kind": "revolute",
+      "velocity": 2.0,
+      "actuator": "XM540-W270",
+      "friction": 0.04,
+      "anchor": [
+        0,
+        -0.19299999999999998,
+        0.68
+      ]
+    },
+    {
+      "name": "right_shoulder_yaw",
+      "parent": "right_shoulder_roll_link",
+      "child": "right_upper_arm",
+      "axis": "Z",
+      "limits": [
+        -100,
+        100
+      ],
+      "effort": 3.5,
+      "kp": 65,
+      "kd": 2.2,
+      "kind": "revolute",
+      "velocity": 2.0,
+      "actuator": "XM540-W270",
+      "friction": 0.04,
+      "anchor": [
+        0,
+        -0.19699999999999998,
+        0.657
+      ]
+    },
+    {
+      "name": "right_elbow",
+      "parent": "right_upper_arm",
+      "child": "right_forearm",
+      "axis": "Y",
+      "limits": [
+        -135,
+        0
+      ],
+      "effort": 1.5,
+      "kp": 55,
+      "kd": 1.8,
+      "kind": "revolute",
+      "velocity": 3.0,
+      "actuator": "XM430-W350",
+      "friction": 0.04,
+      "anchor": [
+        0,
+        -0.19699999999999998,
+        0.553
+      ]
+    },
+    {
+      "name": "right_forearm_roll",
+      "parent": "right_forearm",
+      "child": "right_forearm_roll_link",
+      "axis": "Z",
+      "limits": [
+        -110,
+        110
+      ],
+      "effort": 1.0,
+      "kp": 40,
+      "kd": 1.0,
+      "kind": "revolute",
+      "velocity": 3.0,
+      "actuator": "XM430-W350",
+      "friction": 0.04,
+      "anchor": [
+        0,
+        -0.19699999999999998,
+        0.516
+      ]
+    },
+    {
+      "name": "right_wrist_pitch",
+      "parent": "right_forearm_roll_link",
+      "child": "right_wrist_pitch_link",
+      "axis": "Y",
+      "limits": [
+        -65,
+        65
+      ],
+      "effort": 0.85,
+      "kp": 20,
+      "kd": 0.6,
+      "kind": "revolute",
+      "velocity": 3.0,
+      "actuator": "XM430-W350",
+      "friction": 0.04,
+      "anchor": [
+        0,
+        -0.19699999999999998,
+        0.437
+      ]
+    },
+    {
+      "name": "right_wrist_roll",
+      "parent": "right_wrist_pitch_link",
+      "child": "right_hand",
+      "axis": "X",
+      "limits": [
+        -35,
+        35
+      ],
+      "effort": 0.65,
+      "kp": 15,
+      "kd": 0.4,
+      "kind": "revolute",
+      "velocity": 3.0,
+      "actuator": "XM430-W350",
+      "friction": 0.04,
+      "anchor": [
+        0,
+        -0.19699999999999998,
+        0.417
+      ]
+    },
+    {
+      "name": "right_index_mcp",
+      "parent": "right_hand",
+      "child": "right_index_mcp_link",
+      "axis": "Y",
+      "limits": [
+        -85,
+        10
+      ],
+      "effort": 0.08,
+      "kp": 1.3,
+      "kd": 0.035,
+      "kind": "revolute",
+      "velocity": 2.5,
+      "actuator": "XL330-M288 remote tendon equivalent",
+      "friction": 0.02,
+      "anchor": [
+        0,
+        -0.172,
+        0.373
+      ]
+    },
+    {
+      "name": "right_index_pip",
+      "parent": "right_index_mcp_link",
+      "child": "right_index_pip_link",
+      "axis": "Y",
+      "limits": [
+        -100,
+        0
+      ],
+      "effort": 0.05,
+      "kp": 0.8,
+      "kd": 0.025,
+      "kind": "revolute",
+      "velocity": 2.5,
+      "actuator": "XL330-M288 remote tendon equivalent",
+      "friction": 0.02,
+      "anchor": [
+        0,
+        -0.172,
+        0.346
+      ]
+    },
+    {
+      "name": "right_index_dip",
+      "parent": "right_index_pip_link",
+      "child": "right_index_dip_link",
+      "axis": "Y",
+      "limits": [
+        -75,
+        0
+      ],
+      "effort": 0.025,
+      "kp": 0.5,
+      "kd": 0.015,
+      "kind": "revolute",
+      "velocity": 2.5,
+      "actuator": "XL330-M288 remote tendon equivalent",
+      "friction": 0.02,
+      "anchor": [
+        0,
+        -0.172,
+        0.32699999999999996
+      ]
+    },
+    {
+      "name": "right_middle_mcp",
+      "parent": "right_hand",
+      "child": "right_middle_mcp_link",
+      "axis": "Y",
+      "limits": [
+        -85,
+        10
+      ],
+      "effort": 0.08,
+      "kp": 1.3,
+      "kd": 0.035,
+      "kind": "revolute",
+      "velocity": 2.5,
+      "actuator": "XL330-M288 remote tendon equivalent",
+      "friction": 0.02,
+      "anchor": [
+        0,
+        -0.18899999999999997,
+        0.373
+      ]
+    },
+    {
+      "name": "right_middle_pip",
+      "parent": "right_middle_mcp_link",
+      "child": "right_middle_pip_link",
+      "axis": "Y",
+      "limits": [
+        -100,
+        0
+      ],
+      "effort": 0.05,
+      "kp": 0.8,
+      "kd": 0.025,
+      "kind": "revolute",
+      "velocity": 2.5,
+      "actuator": "XL330-M288 remote tendon equivalent",
+      "friction": 0.02,
+      "anchor": [
+        0,
+        -0.18899999999999997,
+        0.34299999999999997
+      ]
+    },
+    {
+      "name": "right_middle_dip",
+      "parent": "right_middle_pip_link",
+      "child": "right_middle_dip_link",
+      "axis": "Y",
+      "limits": [
+        -75,
+        0
+      ],
+      "effort": 0.025,
+      "kp": 0.5,
+      "kd": 0.015,
+      "kind": "revolute",
+      "velocity": 2.5,
+      "actuator": "XL330-M288 remote tendon equivalent",
+      "friction": 0.02,
+      "anchor": [
+        0,
+        -0.18899999999999997,
+        0.32199999999999995
+      ]
+    },
+    {
+      "name": "right_ring_mcp",
+      "parent": "right_hand",
+      "child": "right_ring_mcp_link",
+      "axis": "Y",
+      "limits": [
+        -85,
+        10
+      ],
+      "effort": 0.08,
+      "kp": 1.3,
+      "kd": 0.035,
+      "kind": "revolute",
+      "velocity": 2.5,
+      "actuator": "XL330-M288 remote tendon equivalent",
+      "friction": 0.02,
+      "anchor": [
+        0,
+        -0.206,
+        0.373
+      ]
+    },
+    {
+      "name": "right_ring_pip",
+      "parent": "right_ring_mcp_link",
+      "child": "right_ring_pip_link",
+      "axis": "Y",
+      "limits": [
+        -100,
+        0
+      ],
+      "effort": 0.05,
+      "kp": 0.8,
+      "kd": 0.025,
+      "kind": "revolute",
+      "velocity": 2.5,
+      "actuator": "XL330-M288 remote tendon equivalent",
+      "friction": 0.02,
+      "anchor": [
+        0,
+        -0.206,
+        0.345
+      ]
+    },
+    {
+      "name": "right_ring_dip",
+      "parent": "right_ring_pip_link",
+      "child": "right_ring_dip_link",
+      "axis": "Y",
+      "limits": [
+        -75,
+        0
+      ],
+      "effort": 0.025,
+      "kp": 0.5,
+      "kd": 0.015,
+      "kind": "revolute",
+      "velocity": 2.5,
+      "actuator": "XL330-M288 remote tendon equivalent",
+      "friction": 0.02,
+      "anchor": [
+        0,
+        -0.206,
+        0.32499999999999996
+      ]
+    },
+    {
+      "name": "right_little_mcp",
+      "parent": "right_hand",
+      "child": "right_little_mcp_link",
+      "axis": "Y",
+      "limits": [
+        -85,
+        10
+      ],
+      "effort": 0.08,
+      "kp": 1.3,
+      "kd": 0.035,
+      "kind": "revolute",
+      "velocity": 2.5,
+      "actuator": "XL330-M288 remote tendon equivalent",
+      "friction": 0.02,
+      "anchor": [
+        0,
+        -0.22299999999999998,
+        0.373
+      ]
+    },
+    {
+      "name": "right_little_pip",
+      "parent": "right_little_mcp_link",
+      "child": "right_little_pip_link",
+      "axis": "Y",
+      "limits": [
+        -100,
+        0
+      ],
+      "effort": 0.05,
+      "kp": 0.8,
+      "kd": 0.025,
+      "kind": "revolute",
+      "velocity": 2.5,
+      "actuator": "XL330-M288 remote tendon equivalent",
+      "friction": 0.02,
+      "anchor": [
+        0,
+        -0.22299999999999998,
+        0.351
+      ]
+    },
+    {
+      "name": "right_little_dip",
+      "parent": "right_little_pip_link",
+      "child": "right_little_dip_link",
+      "axis": "Y",
+      "limits": [
+        -75,
+        0
+      ],
+      "effort": 0.025,
+      "kp": 0.5,
+      "kd": 0.015,
+      "kind": "revolute",
+      "velocity": 2.5,
+      "actuator": "XL330-M288 remote tendon equivalent",
+      "friction": 0.02,
+      "anchor": [
+        0,
+        -0.22299999999999998,
+        0.33499999999999996
+      ]
+    },
+    {
+      "name": "right_thumb_opposition",
+      "parent": "right_hand",
+      "child": "right_thumb_cmc_link",
+      "axis": "Z",
+      "limits": [
+        -65,
+        65
+      ],
+      "effort": 0.1,
+      "kp": 1.5,
+      "kd": 0.04,
+      "kind": "revolute",
+      "velocity": 2.0,
+      "actuator": "XL330-M288 remote tendon equivalent",
+      "friction": 0.02,
+      "anchor": [
+        0,
+        -0.15199999999999997,
+        0.396
+      ]
+    },
+    {
+      "name": "right_thumb_spread",
+      "parent": "right_thumb_cmc_link",
+      "child": "right_thumb_spread_link",
+      "axis": "X",
+      "limits": [
+        -40,
+        40
+      ],
+      "effort": 0.08,
+      "kp": 1.0,
+      "kd": 0.03,
+      "kind": "revolute",
+      "velocity": 2.0,
+      "actuator": "XL330-M288 remote tendon equivalent",
+      "friction": 0.02,
+      "anchor": [
+        0,
+        -0.15199999999999997,
+        0.393
+      ]
+    },
+    {
+      "name": "right_thumb_mcp",
+      "parent": "right_thumb_spread_link",
+      "child": "right_thumb_mcp_link",
+      "axis": "Y",
+      "limits": [
+        -75,
+        10
+      ],
+      "effort": 0.07,
+      "kp": 1.0,
+      "kd": 0.03,
+      "kind": "revolute",
+      "velocity": 2.0,
+      "actuator": "XL330-M288 remote tendon equivalent",
+      "friction": 0.02,
+      "anchor": [
+        0,
+        -0.15199999999999997,
+        0.372
+      ]
+    },
+    {
+      "name": "right_thumb_ip",
+      "parent": "right_thumb_mcp_link",
+      "child": "right_thumb_ip_link",
+      "axis": "Y",
+      "limits": [
+        -80,
+        0
+      ],
+      "effort": 0.04,
+      "kp": 1.0,
+      "kd": 0.03,
+      "kind": "revolute",
+      "velocity": 2.0,
+      "actuator": "XL330-M288 remote tendon equivalent",
+      "friction": 0.02,
+      "anchor": [
+        0,
+        -0.15199999999999997,
+        0.352
+      ]
+    }
+  ],
+  "thrusters": [
+    {
+      "name": "left_boot_jet",
+      "body": "left_foot",
+      "point": [
+        0.0225,
+        0,
+        -0.058
+      ],
+      "max_force": 90.0
+    },
+    {
+      "name": "right_boot_jet",
+      "body": "right_foot",
+      "point": [
+        0.0225,
+        0,
+        -0.058
+      ],
+      "max_force": 90.0
+    },
+    {
+      "name": "left_back_jet",
+      "body": "torso",
+      "point": [
+        -0.093,
+        0.09,
+        0.05
+      ],
+      "max_force": 65.0
+    },
+    {
+      "name": "right_back_jet",
+      "body": "torso",
+      "point": [
+        -0.093,
+        -0.09,
+        0.05
+      ],
+      "max_force": 65.0
+    }
+  ],
+  "jet_tilt_deg": 25,
+  "jet_time_constant_s": 0.08,
+  "physics_dt": 0.001,
+  "control_dt": 0.001
+}

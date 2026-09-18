@@ -1,0 +1,126 @@
+#usda 1.0
+(
+    defaultPrim = "World"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "World"
+{
+    def Xform "Irona" (
+        prepend references = @irona.usd@
+    )
+    {
+    }
+
+    def PhysicsScene "PhysicsScene" (
+        prepend apiSchemas = ["PhysxSceneAPI"]
+    )
+    {
+        vector3f physics:gravityDirection = (0, 0, -1)
+        float physics:gravityMagnitude = 9.81
+        bool physxScene:enableGPUDynamics = 0
+        token physxScene:solverType = "TGS"
+        uint physxScene:timeStepsPerSecond = 1000
+    }
+
+    def Cube "Ground" (
+        prepend apiSchemas = ["PhysicsCollisionAPI", "MaterialBindingAPI"]
+    )
+    {
+        rel material:binding:physics = </World/GroundMaterial>
+        color3f[] primvars:displayColor = [(0.16, 0.19, 0.22)]
+        double size = 1
+        float3 xformOp:scale = (20, 20, 0.1)
+        double3 xformOp:translate = (0, 0, -0.05)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+
+    def Material "GroundMaterial" (
+        prepend apiSchemas = ["PhysicsMaterialAPI"]
+    )
+    {
+        float physics:dynamicFriction = 0.8
+        float physics:restitution = 0
+        float physics:staticFriction = 0.9
+    }
+
+    def DomeLight "Sky"
+    {
+        float inputs:intensity = 700
+    }
+
+    def DistantLight "Key"
+    {
+        float inputs:angle = 10
+        float inputs:intensity = 1800
+        float3 xformOp:rotateXYZ = (-30, -30, 25)
+        uniform token[] xformOpOrder = ["xformOp:rotateXYZ"]
+    }
+
+    def Camera "Camera"
+    {
+        float focalLength = 55
+        matrix4d xformOp:transform = ( (0.7474093186836597, 0.6643638388299198, 0, 0), (-0.15555255495650713, 0.1749966243260705, 0.9722034684781695, -0), (0.6458968284419195, -0.7266339319971594, 0.23413760031019584, 0), (1.6, -1.7999999999999998, 1.05, 1) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+    }
+
+    def "PerceptionArena"
+    {
+        def Cube "Front" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            color3f[] primvars:displayColor = [(0.18, 0.48, 0.58)]
+            double size = 1
+            float3 xformOp:scale = (0.2, 2, 1.6)
+            double3 xformOp:translate = (2.4, 0, 0.8)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def Cube "Rear" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            color3f[] primvars:displayColor = [(0.7, 0.33, 0.15)]
+            double size = 1
+            float3 xformOp:scale = (0.15, 1.8, 1.4)
+            double3 xformOp:translate = (-2, 0, 0.7)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def Cube "Left" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            color3f[] primvars:displayColor = [(0.32, 0.52, 0.3)]
+            double size = 1
+            float3 xformOp:scale = (1.8, 0.15, 1.8)
+            double3 xformOp:translate = (0, 2, 0.9)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def Cube "Right" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            color3f[] primvars:displayColor = [(0.5, 0.32, 0.6)]
+            double size = 1
+            float3 xformOp:scale = (1.7, 0.15, 1.2)
+            double3 xformOp:translate = (0, -2, 0.6)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def Cube "DepthTarget" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            color3f[] primvars:displayColor = [(0.9, 0.62, 0.12)]
+            double size = 1
+            float3 xformOp:scale = (0.3, 0.3, 0.8)
+            double3 xformOp:translate = (1.1, 0.45, 0.4)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+    }
+}
+

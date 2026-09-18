@@ -1,0 +1,443 @@
+file,assembly,part,color,role,size_x_mm,size_y_mm,size_z_mm,assembly_tx_mm,assembly_ty_mm,assembly_tz_mm,volume_cm3,units
+001_pelvis_shell_01.stl,pelvis,pelvis_shell,graphite,cosmetic exterior,62.048,198.095,76.095,-62.047541,-99.047541,464.952459,97.5047,mm
+001_pelvis_shell_02.stl,pelvis,pelvis_shell,graphite,cosmetic exterior,62.048,198.095,76.095,0.0,-99.047541,464.952459,97.5047,mm
+002_skirt_01.stl,pelvis,skirt,graphite,cosmetic exterior,81.0,119.0,72.0,-81.0,-119.0,466.0,11.7416,mm
+002_skirt_02.stl,pelvis,skirt,graphite,cosmetic exterior,81.0,119.0,72.0,-81.0,-0.0,466.0,11.7415,mm
+002_skirt_03.stl,pelvis,skirt,graphite,cosmetic exterior,18.866,37.192,48.196,-59.6,22.216232,489.804098,1.8519,mm
+002_skirt_04.stl,pelvis,skirt,graphite,cosmetic exterior,59.6,37.192,66.66,-59.6,59.408116,471.340399,7.1482,mm
+002_skirt_05.stl,pelvis,skirt,graphite,cosmetic exterior,59.6,37.192,66.66,-59.6,-96.6,471.340399,7.1482,mm
+002_skirt_06.stl,pelvis,skirt,graphite,cosmetic exterior,18.866,37.192,48.196,-59.6,-59.408116,489.804098,1.8519,mm
+002_skirt_07.stl,pelvis,skirt,graphite,cosmetic exterior,81.0,119.0,72.0,-0.0,-119.0,466.0,11.7415,mm
+002_skirt_08.stl,pelvis,skirt,graphite,cosmetic exterior,81.0,119.0,72.0,-0.0,-0.0,466.0,11.7415,mm
+002_skirt_09.stl,pelvis,skirt,graphite,cosmetic exterior,18.866,37.192,48.196,40.733731,22.216232,489.804098,1.8519,mm
+002_skirt_10.stl,pelvis,skirt,graphite,cosmetic exterior,59.6,37.192,66.66,-0.0,59.408116,471.340399,7.1482,mm
+002_skirt_11.stl,pelvis,skirt,graphite,cosmetic exterior,59.6,37.192,66.66,-0.0,-96.6,471.340399,7.1482,mm
+002_skirt_12.stl,pelvis,skirt,graphite,cosmetic exterior,18.866,37.192,48.196,40.733731,-59.408116,489.804098,1.8519,mm
+003_skirt_apron_01.stl,pelvis,skirt_apron,ivory,cosmetic exterior,3.007,145.007,64.007,76.496672,-72.503328,475.996672,27.3533,mm
+004_waist_band_01.stl,pelvis,waist_band,bright_silver,cosmetic exterior,64.0,128.0,12.0,-64.0,-64.0,531.999999,2.7674,mm
+004_waist_band_02.stl,pelvis,waist_band,bright_silver,cosmetic exterior,55.739,37.776,6.6,-55.738996,-64.0,532.0,0.9605,mm
+004_waist_band_03.stl,pelvis,waist_band,bright_silver,cosmetic exterior,55.739,37.776,6.6,-55.738996,26.224499,532.0,0.9605,mm
+004_waist_band_04.stl,pelvis,waist_band,bright_silver,cosmetic exterior,64.0,128.0,12.0,-0.0,-64.0,531.999999,2.7674,mm
+004_waist_band_05.stl,pelvis,waist_band,bright_silver,cosmetic exterior,55.739,37.776,6.6,-0.0,-64.0,532.0,0.9605,mm
+004_waist_band_06.stl,pelvis,waist_band,bright_silver,cosmetic exterior,55.739,37.776,6.6,-0.0,26.224499,532.0,0.9605,mm
+005_torso_shell_01.stl,torso,torso_shell,graphite,cosmetic exterior,76.083,113.115,166.307,-76.081896,-113.11543,549.0,52.9683,mm
+005_torso_shell_02.stl,torso,torso_shell,graphite,cosmetic exterior,76.083,113.115,166.307,-76.081896,-0.0,549.0,52.9691,mm
+005_torso_shell_03.stl,torso,torso_shell,graphite,cosmetic exterior,76.08,113.115,166.307,0.001554,-113.11543,549.0,52.9678,mm
+005_torso_shell_04.stl,torso,torso_shell,graphite,cosmetic exterior,76.08,113.115,166.307,0.001554,-0.0,549.0,52.9671,mm
+006_chest_apron_01.stl,torso,chest_apron,ivory,cosmetic exterior,36.736,133.593,114.593,43.96972,-66.796429,573.703571,44.7674,mm
+007_collar_0_01.stl,torso,collar_0,ivory,cosmetic exterior,10.019,60.857,42.879,56.990492,-65.428294,677.560047,13.5045,mm
+008_collar_2_01.stl,torso,collar_2,ivory,cosmetic exterior,10.019,60.858,42.88,56.990492,4.571706,677.560047,13.5046,mm
+009_chest_badge_01.stl,torso,chest_badge,copper,cosmetic exterior,3.0,26.0,26.0,78.5,-13.0,650.0,1.5257,mm
+010_badge_center_01.stl,torso,badge_center,bright_silver,cosmetic exterior,2.0,14.0,14.0,81.5,-7.0,656.0,0.3079,mm
+011_apron_button_638_01.stl,torso,apron_button_638,graphite,cosmetic exterior,7.6,7.6,7.6,75.2,-3.8,634.2,0.2075,mm
+012_apron_button_624_01.stl,torso,apron_button_624,graphite,cosmetic exterior,7.638,7.633,7.643,75.183585,-3.816415,620.178377,0.2298,mm
+013_apron_button_610_01.stl,torso,apron_button_610,graphite,cosmetic exterior,7.638,7.633,7.643,75.183585,-3.816415,606.178377,0.2298,mm
+014_neck_sleeve_01.stl,neck_yaw_link,neck_sleeve,silver,cosmetic exterior,19.0,38.0,26.0,-19.0,-19.0,734.0,3.4894,mm
+014_neck_sleeve_02.stl,neck_yaw_link,neck_sleeve,silver,cosmetic exterior,19.0,38.0,26.0,-0.0,-19.0,734.0,3.4894,mm
+015_neck_base_01.stl,torso,neck_base,graphite,cosmetic exterior,20.0,40.0,30.0,-20.0,-20.0,713.0,6.7858,mm
+015_neck_base_02.stl,torso,neck_base,graphite,cosmetic exterior,20.0,40.0,30.0,-0.0,-20.0,713.0,6.7858,mm
+016_head_shell_01.stl,head,head_shell,bright_silver,cosmetic exterior,58.048,143.095,108.095,-58.047541,-71.547541,765.952459,88.3489,mm
+016_head_shell_02.stl,head,head_shell,bright_silver,cosmetic exterior,58.048,143.095,108.095,0.0,-71.547541,765.952459,88.3489,mm
+017_camera_mount_bezel_01.stl,head,camera_mount_bezel,graphite,cosmetic exterior,13.024,69.012,40.024,54.488115,-69.011885,805.988115,9.5714,mm
+017_camera_mount_bezel_02.stl,head,camera_mount_bezel,graphite,cosmetic exterior,1.1,57.625,36.258,54.5,-57.624541,807.871102,2.0944,mm
+017_camera_mount_bezel_03.stl,head,camera_mount_bezel,graphite,cosmetic exterior,13.024,69.012,40.024,54.488115,-0.0,805.988115,9.5714,mm
+017_camera_mount_bezel_04.stl,head,camera_mount_bezel,graphite,cosmetic exterior,1.1,57.625,36.258,54.5,-0.0,807.871102,2.0944,mm
+018_d455_housing_01.stl,head,d455_housing,graphite,D455 envelope mock-up; remove when fitting a real camera,3.0,60.621,25.165,51.5,-60.621063,813.417424,2.91,mm
+018_d455_housing_02.stl,head,d455_housing,graphite,D455 envelope mock-up; remove when fitting a real camera,8.2,62.0,26.0,56.9,-62.0,813.0,2.0922,mm
+018_d455_housing_03.stl,head,d455_housing,graphite,D455 envelope mock-up; remove when fitting a real camera,13.012,62.012,26.024,67.5,-62.011885,812.988115,5.8413,mm
+018_d455_housing_04.stl,head,d455_housing,graphite,D455 envelope mock-up; remove when fitting a real camera,3.0,60.621,25.165,51.5,0.0,813.417424,2.91,mm
+018_d455_housing_05.stl,head,d455_housing,graphite,D455 envelope mock-up; remove when fitting a real camera,8.2,62.0,26.0,56.9,0.0,813.0,2.0922,mm
+018_d455_housing_06.stl,head,d455_housing,graphite,D455 envelope mock-up; remove when fitting a real camera,13.012,62.012,26.024,67.5,0.0,812.988115,5.8413,mm
+019_d455_front_panel_01.stl,head,d455_front_panel,black,cosmetic exterior,2.004,120.004,22.004,79.998098,-60.001902,814.998098,4.0949,mm
+020_camera_optical_window_0_01.stl,head,camera_optical_window_0,graphite,optical window mock-up; not a printable lens,1.006,8.006,8.006,81.997203,-51.502797,821.997203,0.0503,mm
+021_camera_optical_window_1_01.stl,head,camera_optical_window_1,graphite,optical window mock-up; not a printable lens,1.006,8.006,8.006,81.997203,-20.002797,821.997203,0.0503,mm
+022_camera_optical_window_2_01.stl,head,camera_optical_window_2,graphite,optical window mock-up; not a printable lens,1.006,8.006,8.006,81.997203,10.997203,821.997203,0.0503,mm
+023_camera_optical_window_3_01.stl,head,camera_optical_window_3,graphite,optical window mock-up; not a printable lens,1.006,8.006,8.006,81.997203,43.497203,821.997203,0.0503,mm
+024_head_service_plate_m1_01.stl,head,head_service_plate_m1,graphite,cosmetic exterior,62.005,1.603,54.005,-38.002377,-73.102377,789.997623,5.3063,mm
+025_head_fastener_m1_801_01.stl,head,head_fastener_m1_801,silver,cosmetic exterior,5.6,1.9,5.6,-27.8,-75.0,798.2,0.0468,mm
+026_head_fastener_m1_834_01.stl,head,head_fastener_m1_834,silver,cosmetic exterior,5.6,1.9,5.6,-27.8,-75.0,831.2,0.0468,mm
+027_head_service_plate_1_01.stl,head,head_service_plate_1,graphite,cosmetic exterior,62.005,1.603,54.005,-38.002377,71.499301,789.997623,5.3063,mm
+028_head_fastener_1_801_01.stl,head,head_fastener_1_801,silver,cosmetic exterior,5.6,1.9,5.6,-27.8,73.1,798.2,0.0468,mm
+029_head_fastener_1_834_01.stl,head,head_fastener_1_834,silver,cosmetic exterior,5.6,1.9,5.6,-27.8,73.1,831.2,0.0468,mm
+030_lidar_pedestal_01.stl,head,lidar_pedestal,graphite,cosmetic exterior,36.0,36.0,11.0,-24.0,-18.0,874.0,11.1966,mm
+031_lidar_base_01.stl,head,lidar_base,graphite,cosmetic exterior,64.045,64.045,5.045,-38.022378,-32.022378,883.477622,14.5581,mm
+032_lidar_upper_cap_01.stl,head,lidar_upper_cap,graphite,lidar housing mock-up; cap needs a transparent support for display,62.043,62.043,6.043,-37.021678,-31.021678,908.378322,18.1144,mm
+033_lidar_cap_trim_01.stl,head,lidar_cap_trim,copper,cosmetic exterior,62.444,62.444,2.044,-37.221818,-31.221818,908.978182,0.0782,mm
+034_left_thigh_shell_01.stl,left_thigh,left_thigh_shell,silver,cosmetic exterior,39.0,78.0,155.0,-39.0,36.0,283.0,41.267,mm
+034_left_thigh_shell_02.stl,left_thigh,left_thigh_shell,silver,cosmetic exterior,39.0,78.0,155.0,-0.0,36.0,283.0,41.267,mm
+035_left_shin_shell_01.stl,left_shin,left_shin_shell,silver,cosmetic exterior,34.0,68.0,158.0,-34.0,41.0,88.0,36.7,mm
+035_left_shin_shell_02.stl,left_shin,left_shin_shell,silver,cosmetic exterior,34.0,68.0,158.0,-0.0,41.0,88.0,36.7,mm
+036_left_hip_hub_01.stl,left_thigh,left_hip_hub,graphite,visual joint cover; not a bearing,42.0,29.0,42.0,-21.0,46.0,439.0,16.8546,mm
+036_left_hip_hub_02.stl,left_thigh,left_hip_hub,graphite,visual joint cover; not a bearing,42.0,29.0,42.0,-21.0,75.0,439.0,16.8546,mm
+037_left_hip_disc_01.stl,left_thigh,left_hip_disc,bright_silver,cosmetic exterior,28.02,4.02,28.02,-14.00979,104.99021,445.99021,2.463,mm
+038_left_hip_bolt_01.stl,left_thigh,left_hip_bolt,graphite,cosmetic exterior,11.0,3.5,11.0,-5.5,109.0,454.5,0.3326,mm
+039_left_knee_hub_01.stl,left_shin,left_knee_hub,graphite,visual joint cover; not a bearing,42.0,29.0,42.0,-21.0,46.0,244.0,16.8546,mm
+039_left_knee_hub_02.stl,left_shin,left_knee_hub,graphite,visual joint cover; not a bearing,42.0,29.0,42.0,-21.0,75.0,244.0,16.8546,mm
+040_left_knee_disc_01.stl,left_shin,left_knee_disc,bright_silver,cosmetic exterior,28.02,4.02,28.02,-14.00979,104.99021,250.99021,2.463,mm
+041_left_knee_bolt_01.stl,left_shin,left_knee_bolt,graphite,cosmetic exterior,11.0,3.5,11.0,-5.5,109.0,259.5,0.3326,mm
+042_left_ankle_hub_01.stl,left_foot,left_ankle_hub,graphite,visual joint cover; not a bearing,42.0,29.0,42.0,-21.0,46.0,49.0,16.8546,mm
+042_left_ankle_hub_02.stl,left_foot,left_ankle_hub,graphite,visual joint cover; not a bearing,42.0,29.0,42.0,-21.0,75.0,49.0,16.8546,mm
+043_left_ankle_disc_01.stl,left_foot,left_ankle_disc,bright_silver,cosmetic exterior,28.02,4.02,28.02,-14.00979,104.99021,55.99021,2.463,mm
+044_left_ankle_bolt_01.stl,left_foot,left_ankle_bolt,graphite,cosmetic exterior,11.0,3.5,11.0,-5.5,109.0,64.5,0.3326,mm
+045_left_boot_shell_01.stl,left_foot,left_boot_shell,silver,cosmetic exterior,85.033,92.067,67.067,-62.533278,28.966722,-0.033278,64.3983,mm
+045_left_boot_shell_02.stl,left_foot,left_boot_shell,silver,cosmetic exterior,85.033,92.067,67.067,22.5,28.966722,-0.033278,66.1261,mm
+046_left_sole_01.stl,left_foot,left_sole,rubber,cosmetic exterior,163.012,87.012,6.012,-59.005943,31.494057,-0.005943,46.888,mm
+047_left_shin_band_123_01.stl,left_shin,left_shin_band_123,bright_silver,cosmetic exterior,34.0,68.0,7.0,-34.0,41.0,119.5,1.7311,mm
+047_left_shin_band_123_02.stl,left_shin,left_shin_band_123,bright_silver,cosmetic exterior,34.0,68.0,7.0,-0.0,41.0,119.5,1.7311,mm
+048_left_shin_band_169_01.stl,left_shin,left_shin_band_169,bright_silver,cosmetic exterior,34.0,68.0,7.0,-34.0,41.0,165.5,1.4157,mm
+048_left_shin_band_169_02.stl,left_shin,left_shin_band_169,bright_silver,cosmetic exterior,34.0,68.0,7.0,-0.0,41.0,165.5,1.4157,mm
+049_left_shin_band_215_01.stl,left_shin,left_shin_band_215,bright_silver,cosmetic exterior,34.0,68.0,7.0,-34.0,41.0,211.5,0.58,mm
+049_left_shin_band_215_02.stl,left_shin,left_shin_band_215,bright_silver,cosmetic exterior,34.0,68.0,7.0,-0.0,41.0,211.5,0.58,mm
+050_left_boot_nozzle_01.stl,left_foot,left_boot_nozzle,graphite,cosmetic exterior,34.024,34.024,13.024,5.488112,57.988112,6.488112,4.3597,mm
+051_left_boot_nozzle_ring_01.stl,left_foot,left_boot_nozzle_ring,copper,cosmetic exterior,38.027,38.027,4.027,3.486713,55.986713,6.986713,0.9048,mm
+052_left_shoulder_mount_01.stl,torso,left_shoulder_mount,graphite,shoulder support concept; not a qualified motor bracket,24.019,68.019,25.019,-24.009508,108.990492,690.490492,38.7243,mm
+053_left_shoulder_roll_yoke_rail_01.stl,left_shoulder_pitch_link,left_shoulder_roll_yoke_rail,graphite,joint-support rail concept,10.236,31.221,33.234,-18.517788,166.893792,674.882212,3.1006,mm
+054_left_shoulder_yaw_yoke_rail_01.stl,left_shoulder_roll_link,left_shoulder_yaw_yoke_rail,graphite,joint-support rail concept,10.228,14.214,33.226,-18.513901,187.890579,651.886099,2.4633,mm
+055_left_elbow_yoke_rail_01.stl,left_upper_arm,left_elbow_yoke_rail,graphite,joint-support rail concept,10.224,10.224,114.223,-18.512123,191.887877,547.887877,9.0538,mm
+056_left_forearm_roll_yoke_rail_01.stl,left_forearm,left_forearm_roll_yoke_rail,graphite,joint-support rail concept,10.224,10.224,47.223,-18.512123,191.887877,510.887877,3.579,mm
+057_left_wrist_pitch_yoke_rail_01.stl,left_forearm_roll_link,left_wrist_pitch_yoke_rail,graphite,joint-support rail concept,10.224,10.224,89.223,-18.512123,191.887877,431.887877,7.011,mm
+058_left_wrist_roll_yoke_rail_01.stl,left_wrist_pitch_link,left_wrist_roll_yoke_rail,graphite,joint-support rail concept,10.224,10.224,30.223,-18.512123,191.887877,411.887877,2.1899,mm
+059_left_thumb_support_01.stl,left_hand,left_thumb_support,graphite,cosmetic exterior,15.014,20.014,13.014,-7.507131,149.992869,389.492869,3.5653,mm
+060_left_shoulder_pitch_shaft_01.stl,left_shoulder_pitch_link,left_shoulder_pitch_shaft,silver,joint axle mock-up; use metal shaft on hardware,6.004,36.004,6.004,-3.002098,153.997902,699.997902,1.0179,mm
+061_left_shoulder_pitch_bearing_m1_01.stl,torso,left_shoulder_pitch_bearing_m1,graphite,bearing race visual; substitute a purchased bearing,20.305,4.0,28.0,-6.30476,156.0,689.0,0.6805,mm
+062_left_shoulder_pitch_horn_m1_01.stl,left_shoulder_pitch_link,left_shoulder_pitch_horn_m1,bright_silver,cosmetic exterior,22.015,2.515,22.015,-11.007692,153.242308,691.992308,0.4477,mm
+063_left_shoulder_pitch_screw_m1_0_01.stl,left_shoulder_pitch_link,left_shoulder_pitch_screw_m1_0,black,fastener mock-up,3.0,1.5,3.0,-1.5,151.75,711.0,0.0106,mm
+064_left_shoulder_pitch_screw_m1_1_01.stl,left_shoulder_pitch_link,left_shoulder_pitch_screw_m1_1,black,fastener mock-up,3.0,1.5,3.0,8.0,151.75,701.5,0.0106,mm
+065_left_shoulder_pitch_screw_m1_2_01.stl,left_shoulder_pitch_link,left_shoulder_pitch_screw_m1_2,black,fastener mock-up,3.0,1.5,3.0,-1.5,151.75,692.0,0.0106,mm
+066_left_shoulder_pitch_screw_m1_3_01.stl,left_shoulder_pitch_link,left_shoulder_pitch_screw_m1_3,black,fastener mock-up,3.0,1.5,3.0,-11.0,151.75,701.5,0.0106,mm
+067_left_shoulder_pitch_bearing_1_01.stl,torso,left_shoulder_pitch_bearing_1,graphite,bearing race visual; substitute a purchased bearing,28.02,4.02,28.02,-14.00979,183.99021,688.99021,1.2064,mm
+068_left_shoulder_pitch_horn_1_01.stl,left_shoulder_pitch_link,left_shoulder_pitch_horn_1,bright_silver,cosmetic exterior,22.015,2.515,22.015,-11.007692,188.242308,691.992308,0.4477,mm
+069_left_shoulder_pitch_screw_1_0_01.stl,left_shoulder_pitch_link,left_shoulder_pitch_screw_1_0,black,fastener mock-up,3.0,1.5,3.0,-1.5,190.75,711.0,0.0106,mm
+070_left_shoulder_pitch_screw_1_1_01.stl,left_shoulder_pitch_link,left_shoulder_pitch_screw_1_1,black,fastener mock-up,3.0,1.5,3.0,8.0,190.75,701.5,0.0106,mm
+071_left_shoulder_pitch_screw_1_2_01.stl,left_shoulder_pitch_link,left_shoulder_pitch_screw_1_2,black,fastener mock-up,3.0,1.5,3.0,-1.5,190.75,692.0,0.0106,mm
+072_left_shoulder_pitch_screw_1_3_01.stl,left_shoulder_pitch_link,left_shoulder_pitch_screw_1_3,black,fastener mock-up,3.0,1.5,3.0,-11.0,190.75,701.5,0.0106,mm
+073_left_shoulder_roll_shaft_01.stl,left_shoulder_roll_link,left_shoulder_roll_shaft,silver,joint axle mock-up; use metal shaft on hardware,36.0,6.0,6.0,-18.0,190.0,677.0,0.7555,mm
+074_left_shoulder_roll_bearing_m1_01.stl,left_shoulder_pitch_link,left_shoulder_roll_bearing_m1,graphite,bearing race visual; substitute a purchased bearing,4.0,28.0,28.0,-16.0,179.0,666.0,1.0437,mm
+075_left_shoulder_roll_horn_m1_01.stl,left_shoulder_roll_link,left_shoulder_roll_horn_m1,bright_silver,cosmetic exterior,2.5,22.0,22.0,-18.75,182.0,669.0,0.4066,mm
+076_left_shoulder_roll_screw_m1_0_01.stl,left_shoulder_roll_link,left_shoulder_roll_screw_m1_0,black,fastener mock-up,1.5,3.0,3.0,-20.25,201.0,678.5,0.0106,mm
+077_left_shoulder_roll_screw_m1_1_01.stl,left_shoulder_roll_link,left_shoulder_roll_screw_m1_1,black,fastener mock-up,1.5,3.0,3.0,-20.25,191.5,688.0,0.0106,mm
+078_left_shoulder_roll_screw_m1_2_01.stl,left_shoulder_roll_link,left_shoulder_roll_screw_m1_2,black,fastener mock-up,1.5,3.0,3.0,-20.25,182.0,678.5,0.0106,mm
+079_left_shoulder_roll_screw_m1_3_01.stl,left_shoulder_roll_link,left_shoulder_roll_screw_m1_3,black,fastener mock-up,1.5,3.0,3.0,-20.25,191.5,669.0,0.0106,mm
+080_left_shoulder_roll_bearing_1_01.stl,left_shoulder_pitch_link,left_shoulder_roll_bearing_1,graphite,bearing race visual; substitute a purchased bearing,4.02,28.02,28.02,11.99021,178.99021,665.99021,1.2064,mm
+081_left_shoulder_roll_horn_1_01.stl,left_shoulder_roll_link,left_shoulder_roll_horn_1,bright_silver,cosmetic exterior,2.515,22.015,22.015,16.242308,181.992308,668.992308,0.4477,mm
+082_left_shoulder_roll_screw_1_0_01.stl,left_shoulder_roll_link,left_shoulder_roll_screw_1_0,black,fastener mock-up,1.5,3.0,3.0,18.75,201.0,678.5,0.0106,mm
+083_left_shoulder_roll_screw_1_1_01.stl,left_shoulder_roll_link,left_shoulder_roll_screw_1_1,black,fastener mock-up,1.5,3.0,3.0,18.75,191.5,688.0,0.0106,mm
+084_left_shoulder_roll_screw_1_2_01.stl,left_shoulder_roll_link,left_shoulder_roll_screw_1_2,black,fastener mock-up,1.5,3.0,3.0,18.75,182.0,678.5,0.0106,mm
+085_left_shoulder_roll_screw_1_3_01.stl,left_shoulder_roll_link,left_shoulder_roll_screw_1_3,black,fastener mock-up,1.5,3.0,3.0,18.75,191.5,669.0,0.0106,mm
+086_left_shoulder_yaw_shaft_01.stl,left_upper_arm,left_shoulder_yaw_shaft,silver,joint axle mock-up; use metal shaft on hardware,6.004,6.004,36.004,-3.002098,193.997902,638.997902,1.0179,mm
+087_left_shoulder_yaw_bearing_m1_01.stl,left_shoulder_roll_link,left_shoulder_yaw_bearing_m1,graphite,bearing race visual; substitute a purchased bearing,28.02,28.02,4.02,-14.00979,182.99021,640.99021,1.2064,mm
+088_left_shoulder_yaw_horn_m1_01.stl,left_upper_arm,left_shoulder_yaw_horn_m1,bright_silver,cosmetic exterior,21.244,22.0,2.511,-10.244403,186.0,638.244406,0.4104,mm
+089_left_shoulder_yaw_screw_m1_0_01.stl,left_upper_arm,left_shoulder_yaw_screw_m1_0,black,fastener mock-up,3.0,3.0,1.5,8.0,195.5,636.75,0.0106,mm
+090_left_shoulder_yaw_screw_m1_1_01.stl,left_upper_arm,left_shoulder_yaw_screw_m1_1,black,fastener mock-up,3.0,3.0,1.5,-1.5,205.0,636.75,0.0106,mm
+091_left_shoulder_yaw_screw_m1_2_01.stl,left_upper_arm,left_shoulder_yaw_screw_m1_2,black,fastener mock-up,0.404,2.048,1.5,-8.403846,195.976063,636.75,0.0006,mm
+092_left_shoulder_yaw_screw_m1_3_01.stl,left_upper_arm,left_shoulder_yaw_screw_m1_3,black,fastener mock-up,3.0,3.0,1.5,-1.5,186.0,636.75,0.0106,mm
+093_left_shoulder_yaw_bearing_1_01.stl,left_shoulder_roll_link,left_shoulder_yaw_bearing_1,graphite,bearing race visual; substitute a purchased bearing,27.797,28.0,4.0,-13.796515,183.0,669.0,1.0629,mm
+094_left_shoulder_yaw_horn_1_01.stl,left_upper_arm,left_shoulder_yaw_horn_1,bright_silver,cosmetic exterior,22.015,22.015,2.515,-11.007692,185.992308,673.242308,0.4477,mm
+095_left_shoulder_yaw_screw_1_0_01.stl,left_upper_arm,left_shoulder_yaw_screw_1_0,black,fastener mock-up,3.0,3.0,1.5,8.0,195.5,675.75,0.0106,mm
+096_left_shoulder_yaw_screw_1_1_01.stl,left_upper_arm,left_shoulder_yaw_screw_1_1,black,fastener mock-up,3.0,3.0,1.5,-1.5,205.0,675.75,0.0106,mm
+097_left_shoulder_yaw_screw_1_2_01.stl,left_upper_arm,left_shoulder_yaw_screw_1_2,black,fastener mock-up,3.0,3.0,1.5,-11.0,195.5,675.75,0.0106,mm
+098_left_shoulder_yaw_screw_1_3_01.stl,left_upper_arm,left_shoulder_yaw_screw_1_3,black,fastener mock-up,3.0,3.0,1.5,-1.5,186.0,675.75,0.0106,mm
+099_left_elbow_shaft_01.stl,left_forearm,left_elbow_shaft,silver,joint axle mock-up; use metal shaft on hardware,6.004,30.004,6.004,-3.002098,181.997902,549.997902,0.8482,mm
+100_left_elbow_bearing_m1_01.stl,left_upper_arm,left_elbow_bearing_m1,graphite,bearing race visual; substitute a purchased bearing,20.014,4.014,20.014,-10.006993,183.993007,542.993007,0.8042,mm
+101_left_elbow_horn_m1_01.stl,left_forearm,left_elbow_horn_m1,bright_silver,cosmetic exterior,14.01,2.51,14.01,-7.004895,181.245105,545.995105,0.2592,mm
+102_left_elbow_screw_m1_0_01.stl,left_forearm,left_elbow_screw_m1_0,black,fastener mock-up,3.0,1.5,3.0,-1.5,179.75,557.0,0.0106,mm
+103_left_elbow_screw_m1_1_01.stl,left_forearm,left_elbow_screw_m1_1,black,fastener mock-up,3.0,1.5,3.0,4.0,179.75,551.5,0.0106,mm
+104_left_elbow_screw_m1_2_01.stl,left_forearm,left_elbow_screw_m1_2,black,fastener mock-up,3.0,1.5,3.0,-1.5,179.75,546.0,0.0106,mm
+105_left_elbow_screw_m1_3_01.stl,left_forearm,left_elbow_screw_m1_3,black,fastener mock-up,3.0,1.5,3.0,-7.0,179.75,551.5,0.0106,mm
+106_left_elbow_bearing_1_01.stl,left_upper_arm,left_elbow_bearing_1,graphite,bearing race visual; substitute a purchased bearing,20.014,4.014,20.014,-10.006993,205.993007,542.993007,0.8042,mm
+107_left_elbow_horn_1_01.stl,left_forearm,left_elbow_horn_1,bright_silver,cosmetic exterior,14.01,2.51,14.01,-7.004895,210.245105,545.995105,0.2592,mm
+108_left_elbow_screw_1_0_01.stl,left_forearm,left_elbow_screw_1_0,black,fastener mock-up,3.0,1.5,3.0,-1.5,212.75,557.0,0.0106,mm
+109_left_elbow_screw_1_1_01.stl,left_forearm,left_elbow_screw_1_1,black,fastener mock-up,3.0,1.5,3.0,4.0,212.75,551.5,0.0106,mm
+110_left_elbow_screw_1_2_01.stl,left_forearm,left_elbow_screw_1_2,black,fastener mock-up,3.0,1.5,3.0,-1.5,212.75,546.0,0.0106,mm
+111_left_elbow_screw_1_3_01.stl,left_forearm,left_elbow_screw_1_3,black,fastener mock-up,3.0,1.5,3.0,-7.0,212.75,551.5,0.0106,mm
+112_left_forearm_roll_shaft_01.stl,left_forearm_roll_link,left_forearm_roll_shaft,silver,joint axle mock-up; use metal shaft on hardware,6.004,6.004,30.004,-3.002098,193.997902,500.997902,0.8482,mm
+113_left_forearm_roll_bearing_m1_01.stl,left_forearm,left_forearm_roll_bearing_m1,graphite,bearing race visual; substitute a purchased bearing,20.014,20.014,4.014,-10.006993,186.993007,502.993007,0.8042,mm
+114_left_forearm_roll_horn_m1_01.stl,left_forearm_roll_link,left_forearm_roll_horn_m1,bright_silver,cosmetic exterior,14.01,14.01,2.51,-7.004895,189.995105,500.245105,0.2592,mm
+115_left_forearm_roll_screw_m1_0_01.stl,left_forearm_roll_link,left_forearm_roll_screw_m1_0,black,fastener mock-up,3.0,3.0,1.5,4.0,195.5,498.75,0.0106,mm
+116_left_forearm_roll_screw_m1_1_01.stl,left_forearm_roll_link,left_forearm_roll_screw_m1_1,black,fastener mock-up,3.0,3.0,1.5,-1.5,201.0,498.75,0.0106,mm
+117_left_forearm_roll_screw_m1_2_01.stl,left_forearm_roll_link,left_forearm_roll_screw_m1_2,black,fastener mock-up,3.0,3.0,1.5,-7.0,195.5,498.75,0.0106,mm
+118_left_forearm_roll_screw_m1_3_01.stl,left_forearm_roll_link,left_forearm_roll_screw_m1_3,black,fastener mock-up,3.0,3.0,1.5,-1.5,190.0,498.75,0.0106,mm
+119_left_forearm_roll_bearing_1_01.stl,left_forearm,left_forearm_roll_bearing_1,graphite,bearing race visual; substitute a purchased bearing,19.461,20.0,4.008,-9.460821,187.0,524.995804,0.7743,mm
+120_left_forearm_roll_horn_1_01.stl,left_forearm_roll_link,left_forearm_roll_horn_1,bright_silver,cosmetic exterior,14.01,14.01,2.51,-7.004895,189.995105,529.245105,0.2592,mm
+121_left_forearm_roll_screw_1_0_01.stl,left_forearm_roll_link,left_forearm_roll_screw_1_0,black,fastener mock-up,3.0,3.0,1.5,4.0,195.5,531.75,0.0106,mm
+122_left_forearm_roll_screw_1_1_01.stl,left_forearm_roll_link,left_forearm_roll_screw_1_1,black,fastener mock-up,3.0,3.0,1.5,-1.5,201.0,531.75,0.0106,mm
+123_left_forearm_roll_screw_1_2_01.stl,left_forearm_roll_link,left_forearm_roll_screw_1_2,black,fastener mock-up,3.0,3.0,1.5,-7.0,195.5,531.75,0.0106,mm
+124_left_forearm_roll_screw_1_3_01.stl,left_forearm_roll_link,left_forearm_roll_screw_1_3,black,fastener mock-up,3.0,3.0,1.5,-1.5,190.0,531.75,0.0106,mm
+125_left_wrist_pitch_shaft_01.stl,left_wrist_pitch_link,left_wrist_pitch_shaft,silver,joint axle mock-up; use metal shaft on hardware,6.004,30.004,6.004,-3.002098,181.997902,433.997902,0.8482,mm
+126_left_wrist_pitch_bearing_m1_01.stl,left_forearm_roll_link,left_wrist_pitch_bearing_m1,graphite,bearing race visual; substitute a purchased bearing,20.014,4.014,20.014,-10.006993,183.993007,426.993007,0.8042,mm
+127_left_wrist_pitch_horn_m1_01.stl,left_wrist_pitch_link,left_wrist_pitch_horn_m1,bright_silver,cosmetic exterior,14.01,2.51,14.01,-7.004895,181.245105,429.995105,0.2592,mm
+128_left_wrist_pitch_screw_m1_0_01.stl,left_wrist_pitch_link,left_wrist_pitch_screw_m1_0,black,fastener mock-up,3.0,1.5,3.0,-1.5,179.75,441.0,0.0106,mm
+129_left_wrist_pitch_screw_m1_1_01.stl,left_wrist_pitch_link,left_wrist_pitch_screw_m1_1,black,fastener mock-up,3.0,1.5,3.0,4.0,179.75,435.5,0.0106,mm
+130_left_wrist_pitch_screw_m1_2_01.stl,left_wrist_pitch_link,left_wrist_pitch_screw_m1_2,black,fastener mock-up,3.0,1.5,3.0,-1.5,179.75,430.0,0.0106,mm
+131_left_wrist_pitch_screw_m1_3_01.stl,left_wrist_pitch_link,left_wrist_pitch_screw_m1_3,black,fastener mock-up,3.0,1.5,3.0,-7.0,179.75,435.5,0.0106,mm
+132_left_wrist_pitch_bearing_1_01.stl,left_forearm_roll_link,left_wrist_pitch_bearing_1,graphite,bearing race visual; substitute a purchased bearing,20.014,4.014,20.014,-10.006993,205.993007,426.993007,0.8042,mm
+133_left_wrist_pitch_horn_1_01.stl,left_wrist_pitch_link,left_wrist_pitch_horn_1,bright_silver,cosmetic exterior,14.01,2.51,14.01,-7.004895,210.245105,429.995105,0.2592,mm
+134_left_wrist_pitch_screw_1_0_01.stl,left_wrist_pitch_link,left_wrist_pitch_screw_1_0,black,fastener mock-up,3.0,1.5,3.0,-1.5,212.75,441.0,0.0106,mm
+135_left_wrist_pitch_screw_1_1_01.stl,left_wrist_pitch_link,left_wrist_pitch_screw_1_1,black,fastener mock-up,3.0,1.5,3.0,4.0,212.75,435.5,0.0106,mm
+136_left_wrist_pitch_screw_1_2_01.stl,left_wrist_pitch_link,left_wrist_pitch_screw_1_2,black,fastener mock-up,3.0,1.5,3.0,-1.5,212.75,430.0,0.0106,mm
+137_left_wrist_pitch_screw_1_3_01.stl,left_wrist_pitch_link,left_wrist_pitch_screw_1_3,black,fastener mock-up,3.0,1.5,3.0,-7.0,212.75,435.5,0.0106,mm
+138_left_wrist_roll_shaft_01.stl,left_hand,left_wrist_roll_shaft,silver,joint axle mock-up; use metal shaft on hardware,30.004,6.004,6.004,-15.002098,193.997902,413.997902,0.8482,mm
+139_left_wrist_roll_bearing_m1_01.stl,left_wrist_pitch_link,left_wrist_roll_bearing_m1,graphite,bearing race visual; substitute a purchased bearing,4.0,20.0,19.662,-13.0,187.0,407.0,0.6575,mm
+140_left_wrist_roll_horn_m1_01.stl,left_hand,left_wrist_roll_horn_m1,bright_silver,cosmetic exterior,2.51,14.01,14.01,-15.754895,189.995105,409.995105,0.2592,mm
+141_left_wrist_roll_screw_m1_0_01.stl,left_hand,left_wrist_roll_screw_m1_0,black,fastener mock-up,1.5,3.0,3.0,-17.25,201.0,415.5,0.0106,mm
+142_left_wrist_roll_screw_m1_1_01.stl,left_hand,left_wrist_roll_screw_m1_1,black,fastener mock-up,1.5,3.0,3.0,-17.25,195.5,421.0,0.0106,mm
+143_left_wrist_roll_screw_m1_2_01.stl,left_hand,left_wrist_roll_screw_m1_2,black,fastener mock-up,1.5,3.0,3.0,-17.25,190.0,415.5,0.0106,mm
+144_left_wrist_roll_screw_m1_3_01.stl,left_hand,left_wrist_roll_screw_m1_3,black,fastener mock-up,1.5,3.0,3.0,-17.25,195.5,410.0,0.0106,mm
+145_left_wrist_roll_bearing_1_01.stl,left_wrist_pitch_link,left_wrist_roll_bearing_1,graphite,bearing race visual; substitute a purchased bearing,4.014,20.014,20.014,8.993007,186.993007,406.993007,0.8042,mm
+146_left_wrist_roll_horn_1_01.stl,left_hand,left_wrist_roll_horn_1,bright_silver,cosmetic exterior,2.51,14.01,14.01,13.245105,189.995105,409.995105,0.2592,mm
+147_left_wrist_roll_screw_1_0_01.stl,left_hand,left_wrist_roll_screw_1_0,black,fastener mock-up,1.5,3.0,3.0,15.75,201.0,415.5,0.0106,mm
+148_left_wrist_roll_screw_1_1_01.stl,left_hand,left_wrist_roll_screw_1_1,black,fastener mock-up,1.5,3.0,3.0,15.75,195.5,421.0,0.0106,mm
+149_left_wrist_roll_screw_1_2_01.stl,left_hand,left_wrist_roll_screw_1_2,black,fastener mock-up,1.5,3.0,3.0,15.75,190.0,415.5,0.0106,mm
+150_left_wrist_roll_screw_1_3_01.stl,left_hand,left_wrist_roll_screw_1_3,black,fastener mock-up,1.5,3.0,3.0,15.75,195.5,410.0,0.0106,mm
+151_left_upper_arm_backbone_01.stl,left_upper_arm,left_upper_arm_backbone,graphite,cosmetic exterior,8.01,39.01,77.01,-18.004754,177.495246,568.495246,18.1442,mm
+152_left_upper_arm_cover_01.stl,left_upper_arm,left_upper_arm_cover,silver,cosmetic exterior,21.009,47.008,68.0,-21.004196,173.495804,577.0,14.3832,mm
+152_left_upper_arm_cover_02.stl,left_upper_arm,left_upper_arm_cover,silver,cosmetic exterior,21.009,47.029,68.029,0.005033,173.485738,576.985738,15.9534,mm
+153_left_forearm_cover_01.stl,left_forearm_roll_link,left_forearm_cover,silver,cosmetic exterior,23.517,58.033,61.033,-23.516639,167.983361,448.483361,17.6806,mm
+153_left_forearm_cover_02.stl,left_forearm_roll_link,left_forearm_cover,silver,cosmetic exterior,23.517,58.033,61.033,-0.0,167.983361,448.483361,18.0736,mm
+154_left_forearm_tendon_panel_01.stl,left_forearm_roll_link,left_forearm_tendon_panel,graphite,cosmetic exterior,1.502,35.004,42.004,23.5,179.498098,457.998098,2.1825,mm
+155_left_tendon_port_0_01.stl,left_forearm_roll_link,left_tendon_port_0,copper,cosmetic exterior,5.0,5.0,4.0,-2.5,182.5,444.5,0.0304,mm
+156_left_tendon_port_12_01.stl,left_forearm_roll_link,left_tendon_port_12,copper,cosmetic exterior,5.0,5.0,4.0,-2.5,194.5,444.5,0.0503,mm
+157_left_tendon_port_24_01.stl,left_forearm_roll_link,left_tendon_port_24,copper,cosmetic exterior,5.0,5.0,4.0,-2.5,206.5,444.5,0.0304,mm
+158_left_palm_01.stl,left_hand,left_palm,silver,cosmetic exterior,12.512,66.024,38.024,-12.511885,163.988115,376.988115,8.1332,mm
+158_left_palm_02.stl,left_hand,left_palm,silver,cosmetic exterior,12.512,66.024,38.024,-0.0,163.988115,376.988115,8.1332,mm
+159_left_palm_pad_01.stl,left_hand,left_palm_pad,rubber,cosmetic exterior,2.003,53.005,28.005,12.499301,170.497623,381.997623,2.9322,mm
+160_left_index_mcp_phalanx_01.stl,left_index_mcp_link,left_index_mcp_phalanx,bright_silver,articulated finger segment mock-up with 2.4 mm pilot bore,11.01,12.01,24.01,-5.504754,165.995246,347.495246,2.9631,mm
+161_left_index_mcp_pad_01.stl,left_index_mcp_link,left_index_mcp_pad,rubber,cosmetic exterior,1.747,9.004,18.004,5.455016,167.498098,350.498098,0.2673,mm
+162_left_index_mcp_knuckle_01.stl,left_index_mcp_link,left_index_mcp_knuckle,graphite,cosmetic exterior,8.4,13.002,8.4,-4.2,165.499091,368.8,0.5108,mm
+163_left_index_pip_phalanx_01.stl,left_index_pip_link,left_index_pip_phalanx,bright_silver,articulated finger segment mock-up with 2.4 mm pilot bore,11.01,12.01,16.01,-5.504754,165.995246,328.495246,1.9346,mm
+164_left_index_pip_pad_01.stl,left_index_pip_link,left_index_pip_pad,rubber,cosmetic exterior,1.747,9.004,10.004,5.455016,167.498098,331.498098,0.1471,mm
+165_left_index_pip_knuckle_01.stl,left_index_pip_link,left_index_pip_knuckle,graphite,cosmetic exterior,8.4,13.002,8.4,-4.2,165.499091,341.8,0.5108,mm
+166_left_index_dip_phalanx_01.stl,left_index_dip_link,left_index_dip_phalanx,bright_silver,articulated finger segment mock-up with 2.4 mm pilot bore,11.01,12.01,11.01,-5.504754,165.995246,314.495246,1.2917,mm
+167_left_index_dip_pad_01.stl,left_index_dip_link,left_index_dip_pad,rubber,cosmetic exterior,1.747,9.004,5.004,5.455016,167.498098,317.498098,0.072,mm
+168_left_index_dip_knuckle_01.stl,left_index_dip_link,left_index_dip_knuckle,graphite,cosmetic exterior,8.4,13.002,8.4,-4.2,165.499091,322.8,0.5108,mm
+169_left_middle_mcp_phalanx_01.stl,left_middle_mcp_link,left_middle_mcp_phalanx,bright_silver,articulated finger segment mock-up with 2.4 mm pilot bore,11.01,12.01,27.01,-5.504754,182.995246,344.495246,3.3488,mm
+170_left_middle_mcp_pad_01.stl,left_middle_mcp_link,left_middle_mcp_pad,rubber,cosmetic exterior,1.747,9.004,21.004,5.455016,184.498098,347.498098,0.3124,mm
+171_left_middle_mcp_knuckle_01.stl,left_middle_mcp_link,left_middle_mcp_knuckle,graphite,cosmetic exterior,8.4,13.002,8.4,-4.2,182.499091,368.8,0.5108,mm
+172_left_middle_pip_phalanx_01.stl,left_middle_pip_link,left_middle_pip_phalanx,bright_silver,articulated finger segment mock-up with 2.4 mm pilot bore,11.01,12.01,18.01,-5.504754,182.995246,323.495246,2.1917,mm
+173_left_middle_pip_pad_01.stl,left_middle_pip_link,left_middle_pip_pad,rubber,cosmetic exterior,1.747,9.004,12.004,5.455016,184.498098,326.498098,0.1772,mm
+174_left_middle_pip_knuckle_01.stl,left_middle_pip_link,left_middle_pip_knuckle,graphite,cosmetic exterior,8.4,13.002,8.4,-4.2,182.499091,338.8,0.5108,mm
+175_left_middle_dip_phalanx_01.stl,left_middle_dip_link,left_middle_dip_phalanx,bright_silver,articulated finger segment mock-up with 2.4 mm pilot bore,11.01,12.01,12.01,-5.504754,182.995246,308.495246,1.4203,mm
+176_left_middle_dip_pad_01.stl,left_middle_dip_link,left_middle_dip_pad,rubber,cosmetic exterior,1.747,9.004,6.004,5.455016,184.498098,311.498098,0.087,mm
+177_left_middle_dip_knuckle_01.stl,left_middle_dip_link,left_middle_dip_knuckle,graphite,cosmetic exterior,8.4,13.002,8.4,-4.2,182.499091,317.8,0.5108,mm
+178_left_ring_mcp_phalanx_01.stl,left_ring_mcp_link,left_ring_mcp_phalanx,bright_silver,articulated finger segment mock-up with 2.4 mm pilot bore,11.01,12.01,25.01,-5.504754,199.995246,346.495246,3.0917,mm
+179_left_ring_mcp_pad_01.stl,left_ring_mcp_link,left_ring_mcp_pad,rubber,cosmetic exterior,1.747,9.004,19.004,5.455016,201.498098,349.498098,0.2823,mm
+180_left_ring_mcp_knuckle_01.stl,left_ring_mcp_link,left_ring_mcp_knuckle,graphite,cosmetic exterior,8.4,13.002,8.4,-4.2,199.499091,368.8,0.5108,mm
+181_left_ring_pip_phalanx_01.stl,left_ring_pip_link,left_ring_pip_phalanx,bright_silver,articulated finger segment mock-up with 2.4 mm pilot bore,11.01,12.01,17.01,-5.504754,199.995246,326.495246,2.0631,mm
+182_left_ring_pip_pad_01.stl,left_ring_pip_link,left_ring_pip_pad,rubber,cosmetic exterior,1.747,9.004,11.004,5.455016,201.498098,329.498098,0.1621,mm
+183_left_ring_pip_knuckle_01.stl,left_ring_pip_link,left_ring_pip_knuckle,graphite,cosmetic exterior,8.4,13.002,8.4,-4.2,199.499091,340.8,0.5108,mm
+184_left_ring_dip_phalanx_01.stl,left_ring_dip_link,left_ring_dip_phalanx,bright_silver,articulated finger segment mock-up with 2.4 mm pilot bore,11.01,12.01,11.01,-5.504754,199.995246,312.495246,1.2917,mm
+185_left_ring_dip_pad_01.stl,left_ring_dip_link,left_ring_dip_pad,rubber,cosmetic exterior,1.747,9.004,5.004,5.455016,201.498098,315.498098,0.072,mm
+186_left_ring_dip_knuckle_01.stl,left_ring_dip_link,left_ring_dip_knuckle,graphite,cosmetic exterior,8.4,13.002,8.4,-4.2,199.499091,320.8,0.5108,mm
+187_left_little_mcp_phalanx_01.stl,left_little_mcp_link,left_little_mcp_phalanx,bright_silver,articulated finger segment mock-up with 2.4 mm pilot bore,11.01,12.01,19.01,-5.504754,216.995246,352.495246,2.3203,mm
+188_left_little_mcp_pad_01.stl,left_little_mcp_link,left_little_mcp_pad,rubber,cosmetic exterior,1.747,9.004,13.004,5.455016,218.498098,355.498098,0.1922,mm
+189_left_little_mcp_knuckle_01.stl,left_little_mcp_link,left_little_mcp_knuckle,graphite,cosmetic exterior,8.4,13.002,8.4,-4.2,216.499091,368.8,0.5108,mm
+190_left_little_pip_phalanx_01.stl,left_little_pip_link,left_little_pip_phalanx,bright_silver,articulated finger segment mock-up with 2.4 mm pilot bore,11.01,12.01,13.01,-5.504754,216.995246,336.495246,1.5489,mm
+191_left_little_pip_pad_01.stl,left_little_pip_link,left_little_pip_pad,rubber,cosmetic exterior,1.747,9.004,7.004,5.455016,218.498098,339.498098,0.102,mm
+192_left_little_pip_knuckle_01.stl,left_little_pip_link,left_little_pip_knuckle,graphite,cosmetic exterior,8.4,13.002,8.4,-4.2,216.499091,346.8,0.5108,mm
+193_left_little_dip_phalanx_01.stl,left_little_dip_link,left_little_dip_phalanx,bright_silver,articulated finger segment mock-up with 2.4 mm pilot bore,11.01,12.01,9.01,-5.504754,216.995246,324.495246,1.0346,mm
+194_left_little_dip_pad_01.stl,left_little_dip_link,left_little_dip_pad,rubber,cosmetic exterior,1.747,9.004,4.004,5.455016,218.498098,326.998098,0.0569,mm
+195_left_little_dip_knuckle_01.stl,left_little_dip_link,left_little_dip_knuckle,graphite,cosmetic exterior,8.4,13.002,8.4,-4.2,216.499091,330.8,0.5108,mm
+196_left_thumb_opposition_mount_01.stl,left_thumb_cmc_link,left_thumb_opposition_mount,graphite,cosmetic exterior,16.01,15.01,10.01,-8.004754,144.495246,390.995246,2.2699,mm
+197_left_thumb_spread_phalanx_01.stl,left_thumb_spread_link,left_thumb_spread_phalanx,bright_silver,articulated finger segment mock-up with 2.4 mm pilot bore,13.01,14.01,18.01,-6.504754,144.995246,373.495246,3.0689,mm
+198_left_thumb_spread_pad_01.stl,left_thumb_spread_link,left_thumb_spread_pad,rubber,cosmetic exterior,1.747,11.004,12.004,6.455016,146.498098,376.498098,0.2174,mm
+199_left_thumb_spread_knuckle_01.stl,left_thumb_spread_link,left_thumb_spread_knuckle,graphite,cosmetic exterior,15.002,8.4,8.4,-7.500909,147.8,388.8,0.5754,mm
+200_left_thumb_mcp_phalanx_01.stl,left_thumb_mcp_link,left_thumb_mcp_phalanx,bright_silver,articulated finger segment mock-up with 2.4 mm pilot bore,13.01,14.01,17.01,-6.504754,144.995246,353.495246,2.8904,mm
+201_left_thumb_mcp_pad_01.stl,left_thumb_mcp_link,left_thumb_mcp_pad,rubber,cosmetic exterior,1.747,11.004,11.004,6.455016,146.498098,356.498098,0.199,mm
+202_left_thumb_mcp_knuckle_01.stl,left_thumb_mcp_link,left_thumb_mcp_knuckle,graphite,cosmetic exterior,8.4,15.002,8.4,-4.2,144.499091,367.8,0.5853,mm
+203_left_thumb_ip_phalanx_01.stl,left_thumb_ip_link,left_thumb_ip_phalanx,bright_silver,articulated finger segment mock-up with 2.4 mm pilot bore,13.01,14.01,14.01,-6.504754,144.995246,336.495246,2.3547,mm
+204_left_thumb_ip_pad_01.stl,left_thumb_ip_link,left_thumb_ip_pad,rubber,cosmetic exterior,1.747,11.004,8.004,6.455016,146.498098,339.498098,0.1437,mm
+205_left_thumb_ip_knuckle_01.stl,left_thumb_ip_link,left_thumb_ip_knuckle,graphite,cosmetic exterior,8.4,15.002,8.4,-4.2,144.499091,347.8,0.5853,mm
+206_left_back_jet_01.stl,torso,left_back_jet,silver,cosmetic exterior,28.0,56.0,86.0,-121.0,62.0,592.0,21.4791,mm
+206_left_back_jet_02.stl,torso,left_back_jet,silver,cosmetic exterior,28.0,56.0,86.0,-93.0,62.0,592.0,21.4791,mm
+207_left_back_nozzle_01.stl,torso,left_back_nozzle,graphite,cosmetic exterior,48.034,48.034,20.034,-117.016783,65.983217,581.983217,8.4823,mm
+208_left_back_nozzle_ring_01.stl,torso,left_back_nozzle_ring,copper,cosmetic exterior,52.036,52.036,5.036,-119.018182,63.981818,581.481818,1.6446,mm
+209_left_jet_mount_01.stl,torso,left_jet_mount,graphite,cosmetic exterior,38.014,14.014,16.014,-89.007131,82.992869,645.992869,7.3666,mm
+210_right_thigh_shell_01.stl,right_thigh,right_thigh_shell,silver,cosmetic exterior,39.0,78.0,155.0,-39.0,-114.0,283.0,41.267,mm
+210_right_thigh_shell_02.stl,right_thigh,right_thigh_shell,silver,cosmetic exterior,39.0,78.0,155.0,-0.0,-114.0,283.0,41.267,mm
+211_right_shin_shell_01.stl,right_shin,right_shin_shell,silver,cosmetic exterior,34.0,68.0,158.0,-34.0,-109.0,88.0,36.7,mm
+211_right_shin_shell_02.stl,right_shin,right_shin_shell,silver,cosmetic exterior,34.0,68.0,158.0,-0.0,-109.0,88.0,36.7,mm
+212_right_hip_hub_01.stl,right_thigh,right_hip_hub,graphite,visual joint cover; not a bearing,42.0,29.0,42.0,-21.0,-104.0,439.0,16.8546,mm
+212_right_hip_hub_02.stl,right_thigh,right_hip_hub,graphite,visual joint cover; not a bearing,42.0,29.0,42.0,-21.0,-75.0,439.0,16.8546,mm
+213_right_hip_disc_01.stl,right_thigh,right_hip_disc,bright_silver,cosmetic exterior,28.02,4.02,28.02,-14.00979,-109.00979,445.99021,2.463,mm
+214_right_hip_bolt_01.stl,right_thigh,right_hip_bolt,graphite,cosmetic exterior,11.0,3.5,11.0,-5.5,-112.5,454.5,0.3326,mm
+215_right_knee_hub_01.stl,right_shin,right_knee_hub,graphite,visual joint cover; not a bearing,42.0,29.0,42.0,-21.0,-104.0,244.0,16.8546,mm
+215_right_knee_hub_02.stl,right_shin,right_knee_hub,graphite,visual joint cover; not a bearing,42.0,29.0,42.0,-21.0,-75.0,244.0,16.8546,mm
+216_right_knee_disc_01.stl,right_shin,right_knee_disc,bright_silver,cosmetic exterior,28.02,4.02,28.02,-14.00979,-109.00979,250.99021,2.463,mm
+217_right_knee_bolt_01.stl,right_shin,right_knee_bolt,graphite,cosmetic exterior,11.0,3.5,11.0,-5.5,-112.5,259.5,0.3326,mm
+218_right_ankle_hub_01.stl,right_foot,right_ankle_hub,graphite,visual joint cover; not a bearing,42.0,29.0,42.0,-21.0,-104.0,49.0,16.8546,mm
+218_right_ankle_hub_02.stl,right_foot,right_ankle_hub,graphite,visual joint cover; not a bearing,42.0,29.0,42.0,-21.0,-75.0,49.0,16.8546,mm
+219_right_ankle_disc_01.stl,right_foot,right_ankle_disc,bright_silver,cosmetic exterior,28.02,4.02,28.02,-14.00979,-109.00979,55.99021,2.463,mm
+220_right_ankle_bolt_01.stl,right_foot,right_ankle_bolt,graphite,cosmetic exterior,11.0,3.5,11.0,-5.5,-112.5,64.5,0.3326,mm
+221_right_boot_shell_01.stl,right_foot,right_boot_shell,silver,cosmetic exterior,85.033,92.067,67.067,-62.533278,-121.033278,-0.033278,64.3983,mm
+221_right_boot_shell_02.stl,right_foot,right_boot_shell,silver,cosmetic exterior,85.033,92.067,67.067,22.5,-121.033278,-0.033278,66.1261,mm
+222_right_sole_01.stl,right_foot,right_sole,rubber,cosmetic exterior,163.012,87.012,6.012,-59.005943,-118.505943,-0.005943,46.888,mm
+223_right_shin_band_123_01.stl,right_shin,right_shin_band_123,bright_silver,cosmetic exterior,34.0,68.0,7.0,-34.0,-109.0,119.5,1.7311,mm
+223_right_shin_band_123_02.stl,right_shin,right_shin_band_123,bright_silver,cosmetic exterior,34.0,68.0,7.0,-0.0,-109.0,119.5,1.7311,mm
+224_right_shin_band_169_01.stl,right_shin,right_shin_band_169,bright_silver,cosmetic exterior,34.0,68.0,7.0,-34.0,-109.0,165.5,1.4157,mm
+224_right_shin_band_169_02.stl,right_shin,right_shin_band_169,bright_silver,cosmetic exterior,34.0,68.0,7.0,-0.0,-109.0,165.5,1.4157,mm
+225_right_shin_band_215_01.stl,right_shin,right_shin_band_215,bright_silver,cosmetic exterior,34.0,68.0,7.0,-34.0,-109.0,211.5,0.58,mm
+225_right_shin_band_215_02.stl,right_shin,right_shin_band_215,bright_silver,cosmetic exterior,34.0,68.0,7.0,-0.0,-109.0,211.5,0.58,mm
+226_right_boot_nozzle_01.stl,right_foot,right_boot_nozzle,graphite,cosmetic exterior,34.024,34.024,13.024,5.488112,-92.011888,6.488112,4.3597,mm
+227_right_boot_nozzle_ring_01.stl,right_foot,right_boot_nozzle_ring,copper,cosmetic exterior,38.027,38.027,4.027,3.486713,-94.013287,6.986713,0.9048,mm
+228_right_shoulder_mount_01.stl,torso,right_shoulder_mount,graphite,shoulder support concept; not a qualified motor bracket,24.019,68.019,25.019,-24.009508,-177.009508,690.490492,38.7243,mm
+229_right_shoulder_roll_yoke_rail_01.stl,right_shoulder_pitch_link,right_shoulder_roll_yoke_rail,graphite,joint-support rail concept,10.233,31.218,33.232,-18.516575,-198.111938,674.884628,3.1006,mm
+230_right_shoulder_yaw_yoke_rail_01.stl,right_shoulder_roll_link,right_shoulder_yaw_yoke_rail,graphite,joint-support rail concept,10.228,14.214,33.226,-18.513901,-202.104161,651.886099,2.4633,mm
+231_right_elbow_yoke_rail_01.stl,right_upper_arm,right_elbow_yoke_rail,graphite,joint-support rail concept,10.224,10.224,114.223,-18.512123,-202.112123,547.887877,9.0538,mm
+232_right_forearm_roll_yoke_rail_01.stl,right_forearm,right_forearm_roll_yoke_rail,graphite,joint-support rail concept,10.224,10.224,47.223,-18.512123,-202.112123,510.887877,3.579,mm
+233_right_wrist_pitch_yoke_rail_01.stl,right_forearm_roll_link,right_wrist_pitch_yoke_rail,graphite,joint-support rail concept,10.224,10.224,89.223,-18.512123,-202.112123,431.887877,7.011,mm
+234_right_wrist_roll_yoke_rail_01.stl,right_wrist_pitch_link,right_wrist_roll_yoke_rail,graphite,joint-support rail concept,10.224,10.224,30.223,-18.512123,-202.112123,411.887877,2.1899,mm
+235_right_thumb_support_01.stl,right_hand,right_thumb_support,graphite,cosmetic exterior,15.014,20.014,13.014,-7.507131,-170.007131,389.492869,3.5653,mm
+236_right_shoulder_pitch_shaft_01.stl,right_shoulder_pitch_link,right_shoulder_pitch_shaft,silver,joint axle mock-up; use metal shaft on hardware,6.004,36.004,6.004,-3.002098,-190.002098,699.997902,1.0179,mm
+237_right_shoulder_pitch_bearing_m1_01.stl,torso,right_shoulder_pitch_bearing_m1,graphite,bearing race visual; substitute a purchased bearing,28.02,4.02,28.02,-14.00979,-188.00979,688.99021,1.2064,mm
+238_right_shoulder_pitch_horn_m1_01.stl,right_shoulder_pitch_link,right_shoulder_pitch_horn_m1,bright_silver,cosmetic exterior,22.015,2.515,22.015,-11.007692,-190.757692,691.992308,0.4477,mm
+239_right_shoulder_pitch_screw_m1_0_01.stl,right_shoulder_pitch_link,right_shoulder_pitch_screw_m1_0,black,fastener mock-up,3.0,1.5,3.0,-1.5,-192.25,711.0,0.0106,mm
+240_right_shoulder_pitch_screw_m1_1_01.stl,right_shoulder_pitch_link,right_shoulder_pitch_screw_m1_1,black,fastener mock-up,3.0,1.5,3.0,8.0,-192.25,701.5,0.0106,mm
+241_right_shoulder_pitch_screw_m1_2_01.stl,right_shoulder_pitch_link,right_shoulder_pitch_screw_m1_2,black,fastener mock-up,3.0,1.5,3.0,-1.5,-192.25,692.0,0.0106,mm
+242_right_shoulder_pitch_screw_m1_3_01.stl,right_shoulder_pitch_link,right_shoulder_pitch_screw_m1_3,black,fastener mock-up,3.0,1.5,3.0,-11.0,-192.25,701.5,0.0106,mm
+243_right_shoulder_pitch_bearing_1_01.stl,torso,right_shoulder_pitch_bearing_1,graphite,bearing race visual; substitute a purchased bearing,20.305,4.0,28.0,-6.30476,-160.0,689.0,0.6805,mm
+244_right_shoulder_pitch_horn_1_01.stl,right_shoulder_pitch_link,right_shoulder_pitch_horn_1,bright_silver,cosmetic exterior,22.015,2.515,22.015,-11.007692,-155.757692,691.992308,0.4477,mm
+245_right_shoulder_pitch_screw_1_0_01.stl,right_shoulder_pitch_link,right_shoulder_pitch_screw_1_0,black,fastener mock-up,3.0,1.5,3.0,-1.5,-153.25,711.0,0.0106,mm
+246_right_shoulder_pitch_screw_1_1_01.stl,right_shoulder_pitch_link,right_shoulder_pitch_screw_1_1,black,fastener mock-up,3.0,1.5,3.0,8.0,-153.25,701.5,0.0106,mm
+247_right_shoulder_pitch_screw_1_2_01.stl,right_shoulder_pitch_link,right_shoulder_pitch_screw_1_2,black,fastener mock-up,3.0,1.5,3.0,-1.5,-153.25,692.0,0.0106,mm
+248_right_shoulder_pitch_screw_1_3_01.stl,right_shoulder_pitch_link,right_shoulder_pitch_screw_1_3,black,fastener mock-up,3.0,1.5,3.0,-11.0,-153.25,701.5,0.0106,mm
+249_right_shoulder_roll_shaft_01.stl,right_shoulder_roll_link,right_shoulder_roll_shaft,silver,joint axle mock-up; use metal shaft on hardware,36.0,6.0,6.0,-18.0,-196.0,677.0,0.7555,mm
+250_right_shoulder_roll_bearing_m1_01.stl,right_shoulder_pitch_link,right_shoulder_roll_bearing_m1,graphite,bearing race visual; substitute a purchased bearing,4.0,28.0,28.0,-16.0,-207.0,666.0,1.0437,mm
+251_right_shoulder_roll_horn_m1_01.stl,right_shoulder_roll_link,right_shoulder_roll_horn_m1,bright_silver,cosmetic exterior,2.5,22.0,22.0,-18.75,-204.0,669.0,0.4066,mm
+252_right_shoulder_roll_screw_m1_0_01.stl,right_shoulder_roll_link,right_shoulder_roll_screw_m1_0,black,fastener mock-up,1.5,3.0,3.0,-20.25,-185.0,678.5,0.0106,mm
+253_right_shoulder_roll_screw_m1_1_01.stl,right_shoulder_roll_link,right_shoulder_roll_screw_m1_1,black,fastener mock-up,1.5,3.0,3.0,-20.25,-194.5,688.0,0.0106,mm
+254_right_shoulder_roll_screw_m1_2_01.stl,right_shoulder_roll_link,right_shoulder_roll_screw_m1_2,black,fastener mock-up,1.5,3.0,3.0,-20.25,-204.0,678.5,0.0106,mm
+255_right_shoulder_roll_screw_m1_3_01.stl,right_shoulder_roll_link,right_shoulder_roll_screw_m1_3,black,fastener mock-up,1.5,3.0,3.0,-20.25,-194.5,669.0,0.0106,mm
+256_right_shoulder_roll_bearing_1_01.stl,right_shoulder_pitch_link,right_shoulder_roll_bearing_1,graphite,bearing race visual; substitute a purchased bearing,4.02,28.02,28.02,11.99021,-207.00979,665.99021,1.2064,mm
+257_right_shoulder_roll_horn_1_01.stl,right_shoulder_roll_link,right_shoulder_roll_horn_1,bright_silver,cosmetic exterior,2.515,22.015,22.015,16.242308,-204.007692,668.992308,0.4477,mm
+258_right_shoulder_roll_screw_1_0_01.stl,right_shoulder_roll_link,right_shoulder_roll_screw_1_0,black,fastener mock-up,1.5,3.0,3.0,18.75,-185.0,678.5,0.0106,mm
+259_right_shoulder_roll_screw_1_1_01.stl,right_shoulder_roll_link,right_shoulder_roll_screw_1_1,black,fastener mock-up,1.5,3.0,3.0,18.75,-194.5,688.0,0.0106,mm
+260_right_shoulder_roll_screw_1_2_01.stl,right_shoulder_roll_link,right_shoulder_roll_screw_1_2,black,fastener mock-up,1.5,3.0,3.0,18.75,-204.0,678.5,0.0106,mm
+261_right_shoulder_roll_screw_1_3_01.stl,right_shoulder_roll_link,right_shoulder_roll_screw_1_3,black,fastener mock-up,1.5,3.0,3.0,18.75,-194.5,669.0,0.0106,mm
+262_right_shoulder_yaw_shaft_01.stl,right_upper_arm,right_shoulder_yaw_shaft,silver,joint axle mock-up; use metal shaft on hardware,6.004,6.004,36.004,-3.002098,-200.002098,638.997902,1.0179,mm
+263_right_shoulder_yaw_bearing_m1_01.stl,right_shoulder_roll_link,right_shoulder_yaw_bearing_m1,graphite,bearing race visual; substitute a purchased bearing,28.02,28.02,4.02,-14.00979,-211.00979,640.99021,1.2064,mm
+264_right_shoulder_yaw_horn_m1_01.stl,right_upper_arm,right_shoulder_yaw_horn_m1,bright_silver,cosmetic exterior,21.244,22.0,2.511,-10.244403,-208.0,638.244406,0.4104,mm
+265_right_shoulder_yaw_screw_m1_0_01.stl,right_upper_arm,right_shoulder_yaw_screw_m1_0,black,fastener mock-up,3.0,3.0,1.5,8.0,-198.5,636.75,0.0106,mm
+266_right_shoulder_yaw_screw_m1_1_01.stl,right_upper_arm,right_shoulder_yaw_screw_m1_1,black,fastener mock-up,3.0,3.0,1.5,-1.5,-189.0,636.75,0.0106,mm
+267_right_shoulder_yaw_screw_m1_2_01.stl,right_upper_arm,right_shoulder_yaw_screw_m1_2,black,fastener mock-up,0.404,2.048,1.5,-8.403846,-198.023937,636.75,0.0006,mm
+268_right_shoulder_yaw_screw_m1_3_01.stl,right_upper_arm,right_shoulder_yaw_screw_m1_3,black,fastener mock-up,3.0,3.0,1.5,-1.5,-208.0,636.75,0.0106,mm
+269_right_shoulder_yaw_bearing_1_01.stl,right_shoulder_roll_link,right_shoulder_yaw_bearing_1,graphite,bearing race visual; substitute a purchased bearing,27.797,28.0,4.0,-13.796515,-211.0,669.0,1.0629,mm
+270_right_shoulder_yaw_horn_1_01.stl,right_upper_arm,right_shoulder_yaw_horn_1,bright_silver,cosmetic exterior,22.015,22.015,2.515,-11.007692,-208.007692,673.242308,0.4477,mm
+271_right_shoulder_yaw_screw_1_0_01.stl,right_upper_arm,right_shoulder_yaw_screw_1_0,black,fastener mock-up,3.0,3.0,1.5,8.0,-198.5,675.75,0.0106,mm
+272_right_shoulder_yaw_screw_1_1_01.stl,right_upper_arm,right_shoulder_yaw_screw_1_1,black,fastener mock-up,3.0,3.0,1.5,-1.5,-189.0,675.75,0.0106,mm
+273_right_shoulder_yaw_screw_1_2_01.stl,right_upper_arm,right_shoulder_yaw_screw_1_2,black,fastener mock-up,3.0,3.0,1.5,-11.0,-198.5,675.75,0.0106,mm
+274_right_shoulder_yaw_screw_1_3_01.stl,right_upper_arm,right_shoulder_yaw_screw_1_3,black,fastener mock-up,3.0,3.0,1.5,-1.5,-208.0,675.75,0.0106,mm
+275_right_elbow_shaft_01.stl,right_forearm,right_elbow_shaft,silver,joint axle mock-up; use metal shaft on hardware,6.004,30.004,6.004,-3.002098,-212.002098,549.997902,0.8482,mm
+276_right_elbow_bearing_m1_01.stl,right_upper_arm,right_elbow_bearing_m1,graphite,bearing race visual; substitute a purchased bearing,20.014,4.014,20.014,-10.006993,-210.006993,542.993007,0.8042,mm
+277_right_elbow_horn_m1_01.stl,right_forearm,right_elbow_horn_m1,bright_silver,cosmetic exterior,14.01,2.51,14.01,-7.004895,-212.754895,545.995105,0.2592,mm
+278_right_elbow_screw_m1_0_01.stl,right_forearm,right_elbow_screw_m1_0,black,fastener mock-up,3.0,1.5,3.0,-1.5,-214.25,557.0,0.0106,mm
+279_right_elbow_screw_m1_1_01.stl,right_forearm,right_elbow_screw_m1_1,black,fastener mock-up,3.0,1.5,3.0,4.0,-214.25,551.5,0.0106,mm
+280_right_elbow_screw_m1_2_01.stl,right_forearm,right_elbow_screw_m1_2,black,fastener mock-up,3.0,1.5,3.0,-1.5,-214.25,546.0,0.0106,mm
+281_right_elbow_screw_m1_3_01.stl,right_forearm,right_elbow_screw_m1_3,black,fastener mock-up,3.0,1.5,3.0,-7.0,-214.25,551.5,0.0106,mm
+282_right_elbow_bearing_1_01.stl,right_upper_arm,right_elbow_bearing_1,graphite,bearing race visual; substitute a purchased bearing,20.014,4.014,20.014,-10.006993,-188.006993,542.993007,0.8042,mm
+283_right_elbow_horn_1_01.stl,right_forearm,right_elbow_horn_1,bright_silver,cosmetic exterior,14.01,2.51,14.01,-7.004895,-183.754895,545.995105,0.2592,mm
+284_right_elbow_screw_1_0_01.stl,right_forearm,right_elbow_screw_1_0,black,fastener mock-up,3.0,1.5,3.0,-1.5,-181.25,557.0,0.0106,mm
+285_right_elbow_screw_1_1_01.stl,right_forearm,right_elbow_screw_1_1,black,fastener mock-up,3.0,1.5,3.0,4.0,-181.25,551.5,0.0106,mm
+286_right_elbow_screw_1_2_01.stl,right_forearm,right_elbow_screw_1_2,black,fastener mock-up,3.0,1.5,3.0,-1.5,-181.25,546.0,0.0106,mm
+287_right_elbow_screw_1_3_01.stl,right_forearm,right_elbow_screw_1_3,black,fastener mock-up,3.0,1.5,3.0,-7.0,-181.25,551.5,0.0106,mm
+288_right_forearm_roll_shaft_01.stl,right_forearm_roll_link,right_forearm_roll_shaft,silver,joint axle mock-up; use metal shaft on hardware,6.004,6.004,30.004,-3.002098,-200.002098,500.997902,0.8482,mm
+289_right_forearm_roll_bearing_m1_01.stl,right_forearm,right_forearm_roll_bearing_m1,graphite,bearing race visual; substitute a purchased bearing,20.014,20.014,4.014,-10.006993,-207.006993,502.993007,0.8042,mm
+290_right_forearm_roll_horn_m1_01.stl,right_forearm_roll_link,right_forearm_roll_horn_m1,bright_silver,cosmetic exterior,14.01,14.01,2.51,-7.004895,-204.004895,500.245105,0.2592,mm
+291_right_forearm_roll_screw_m1_0_01.stl,right_forearm_roll_link,right_forearm_roll_screw_m1_0,black,fastener mock-up,3.0,3.0,1.5,4.0,-198.5,498.75,0.0106,mm
+292_right_forearm_roll_screw_m1_1_01.stl,right_forearm_roll_link,right_forearm_roll_screw_m1_1,black,fastener mock-up,3.0,3.0,1.5,-1.5,-193.0,498.75,0.0106,mm
+293_right_forearm_roll_screw_m1_2_01.stl,right_forearm_roll_link,right_forearm_roll_screw_m1_2,black,fastener mock-up,3.0,3.0,1.5,-7.0,-198.5,498.75,0.0106,mm
+294_right_forearm_roll_screw_m1_3_01.stl,right_forearm_roll_link,right_forearm_roll_screw_m1_3,black,fastener mock-up,3.0,3.0,1.5,-1.5,-204.0,498.75,0.0106,mm
+295_right_forearm_roll_bearing_1_01.stl,right_forearm,right_forearm_roll_bearing_1,graphite,bearing race visual; substitute a purchased bearing,19.461,20.0,4.008,-9.460821,-207.0,524.995804,0.7743,mm
+296_right_forearm_roll_horn_1_01.stl,right_forearm_roll_link,right_forearm_roll_horn_1,bright_silver,cosmetic exterior,14.01,14.01,2.51,-7.004895,-204.004895,529.245105,0.2592,mm
+297_right_forearm_roll_screw_1_0_01.stl,right_forearm_roll_link,right_forearm_roll_screw_1_0,black,fastener mock-up,3.0,3.0,1.5,4.0,-198.5,531.75,0.0106,mm
+298_right_forearm_roll_screw_1_1_01.stl,right_forearm_roll_link,right_forearm_roll_screw_1_1,black,fastener mock-up,3.0,3.0,1.5,-1.5,-193.0,531.75,0.0106,mm
+299_right_forearm_roll_screw_1_2_01.stl,right_forearm_roll_link,right_forearm_roll_screw_1_2,black,fastener mock-up,3.0,3.0,1.5,-7.0,-198.5,531.75,0.0106,mm
+300_right_forearm_roll_screw_1_3_01.stl,right_forearm_roll_link,right_forearm_roll_screw_1_3,black,fastener mock-up,3.0,3.0,1.5,-1.5,-204.0,531.75,0.0106,mm
+301_right_wrist_pitch_shaft_01.stl,right_wrist_pitch_link,right_wrist_pitch_shaft,silver,joint axle mock-up; use metal shaft on hardware,6.004,30.004,6.004,-3.002098,-212.002098,433.997902,0.8482,mm
+302_right_wrist_pitch_bearing_m1_01.stl,right_forearm_roll_link,right_wrist_pitch_bearing_m1,graphite,bearing race visual; substitute a purchased bearing,20.014,4.014,20.014,-10.006993,-210.006993,426.993007,0.8042,mm
+303_right_wrist_pitch_horn_m1_01.stl,right_wrist_pitch_link,right_wrist_pitch_horn_m1,bright_silver,cosmetic exterior,14.01,2.51,14.01,-7.004895,-212.754895,429.995105,0.2592,mm
+304_right_wrist_pitch_screw_m1_0_01.stl,right_wrist_pitch_link,right_wrist_pitch_screw_m1_0,black,fastener mock-up,3.0,1.5,3.0,-1.5,-214.25,441.0,0.0106,mm
+305_right_wrist_pitch_screw_m1_1_01.stl,right_wrist_pitch_link,right_wrist_pitch_screw_m1_1,black,fastener mock-up,3.0,1.5,3.0,4.0,-214.25,435.5,0.0106,mm
+306_right_wrist_pitch_screw_m1_2_01.stl,right_wrist_pitch_link,right_wrist_pitch_screw_m1_2,black,fastener mock-up,3.0,1.5,3.0,-1.5,-214.25,430.0,0.0106,mm
+307_right_wrist_pitch_screw_m1_3_01.stl,right_wrist_pitch_link,right_wrist_pitch_screw_m1_3,black,fastener mock-up,3.0,1.5,3.0,-7.0,-214.25,435.5,0.0106,mm
+308_right_wrist_pitch_bearing_1_01.stl,right_forearm_roll_link,right_wrist_pitch_bearing_1,graphite,bearing race visual; substitute a purchased bearing,20.014,4.014,20.014,-10.006993,-188.006993,426.993007,0.8042,mm
+309_right_wrist_pitch_horn_1_01.stl,right_wrist_pitch_link,right_wrist_pitch_horn_1,bright_silver,cosmetic exterior,14.01,2.51,14.01,-7.004895,-183.754895,429.995105,0.2592,mm
+310_right_wrist_pitch_screw_1_0_01.stl,right_wrist_pitch_link,right_wrist_pitch_screw_1_0,black,fastener mock-up,3.0,1.5,3.0,-1.5,-181.25,441.0,0.0106,mm
+311_right_wrist_pitch_screw_1_1_01.stl,right_wrist_pitch_link,right_wrist_pitch_screw_1_1,black,fastener mock-up,3.0,1.5,3.0,4.0,-181.25,435.5,0.0106,mm
+312_right_wrist_pitch_screw_1_2_01.stl,right_wrist_pitch_link,right_wrist_pitch_screw_1_2,black,fastener mock-up,3.0,1.5,3.0,-1.5,-181.25,430.0,0.0106,mm
+313_right_wrist_pitch_screw_1_3_01.stl,right_wrist_pitch_link,right_wrist_pitch_screw_1_3,black,fastener mock-up,3.0,1.5,3.0,-7.0,-181.25,435.5,0.0106,mm
+314_right_wrist_roll_shaft_01.stl,right_hand,right_wrist_roll_shaft,silver,joint axle mock-up; use metal shaft on hardware,30.004,6.004,6.004,-15.002098,-200.002098,413.997902,0.8482,mm
+315_right_wrist_roll_bearing_m1_01.stl,right_wrist_pitch_link,right_wrist_roll_bearing_m1,graphite,bearing race visual; substitute a purchased bearing,4.0,20.0,19.662,-13.0,-207.0,407.0,0.6575,mm
+316_right_wrist_roll_horn_m1_01.stl,right_hand,right_wrist_roll_horn_m1,bright_silver,cosmetic exterior,2.51,14.01,14.01,-15.754895,-204.004895,409.995105,0.2592,mm
+317_right_wrist_roll_screw_m1_0_01.stl,right_hand,right_wrist_roll_screw_m1_0,black,fastener mock-up,1.5,3.0,3.0,-17.25,-193.0,415.5,0.0106,mm
+318_right_wrist_roll_screw_m1_1_01.stl,right_hand,right_wrist_roll_screw_m1_1,black,fastener mock-up,1.5,3.0,3.0,-17.25,-198.5,421.0,0.0106,mm
+319_right_wrist_roll_screw_m1_2_01.stl,right_hand,right_wrist_roll_screw_m1_2,black,fastener mock-up,1.5,3.0,3.0,-17.25,-204.0,415.5,0.0106,mm
+320_right_wrist_roll_screw_m1_3_01.stl,right_hand,right_wrist_roll_screw_m1_3,black,fastener mock-up,1.5,3.0,3.0,-17.25,-198.5,410.0,0.0106,mm
+321_right_wrist_roll_bearing_1_01.stl,right_wrist_pitch_link,right_wrist_roll_bearing_1,graphite,bearing race visual; substitute a purchased bearing,4.014,20.014,20.014,8.993007,-207.006993,406.993007,0.8042,mm
+322_right_wrist_roll_horn_1_01.stl,right_hand,right_wrist_roll_horn_1,bright_silver,cosmetic exterior,2.51,14.01,14.01,13.245105,-204.004895,409.995105,0.2592,mm
+323_right_wrist_roll_screw_1_0_01.stl,right_hand,right_wrist_roll_screw_1_0,black,fastener mock-up,1.5,3.0,3.0,15.75,-193.0,415.5,0.0106,mm
+324_right_wrist_roll_screw_1_1_01.stl,right_hand,right_wrist_roll_screw_1_1,black,fastener mock-up,1.5,3.0,3.0,15.75,-198.5,421.0,0.0106,mm
+325_right_wrist_roll_screw_1_2_01.stl,right_hand,right_wrist_roll_screw_1_2,black,fastener mock-up,1.5,3.0,3.0,15.75,-204.0,415.5,0.0106,mm
+326_right_wrist_roll_screw_1_3_01.stl,right_hand,right_wrist_roll_screw_1_3,black,fastener mock-up,1.5,3.0,3.0,15.75,-198.5,410.0,0.0106,mm
+327_right_upper_arm_backbone_01.stl,right_upper_arm,right_upper_arm_backbone,graphite,cosmetic exterior,8.01,39.01,77.01,-18.004754,-216.504754,568.495246,18.1442,mm
+328_right_upper_arm_cover_01.stl,right_upper_arm,right_upper_arm_cover,silver,cosmetic exterior,21.009,47.008,68.0,-21.004196,-220.504196,577.0,14.3832,mm
+328_right_upper_arm_cover_02.stl,right_upper_arm,right_upper_arm_cover,silver,cosmetic exterior,21.009,47.029,68.029,0.005033,-220.514262,576.985738,15.9534,mm
+329_right_forearm_cover_01.stl,right_forearm_roll_link,right_forearm_cover,silver,cosmetic exterior,23.517,58.033,61.033,-23.516639,-226.016639,448.483361,17.6806,mm
+329_right_forearm_cover_02.stl,right_forearm_roll_link,right_forearm_cover,silver,cosmetic exterior,23.517,58.033,61.033,-0.0,-226.016639,448.483361,18.0736,mm
+330_right_forearm_tendon_panel_01.stl,right_forearm_roll_link,right_forearm_tendon_panel,graphite,cosmetic exterior,1.502,35.004,42.004,23.5,-214.501902,457.998098,2.1825,mm
+331_right_tendon_port_0_01.stl,right_forearm_roll_link,right_tendon_port_0,copper,cosmetic exterior,5.0,5.0,4.0,-2.5,-211.5,444.5,0.0304,mm
+332_right_tendon_port_12_01.stl,right_forearm_roll_link,right_tendon_port_12,copper,cosmetic exterior,5.0,5.0,4.0,-2.5,-199.5,444.5,0.0503,mm
+333_right_tendon_port_24_01.stl,right_forearm_roll_link,right_tendon_port_24,copper,cosmetic exterior,5.0,5.0,4.0,-2.5,-187.5,444.5,0.0304,mm
+334_right_palm_01.stl,right_hand,right_palm,silver,cosmetic exterior,12.512,66.024,38.024,-12.511885,-230.011885,376.988115,8.1332,mm
+334_right_palm_02.stl,right_hand,right_palm,silver,cosmetic exterior,12.512,66.024,38.024,-0.0,-230.011885,376.988115,8.1332,mm
+335_right_palm_pad_01.stl,right_hand,right_palm_pad,rubber,cosmetic exterior,2.003,53.005,28.005,12.499301,-223.502377,381.997623,2.9322,mm
+336_right_index_mcp_phalanx_01.stl,right_index_mcp_link,right_index_mcp_phalanx,bright_silver,articulated finger segment mock-up with 2.4 mm pilot bore,11.01,12.01,24.01,-5.504754,-178.004754,347.495246,2.9631,mm
+337_right_index_mcp_pad_01.stl,right_index_mcp_link,right_index_mcp_pad,rubber,cosmetic exterior,1.747,9.004,18.004,5.455016,-176.501902,350.498098,0.2673,mm
+338_right_index_mcp_knuckle_01.stl,right_index_mcp_link,right_index_mcp_knuckle,graphite,cosmetic exterior,8.4,13.002,8.4,-4.2,-178.500909,368.8,0.5108,mm
+339_right_index_pip_phalanx_01.stl,right_index_pip_link,right_index_pip_phalanx,bright_silver,articulated finger segment mock-up with 2.4 mm pilot bore,11.01,12.01,16.01,-5.504754,-178.004754,328.495246,1.9346,mm
+340_right_index_pip_pad_01.stl,right_index_pip_link,right_index_pip_pad,rubber,cosmetic exterior,1.747,9.004,10.004,5.455016,-176.501902,331.498098,0.1471,mm
+341_right_index_pip_knuckle_01.stl,right_index_pip_link,right_index_pip_knuckle,graphite,cosmetic exterior,8.4,13.002,8.4,-4.2,-178.500909,341.8,0.5108,mm
+342_right_index_dip_phalanx_01.stl,right_index_dip_link,right_index_dip_phalanx,bright_silver,articulated finger segment mock-up with 2.4 mm pilot bore,11.01,12.01,11.01,-5.504754,-178.004754,314.495246,1.2917,mm
+343_right_index_dip_pad_01.stl,right_index_dip_link,right_index_dip_pad,rubber,cosmetic exterior,1.747,9.004,5.004,5.455016,-176.501902,317.498098,0.072,mm
+344_right_index_dip_knuckle_01.stl,right_index_dip_link,right_index_dip_knuckle,graphite,cosmetic exterior,8.4,13.002,8.4,-4.2,-178.500909,322.8,0.5108,mm
+345_right_middle_mcp_phalanx_01.stl,right_middle_mcp_link,right_middle_mcp_phalanx,bright_silver,articulated finger segment mock-up with 2.4 mm pilot bore,11.01,12.01,27.01,-5.504754,-195.004754,344.495246,3.3488,mm
+346_right_middle_mcp_pad_01.stl,right_middle_mcp_link,right_middle_mcp_pad,rubber,cosmetic exterior,1.747,9.004,21.004,5.455016,-193.501902,347.498098,0.3124,mm
+347_right_middle_mcp_knuckle_01.stl,right_middle_mcp_link,right_middle_mcp_knuckle,graphite,cosmetic exterior,8.4,13.002,8.4,-4.2,-195.500909,368.8,0.5108,mm
+348_right_middle_pip_phalanx_01.stl,right_middle_pip_link,right_middle_pip_phalanx,bright_silver,articulated finger segment mock-up with 2.4 mm pilot bore,11.01,12.01,18.01,-5.504754,-195.004754,323.495246,2.1917,mm
+349_right_middle_pip_pad_01.stl,right_middle_pip_link,right_middle_pip_pad,rubber,cosmetic exterior,1.747,9.004,12.004,5.455016,-193.501902,326.498098,0.1772,mm
+350_right_middle_pip_knuckle_01.stl,right_middle_pip_link,right_middle_pip_knuckle,graphite,cosmetic exterior,8.4,13.002,8.4,-4.2,-195.500909,338.8,0.5108,mm
+351_right_middle_dip_phalanx_01.stl,right_middle_dip_link,right_middle_dip_phalanx,bright_silver,articulated finger segment mock-up with 2.4 mm pilot bore,11.01,12.01,12.01,-5.504754,-195.004754,308.495246,1.4203,mm
+352_right_middle_dip_pad_01.stl,right_middle_dip_link,right_middle_dip_pad,rubber,cosmetic exterior,1.747,9.004,6.004,5.455016,-193.501902,311.498098,0.087,mm
+353_right_middle_dip_knuckle_01.stl,right_middle_dip_link,right_middle_dip_knuckle,graphite,cosmetic exterior,8.4,13.002,8.4,-4.2,-195.500909,317.8,0.5108,mm
+354_right_ring_mcp_phalanx_01.stl,right_ring_mcp_link,right_ring_mcp_phalanx,bright_silver,articulated finger segment mock-up with 2.4 mm pilot bore,11.01,12.01,25.01,-5.504754,-212.004754,346.495246,3.0917,mm
+355_right_ring_mcp_pad_01.stl,right_ring_mcp_link,right_ring_mcp_pad,rubber,cosmetic exterior,1.747,9.004,19.004,5.455016,-210.501902,349.498098,0.2823,mm
+356_right_ring_mcp_knuckle_01.stl,right_ring_mcp_link,right_ring_mcp_knuckle,graphite,cosmetic exterior,8.4,13.002,8.4,-4.2,-212.500909,368.8,0.5108,mm
+357_right_ring_pip_phalanx_01.stl,right_ring_pip_link,right_ring_pip_phalanx,bright_silver,articulated finger segment mock-up with 2.4 mm pilot bore,11.01,12.01,17.01,-5.504754,-212.004754,326.495246,2.0631,mm
+358_right_ring_pip_pad_01.stl,right_ring_pip_link,right_ring_pip_pad,rubber,cosmetic exterior,1.747,9.004,11.004,5.455016,-210.501902,329.498098,0.1621,mm
+359_right_ring_pip_knuckle_01.stl,right_ring_pip_link,right_ring_pip_knuckle,graphite,cosmetic exterior,8.4,13.002,8.4,-4.2,-212.500909,340.8,0.5108,mm
+360_right_ring_dip_phalanx_01.stl,right_ring_dip_link,right_ring_dip_phalanx,bright_silver,articulated finger segment mock-up with 2.4 mm pilot bore,11.01,12.01,11.01,-5.504754,-212.004754,312.495246,1.2917,mm
+361_right_ring_dip_pad_01.stl,right_ring_dip_link,right_ring_dip_pad,rubber,cosmetic exterior,1.747,9.004,5.004,5.455016,-210.501902,315.498098,0.072,mm
+362_right_ring_dip_knuckle_01.stl,right_ring_dip_link,right_ring_dip_knuckle,graphite,cosmetic exterior,8.4,13.002,8.4,-4.2,-212.500909,320.8,0.5108,mm
+363_right_little_mcp_phalanx_01.stl,right_little_mcp_link,right_little_mcp_phalanx,bright_silver,articulated finger segment mock-up with 2.4 mm pilot bore,11.01,12.01,19.01,-5.504754,-229.004754,352.495246,2.3203,mm
+364_right_little_mcp_pad_01.stl,right_little_mcp_link,right_little_mcp_pad,rubber,cosmetic exterior,1.747,9.004,13.004,5.455016,-227.501902,355.498098,0.1922,mm
+365_right_little_mcp_knuckle_01.stl,right_little_mcp_link,right_little_mcp_knuckle,graphite,cosmetic exterior,8.4,13.002,8.4,-4.2,-229.500909,368.8,0.5108,mm
+366_right_little_pip_phalanx_01.stl,right_little_pip_link,right_little_pip_phalanx,bright_silver,articulated finger segment mock-up with 2.4 mm pilot bore,11.01,12.01,13.01,-5.504754,-229.004754,336.495246,1.5489,mm
+367_right_little_pip_pad_01.stl,right_little_pip_link,right_little_pip_pad,rubber,cosmetic exterior,1.747,9.004,7.004,5.455016,-227.501902,339.498098,0.102,mm
+368_right_little_pip_knuckle_01.stl,right_little_pip_link,right_little_pip_knuckle,graphite,cosmetic exterior,8.4,13.002,8.4,-4.2,-229.500909,346.8,0.5108,mm
+369_right_little_dip_phalanx_01.stl,right_little_dip_link,right_little_dip_phalanx,bright_silver,articulated finger segment mock-up with 2.4 mm pilot bore,11.01,12.01,9.01,-5.504754,-229.004754,324.495246,1.0346,mm
+370_right_little_dip_pad_01.stl,right_little_dip_link,right_little_dip_pad,rubber,cosmetic exterior,1.747,9.004,4.004,5.455016,-227.501902,326.998098,0.0569,mm
+371_right_little_dip_knuckle_01.stl,right_little_dip_link,right_little_dip_knuckle,graphite,cosmetic exterior,8.4,13.002,8.4,-4.2,-229.500909,330.8,0.5108,mm
+372_right_thumb_opposition_mount_01.stl,right_thumb_cmc_link,right_thumb_opposition_mount,graphite,cosmetic exterior,16.01,15.01,10.01,-8.004754,-159.504754,390.995246,2.2699,mm
+373_right_thumb_spread_phalanx_01.stl,right_thumb_spread_link,right_thumb_spread_phalanx,bright_silver,articulated finger segment mock-up with 2.4 mm pilot bore,13.01,14.01,18.01,-6.504754,-159.004754,373.495246,3.0689,mm
+374_right_thumb_spread_pad_01.stl,right_thumb_spread_link,right_thumb_spread_pad,rubber,cosmetic exterior,1.747,11.004,12.004,6.455016,-157.501902,376.498098,0.2174,mm
+375_right_thumb_spread_knuckle_01.stl,right_thumb_spread_link,right_thumb_spread_knuckle,graphite,cosmetic exterior,15.002,8.4,8.4,-7.500909,-156.2,388.8,0.5754,mm
+376_right_thumb_mcp_phalanx_01.stl,right_thumb_mcp_link,right_thumb_mcp_phalanx,bright_silver,articulated finger segment mock-up with 2.4 mm pilot bore,13.01,14.01,17.01,-6.504754,-159.004754,353.495246,2.8904,mm
+377_right_thumb_mcp_pad_01.stl,right_thumb_mcp_link,right_thumb_mcp_pad,rubber,cosmetic exterior,1.747,11.004,11.004,6.455016,-157.501902,356.498098,0.199,mm
+378_right_thumb_mcp_knuckle_01.stl,right_thumb_mcp_link,right_thumb_mcp_knuckle,graphite,cosmetic exterior,8.4,15.002,8.4,-4.2,-159.500909,367.8,0.5853,mm
+379_right_thumb_ip_phalanx_01.stl,right_thumb_ip_link,right_thumb_ip_phalanx,bright_silver,articulated finger segment mock-up with 2.4 mm pilot bore,13.01,14.01,14.01,-6.504754,-159.004754,336.495246,2.3547,mm
+380_right_thumb_ip_pad_01.stl,right_thumb_ip_link,right_thumb_ip_pad,rubber,cosmetic exterior,1.747,11.004,8.004,6.455016,-157.501902,339.498098,0.1437,mm
+381_right_thumb_ip_knuckle_01.stl,right_thumb_ip_link,right_thumb_ip_knuckle,graphite,cosmetic exterior,8.4,15.002,8.4,-4.2,-159.500909,347.8,0.5853,mm
+382_right_back_jet_01.stl,torso,right_back_jet,silver,cosmetic exterior,28.0,56.0,86.0,-121.0,-118.0,592.0,21.4791,mm
+382_right_back_jet_02.stl,torso,right_back_jet,silver,cosmetic exterior,28.0,56.0,86.0,-93.0,-118.0,592.0,21.4791,mm
+383_right_back_nozzle_01.stl,torso,right_back_nozzle,graphite,cosmetic exterior,48.034,48.034,20.034,-117.016783,-114.016783,581.983217,8.4823,mm
+384_right_back_nozzle_ring_01.stl,torso,right_back_nozzle_ring,copper,cosmetic exterior,52.036,52.036,5.036,-119.018182,-116.018182,581.481818,1.6446,mm
+385_right_jet_mount_01.stl,torso,right_jet_mount,graphite,cosmetic exterior,38.014,14.014,16.014,-89.007131,-97.007131,645.992869,7.3666,mm

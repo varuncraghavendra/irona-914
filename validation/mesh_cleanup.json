@@ -1,0 +1,2750 @@
+[
+  {
+    "file": "16mm_core_sleeve_print_as_needed.stl",
+    "faces_before": 1008,
+    "faces_after": 1008,
+    "watertight": true
+  },
+  {
+    "file": "display_core_01.stl",
+    "faces_before": 4388,
+    "faces_after": 4388,
+    "watertight": true
+  },
+  {
+    "file": "display_core_02.stl",
+    "faces_before": 4388,
+    "faces_after": 4388,
+    "watertight": true
+  },
+  {
+    "file": "display_core_03.stl",
+    "faces_before": 15016,
+    "faces_after": 15008,
+    "watertight": true
+  },
+  {
+    "file": "display_core_04.stl",
+    "faces_before": 5552,
+    "faces_after": 5552,
+    "watertight": true
+  },
+  {
+    "file": "display_core_05.stl",
+    "faces_before": 11557,
+    "faces_after": 11556,
+    "watertight": true
+  },
+  {
+    "file": "display_core_06.stl",
+    "faces_before": 7802,
+    "faces_after": 7802,
+    "watertight": true
+  },
+  {
+    "file": "display_core_07.stl",
+    "faces_before": 7633,
+    "faces_after": 7632,
+    "watertight": true
+  },
+  {
+    "file": "display_core_08.stl",
+    "faces_before": 810,
+    "faces_after": 810,
+    "watertight": true
+  },
+  {
+    "file": "display_core_09.stl",
+    "faces_before": 15016,
+    "faces_after": 15008,
+    "watertight": true
+  },
+  {
+    "file": "display_core_10.stl",
+    "faces_before": 5552,
+    "faces_after": 5552,
+    "watertight": true
+  },
+  {
+    "file": "display_core_11.stl",
+    "faces_before": 11557,
+    "faces_after": 11556,
+    "watertight": true
+  },
+  {
+    "file": "display_core_12.stl",
+    "faces_before": 7802,
+    "faces_after": 7802,
+    "watertight": true
+  },
+  {
+    "file": "display_core_13.stl",
+    "faces_before": 810,
+    "faces_after": 810,
+    "watertight": true
+  },
+  {
+    "file": "display_core_14.stl",
+    "faces_before": 7633,
+    "faces_after": 7632,
+    "watertight": true
+  },
+  {
+    "file": "seam_strap_print_as_needed.stl",
+    "faces_before": 9460,
+    "faces_after": 9452,
+    "watertight": true
+  },
+  {
+    "file": "001_pelvis_shell_01.stl",
+    "faces_before": 4612,
+    "faces_after": 4604,
+    "watertight": true
+  },
+  {
+    "file": "001_pelvis_shell_02.stl",
+    "faces_before": 4612,
+    "faces_after": 4604,
+    "watertight": true
+  },
+  {
+    "file": "002_skirt_01.stl",
+    "faces_before": 592,
+    "faces_after": 592,
+    "watertight": true
+  },
+  {
+    "file": "002_skirt_02.stl",
+    "faces_before": 562,
+    "faces_after": 562,
+    "watertight": true
+  },
+  {
+    "file": "002_skirt_03.stl",
+    "faces_before": 194,
+    "faces_after": 194,
+    "watertight": true
+  },
+  {
+    "file": "002_skirt_04.stl",
+    "faces_before": 446,
+    "faces_after": 446,
+    "watertight": true
+  },
+  {
+    "file": "002_skirt_05.stl",
+    "faces_before": 442,
+    "faces_after": 442,
+    "watertight": true
+  },
+  {
+    "file": "002_skirt_06.stl",
+    "faces_before": 200,
+    "faces_after": 200,
+    "watertight": true
+  },
+  {
+    "file": "002_skirt_07.stl",
+    "faces_before": 588,
+    "faces_after": 588,
+    "watertight": true
+  },
+  {
+    "file": "002_skirt_08.stl",
+    "faces_before": 568,
+    "faces_after": 568,
+    "watertight": true
+  },
+  {
+    "file": "002_skirt_09.stl",
+    "faces_before": 200,
+    "faces_after": 200,
+    "watertight": true
+  },
+  {
+    "file": "002_skirt_10.stl",
+    "faces_before": 436,
+    "faces_after": 436,
+    "watertight": true
+  },
+  {
+    "file": "002_skirt_11.stl",
+    "faces_before": 464,
+    "faces_after": 464,
+    "watertight": true
+  },
+  {
+    "file": "002_skirt_12.stl",
+    "faces_before": 194,
+    "faces_after": 194,
+    "watertight": true
+  },
+  {
+    "file": "003_skirt_apron_01.stl",
+    "faces_before": 4454,
+    "faces_after": 4446,
+    "watertight": true
+  },
+  {
+    "file": "004_waist_band_01.stl",
+    "faces_before": 446,
+    "faces_after": 446,
+    "watertight": true
+  },
+  {
+    "file": "004_waist_band_02.stl",
+    "faces_before": 144,
+    "faces_after": 144,
+    "watertight": true
+  },
+  {
+    "file": "004_waist_band_03.stl",
+    "faces_before": 152,
+    "faces_after": 152,
+    "watertight": true
+  },
+  {
+    "file": "004_waist_band_04.stl",
+    "faces_before": 448,
+    "faces_after": 448,
+    "watertight": true
+  },
+  {
+    "file": "004_waist_band_05.stl",
+    "faces_before": 152,
+    "faces_after": 152,
+    "watertight": true
+  },
+  {
+    "file": "004_waist_band_06.stl",
+    "faces_before": 144,
+    "faces_after": 144,
+    "watertight": true
+  },
+  {
+    "file": "005_torso_shell_01.stl",
+    "faces_before": 1866,
+    "faces_after": 1866,
+    "watertight": true
+  },
+  {
+    "file": "005_torso_shell_02.stl",
+    "faces_before": 1728,
+    "faces_after": 1728,
+    "watertight": true
+  },
+  {
+    "file": "005_torso_shell_03.stl",
+    "faces_before": 1652,
+    "faces_after": 1652,
+    "watertight": true
+  },
+  {
+    "file": "005_torso_shell_04.stl",
+    "faces_before": 1864,
+    "faces_after": 1864,
+    "watertight": true
+  },
+  {
+    "file": "006_chest_apron_01.stl",
+    "faces_before": 284,
+    "faces_after": 284,
+    "watertight": true
+  },
+  {
+    "file": "007_collar_0_01.stl",
+    "faces_before": 4335,
+    "faces_after": 4328,
+    "watertight": true
+  },
+  {
+    "file": "008_collar_2_01.stl",
+    "faces_before": 4339,
+    "faces_after": 4332,
+    "watertight": true
+  },
+  {
+    "file": "009_chest_badge_01.stl",
+    "faces_before": 416,
+    "faces_after": 416,
+    "watertight": true
+  },
+  {
+    "file": "010_badge_center_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "011_apron_button_638_01.stl",
+    "faces_before": 3294,
+    "faces_after": 3292,
+    "watertight": true
+  },
+  {
+    "file": "012_apron_button_624_01.stl",
+    "faces_before": 3536,
+    "faces_after": 3534,
+    "watertight": true
+  },
+  {
+    "file": "013_apron_button_610_01.stl",
+    "faces_before": 3536,
+    "faces_after": 3534,
+    "watertight": true
+  },
+  {
+    "file": "014_neck_sleeve_01.stl",
+    "faces_before": 340,
+    "faces_after": 340,
+    "watertight": true
+  },
+  {
+    "file": "014_neck_sleeve_02.stl",
+    "faces_before": 340,
+    "faces_after": 340,
+    "watertight": true
+  },
+  {
+    "file": "015_neck_base_01.stl",
+    "faces_before": 340,
+    "faces_after": 340,
+    "watertight": true
+  },
+  {
+    "file": "015_neck_base_02.stl",
+    "faces_before": 340,
+    "faces_after": 340,
+    "watertight": true
+  },
+  {
+    "file": "016_head_shell_01.stl",
+    "faces_before": 4612,
+    "faces_after": 4604,
+    "watertight": true
+  },
+  {
+    "file": "016_head_shell_02.stl",
+    "faces_before": 4612,
+    "faces_after": 4604,
+    "watertight": true
+  },
+  {
+    "file": "017_camera_mount_bezel_01.stl",
+    "faces_before": 4772,
+    "faces_after": 4764,
+    "watertight": true
+  },
+  {
+    "file": "017_camera_mount_bezel_02.stl",
+    "faces_before": 168,
+    "faces_after": 168,
+    "watertight": true
+  },
+  {
+    "file": "017_camera_mount_bezel_03.stl",
+    "faces_before": 4772,
+    "faces_after": 4764,
+    "watertight": true
+  },
+  {
+    "file": "017_camera_mount_bezel_04.stl",
+    "faces_before": 168,
+    "faces_after": 168,
+    "watertight": true
+  },
+  {
+    "file": "018_d455_housing_01.stl",
+    "faces_before": 948,
+    "faces_after": 948,
+    "watertight": true
+  },
+  {
+    "file": "018_d455_housing_02.stl",
+    "faces_before": 404,
+    "faces_after": 404,
+    "watertight": true
+  },
+  {
+    "file": "018_d455_housing_03.stl",
+    "faces_before": 2488,
+    "faces_after": 2484,
+    "watertight": true
+  },
+  {
+    "file": "018_d455_housing_04.stl",
+    "faces_before": 926,
+    "faces_after": 926,
+    "watertight": true
+  },
+  {
+    "file": "018_d455_housing_05.stl",
+    "faces_before": 404,
+    "faces_after": 404,
+    "watertight": true
+  },
+  {
+    "file": "018_d455_housing_06.stl",
+    "faces_before": 2488,
+    "faces_after": 2484,
+    "watertight": true
+  },
+  {
+    "file": "019_d455_front_panel_01.stl",
+    "faces_before": 4660,
+    "faces_after": 4652,
+    "watertight": true
+  },
+  {
+    "file": "020_camera_optical_window_0_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "021_camera_optical_window_1_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "022_camera_optical_window_2_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "023_camera_optical_window_3_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "024_head_service_plate_m1_01.stl",
+    "faces_before": 2304,
+    "faces_after": 2300,
+    "watertight": true
+  },
+  {
+    "file": "025_head_fastener_m1_801_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "026_head_fastener_m1_834_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "027_head_service_plate_1_01.stl",
+    "faces_before": 2304,
+    "faces_after": 2300,
+    "watertight": true
+  },
+  {
+    "file": "028_head_fastener_1_801_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "029_head_fastener_1_834_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "030_lidar_pedestal_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "031_lidar_base_01.stl",
+    "faces_before": 668,
+    "faces_after": 668,
+    "watertight": true
+  },
+  {
+    "file": "032_lidar_upper_cap_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "033_lidar_cap_trim_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "034_left_thigh_shell_01.stl",
+    "faces_before": 1140,
+    "faces_after": 1140,
+    "watertight": true
+  },
+  {
+    "file": "034_left_thigh_shell_02.stl",
+    "faces_before": 1140,
+    "faces_after": 1140,
+    "watertight": true
+  },
+  {
+    "file": "035_left_shin_shell_01.stl",
+    "faces_before": 1220,
+    "faces_after": 1220,
+    "watertight": true
+  },
+  {
+    "file": "035_left_shin_shell_02.stl",
+    "faces_before": 1220,
+    "faces_after": 1220,
+    "watertight": true
+  },
+  {
+    "file": "036_left_hip_hub_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "036_left_hip_hub_02.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "037_left_hip_disc_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "038_left_hip_bolt_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "039_left_knee_hub_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "039_left_knee_hub_02.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "040_left_knee_disc_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "041_left_knee_bolt_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "042_left_ankle_hub_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "042_left_ankle_hub_02.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "043_left_ankle_disc_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "044_left_ankle_bolt_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "045_left_boot_shell_01.stl",
+    "faces_before": 5038,
+    "faces_after": 5030,
+    "watertight": true
+  },
+  {
+    "file": "045_left_boot_shell_02.stl",
+    "faces_before": 4784,
+    "faces_after": 4776,
+    "watertight": true
+  },
+  {
+    "file": "046_left_sole_01.stl",
+    "faces_before": 7256,
+    "faces_after": 7240,
+    "watertight": true
+  },
+  {
+    "file": "047_left_shin_band_123_01.stl",
+    "faces_before": 340,
+    "faces_after": 340,
+    "watertight": true
+  },
+  {
+    "file": "047_left_shin_band_123_02.stl",
+    "faces_before": 340,
+    "faces_after": 340,
+    "watertight": true
+  },
+  {
+    "file": "048_left_shin_band_169_01.stl",
+    "faces_before": 380,
+    "faces_after": 380,
+    "watertight": true
+  },
+  {
+    "file": "048_left_shin_band_169_02.stl",
+    "faces_before": 380,
+    "faces_after": 380,
+    "watertight": true
+  },
+  {
+    "file": "049_left_shin_band_215_01.stl",
+    "faces_before": 380,
+    "faces_after": 380,
+    "watertight": true
+  },
+  {
+    "file": "049_left_shin_band_215_02.stl",
+    "faces_before": 380,
+    "faces_after": 380,
+    "watertight": true
+  },
+  {
+    "file": "050_left_boot_nozzle_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "051_left_boot_nozzle_ring_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "052_left_shoulder_mount_01.stl",
+    "faces_before": 4384,
+    "faces_after": 4376,
+    "watertight": true
+  },
+  {
+    "file": "053_left_shoulder_roll_yoke_rail_01.stl",
+    "faces_before": 3990,
+    "faces_after": 3988,
+    "watertight": true
+  },
+  {
+    "file": "054_left_shoulder_yaw_yoke_rail_01.stl",
+    "faces_before": 3914,
+    "faces_after": 3912,
+    "watertight": true
+  },
+  {
+    "file": "055_left_elbow_yoke_rail_01.stl",
+    "faces_before": 3750,
+    "faces_after": 3748,
+    "watertight": true
+  },
+  {
+    "file": "056_left_forearm_roll_yoke_rail_01.stl",
+    "faces_before": 3750,
+    "faces_after": 3748,
+    "watertight": true
+  },
+  {
+    "file": "057_left_wrist_pitch_yoke_rail_01.stl",
+    "faces_before": 3750,
+    "faces_after": 3748,
+    "watertight": true
+  },
+  {
+    "file": "058_left_wrist_roll_yoke_rail_01.stl",
+    "faces_before": 3750,
+    "faces_after": 3748,
+    "watertight": true
+  },
+  {
+    "file": "059_left_thumb_support_01.stl",
+    "faces_before": 4260,
+    "faces_after": 4252,
+    "watertight": true
+  },
+  {
+    "file": "060_left_shoulder_pitch_shaft_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "061_left_shoulder_pitch_bearing_m1_01.stl",
+    "faces_before": 540,
+    "faces_after": 540,
+    "watertight": true
+  },
+  {
+    "file": "062_left_shoulder_pitch_horn_m1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "063_left_shoulder_pitch_screw_m1_0_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "064_left_shoulder_pitch_screw_m1_1_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "065_left_shoulder_pitch_screw_m1_2_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "066_left_shoulder_pitch_screw_m1_3_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "067_left_shoulder_pitch_bearing_1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "068_left_shoulder_pitch_horn_1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "069_left_shoulder_pitch_screw_1_0_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "070_left_shoulder_pitch_screw_1_1_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "071_left_shoulder_pitch_screw_1_2_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "072_left_shoulder_pitch_screw_1_3_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "073_left_shoulder_roll_shaft_01.stl",
+    "faces_before": 924,
+    "faces_after": 924,
+    "watertight": true
+  },
+  {
+    "file": "074_left_shoulder_roll_bearing_m1_01.stl",
+    "faces_before": 696,
+    "faces_after": 696,
+    "watertight": true
+  },
+  {
+    "file": "075_left_shoulder_roll_horn_m1_01.stl",
+    "faces_before": 768,
+    "faces_after": 768,
+    "watertight": true
+  },
+  {
+    "file": "076_left_shoulder_roll_screw_m1_0_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "077_left_shoulder_roll_screw_m1_1_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "078_left_shoulder_roll_screw_m1_2_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "079_left_shoulder_roll_screw_m1_3_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "080_left_shoulder_roll_bearing_1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "081_left_shoulder_roll_horn_1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "082_left_shoulder_roll_screw_1_0_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "083_left_shoulder_roll_screw_1_1_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "084_left_shoulder_roll_screw_1_2_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "085_left_shoulder_roll_screw_1_3_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "086_left_shoulder_yaw_shaft_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "087_left_shoulder_yaw_bearing_m1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "088_left_shoulder_yaw_horn_m1_01.stl",
+    "faces_before": 732,
+    "faces_after": 732,
+    "watertight": true
+  },
+  {
+    "file": "089_left_shoulder_yaw_screw_m1_0_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "090_left_shoulder_yaw_screw_m1_1_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "091_left_shoulder_yaw_screw_m1_2_01.stl",
+    "faces_before": 108,
+    "faces_after": 108,
+    "watertight": true
+  },
+  {
+    "file": "092_left_shoulder_yaw_screw_m1_3_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "093_left_shoulder_yaw_bearing_1_01.stl",
+    "faces_before": 696,
+    "faces_after": 696,
+    "watertight": true
+  },
+  {
+    "file": "094_left_shoulder_yaw_horn_1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "095_left_shoulder_yaw_screw_1_0_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "096_left_shoulder_yaw_screw_1_1_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "097_left_shoulder_yaw_screw_1_2_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "098_left_shoulder_yaw_screw_1_3_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "099_left_elbow_shaft_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "100_left_elbow_bearing_m1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "101_left_elbow_horn_m1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "102_left_elbow_screw_m1_0_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "103_left_elbow_screw_m1_1_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "104_left_elbow_screw_m1_2_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "105_left_elbow_screw_m1_3_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "106_left_elbow_bearing_1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "107_left_elbow_horn_1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "108_left_elbow_screw_1_0_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "109_left_elbow_screw_1_1_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "110_left_elbow_screw_1_2_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "111_left_elbow_screw_1_3_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "112_left_forearm_roll_shaft_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "113_left_forearm_roll_bearing_m1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "114_left_forearm_roll_horn_m1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "115_left_forearm_roll_screw_m1_0_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "116_left_forearm_roll_screw_m1_1_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "117_left_forearm_roll_screw_m1_2_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "118_left_forearm_roll_screw_m1_3_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "119_left_forearm_roll_bearing_1_01.stl",
+    "faces_before": 716,
+    "faces_after": 716,
+    "watertight": true
+  },
+  {
+    "file": "120_left_forearm_roll_horn_1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "121_left_forearm_roll_screw_1_0_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "122_left_forearm_roll_screw_1_1_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "123_left_forearm_roll_screw_1_2_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "124_left_forearm_roll_screw_1_3_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "125_left_wrist_pitch_shaft_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "126_left_wrist_pitch_bearing_m1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "127_left_wrist_pitch_horn_m1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "128_left_wrist_pitch_screw_m1_0_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "129_left_wrist_pitch_screw_m1_1_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "130_left_wrist_pitch_screw_m1_2_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "131_left_wrist_pitch_screw_m1_3_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "132_left_wrist_pitch_bearing_1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "133_left_wrist_pitch_horn_1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "134_left_wrist_pitch_screw_1_0_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "135_left_wrist_pitch_screw_1_1_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "136_left_wrist_pitch_screw_1_2_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "137_left_wrist_pitch_screw_1_3_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "138_left_wrist_roll_shaft_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "139_left_wrist_roll_bearing_m1_01.stl",
+    "faces_before": 692,
+    "faces_after": 692,
+    "watertight": true
+  },
+  {
+    "file": "140_left_wrist_roll_horn_m1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "141_left_wrist_roll_screw_m1_0_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "142_left_wrist_roll_screw_m1_1_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "143_left_wrist_roll_screw_m1_2_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "144_left_wrist_roll_screw_m1_3_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "145_left_wrist_roll_bearing_1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "146_left_wrist_roll_horn_1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "147_left_wrist_roll_screw_1_0_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "148_left_wrist_roll_screw_1_1_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "149_left_wrist_roll_screw_1_2_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "150_left_wrist_roll_screw_1_3_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "151_left_upper_arm_backbone_01.stl",
+    "faces_before": 4892,
+    "faces_after": 4884,
+    "watertight": true
+  },
+  {
+    "file": "152_left_upper_arm_cover_01.stl",
+    "faces_before": 6300,
+    "faces_after": 6296,
+    "watertight": true
+  },
+  {
+    "file": "152_left_upper_arm_cover_02.stl",
+    "faces_before": 4784,
+    "faces_after": 4776,
+    "watertight": true
+  },
+  {
+    "file": "153_left_forearm_cover_01.stl",
+    "faces_before": 5532,
+    "faces_after": 5524,
+    "watertight": true
+  },
+  {
+    "file": "153_left_forearm_cover_02.stl",
+    "faces_before": 4784,
+    "faces_after": 4776,
+    "watertight": true
+  },
+  {
+    "file": "154_left_forearm_tendon_panel_01.stl",
+    "faces_before": 3372,
+    "faces_after": 3364,
+    "watertight": true
+  },
+  {
+    "file": "155_left_tendon_port_0_01.stl",
+    "faces_before": 748,
+    "faces_after": 748,
+    "watertight": true
+  },
+  {
+    "file": "156_left_tendon_port_12_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "157_left_tendon_port_24_01.stl",
+    "faces_before": 734,
+    "faces_after": 734,
+    "watertight": true
+  },
+  {
+    "file": "158_left_palm_01.stl",
+    "faces_before": 4960,
+    "faces_after": 4952,
+    "watertight": true
+  },
+  {
+    "file": "158_left_palm_02.stl",
+    "faces_before": 4960,
+    "faces_after": 4952,
+    "watertight": true
+  },
+  {
+    "file": "159_left_palm_pad_01.stl",
+    "faces_before": 2308,
+    "faces_after": 2304,
+    "watertight": true
+  },
+  {
+    "file": "160_left_index_mcp_phalanx_01.stl",
+    "faces_before": 4652,
+    "faces_after": 4644,
+    "watertight": true
+  },
+  {
+    "file": "161_left_index_mcp_pad_01.stl",
+    "faces_before": 3446,
+    "faces_after": 3438,
+    "watertight": true
+  },
+  {
+    "file": "162_left_index_mcp_knuckle_01.stl",
+    "faces_before": 1500,
+    "faces_after": 1498,
+    "watertight": true
+  },
+  {
+    "file": "163_left_index_pip_phalanx_01.stl",
+    "faces_before": 4652,
+    "faces_after": 4644,
+    "watertight": true
+  },
+  {
+    "file": "164_left_index_pip_pad_01.stl",
+    "faces_before": 3446,
+    "faces_after": 3438,
+    "watertight": true
+  },
+  {
+    "file": "165_left_index_pip_knuckle_01.stl",
+    "faces_before": 1500,
+    "faces_after": 1498,
+    "watertight": true
+  },
+  {
+    "file": "166_left_index_dip_phalanx_01.stl",
+    "faces_before": 4652,
+    "faces_after": 4644,
+    "watertight": true
+  },
+  {
+    "file": "167_left_index_dip_pad_01.stl",
+    "faces_before": 3446,
+    "faces_after": 3438,
+    "watertight": true
+  },
+  {
+    "file": "168_left_index_dip_knuckle_01.stl",
+    "faces_before": 1500,
+    "faces_after": 1498,
+    "watertight": true
+  },
+  {
+    "file": "169_left_middle_mcp_phalanx_01.stl",
+    "faces_before": 4652,
+    "faces_after": 4644,
+    "watertight": true
+  },
+  {
+    "file": "170_left_middle_mcp_pad_01.stl",
+    "faces_before": 3446,
+    "faces_after": 3438,
+    "watertight": true
+  },
+  {
+    "file": "171_left_middle_mcp_knuckle_01.stl",
+    "faces_before": 1500,
+    "faces_after": 1498,
+    "watertight": true
+  },
+  {
+    "file": "172_left_middle_pip_phalanx_01.stl",
+    "faces_before": 4652,
+    "faces_after": 4644,
+    "watertight": true
+  },
+  {
+    "file": "173_left_middle_pip_pad_01.stl",
+    "faces_before": 3446,
+    "faces_after": 3438,
+    "watertight": true
+  },
+  {
+    "file": "174_left_middle_pip_knuckle_01.stl",
+    "faces_before": 1500,
+    "faces_after": 1498,
+    "watertight": true
+  },
+  {
+    "file": "175_left_middle_dip_phalanx_01.stl",
+    "faces_before": 4652,
+    "faces_after": 4644,
+    "watertight": true
+  },
+  {
+    "file": "176_left_middle_dip_pad_01.stl",
+    "faces_before": 3446,
+    "faces_after": 3438,
+    "watertight": true
+  },
+  {
+    "file": "177_left_middle_dip_knuckle_01.stl",
+    "faces_before": 1500,
+    "faces_after": 1498,
+    "watertight": true
+  },
+  {
+    "file": "178_left_ring_mcp_phalanx_01.stl",
+    "faces_before": 4652,
+    "faces_after": 4644,
+    "watertight": true
+  },
+  {
+    "file": "179_left_ring_mcp_pad_01.stl",
+    "faces_before": 3446,
+    "faces_after": 3438,
+    "watertight": true
+  },
+  {
+    "file": "180_left_ring_mcp_knuckle_01.stl",
+    "faces_before": 1500,
+    "faces_after": 1498,
+    "watertight": true
+  },
+  {
+    "file": "181_left_ring_pip_phalanx_01.stl",
+    "faces_before": 4652,
+    "faces_after": 4644,
+    "watertight": true
+  },
+  {
+    "file": "182_left_ring_pip_pad_01.stl",
+    "faces_before": 3446,
+    "faces_after": 3438,
+    "watertight": true
+  },
+  {
+    "file": "183_left_ring_pip_knuckle_01.stl",
+    "faces_before": 1500,
+    "faces_after": 1498,
+    "watertight": true
+  },
+  {
+    "file": "184_left_ring_dip_phalanx_01.stl",
+    "faces_before": 4652,
+    "faces_after": 4644,
+    "watertight": true
+  },
+  {
+    "file": "185_left_ring_dip_pad_01.stl",
+    "faces_before": 3446,
+    "faces_after": 3438,
+    "watertight": true
+  },
+  {
+    "file": "186_left_ring_dip_knuckle_01.stl",
+    "faces_before": 1500,
+    "faces_after": 1498,
+    "watertight": true
+  },
+  {
+    "file": "187_left_little_mcp_phalanx_01.stl",
+    "faces_before": 4652,
+    "faces_after": 4644,
+    "watertight": true
+  },
+  {
+    "file": "188_left_little_mcp_pad_01.stl",
+    "faces_before": 3446,
+    "faces_after": 3438,
+    "watertight": true
+  },
+  {
+    "file": "189_left_little_mcp_knuckle_01.stl",
+    "faces_before": 1500,
+    "faces_after": 1498,
+    "watertight": true
+  },
+  {
+    "file": "190_left_little_pip_phalanx_01.stl",
+    "faces_before": 4652,
+    "faces_after": 4644,
+    "watertight": true
+  },
+  {
+    "file": "191_left_little_pip_pad_01.stl",
+    "faces_before": 3446,
+    "faces_after": 3438,
+    "watertight": true
+  },
+  {
+    "file": "192_left_little_pip_knuckle_01.stl",
+    "faces_before": 1500,
+    "faces_after": 1498,
+    "watertight": true
+  },
+  {
+    "file": "193_left_little_dip_phalanx_01.stl",
+    "faces_before": 4652,
+    "faces_after": 4644,
+    "watertight": true
+  },
+  {
+    "file": "194_left_little_dip_pad_01.stl",
+    "faces_before": 3446,
+    "faces_after": 3438,
+    "watertight": true
+  },
+  {
+    "file": "195_left_little_dip_knuckle_01.stl",
+    "faces_before": 1500,
+    "faces_after": 1498,
+    "watertight": true
+  },
+  {
+    "file": "196_left_thumb_opposition_mount_01.stl",
+    "faces_before": 4260,
+    "faces_after": 4252,
+    "watertight": true
+  },
+  {
+    "file": "197_left_thumb_spread_phalanx_01.stl",
+    "faces_before": 4652,
+    "faces_after": 4644,
+    "watertight": true
+  },
+  {
+    "file": "198_left_thumb_spread_pad_01.stl",
+    "faces_before": 3446,
+    "faces_after": 3438,
+    "watertight": true
+  },
+  {
+    "file": "199_left_thumb_spread_knuckle_01.stl",
+    "faces_before": 1268,
+    "faces_after": 1268,
+    "watertight": true
+  },
+  {
+    "file": "200_left_thumb_mcp_phalanx_01.stl",
+    "faces_before": 4652,
+    "faces_after": 4644,
+    "watertight": true
+  },
+  {
+    "file": "201_left_thumb_mcp_pad_01.stl",
+    "faces_before": 3446,
+    "faces_after": 3438,
+    "watertight": true
+  },
+  {
+    "file": "202_left_thumb_mcp_knuckle_01.stl",
+    "faces_before": 1184,
+    "faces_after": 1184,
+    "watertight": true
+  },
+  {
+    "file": "203_left_thumb_ip_phalanx_01.stl",
+    "faces_before": 4652,
+    "faces_after": 4644,
+    "watertight": true
+  },
+  {
+    "file": "204_left_thumb_ip_pad_01.stl",
+    "faces_before": 3446,
+    "faces_after": 3438,
+    "watertight": true
+  },
+  {
+    "file": "205_left_thumb_ip_knuckle_01.stl",
+    "faces_before": 1184,
+    "faces_after": 1184,
+    "watertight": true
+  },
+  {
+    "file": "206_left_back_jet_01.stl",
+    "faces_before": 340,
+    "faces_after": 340,
+    "watertight": true
+  },
+  {
+    "file": "206_left_back_jet_02.stl",
+    "faces_before": 340,
+    "faces_after": 340,
+    "watertight": true
+  },
+  {
+    "file": "207_left_back_nozzle_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "208_left_back_nozzle_ring_01.stl",
+    "faces_before": 1008,
+    "faces_after": 1008,
+    "watertight": true
+  },
+  {
+    "file": "209_left_jet_mount_01.stl",
+    "faces_before": 4712,
+    "faces_after": 4704,
+    "watertight": true
+  },
+  {
+    "file": "210_right_thigh_shell_01.stl",
+    "faces_before": 1140,
+    "faces_after": 1140,
+    "watertight": true
+  },
+  {
+    "file": "210_right_thigh_shell_02.stl",
+    "faces_before": 1140,
+    "faces_after": 1140,
+    "watertight": true
+  },
+  {
+    "file": "211_right_shin_shell_01.stl",
+    "faces_before": 1220,
+    "faces_after": 1220,
+    "watertight": true
+  },
+  {
+    "file": "211_right_shin_shell_02.stl",
+    "faces_before": 1220,
+    "faces_after": 1220,
+    "watertight": true
+  },
+  {
+    "file": "212_right_hip_hub_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "212_right_hip_hub_02.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "213_right_hip_disc_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "214_right_hip_bolt_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "215_right_knee_hub_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "215_right_knee_hub_02.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "216_right_knee_disc_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "217_right_knee_bolt_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "218_right_ankle_hub_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "218_right_ankle_hub_02.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "219_right_ankle_disc_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "220_right_ankle_bolt_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "221_right_boot_shell_01.stl",
+    "faces_before": 5038,
+    "faces_after": 5030,
+    "watertight": true
+  },
+  {
+    "file": "221_right_boot_shell_02.stl",
+    "faces_before": 4784,
+    "faces_after": 4776,
+    "watertight": true
+  },
+  {
+    "file": "222_right_sole_01.stl",
+    "faces_before": 7256,
+    "faces_after": 7240,
+    "watertight": true
+  },
+  {
+    "file": "223_right_shin_band_123_01.stl",
+    "faces_before": 340,
+    "faces_after": 340,
+    "watertight": true
+  },
+  {
+    "file": "223_right_shin_band_123_02.stl",
+    "faces_before": 340,
+    "faces_after": 340,
+    "watertight": true
+  },
+  {
+    "file": "224_right_shin_band_169_01.stl",
+    "faces_before": 380,
+    "faces_after": 380,
+    "watertight": true
+  },
+  {
+    "file": "224_right_shin_band_169_02.stl",
+    "faces_before": 380,
+    "faces_after": 380,
+    "watertight": true
+  },
+  {
+    "file": "225_right_shin_band_215_01.stl",
+    "faces_before": 380,
+    "faces_after": 380,
+    "watertight": true
+  },
+  {
+    "file": "225_right_shin_band_215_02.stl",
+    "faces_before": 380,
+    "faces_after": 380,
+    "watertight": true
+  },
+  {
+    "file": "226_right_boot_nozzle_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "227_right_boot_nozzle_ring_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "228_right_shoulder_mount_01.stl",
+    "faces_before": 4370,
+    "faces_after": 4362,
+    "watertight": true
+  },
+  {
+    "file": "229_right_shoulder_roll_yoke_rail_01.stl",
+    "faces_before": 3992,
+    "faces_after": 3990,
+    "watertight": true
+  },
+  {
+    "file": "230_right_shoulder_yaw_yoke_rail_01.stl",
+    "faces_before": 3914,
+    "faces_after": 3912,
+    "watertight": true
+  },
+  {
+    "file": "231_right_elbow_yoke_rail_01.stl",
+    "faces_before": 3750,
+    "faces_after": 3748,
+    "watertight": true
+  },
+  {
+    "file": "232_right_forearm_roll_yoke_rail_01.stl",
+    "faces_before": 3750,
+    "faces_after": 3748,
+    "watertight": true
+  },
+  {
+    "file": "233_right_wrist_pitch_yoke_rail_01.stl",
+    "faces_before": 3750,
+    "faces_after": 3748,
+    "watertight": true
+  },
+  {
+    "file": "234_right_wrist_roll_yoke_rail_01.stl",
+    "faces_before": 3750,
+    "faces_after": 3748,
+    "watertight": true
+  },
+  {
+    "file": "235_right_thumb_support_01.stl",
+    "faces_before": 4260,
+    "faces_after": 4252,
+    "watertight": true
+  },
+  {
+    "file": "236_right_shoulder_pitch_shaft_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "237_right_shoulder_pitch_bearing_m1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "238_right_shoulder_pitch_horn_m1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "239_right_shoulder_pitch_screw_m1_0_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "240_right_shoulder_pitch_screw_m1_1_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "241_right_shoulder_pitch_screw_m1_2_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "242_right_shoulder_pitch_screw_m1_3_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "243_right_shoulder_pitch_bearing_1_01.stl",
+    "faces_before": 540,
+    "faces_after": 540,
+    "watertight": true
+  },
+  {
+    "file": "244_right_shoulder_pitch_horn_1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "245_right_shoulder_pitch_screw_1_0_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "246_right_shoulder_pitch_screw_1_1_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "247_right_shoulder_pitch_screw_1_2_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "248_right_shoulder_pitch_screw_1_3_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "249_right_shoulder_roll_shaft_01.stl",
+    "faces_before": 922,
+    "faces_after": 922,
+    "watertight": true
+  },
+  {
+    "file": "250_right_shoulder_roll_bearing_m1_01.stl",
+    "faces_before": 696,
+    "faces_after": 696,
+    "watertight": true
+  },
+  {
+    "file": "251_right_shoulder_roll_horn_m1_01.stl",
+    "faces_before": 768,
+    "faces_after": 768,
+    "watertight": true
+  },
+  {
+    "file": "252_right_shoulder_roll_screw_m1_0_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "253_right_shoulder_roll_screw_m1_1_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "254_right_shoulder_roll_screw_m1_2_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "255_right_shoulder_roll_screw_m1_3_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "256_right_shoulder_roll_bearing_1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "257_right_shoulder_roll_horn_1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "258_right_shoulder_roll_screw_1_0_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "259_right_shoulder_roll_screw_1_1_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "260_right_shoulder_roll_screw_1_2_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "261_right_shoulder_roll_screw_1_3_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "262_right_shoulder_yaw_shaft_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "263_right_shoulder_yaw_bearing_m1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "264_right_shoulder_yaw_horn_m1_01.stl",
+    "faces_before": 732,
+    "faces_after": 732,
+    "watertight": true
+  },
+  {
+    "file": "265_right_shoulder_yaw_screw_m1_0_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "266_right_shoulder_yaw_screw_m1_1_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "267_right_shoulder_yaw_screw_m1_2_01.stl",
+    "faces_before": 108,
+    "faces_after": 108,
+    "watertight": true
+  },
+  {
+    "file": "268_right_shoulder_yaw_screw_m1_3_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "269_right_shoulder_yaw_bearing_1_01.stl",
+    "faces_before": 712,
+    "faces_after": 712,
+    "watertight": true
+  },
+  {
+    "file": "270_right_shoulder_yaw_horn_1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "271_right_shoulder_yaw_screw_1_0_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "272_right_shoulder_yaw_screw_1_1_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "273_right_shoulder_yaw_screw_1_2_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "274_right_shoulder_yaw_screw_1_3_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "275_right_elbow_shaft_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "276_right_elbow_bearing_m1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "277_right_elbow_horn_m1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "278_right_elbow_screw_m1_0_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "279_right_elbow_screw_m1_1_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "280_right_elbow_screw_m1_2_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "281_right_elbow_screw_m1_3_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "282_right_elbow_bearing_1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "283_right_elbow_horn_1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "284_right_elbow_screw_1_0_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "285_right_elbow_screw_1_1_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "286_right_elbow_screw_1_2_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "287_right_elbow_screw_1_3_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "288_right_forearm_roll_shaft_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "289_right_forearm_roll_bearing_m1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "290_right_forearm_roll_horn_m1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "291_right_forearm_roll_screw_m1_0_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "292_right_forearm_roll_screw_m1_1_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "293_right_forearm_roll_screw_m1_2_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "294_right_forearm_roll_screw_m1_3_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "295_right_forearm_roll_bearing_1_01.stl",
+    "faces_before": 716,
+    "faces_after": 716,
+    "watertight": true
+  },
+  {
+    "file": "296_right_forearm_roll_horn_1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "297_right_forearm_roll_screw_1_0_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "298_right_forearm_roll_screw_1_1_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "299_right_forearm_roll_screw_1_2_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "300_right_forearm_roll_screw_1_3_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "301_right_wrist_pitch_shaft_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "302_right_wrist_pitch_bearing_m1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "303_right_wrist_pitch_horn_m1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "304_right_wrist_pitch_screw_m1_0_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "305_right_wrist_pitch_screw_m1_1_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "306_right_wrist_pitch_screw_m1_2_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "307_right_wrist_pitch_screw_m1_3_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "308_right_wrist_pitch_bearing_1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "309_right_wrist_pitch_horn_1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "310_right_wrist_pitch_screw_1_0_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "311_right_wrist_pitch_screw_1_1_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "312_right_wrist_pitch_screw_1_2_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "313_right_wrist_pitch_screw_1_3_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "314_right_wrist_roll_shaft_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "315_right_wrist_roll_bearing_m1_01.stl",
+    "faces_before": 692,
+    "faces_after": 692,
+    "watertight": true
+  },
+  {
+    "file": "316_right_wrist_roll_horn_m1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "317_right_wrist_roll_screw_m1_0_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "318_right_wrist_roll_screw_m1_1_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "319_right_wrist_roll_screw_m1_2_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "320_right_wrist_roll_screw_m1_3_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "321_right_wrist_roll_bearing_1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "322_right_wrist_roll_horn_1_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "323_right_wrist_roll_screw_1_0_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "324_right_wrist_roll_screw_1_1_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "325_right_wrist_roll_screw_1_2_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "326_right_wrist_roll_screw_1_3_01.stl",
+    "faces_before": 332,
+    "faces_after": 332,
+    "watertight": true
+  },
+  {
+    "file": "327_right_upper_arm_backbone_01.stl",
+    "faces_before": 4892,
+    "faces_after": 4884,
+    "watertight": true
+  },
+  {
+    "file": "328_right_upper_arm_cover_01.stl",
+    "faces_before": 6300,
+    "faces_after": 6296,
+    "watertight": true
+  },
+  {
+    "file": "328_right_upper_arm_cover_02.stl",
+    "faces_before": 4784,
+    "faces_after": 4776,
+    "watertight": true
+  },
+  {
+    "file": "329_right_forearm_cover_01.stl",
+    "faces_before": 5532,
+    "faces_after": 5524,
+    "watertight": true
+  },
+  {
+    "file": "329_right_forearm_cover_02.stl",
+    "faces_before": 4784,
+    "faces_after": 4776,
+    "watertight": true
+  },
+  {
+    "file": "330_right_forearm_tendon_panel_01.stl",
+    "faces_before": 3372,
+    "faces_after": 3364,
+    "watertight": true
+  },
+  {
+    "file": "331_right_tendon_port_0_01.stl",
+    "faces_before": 748,
+    "faces_after": 748,
+    "watertight": true
+  },
+  {
+    "file": "332_right_tendon_port_12_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "333_right_tendon_port_24_01.stl",
+    "faces_before": 734,
+    "faces_after": 734,
+    "watertight": true
+  },
+  {
+    "file": "334_right_palm_01.stl",
+    "faces_before": 4960,
+    "faces_after": 4952,
+    "watertight": true
+  },
+  {
+    "file": "334_right_palm_02.stl",
+    "faces_before": 4960,
+    "faces_after": 4952,
+    "watertight": true
+  },
+  {
+    "file": "335_right_palm_pad_01.stl",
+    "faces_before": 2308,
+    "faces_after": 2304,
+    "watertight": true
+  },
+  {
+    "file": "336_right_index_mcp_phalanx_01.stl",
+    "faces_before": 4652,
+    "faces_after": 4644,
+    "watertight": true
+  },
+  {
+    "file": "337_right_index_mcp_pad_01.stl",
+    "faces_before": 3446,
+    "faces_after": 3438,
+    "watertight": true
+  },
+  {
+    "file": "338_right_index_mcp_knuckle_01.stl",
+    "faces_before": 1500,
+    "faces_after": 1498,
+    "watertight": true
+  },
+  {
+    "file": "339_right_index_pip_phalanx_01.stl",
+    "faces_before": 4652,
+    "faces_after": 4644,
+    "watertight": true
+  },
+  {
+    "file": "340_right_index_pip_pad_01.stl",
+    "faces_before": 3446,
+    "faces_after": 3438,
+    "watertight": true
+  },
+  {
+    "file": "341_right_index_pip_knuckle_01.stl",
+    "faces_before": 1500,
+    "faces_after": 1498,
+    "watertight": true
+  },
+  {
+    "file": "342_right_index_dip_phalanx_01.stl",
+    "faces_before": 4652,
+    "faces_after": 4644,
+    "watertight": true
+  },
+  {
+    "file": "343_right_index_dip_pad_01.stl",
+    "faces_before": 3446,
+    "faces_after": 3438,
+    "watertight": true
+  },
+  {
+    "file": "344_right_index_dip_knuckle_01.stl",
+    "faces_before": 1500,
+    "faces_after": 1498,
+    "watertight": true
+  },
+  {
+    "file": "345_right_middle_mcp_phalanx_01.stl",
+    "faces_before": 4652,
+    "faces_after": 4644,
+    "watertight": true
+  },
+  {
+    "file": "346_right_middle_mcp_pad_01.stl",
+    "faces_before": 3446,
+    "faces_after": 3438,
+    "watertight": true
+  },
+  {
+    "file": "347_right_middle_mcp_knuckle_01.stl",
+    "faces_before": 1500,
+    "faces_after": 1498,
+    "watertight": true
+  },
+  {
+    "file": "348_right_middle_pip_phalanx_01.stl",
+    "faces_before": 4652,
+    "faces_after": 4644,
+    "watertight": true
+  },
+  {
+    "file": "349_right_middle_pip_pad_01.stl",
+    "faces_before": 3446,
+    "faces_after": 3438,
+    "watertight": true
+  },
+  {
+    "file": "350_right_middle_pip_knuckle_01.stl",
+    "faces_before": 1500,
+    "faces_after": 1498,
+    "watertight": true
+  },
+  {
+    "file": "351_right_middle_dip_phalanx_01.stl",
+    "faces_before": 4652,
+    "faces_after": 4644,
+    "watertight": true
+  },
+  {
+    "file": "352_right_middle_dip_pad_01.stl",
+    "faces_before": 3446,
+    "faces_after": 3438,
+    "watertight": true
+  },
+  {
+    "file": "353_right_middle_dip_knuckle_01.stl",
+    "faces_before": 1500,
+    "faces_after": 1498,
+    "watertight": true
+  },
+  {
+    "file": "354_right_ring_mcp_phalanx_01.stl",
+    "faces_before": 4652,
+    "faces_after": 4644,
+    "watertight": true
+  },
+  {
+    "file": "355_right_ring_mcp_pad_01.stl",
+    "faces_before": 3446,
+    "faces_after": 3438,
+    "watertight": true
+  },
+  {
+    "file": "356_right_ring_mcp_knuckle_01.stl",
+    "faces_before": 1500,
+    "faces_after": 1498,
+    "watertight": true
+  },
+  {
+    "file": "357_right_ring_pip_phalanx_01.stl",
+    "faces_before": 4652,
+    "faces_after": 4644,
+    "watertight": true
+  },
+  {
+    "file": "358_right_ring_pip_pad_01.stl",
+    "faces_before": 3446,
+    "faces_after": 3438,
+    "watertight": true
+  },
+  {
+    "file": "359_right_ring_pip_knuckle_01.stl",
+    "faces_before": 1500,
+    "faces_after": 1498,
+    "watertight": true
+  },
+  {
+    "file": "360_right_ring_dip_phalanx_01.stl",
+    "faces_before": 4652,
+    "faces_after": 4644,
+    "watertight": true
+  },
+  {
+    "file": "361_right_ring_dip_pad_01.stl",
+    "faces_before": 3446,
+    "faces_after": 3438,
+    "watertight": true
+  },
+  {
+    "file": "362_right_ring_dip_knuckle_01.stl",
+    "faces_before": 1500,
+    "faces_after": 1498,
+    "watertight": true
+  },
+  {
+    "file": "363_right_little_mcp_phalanx_01.stl",
+    "faces_before": 4652,
+    "faces_after": 4644,
+    "watertight": true
+  },
+  {
+    "file": "364_right_little_mcp_pad_01.stl",
+    "faces_before": 3446,
+    "faces_after": 3438,
+    "watertight": true
+  },
+  {
+    "file": "365_right_little_mcp_knuckle_01.stl",
+    "faces_before": 1500,
+    "faces_after": 1498,
+    "watertight": true
+  },
+  {
+    "file": "366_right_little_pip_phalanx_01.stl",
+    "faces_before": 4652,
+    "faces_after": 4644,
+    "watertight": true
+  },
+  {
+    "file": "367_right_little_pip_pad_01.stl",
+    "faces_before": 3446,
+    "faces_after": 3438,
+    "watertight": true
+  },
+  {
+    "file": "368_right_little_pip_knuckle_01.stl",
+    "faces_before": 1500,
+    "faces_after": 1498,
+    "watertight": true
+  },
+  {
+    "file": "369_right_little_dip_phalanx_01.stl",
+    "faces_before": 4652,
+    "faces_after": 4644,
+    "watertight": true
+  },
+  {
+    "file": "370_right_little_dip_pad_01.stl",
+    "faces_before": 3446,
+    "faces_after": 3438,
+    "watertight": true
+  },
+  {
+    "file": "371_right_little_dip_knuckle_01.stl",
+    "faces_before": 1500,
+    "faces_after": 1498,
+    "watertight": true
+  },
+  {
+    "file": "372_right_thumb_opposition_mount_01.stl",
+    "faces_before": 4260,
+    "faces_after": 4252,
+    "watertight": true
+  },
+  {
+    "file": "373_right_thumb_spread_phalanx_01.stl",
+    "faces_before": 4652,
+    "faces_after": 4644,
+    "watertight": true
+  },
+  {
+    "file": "374_right_thumb_spread_pad_01.stl",
+    "faces_before": 3446,
+    "faces_after": 3438,
+    "watertight": true
+  },
+  {
+    "file": "375_right_thumb_spread_knuckle_01.stl",
+    "faces_before": 1268,
+    "faces_after": 1268,
+    "watertight": true
+  },
+  {
+    "file": "376_right_thumb_mcp_phalanx_01.stl",
+    "faces_before": 4652,
+    "faces_after": 4644,
+    "watertight": true
+  },
+  {
+    "file": "377_right_thumb_mcp_pad_01.stl",
+    "faces_before": 3446,
+    "faces_after": 3438,
+    "watertight": true
+  },
+  {
+    "file": "378_right_thumb_mcp_knuckle_01.stl",
+    "faces_before": 1184,
+    "faces_after": 1184,
+    "watertight": true
+  },
+  {
+    "file": "379_right_thumb_ip_phalanx_01.stl",
+    "faces_before": 4652,
+    "faces_after": 4644,
+    "watertight": true
+  },
+  {
+    "file": "380_right_thumb_ip_pad_01.stl",
+    "faces_before": 3446,
+    "faces_after": 3438,
+    "watertight": true
+  },
+  {
+    "file": "381_right_thumb_ip_knuckle_01.stl",
+    "faces_before": 1184,
+    "faces_after": 1184,
+    "watertight": true
+  },
+  {
+    "file": "382_right_back_jet_01.stl",
+    "faces_before": 340,
+    "faces_after": 340,
+    "watertight": true
+  },
+  {
+    "file": "382_right_back_jet_02.stl",
+    "faces_before": 340,
+    "faces_after": 340,
+    "watertight": true
+  },
+  {
+    "file": "383_right_back_nozzle_01.stl",
+    "faces_before": 672,
+    "faces_after": 672,
+    "watertight": true
+  },
+  {
+    "file": "384_right_back_nozzle_ring_01.stl",
+    "faces_before": 1008,
+    "faces_after": 1008,
+    "watertight": true
+  },
+  {
+    "file": "385_right_jet_mount_01.stl",
+    "faces_before": 4712,
+    "faces_after": 4704,
+    "watertight": true
+  }
+]

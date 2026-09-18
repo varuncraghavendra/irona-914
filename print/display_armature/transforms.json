@@ -1,0 +1,184 @@
+[
+  {
+    "file": "display_core_01.stl",
+    "translation_mm": [
+      -13.0,
+      -210.0,
+      399.0
+    ],
+    "size_mm": [
+      26.0,
+      26.0,
+      23.5
+    ]
+  },
+  {
+    "file": "display_core_02.stl",
+    "translation_mm": [
+      -13.0,
+      184.0,
+      399.0
+    ],
+    "size_mm": [
+      26.0,
+      26.0,
+      23.5
+    ]
+  },
+  {
+    "file": "display_core_03.stl",
+    "translation_mm": [
+      -15.0,
+      -96.0,
+      25.0
+    ],
+    "size_mm": [
+      60.0,
+      42.0,
+      198.75
+    ]
+  },
+  {
+    "file": "display_core_04.stl",
+    "translation_mm": [
+      -13.0,
+      -88.0,
+      223.75
+    ],
+    "size_mm": [
+      26.0,
+      26.0,
+      198.75
+    ]
+  },
+  {
+    "file": "display_core_05.stl",
+    "translation_mm": [
+      -13.0,
+      -88.0,
+      422.5
+    ],
+    "size_mm": [
+      26.0,
+      88.0,
+      198.75
+    ]
+  },
+  {
+    "file": "display_core_06.stl",
+    "translation_mm": [
+      -13.0,
+      -210.0,
+      422.5
+    ],
+    "size_mm": [
+      26.0,
+      26.0,
+      198.75
+    ]
+  },
+  {
+    "file": "display_core_07.stl",
+    "translation_mm": [
+      -13.0,
+      -210.0,
+      621.25
+    ],
+    "size_mm": [
+      26.0,
+      105.0,
+      94.75
+    ]
+  },
+  {
+    "file": "display_core_08.stl",
+    "translation_mm": [
+      -8.0,
+      -105.0,
+      621.25
+    ],
+    "size_mm": [
+      16.0,
+      105.0,
+      198.75
+    ]
+  },
+  {
+    "file": "display_core_09.stl",
+    "translation_mm": [
+      -15.0,
+      54.0,
+      25.0
+    ],
+    "size_mm": [
+      60.0,
+      42.0,
+      198.75
+    ]
+  },
+  {
+    "file": "display_core_10.stl",
+    "translation_mm": [
+      -13.0,
+      62.0,
+      223.75
+    ],
+    "size_mm": [
+      26.0,
+      26.0,
+      198.75
+    ]
+  },
+  {
+    "file": "display_core_11.stl",
+    "translation_mm": [
+      -13.0,
+      -1.959434878635765e-15,
+      422.5
+    ],
+    "size_mm": [
+      26.0,
+      88.0,
+      198.75
+    ]
+  },
+  {
+    "file": "display_core_12.stl",
+    "translation_mm": [
+      -13.0,
+      184.0,
+      422.5
+    ],
+    "size_mm": [
+      26.0,
+      26.0,
+      198.75
+    ]
+  },
+  {
+    "file": "display_core_13.stl",
+    "translation_mm": [
+      -8.0,
+      -1.959434878635765e-15,
+      621.25
+    ],
+    "size_mm": [
+      16.0,
+      105.0,
+      198.75
+    ]
+  },
+  {
+    "file": "display_core_14.stl",
+    "translation_mm": [
+      -13.0,
+      105.0,
+      621.25
+    ],
+    "size_mm": [
+      26.0,
+      105.0,
+      94.75
+    ]
+  }
+]

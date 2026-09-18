@@ -1,0 +1,284 @@
+{
+ "t": 15.201,
+ "wall": 1789596052.599,
+ "updates": 61,
+ "state": "approach",
+ "actions": [
+  "walk to the grasp line and stop within reach",
+  "settle the gait, then latch the fitted grasp"
+ ],
+ "detector": "grasp 26 mm wide, score 0.64, 11 clusters on 3 surfaces",
+ "frames": 76,
+ "detections": 76,
+ "frame_stamp": 15.186,
+ "frame_age_s": 0.015,
+ "render_frame": {
+  "referenceTimeDenominator": 30,
+  "referenceTimeNumerator": 1032
+ },
+ "support_z": 0.37000000000000016,
+ "clusters": [
+  {
+   "points": 1587,
+   "base_z": 0.38721474456975785,
+   "top_z": 0.44389632003189744,
+   "height": 0.05668157546213959,
+   "footprint": 0.039232402484641486,
+   "centroid": [
+    1.117915390319093,
+    -0.11638566330969528,
+    0.41297931000646765
+   ],
+   "above_support": 0.01721474456975769,
+   "support_z": 0.37,
+   "graspable": true,
+   "score": 0.638
+  },
+  {
+   "points": 5861,
+   "base_z": 0.3844233965955671,
+   "top_z": 0.5504586072823644,
+   "height": 0.16603521068679727,
+   "footprint": 0.8519594661333407,
+   "centroid": [
+    1.7632686409117238,
+    -2.100000978997702,
+    0.4532906880308956
+   ],
+   "above_support": 0.014423396595566962,
+   "support_z": 0.37,
+   "graspable": false,
+   "score": null
+  },
+  {
+   "points": 3043,
+   "base_z": 0.4495352857874072,
+   "top_z": 0.5509542970367292,
+   "height": 0.10141901124932196,
+   "footprint": 0.19448993083375124,
+   "centroid": [
+    1.6556435574057882,
+    0.11700259274831615,
+    0.5042794391276474
+   ],
+   "above_support": 0.07953528578740704,
+   "support_z": 0.37,
+   "graspable": false,
+   "score": null
+  },
+  {
+   "points": 31345,
+   "base_z": 0.3617393563256994,
+   "top_z": 0.4788275821798113,
+   "height": 0.11708822585411188,
+   "footprint": 0.9309441146089911,
+   "centroid": [
+    1.3664442457197148,
+    -0.16745037711567215,
+    0.36588578225774704
+   ],
+   "above_support": 0.09173935632569935,
+   "support_z": 0.27,
+   "graspable": false,
+   "score": null
+  },
+  {
+   "points": 2783,
+   "base_z": 0.28666749620216414,
+   "top_z": 0.5422678056346789,
+   "height": 0.25560030943251477,
+   "footprint": 1.2239023111467322,
+   "centroid": [
+    1.8683067828761488,
+    -2.1000011259109024,
+    0.39575671457819234
+   ],
+   "above_support": 0.016667496202164067,
+   "support_z": 0.27,
+   "graspable": false,
+   "score": null
+  },
+  {
+   "points": 262,
+   "base_z": 0.2829119129803034,
+   "top_z": 0.3471880892040671,
+   "height": 0.06427617622376369,
+   "footprint": 0.6718619132572542,
+   "centroid": [
+    4.150030322757083,
+    -0.07467549715588218,
+    0.3083954848763267
+   ],
+   "above_support": 0.012911912980303308,
+   "support_z": 0.27,
+   "graspable": false,
+   "score": null
+  },
+  {
+   "points": 31452,
+   "base_z": 0.36173934667395613,
+   "top_z": 0.4769689687797688,
+   "height": 0.11522962210581267,
+   "footprint": 0.9348079182543002,
+   "centroid": [
+    1.3652558113199773,
+    -0.16861488405237768,
+    0.36547959515777384
+   ],
+   "above_support": 0.1417393466739561,
+   "support_z": 0.22,
+   "graspable": false,
+   "score": null
+  },
+  {
+   "points": 3487,
+   "base_z": 0.2369515078802282,
+   "top_z": 0.5381969513004435,
+   "height": 0.3012454434202153,
+   "footprint": 1.3791381204390252,
+   "centroid": [
+    1.912702191337351,
+    -2.10000119060765,
+    0.3674764401764951
+   ],
+   "above_support": 0.016951507880228173,
+   "support_z": 0.22,
+   "graspable": false,
+   "score": null
+  },
+  {
+   "points": 51,
+   "base_z": 0.2322910888047982,
+   "top_z": 0.31015797335362927,
+   "height": 0.07786688454883106,
+   "footprint": 0.3121561555705938,
+   "centroid": [
+    3.753196818702898,
+    -1.2923326490633151,
+    0.2665850160230133
+   ],
+   "above_support": 0.012291088804798178,
+   "support_z": 0.22,
+   "graspable": false,
+   "score": null
+  },
+  {
+   "points": 78,
+   "base_z": 0.23517009467230227,
+   "top_z": 0.3474716879680285,
+   "height": 0.11230159329572625,
+   "footprint": 0.4005031927096742,
+   "centroid": [
+    3.7645012105540525,
+    -0.7928911793816359,
+    0.2834138320344675
+   ],
+   "above_support": 0.015170094672302237,
+   "support_z": 0.22,
+   "graspable": false,
+   "score": null
+  },
+  {
+   "points": 585,
+   "base_z": 0.23429780404650852,
+   "top_z": 0.3417007491862141,
+   "height": 0.10740294513970561,
+   "footprint": 0.8667148130662577,
+   "centroid": [
+    4.149500047020051,
+    -0.16055642821098606,
+    0.28024428901276977
+   ],
+   "above_support": 0.014297804046508489,
+   "support_z": 0.22,
+   "graspable": false,
+   "score": null
+  }
+ ],
+ "grasp": {
+  "width_mm": 26.0,
+  "score": 0.6379408488912965,
+  "fit_residual_mm": 4.86,
+  "upright": 0.908,
+  "centre": [
+   1.1157,
+   -0.1149,
+   0.4133
+  ]
+ },
+ "palm": [
+  0.8919,
+  -0.1595,
+  0.4177
+ ],
+ "pelvis": [
+  0.8254,
+  0.0376,
+  0.5262
+ ],
+ "closure": 0.0,
+ "attached": null,
+ "released": null,
+ "place_target": null,
+ "place_residual_mm": null,
+ "grasp_policy": "scripted",
+ "events": [
+  {
+   "t": 0.001,
+   "state": "search",
+   "text": "scanning: no frame"
+  },
+  {
+   "t": 0.401,
+   "state": "approach",
+   "text": "entered"
+  },
+  {
+   "t": 0.401,
+   "state": "approach",
+   "text": "vase at [1.107, -0.111, 0.471], 1.10 m ahead"
+  },
+  {
+   "t": 9.801,
+   "state": "approach",
+   "text": "vase below the camera at 0.30 m; closing in on the latched estimate"
+  }
+ ],
+ "object_truth": [
+  1.1081,
+  -0.109,
+  0.38
+ ],
+ "flight": {
+  "phase": "cruise",
+  "cut": false,
+  "gear": "up",
+  "origin": [
+   0.0156,
+   -0.0,
+   0.4546
+  ],
+  "grasp_station": [
+   0.8919,
+   0.0386,
+   0.4673
+  ],
+  "frozen_station": null,
+  "final_pelvis": null,
+  "return_error_mm": null,
+  "phases": [
+   {
+    "t": 2.0,
+    "phase": "launch"
+   },
+   {
+    "t": 3.003,
+    "phase": "scan"
+   },
+   {
+    "t": 3.004,
+    "phase": "cruise"
+   }
+  ]
+ }
+}

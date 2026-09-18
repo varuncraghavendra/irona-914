@@ -1,0 +1,9 @@
+# Separate authoring/check environment; do not install this into Isaac Sim.
+numpy>=2.0
+cadquery==2.7.0
+usd-core==26.8
+trimesh==5.1.0
+networkx>=3.0
+mujoco==3.13.0
+Pillow>=11.0
+PyYAML>=6.0

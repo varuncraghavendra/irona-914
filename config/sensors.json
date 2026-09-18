@@ -1,0 +1,161 @@
+{
+  "cameras": {
+    "depth": {
+      "position": [
+        0.083,
+        0.0475,
+        0.062
+      ],
+      "resolution": [
+        640,
+        360
+      ],
+      "fov_deg": [
+        86,
+        57
+      ],
+      "clip": [
+        0.4,
+        10.0
+      ],
+      "frame": "camera_depth_optical_frame"
+    },
+    "color": {
+      "position": [
+        0.083,
+        0.015,
+        0.062
+      ],
+      "resolution": [
+        640,
+        400
+      ],
+      "fov_deg": [
+        90,
+        65
+      ],
+      "clip": [
+        0.05,
+        30.0
+      ],
+      "frame": "camera_color_optical_frame"
+    },
+    "infrared_right": {
+      "position": [
+        0.083,
+        -0.0475,
+        0.062
+      ],
+      "resolution": [
+        640,
+        360
+      ],
+      "fov_deg": [
+        86,
+        57
+      ],
+      "clip": [
+        0.4,
+        10.0
+      ],
+      "frame": "camera_right_ir_optical_frame"
+    }
+  },
+  "lidar": {
+    "channels": 32,
+    "horizontal_fov_deg": 360,
+    "vertical_fov_deg": 30,
+    "rotation_hz": 10,
+    "azimuth_samples_per_turn": 1800,
+    "range_m": [
+      0.1,
+      30.0
+    ],
+    "frame": "lidar_link"
+  },
+  "topics": {
+    "rgb": "/irona/camera/color/image_raw",
+    "rgb_info": "/irona/camera/color/camera_info",
+    "depth": "/irona/camera/depth/image_rect_raw",
+    "depth_info": "/irona/camera/depth/camera_info",
+    "depth_points": "/irona/camera/depth/points",
+    "lidar_points": "/irona/lidar/points",
+    "joint_states": "/joint_states",
+    "clock": "/clock",
+    "tf": "/tf",
+    "arm_command": "/irona/arm_hand_command"
+  },
+  "frames": [
+    {
+      "name": "camera_link",
+      "parent": "head",
+      "xyz": [
+        0.083,
+        0,
+        0.062
+      ],
+      "rpy": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "lidar_link",
+      "parent": "head",
+      "xyz": [
+        -0.006,
+        0,
+        0.1344
+      ],
+      "rpy": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "camera_depth_optical_frame",
+      "parent": "camera_link",
+      "xyz": [
+        0.0,
+        0.0475,
+        0.0
+      ],
+      "rpy": [
+        -1.5707963267948966,
+        0,
+        -1.5707963267948966
+      ]
+    },
+    {
+      "name": "camera_color_optical_frame",
+      "parent": "camera_link",
+      "xyz": [
+        0.0,
+        0.015,
+        0.0
+      ],
+      "rpy": [
+        -1.5707963267948966,
+        0,
+        -1.5707963267948966
+      ]
+    },
+    {
+      "name": "camera_right_ir_optical_frame",
+      "parent": "camera_link",
+      "xyz": [
+        0.0,
+        -0.0475,
+        0.0
+      ],
+      "rpy": [
+        -1.5707963267948966,
+        0,
+        -1.5707963267948966
+      ]
+    }
+  ],
+  "model_scope": "Ideal rendered depth, approximate nominal D455 intrinsics/extrinsics; no measured calibration. Generic 32-channel lidar."
+}

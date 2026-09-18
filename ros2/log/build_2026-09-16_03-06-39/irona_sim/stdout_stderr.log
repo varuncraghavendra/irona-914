@@ -1,0 +1,124 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/build/irona_sim
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/launch/camera.launch.py
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/launch/irona_sim.launch.py
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/launch/lidar.launch.py
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/launch/rviz.launch.py
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/launch/sensors.launch.py
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/rviz/irona.rviz
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/urdf/irona.urdf
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/head.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/left_foot.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/left_forearm.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/left_forearm_roll_link.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/left_hand.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/left_index_dip_link.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/left_index_mcp_link.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/left_index_pip_link.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/left_little_dip_link.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/left_little_mcp_link.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/left_little_pip_link.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/left_middle_dip_link.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/left_middle_mcp_link.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/left_middle_pip_link.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/left_ring_dip_link.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/left_ring_mcp_link.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/left_ring_pip_link.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/left_shin.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/left_shoulder_pitch_link.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/left_shoulder_roll_link.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/left_thigh.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/left_thumb_cmc_link.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/left_thumb_ip_link.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/left_thumb_mcp_link.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/left_thumb_spread_link.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/left_upper_arm.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/left_wrist_pitch_link.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/neck_yaw_link.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/pelvis.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/right_foot.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/right_forearm.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/right_forearm_roll_link.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/right_hand.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/right_index_dip_link.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/right_index_mcp_link.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/right_index_pip_link.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/right_little_dip_link.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/right_little_mcp_link.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/right_little_pip_link.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/right_middle_dip_link.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/right_middle_mcp_link.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/right_middle_pip_link.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/right_ring_dip_link.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/right_ring_mcp_link.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/right_ring_pip_link.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/right_shin.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/right_shoulder_pitch_link.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/right_shoulder_roll_link.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/right_thigh.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/right_thumb_cmc_link.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/right_thumb_ip_link.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/right_thumb_mcp_link.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/right_thumb_spread_link.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/right_upper_arm.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/right_wrist_pitch_link.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/meshes/torso.stl
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/project/assets/irona.usd
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/project/assets/irona.usda
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/project/assets/ros2_bridge.usda
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/project/assets/scene.usda
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/project/assets/scene_ros.usda
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/project/config/joint_limits.csv
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/project/config/robot.json
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/project/config/sensors.json
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/project/source/arena.py
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/project/source/build_assets.py
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/project/source/build_ros_assets.py
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/project/source/clean_print_meshes.py
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/project/source/control.py
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/project/source/model.py
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/project/source/mujoco_check.py
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/project/source/package_project.py
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/project/source/render_dynamics.py
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/project/source/render_hand_details.py
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/project/source/render_previews.py
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/project/source/ros_bridge.py
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/project/source/run_isaac.py
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/project/source/sensors.py
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/project/source/validate_assets.py
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/project/source/validate_revision.py
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/lib/irona_sim/sensor_smoke_test.py
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/lib/irona_sim/hand_command.py
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/ament_index/resource_index/package_run_dependencies/irona_sim
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/ament_index/resource_index/parent_prefix_path/irona_sim
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/environment/ament_prefix_path.sh
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/environment/ament_prefix_path.dsv
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/environment/path.sh
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/environment/path.dsv
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/local_setup.bash
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/local_setup.sh
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/local_setup.zsh
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/local_setup.dsv
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/package.dsv
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/ament_index/resource_index/packages/irona_sim
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/cmake/irona_simConfig.cmake
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/cmake/irona_simConfig-version.cmake
+-- Symlinking: /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/package.xml

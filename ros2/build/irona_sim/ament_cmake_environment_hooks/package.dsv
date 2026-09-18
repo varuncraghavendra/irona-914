@@ -1,0 +1,4 @@
+source;share/irona_sim/local_setup.bash
+source;share/irona_sim/local_setup.dsv
+source;share/irona_sim/local_setup.sh
+source;share/irona_sim/local_setup.zsh

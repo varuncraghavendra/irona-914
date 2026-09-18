@@ -1,0 +1,1879 @@
+{
+ "run": {
+  "frames": 24,
+  "summary": {
+   "state": "enclose",
+   "detections": 57,
+   "frames": 60,
+   "estimate": [
+    1.1089922939799775,
+    -0.10957837753119057,
+    0.4606323057150534
+   ],
+   "grasp_target": [
+    1.1086592446196806,
+    -0.10931129376923665,
+    0.4687774185110795
+   ],
+   "reach_error_mm": 156.9,
+   "grasp_ik_residual_mm": null,
+   "corrections": 0,
+   "attempts": 0,
+   "grasp_policy": "scripted",
+   "policy": null,
+   "enclosed_mm": null,
+   "attached_at": null,
+   "grasp_source": {
+    "method": "VLAD-Grasp-derived geometry (local, training-free)",
+    "reference": "arXiv:2511.05791 stages 2-3; stage 1 goal-image replaced by an analytic circle-fit antipodal proxy",
+    "support_z": 0.37,
+    "provisional": false,
+    "clearance_m": 0.07,
+    "clusters": [
+     {
+      "points": 10005,
+      "base_z": 0.38577993999969407,
+      "top_z": 0.6693510647118309,
+      "height": 0.28357112471213686,
+      "footprint": 0.7666448006936397,
+      "centroid": [
+       1.3005324609660815,
+       -2.1001535900805304,
+       0.4990466076285104
+      ],
+      "above_support": 0.015779939999693904,
+      "support_z": 0.37,
+      "graspable": false,
+      "score": null
+     },
+     {
+      "points": 3591,
+      "base_z": 0.3844309285901718,
+      "top_z": 0.4783793926833987,
+      "height": 0.09394846409322688,
+      "footprint": 0.06271820272634919,
+      "centroid": [
+       1.105098482697088,
+       -0.11707996106361784,
+       0.4311176463998068
+      ],
+      "above_support": 0.014430928590171643,
+      "support_z": 0.37,
+      "graspable": true,
+      "score": 0.841
+     },
+     {
+      "points": 3943,
+      "base_z": 0.2869164702892315,
+      "top_z": 0.6576245282393451,
+      "height": 0.37070805795011363,
+      "footprint": 0.9949164386260808,
+      "centroid": [
+       1.2411485190577305,
+       -2.100155901083388,
+       0.43687846328223
+      ],
+      "above_support": 0.016916470289231433,
+      "support_z": 0.27,
+      "graspable": false,
+      "score": null
+     },
+     {
+      "points": 26946,
+      "base_z": 0.33927424830947156,
+      "top_z": 0.42582521042655513,
+      "height": 0.08655096211708357,
+      "footprint": 0.7155089785015104,
+      "centroid": [
+       1.340214716406157,
+       -0.17646905082737177,
+       0.3609619266073883
+      ],
+      "above_support": 0.06927424830947149,
+      "support_z": 0.27,
+      "graspable": false,
+      "score": null
+     },
+     {
+      "points": 6544,
+      "base_z": 0.4549451435484391,
+      "top_z": 0.6773616035231279,
+      "height": 0.22241645997468878,
+      "footprint": 0.6050354057595486,
+      "centroid": [
+       1.3425117016439634,
+       -2.100152005528013,
+       0.5429278878805113
+      ],
+      "above_support": 0.0149451435484389,
+      "support_z": 0.44,
+      "graspable": false,
+      "score": null
+     },
+     {
+      "points": 939,
+      "base_z": 0.45235097304941774,
+      "top_z": 0.481615489309076,
+      "height": 0.029264516259658258,
+      "footprint": 0.05120757151877468,
+      "centroid": [
+       1.102965068552802,
+       -0.1316365771421167,
+       0.46513532266438534
+      ],
+      "above_support": 0.012350973049417513,
+      "support_z": 0.44,
+      "graspable": false,
+      "score": null
+     }
+    ],
+    "grasp": {
+     "centre": [
+      1.1084,
+      -0.1098,
+      0.4427
+     ],
+     "width_mm": 51.7,
+     "fit_residual_mm": 1.01,
+     "score": 0.841,
+     "slice_fraction": 0.62,
+     "slice_points": 1360,
+     "upright": 0.895,
+     "closing": [
+      0.9584,
+      0.2855,
+      -0.0
+     ],
+     "approach": [
+      0.2855,
+      -0.9584,
+      0.0
+     ],
+     "contacts": [
+      [
+       1.0836,
+       -0.1172,
+       0.4427
+      ],
+      [
+       1.1332,
+       -0.1025,
+       0.4427
+      ]
+     ]
+    }
+   },
+   "grasp_width_mm": 53.0,
+   "grip_offset_mm": 22.1,
+   "support_z": 0.42,
+   "place": null,
+   "events": [
+    {
+     "t": 0.001,
+     "state": "search",
+     "text": "scanning: no frame"
+    },
+    {
+     "t": 0.401,
+     "state": "approach",
+     "text": "entered"
+    },
+    {
+     "t": 0.401,
+     "state": "approach",
+     "text": "vase at [1.107, -0.111, 0.471], 1.10 m ahead"
+    },
+    {
+     "t": 6.063,
+     "state": "approach",
+     "text": "flight is on station; latching the grasp from the hover"
+    },
+    {
+     "t": 6.063,
+     "state": "settle",
+     "text": "entered"
+    },
+    {
+     "t": 7.563,
+     "state": "settle",
+     "text": "grasp fitted 53 mm wide, 22 mm up the body, score 0.90, circle residual 0.9 mm"
+    },
+    {
+     "t": 7.563,
+     "state": "settle",
+     "text": "reaching in 3 waypoints, first IK residual 0.2 mm"
+    },
+    {
+     "t": 7.563,
+     "state": "reach",
+     "text": "entered"
+    },
+    {
+     "t": 9.363,
+     "state": "reach",
+     "text": "waypoint 1/3 reached, palm 141 mm off"
+    },
+    {
+     "t": 9.363,
+     "state": "reach",
+     "text": "waypoint 1 miss: target [0.993, -0.05, 0.579] commanded [0.972, -0.18, 0.546] measured [0.969, -0.184, 0.539] pelvis [0.795, -0.086, 0.51]; worst joint tracking error 0.8 deg on shoulder_roll"
+    },
+    {
+     "t": 10.763,
+     "state": "reach",
+     "text": "waypoint 2/3 reached, palm 84 mm off"
+    },
+    {
+     "t": 10.763,
+     "state": "reach",
+     "text": "waypoint 2 miss: target [1.042, -0.075, 0.469] commanded [1.004, -0.031, 0.536] measured [1.0, -0.034, 0.529] pelvis [0.797, -0.01, 0.532]; worst joint tracking error 0.9 deg on shoulder_pitch"
+    },
+    {
+     "t": 11.963,
+     "state": "reach",
+     "text": "waypoint 3/3 reached, palm 157 mm off"
+    },
+    {
+     "t": 11.963,
+     "state": "reach",
+     "text": "waypoint 3 miss: target [1.109, -0.109, 0.469] commanded [1.174, 0.031, 0.479] measured [1.17, 0.035, 0.476] pelvis [0.987, 0.179, 0.621]; worst joint tracking error 0.6 deg on shoulder_pitch"
+    },
+    {
+     "t": 11.963,
+     "state": "enclose",
+     "text": "entered"
+    }
+   ],
+   "vase_rest": [
+    1.1079937141832215,
+    -0.09999354794610252,
+    0.43380054637641896
+   ],
+   "vase_final": [
+    1.1081106662750244,
+    -0.10902588069438934,
+    0.37999427318573
+   ],
+   "vase_settled": [
+    1.1080976724624634,
+    -0.1090255081653595,
+    0.38044458627700806
+   ],
+   "vase_lift_m": -0.0005,
+   "vase_lift_vs_build_centre_m": -0.0538,
+   "vase_drift_before_contact_mm": 9.0,
+   "grasp_assist": true,
+   "scene": "house",
+   "object": {
+    "name": "vase",
+    "radius_m": 0.0265,
+    "height_m": 0.1441,
+    "grasp_fraction": 0.42,
+    "hue_window": [
+     295.0,
+     352.0
+    ]
+   },
+   "scene_report": {
+    "vase_path": "/World/Vase",
+    "centre": [
+     1.1079937141832215,
+     -0.09999354794610252,
+     0.43380054637641896
+    ],
+    "base_z": 0.3617389979569836,
+    "asset_wait_s": 0.0,
+    "radius": 0.029165548742212,
+    "height": 0.1441230968388707,
+    "grasp_z": 0.4222706986293093,
+    "table_edge": 0.9780059919952007,
+    "table_top": 0.3617389979569836
+   },
+   "fallen": true,
+   "flight": {
+    "phase": "grasp",
+    "cut": false,
+    "gear": "up",
+    "origin": [
+     0.0156,
+     -0.0,
+     0.4546
+    ],
+    "grasp_station": [
+     0.829,
+     0.0405,
+     0.5396
+    ],
+    "frozen_station": [
+     0.8192,
+     0.0408,
+     0.5396
+    ],
+    "final_pelvis": [
+     1.0436,
+     0.1875,
+     0.6157
+    ],
+    "return_error_mm": 1045.0,
+    "phases": [
+     {
+      "t": 2.0,
+      "phase": "launch"
+     },
+     {
+      "t": 3.003,
+      "phase": "scan"
+     },
+     {
+      "t": 3.004,
+      "phase": "cruise"
+     },
+     {
+      "t": 6.062,
+      "phase": "poise"
+     },
+     {
+      "t": 6.063,
+      "phase": "grasp"
+     }
+    ]
+   }
+  }
+ },
+ "frames": [
+  {
+   "frame": 0,
+   "t": 0.201,
+   "image": "frames/00000.jpg",
+   "depth": "frames/00000_depth.jpg",
+   "state": "search",
+   "detector": "grasp 57 mm wide, score 0.90, 11 clusters on 3 surfaces",
+   "detection": {
+    "position": [
+     1.1082342853565461,
+     -0.11193714160357665,
+     0.470673242195968
+    ],
+    "base_z": 0.3845013547007249,
+    "top_z": 0.5234882700156331,
+    "pixels": 714,
+    "range": 1.0365438450729962,
+    "stamp": 0.17800000845454633,
+    "grasp_z": 0.470673242195968,
+    "provisional": false,
+    "width": 0.05698169691831187,
+    "score": 0.9021002423240655,
+    "residual_mm": 0.49,
+    "upright": 0.997,
+    "uv": [
+     382.524176167389,
+     151.88429957760022
+    ],
+    "contacts_uv": [
+     [
+      392.03098837981406,
+      151.88362257098444
+     ],
+     [
+      373.0173639549639,
+      151.88497658421596
+     ]
+    ]
+   },
+   "estimate": [
+    1.1082,
+    -0.1119,
+    0.4707
+   ],
+   "grasp_target": null,
+   "palm": [
+    0.0863,
+    -0.1969,
+    0.3484
+   ],
+   "pelvis": [
+    0.0164,
+    -0.0,
+    0.4546
+   ],
+   "closure": 0.0,
+   "vase_true": [
+    1.1081,
+    -0.109,
+    0.3801
+   ],
+   "policy": "scripted"
+  },
+  {
+   "frame": 1,
+   "t": 0.701,
+   "image": "frames/00001.jpg",
+   "depth": "frames/00001_depth.jpg",
+   "state": "approach",
+   "detector": "grasp 57 mm wide, score 0.90, 11 clusters on 3 surfaces",
+   "detection": {
+    "position": [
+     1.1071213382177543,
+     -0.11048904793328246,
+     0.47103437149829613
+    ],
+    "base_z": 0.3844501974645557,
+    "top_z": 0.5241020910673628,
+    "pixels": 688,
+    "range": 1.0342619465818192,
+    "stamp": 0.5780000274535269,
+    "grasp_z": 0.47103437149829613,
+    "provisional": false,
+    "width": 0.057137503093227036,
+    "score": 0.9015212255779718,
+    "residual_mm": 0.51,
+    "upright": 0.999,
+    "uv": [
+     345.4255614676862,
+     175.5501190276777
+    ],
+    "contacts_uv": [
+     [
+      354.8485896147837,
+      175.6294052653733
+     ],
+     [
+      336.01686528584946,
+      175.47095338047453
+     ]
+    ]
+   },
+   "estimate": [
+    1.1072,
+    -0.1109,
+    0.4709
+   ],
+   "grasp_target": null,
+   "palm": [
+    0.0858,
+    -0.1969,
+    0.3487
+   ],
+   "pelvis": [
+    0.0153,
+    -0.0,
+    0.4546
+   ],
+   "closure": 0.0,
+   "vase_true": [
+    1.1081,
+    -0.109,
+    0.3801
+   ],
+   "policy": "scripted"
+  },
+  {
+   "frame": 2,
+   "t": 1.201,
+   "image": "frames/00002.jpg",
+   "depth": "frames/00002_depth.jpg",
+   "state": "approach",
+   "detector": "grasp 57 mm wide, score 0.90, 10 clusters on 3 surfaces",
+   "detection": {
+    "position": [
+     1.108255721478866,
+     -0.10918933233768341,
+     0.47053653507766896
+    ],
+    "base_z": 0.384513804930238,
+    "top_z": 0.5232601438777073,
+    "pixels": 680,
+    "range": 1.0324021605199065,
+    "stamp": 1.1860000563319772,
+    "grasp_z": 0.47053653507766896,
+    "provisional": false,
+    "width": 0.056946283515869195,
+    "score": 0.9036944324399178,
+    "residual_mm": 0.47,
+    "upright": 0.999,
+    "uv": [
+     319.2602267035559,
+     177.24578654030526
+    ],
+    "contacts_uv": [
+     [
+      328.59672470996463,
+      177.12761186356855
+     ],
+     [
+      309.9027264824114,
+      177.36422704797087
+     ]
+    ]
+   },
+   "estimate": [
+    1.1079,
+    -0.1097,
+    0.4708
+   ],
+   "grasp_target": null,
+   "palm": [
+    0.0861,
+    -0.1969,
+    0.3486
+   ],
+   "pelvis": [
+    0.0156,
+    -0.0,
+    0.4546
+   ],
+   "closure": 0.0,
+   "vase_true": [
+    1.1081,
+    -0.109,
+    0.38
+   ],
+   "policy": "scripted"
+  },
+  {
+   "frame": 3,
+   "t": 1.701,
+   "image": "frames/00003.jpg",
+   "depth": "frames/00003_depth.jpg",
+   "state": "approach",
+   "detector": "grasp 57 mm wide, score 0.91, 10 clusters on 3 surfaces",
+   "detection": {
+    "position": [
+     1.1083005777495107,
+     -0.109212127555536,
+     0.4704813623342222
+    ],
+    "base_z": 0.3839940311491818,
+    "top_z": 0.5234897266089245,
+    "pixels": 681,
+    "range": 1.03261625653261,
+    "stamp": 1.5860000753309578,
+    "grasp_z": 0.4704813623342222,
+    "provisional": false,
+    "width": 0.057062124554571575,
+    "score": 0.9053577315909643,
+    "residual_mm": 0.46,
+    "upright": 0.999,
+    "uv": [
+     319.3975081852906,
+     177.37309284373825
+    ],
+    "contacts_uv": [
+     [
+      328.75087538714484,
+      177.25424490255648
+     ],
+     [
+      310.0230364328456,
+      177.49220894849503
+     ]
+    ]
+   },
+   "estimate": [
+    1.1081,
+    -0.1094,
+    0.4707
+   ],
+   "grasp_target": null,
+   "palm": [
+    0.086,
+    -0.1969,
+    0.3486
+   ],
+   "pelvis": [
+    0.0155,
+    -0.0,
+    0.4546
+   ],
+   "closure": 0.0,
+   "vase_true": [
+    1.1081,
+    -0.109,
+    0.38
+   ],
+   "policy": "scripted"
+  },
+  {
+   "frame": 4,
+   "t": 2.201,
+   "image": "frames/00004.jpg",
+   "depth": "frames/00004_depth.jpg",
+   "state": "approach",
+   "detector": "grasp 57 mm wide, score 0.91, 10 clusters on 3 surfaces",
+   "detection": {
+    "position": [
+     1.1082300191844314,
+     -0.10919633791115552,
+     0.47055874402005204
+    ],
+    "base_z": 0.384218018976341,
+    "top_z": 0.5234772529178104,
+    "pixels": 686,
+    "range": 1.0284023787585763,
+    "stamp": 2.178000103449449,
+    "grasp_z": 0.47055874402005204,
+    "provisional": false,
+    "width": 0.0569472033576103,
+    "score": 0.9050263336966541,
+    "residual_mm": 0.46,
+    "upright": 0.999,
+    "uv": [
+     319.3480983779078,
+     173.4472572761691
+    ],
+    "contacts_uv": [
+     [
+      328.72197509572834,
+      173.34769957644593
+     ],
+     [
+      309.952613467483,
+      173.5470444713311
+     ]
+    ]
+   },
+   "estimate": [
+    1.1082,
+    -0.1093,
+    0.4706
+   ],
+   "grasp_target": null,
+   "palm": [
+    0.0841,
+    -0.1969,
+    0.348
+   ],
+   "pelvis": [
+    0.0154,
+    -0.0,
+    0.455
+   ],
+   "closure": 0.0,
+   "vase_true": [
+    1.1081,
+    -0.109,
+    0.38
+   ],
+   "policy": "scripted"
+  },
+  {
+   "frame": 5,
+   "t": 2.701,
+   "image": "frames/00005.jpg",
+   "depth": "frames/00005_depth.jpg",
+   "state": "approach",
+   "detector": "grasp 57 mm wide, score 0.90, 10 clusters on 3 surfaces",
+   "detection": {
+    "position": [
+     1.108067143469163,
+     -0.10920825899816439,
+     0.4708439581382472
+    ],
+    "base_z": 0.3846672735862528,
+    "top_z": 0.5236619260894696,
+    "pixels": 676,
+    "range": 1.033761024114053,
+    "stamp": 2.5780001224484295,
+    "grasp_z": 0.4708439581382472,
+    "provisional": false,
+    "width": 0.05664026127798409,
+    "score": 0.901667473798805,
+    "residual_mm": 0.48,
+    "upright": 0.998,
+    "uv": [
+     319.04912814739316,
+     179.45598506509828
+    ],
+    "contacts_uv": [
+     [
+      328.3266699839894,
+      179.35320879489132
+     ],
+     [
+      309.7499421955634,
+      179.55900110802463
+     ]
+    ]
+   },
+   "estimate": [
+    1.1082,
+    -0.1092,
+    0.4707
+   ],
+   "grasp_target": null,
+   "palm": [
+    0.0837,
+    -0.1969,
+    0.3818
+   ],
+   "pelvis": [
+    0.0149,
+    0.0001,
+    0.4886
+   ],
+   "closure": 0.0,
+   "vase_true": [
+    1.1081,
+    -0.109,
+    0.38
+   ],
+   "policy": "scripted"
+  },
+  {
+   "frame": 6,
+   "t": 3.201,
+   "image": "frames/00006.jpg",
+   "depth": "frames/00006_depth.jpg",
+   "state": "approach",
+   "detector": "grasp 57 mm wide, score 0.90, 10 clusters on 3 surfaces",
+   "detection": {
+    "position": [
+     1.1084538972483506,
+     -0.10927296559123617,
+     0.4716229882673
+    ],
+    "base_z": 0.38473503661557656,
+    "top_z": 0.5248768941183563,
+    "pixels": 639,
+    "range": 1.085408208025307,
+    "stamp": 3.18600015132688,
+    "grasp_z": 0.4716229882673,
+    "provisional": false,
+    "width": 0.05700522101032557,
+    "score": 0.9037914363784877,
+    "residual_mm": 0.47,
+    "upright": 0.998,
+    "uv": [
+     318.858476065413,
+     222.11521409450052
+    ],
+    "contacts_uv": [
+     [
+      327.8305624536128,
+      221.88382946284673
+     ],
+     [
+      309.8668607316792,
+      222.34710236573974
+     ]
+    ]
+   },
+   "estimate": [
+    1.1082,
+    -0.1092,
+    0.4677
+   ],
+   "grasp_target": null,
+   "palm": [
+    0.0889,
+    -0.1968,
+    0.4209
+   ],
+   "pelvis": [
+    0.0098,
+    0.0001,
+    0.5207
+   ],
+   "closure": 0.0,
+   "vase_true": [
+    1.1081,
+    -0.109,
+    0.38
+   ],
+   "policy": "scripted"
+  },
+  {
+   "frame": 7,
+   "t": 3.701,
+   "image": "frames/00007.jpg",
+   "depth": "frames/00007_depth.jpg",
+   "state": "approach",
+   "detector": "grasp 57 mm wide, score 0.91, 10 clusters on 3 surfaces",
+   "detection": {
+    "position": [
+     1.1087071979656744,
+     -0.10924394083783778,
+     0.47068256389192104
+    ],
+    "base_z": 0.38473793797125244,
+    "top_z": 0.5233583023594276,
+    "pixels": 703,
+    "range": 1.01896553159308,
+    "stamp": 3.5860001703258604,
+    "grasp_z": 0.47068256389192104,
+    "provisional": false,
+    "width": 0.0572594429778839,
+    "score": 0.9052607596187042,
+    "residual_mm": 0.47,
+    "upright": 0.998,
+    "uv": [
+     321.417130586114,
+     185.7699626895884
+    ],
+    "contacts_uv": [
+     [
+      330.94810980233024,
+      185.64392432401314
+     ],
+     [
+      311.86659767753576,
+      185.8962596346202
+     ]
+    ]
+   },
+   "estimate": [
+    1.1084,
+    -0.1092,
+    0.4693
+   ],
+   "grasp_target": null,
+   "palm": [
+    0.1638,
+    -0.1938,
+    0.4672
+   ],
+   "pelvis": [
+    0.0934,
+    0.0031,
+    0.573
+   ],
+   "closure": 0.0,
+   "vase_true": [
+    1.1081,
+    -0.109,
+    0.38
+   ],
+   "policy": "scripted"
+  },
+  {
+   "frame": 8,
+   "t": 4.201,
+   "image": "frames/00008.jpg",
+   "depth": "frames/00008_depth.jpg",
+   "state": "approach",
+   "detector": "grasp 57 mm wide, score 0.90, 13 clusters on 3 surfaces",
+   "detection": {
+    "position": [
+     1.1085140790613404,
+     -0.10923086034189894,
+     0.47078893907601455
+    ],
+    "base_z": 0.3846058110412196,
+    "top_z": 0.5236108562586308,
+    "pixels": 996,
+    "range": 0.8543967117999935,
+    "stamp": 4.1780001984443516,
+    "grasp_z": 0.47078893907601455,
+    "provisional": false,
+    "width": 0.05670221955185621,
+    "score": 0.9013139155863271,
+    "residual_mm": 0.49,
+    "upright": 0.997,
+    "uv": [
+     330.6637948136005,
+     188.4607569432945
+    ],
+    "contacts_uv": [
+     [
+      341.9388720857572,
+      188.37183542323228
+     ],
+     [
+      319.3748942970217,
+      188.54978748113788
+     ]
+    ]
+   },
+   "estimate": [
+    1.1085,
+    -0.1092,
+    0.4704
+   ],
+   "grasp_target": null,
+   "palm": [
+    0.3353,
+    -0.185,
+    0.4766
+   ],
+   "pelvis": [
+    0.2661,
+    0.012,
+    0.5832
+   ],
+   "closure": 0.0,
+   "vase_true": [
+    1.1081,
+    -0.109,
+    0.38
+   ],
+   "policy": "scripted"
+  },
+  {
+   "frame": 9,
+   "t": 4.701,
+   "image": "frames/00009.jpg",
+   "depth": "frames/00009_depth.jpg",
+   "state": "approach",
+   "detector": "grasp 57 mm wide, score 0.90, 14 clusters on 3 surfaces",
+   "detection": {
+    "position": [
+     1.1086746555912748,
+     -0.10915709339508328,
+     0.47085749733200977
+    ],
+    "base_z": 0.38479310328915084,
+    "top_z": 0.5236066420679556,
+    "pixels": 1492,
+    "range": 0.692129527129224,
+    "stamp": 4.578000217443332,
+    "grasp_z": 0.47085749733200977,
+    "provisional": false,
+    "width": 0.056805754278474445,
+    "score": 0.8997851659664385,
+    "residual_mm": 0.51,
+    "upright": 0.996,
+    "uv": [
+     335.0004734497383,
+     193.5633970497433
+    ],
+    "contacts_uv": [
+     [
+      348.9444156217373,
+      193.45032345766325
+     ],
+     [
+      321.0372185195583,
+      193.6766272519781
+     ]
+    ]
+   },
+   "estimate": [
+    1.1085,
+    -0.1092,
+    0.4707
+   ],
+   "grasp_target": null,
+   "palm": [
+    0.5696,
+    -0.1726,
+    0.4631
+   ],
+   "pelvis": [
+    0.5001,
+    0.0244,
+    0.5695
+   ],
+   "closure": 0.0,
+   "vase_true": [
+    1.1081,
+    -0.109,
+    0.38
+   ],
+   "policy": "scripted"
+  },
+  {
+   "frame": 10,
+   "t": 5.201,
+   "image": "frames/00010.jpg",
+   "depth": "frames/00010_depth.jpg",
+   "state": "approach",
+   "detector": "grasp 57 mm wide, score 0.90, 15 clusters on 3 surfaces",
+   "detection": {
+    "position": [
+     1.1087702559006876,
+     -0.10929397214931597,
+     0.47115494083291215
+    ],
+    "base_z": 0.3849941680985085,
+    "top_z": 0.5239631563798047,
+    "pixels": 2938,
+    "range": 0.48969163603155963,
+    "stamp": 5.1860002463217825,
+    "grasp_z": 0.47115494083291215,
+    "provisional": false,
+    "width": 0.057223229948881904,
+    "score": 0.8991955789912381,
+    "residual_mm": 0.54,
+    "upright": 0.994,
+    "uv": [
+     340.5580183506965,
+     254.38714854963177
+    ],
+    "contacts_uv": [
+     [
+      360.78203023006387,
+      253.898455430664
+     ],
+     [
+      320.2597057108198,
+      254.8776370725289
+     ]
+    ]
+   },
+   "estimate": [
+    1.1086,
+    -0.1092,
+    0.471
+   ],
+   "grasp_target": null,
+   "palm": [
+    0.7701,
+    -0.1621,
+    0.4457
+   ],
+   "pelvis": [
+    0.7002,
+    0.0348,
+    0.5522
+   ],
+   "closure": 0.0,
+   "vase_true": [
+    1.1081,
+    -0.109,
+    0.38
+   ],
+   "policy": "scripted"
+  },
+  {
+   "frame": 11,
+   "t": 5.701,
+   "image": "frames/00011.jpg",
+   "depth": "frames/00011_depth.jpg",
+   "state": "approach",
+   "detector": "grasp 56 mm wide, score 0.90, 14 clusters on 3 surfaces",
+   "detection": {
+    "position": [
+     1.1086592446196806,
+     -0.10931129376923665,
+     0.4687774185110795
+    ],
+    "base_z": 0.3846529447175314,
+    "top_z": 0.5203375798684154,
+    "pixels": 3486,
+    "range": 0.466132119423362,
+    "stamp": 5.586000265320763,
+    "grasp_z": 0.4687774185110795,
+    "provisional": false,
+    "width": 0.05649606818589789,
+    "score": 0.8997453684051445,
+    "residual_mm": 0.5,
+    "upright": 0.982,
+    "uv": [
+     337.27858462363076,
+     300.3276122015282
+    ],
+    "contacts_uv": [
+     [
+      360.3350479297914,
+      299.0499542271494
+     ],
+     [
+      314.0418211773135,
+      301.6152613835261
+     ]
+    ]
+   },
+   "estimate": [
+    1.1087,
+    -0.1093,
+    0.4677
+   ],
+   "grasp_target": null,
+   "palm": [
+    0.8648,
+    -0.1573,
+    0.4368
+   ],
+   "pelvis": [
+    0.7949,
+    0.0397,
+    0.5431
+   ],
+   "closure": 0.0,
+   "vase_true": [
+    1.1081,
+    -0.109,
+    0.38
+   ],
+   "policy": "scripted"
+  },
+  {
+   "frame": 12,
+   "t": 6.201,
+   "image": "frames/00012.jpg",
+   "depth": "frames/00012_depth.jpg",
+   "state": "settle",
+   "detector": "grasp 52 mm wide, score 0.90, 13 clusters on 3 surfaces",
+   "detection": {
+    "position": [
+     1.109749721069712,
+     -0.11025880709811825,
+     0.45300766828276867
+    ],
+    "base_z": 0.4329641172445158,
+    "top_z": 0.47653705428419596,
+    "pixels": 1097,
+    "range": 0.44173072489414655,
+    "stamp": 6.178000293439254,
+    "grasp_z": 0.45300766828276867,
+    "provisional": false,
+    "width": 0.05179673834188188,
+    "score": 0.8967743731004271,
+    "residual_mm": 0.92,
+    "upright": 0.056,
+    "uv": [
+     320.09152750875785,
+     332.16749748275186
+    ],
+    "contacts_uv": [
+     [
+      342.2677979387379,
+      329.39947238679383
+     ],
+     [
+      297.5606320649928,
+      334.9797866014143
+     ]
+    ]
+   },
+   "estimate": [
+    1.109,
+    -0.1096,
+    0.4606
+   ],
+   "grasp_target": [
+    1.1087,
+    -0.1093,
+    0.4688
+   ],
+   "palm": [
+    0.889,
+    -0.1561,
+    0.4351
+   ],
+   "pelvis": [
+    0.8209,
+    0.041,
+    0.5423
+   ],
+   "closure": 0.0,
+   "vase_true": [
+    1.1081,
+    -0.109,
+    0.38
+   ],
+   "policy": "scripted"
+  },
+  {
+   "frame": 13,
+   "t": 6.701,
+   "image": "frames/00013.jpg",
+   "depth": "frames/00013_depth.jpg",
+   "state": "settle",
+   "detector": "grasp 52 mm wide, score 0.90, 15 clusters on 3 surfaces",
+   "detection": {
+    "position": [
+     1.1096092720657085,
+     -0.1101710085222663,
+     0.4534906946352492
+    ],
+    "base_z": 0.4328499868930135,
+    "top_z": 0.47772109068048246,
+    "pixels": 1160,
+    "range": 0.44259073324953413,
+    "stamp": 6.578000312438235,
+    "grasp_z": 0.4534906946352492,
+    "provisional": false,
+    "width": 0.05220784298150635,
+    "score": 0.8984162957319336,
+    "residual_mm": 0.92,
+    "upright": 0.009,
+    "uv": [
+     316.9341972594642,
+     332.4094627280976
+    ],
+    "contacts_uv": [
+     [
+      339.2123725837098,
+      329.3103766380061
+     ],
+     [
+      294.2749247057204,
+      335.5615627255545
+     ]
+    ]
+   },
+   "estimate": [
+    1.109,
+    -0.1096,
+    0.4606
+   ],
+   "grasp_target": [
+    1.1087,
+    -0.1093,
+    0.4688
+   ],
+   "palm": [
+    0.8868,
+    -0.1562,
+    0.4342
+   ],
+   "pelvis": [
+    0.8175,
+    0.0408,
+    0.5408
+   ],
+   "closure": 0.0,
+   "vase_true": [
+    1.1081,
+    -0.109,
+    0.38
+   ],
+   "policy": "scripted"
+  },
+  {
+   "frame": 14,
+   "t": 7.201,
+   "image": "frames/00014.jpg",
+   "depth": "frames/00014_depth.jpg",
+   "state": "settle",
+   "detector": "grasp 53 mm wide, score 0.90, 16 clusters on 3 surfaces",
+   "detection": {
+    "position": [
+     1.1093876242777454,
+     -0.10999186223331786,
+     0.4547585477032774
+    ],
+    "base_z": 0.43284279249354374,
+    "top_z": 0.4804857386016604,
+    "pixels": 1266,
+    "range": 0.442823748715255,
+    "stamp": 7.186000341316685,
+    "grasp_z": 0.4547585477032774,
+    "provisional": false,
+    "width": 0.05299885195917731,
+    "score": 0.9029540262752055,
+    "residual_mm": 0.9,
+    "upright": 0.051,
+    "uv": [
+     314.50316188264827,
+     329.5312286297341
+    ],
+    "contacts_uv": [
+     [
+      337.03175405762823,
+      326.2433043908751
+     ],
+     [
+      291.5703085695722,
+      332.87815256038266
+     ]
+    ]
+   },
+   "estimate": [
+    1.109,
+    -0.1096,
+    0.4606
+   ],
+   "grasp_target": [
+    1.1087,
+    -0.1093,
+    0.4688
+   ],
+   "palm": [
+    0.884,
+    -0.1563,
+    0.4334
+   ],
+   "pelvis": [
+    0.8146,
+    0.0407,
+    0.5399
+   ],
+   "closure": 0.0,
+   "vase_true": [
+    1.1081,
+    -0.109,
+    0.38
+   ],
+   "policy": "scripted"
+  },
+  {
+   "frame": 15,
+   "t": 7.701,
+   "image": "frames/00015.jpg",
+   "depth": "frames/00015_depth.jpg",
+   "state": "reach",
+   "detector": "grasp 53 mm wide, score 0.90, 15 clusters on 3 surfaces",
+   "detection": {
+    "position": [
+     1.109443860131759,
+     -0.11003309048472948,
+     0.4547427517562068
+    ],
+    "base_z": 0.43266300384417417,
+    "top_z": 0.4806624558268539,
+    "pixels": 1270,
+    "range": 0.4428375923750905,
+    "stamp": 7.586000360315666,
+    "grasp_z": 0.4547427517562068,
+    "provisional": false,
+    "width": 0.05288153627534433,
+    "score": 0.9017875406573558,
+    "residual_mm": 0.91,
+    "upright": 0.003,
+    "uv": [
+     315.0849176515651,
+     329.3497642274032
+    ],
+    "contacts_uv": [
+     [
+      337.56617190959435,
+      326.111948923655
+     ],
+     [
+      292.20654224767685,
+      332.64477406793065
+     ]
+    ]
+   },
+   "estimate": [
+    1.109,
+    -0.1096,
+    0.4606
+   ],
+   "grasp_target": [
+    1.1087,
+    -0.1093,
+    0.4688
+   ],
+   "palm": [
+    0.8817,
+    -0.1563,
+    0.433
+   ],
+   "pelvis": [
+    0.8148,
+    0.0407,
+    0.5397
+   ],
+   "closure": 0.0,
+   "vase_true": [
+    1.1081,
+    -0.109,
+    0.38
+   ],
+   "policy": "scripted"
+  },
+  {
+   "frame": 16,
+   "t": 8.201,
+   "image": "frames/00016.jpg",
+   "depth": "frames/00016_depth.jpg",
+   "state": "reach",
+   "detector": "grasp 53 mm wide, score 0.90, 15 clusters on 3 surfaces",
+   "detection": {
+    "position": [
+     1.1094638911885615,
+     -0.11008289304731234,
+     0.45414159893273076
+    ],
+    "base_z": 0.4328223296181305,
+    "top_z": 0.4791685672585659,
+    "pixels": 1209,
+    "range": 0.4416219306790221,
+    "stamp": 8.178000388434157,
+    "grasp_z": 0.45414159893273076,
+    "provisional": false,
+    "width": 0.05262621294467909,
+    "score": 0.9007034327587894,
+    "residual_mm": 0.91,
+    "upright": 0.053,
+    "uv": [
+     311.55695031087515,
+     328.89991138313223
+    ],
+    "contacts_uv": [
+     [
+      333.9596222014697,
+      325.4413811291513
+     ],
+     [
+      288.720508058741,
+      332.4254072172008
+     ]
+    ]
+   },
+   "estimate": [
+    1.109,
+    -0.1096,
+    0.4606
+   ],
+   "grasp_target": [
+    1.1087,
+    -0.1093,
+    0.4688
+   ],
+   "palm": [
+    0.9241,
+    -0.1182,
+    0.4476
+   ],
+   "pelvis": [
+    0.813,
+    0.0372,
+    0.5391
+   ],
+   "closure": 0.0,
+   "vase_true": [
+    1.1081,
+    -0.109,
+    0.38
+   ],
+   "policy": "scripted"
+  },
+  {
+   "frame": 17,
+   "t": 8.701,
+   "image": "frames/00017.jpg",
+   "depth": "frames/00017_depth.jpg",
+   "state": "reach",
+   "detector": "grasp 30 mm wide, score 0.63, 6 clusters on 3 surfaces",
+   "detection": {
+    "position": [
+     1.109103066826216,
+     -0.1106814332413531,
+     0.39843621071897695
+    ],
+    "base_z": 0.38359292118613525,
+    "top_z": 0.4158609419097042,
+    "pixels": 894,
+    "range": 0.44659719574308326,
+    "stamp": 8.578000407433137,
+    "grasp_z": 0.39843621071897695,
+    "provisional": false,
+    "width": 0.030465012200452068,
+    "score": 0.6332203265177724,
+    "residual_mm": 6.08,
+    "upright": 0.02,
+    "uv": [
+     280.6324742556777,
+     328.13485552140787
+    ],
+    "contacts_uv": [
+     [
+      293.3083689572864,
+      324.19561847758666
+     ],
+     [
+      267.7477501822807,
+      332.1389896329746
+     ]
+    ]
+   },
+   "estimate": [
+    1.109,
+    -0.1096,
+    0.4606
+   ],
+   "grasp_target": [
+    1.1087,
+    -0.1093,
+    0.4688
+   ],
+   "palm": [
+    0.9322,
+    -0.1879,
+    0.4401
+   ],
+   "pelvis": [
+    0.7976,
+    -0.0272,
+    0.5147
+   ],
+   "closure": 0.0,
+   "vase_true": [
+    1.1081,
+    -0.109,
+    0.38
+   ],
+   "policy": "scripted"
+  },
+  {
+   "frame": 18,
+   "t": 9.201,
+   "image": "frames/00018.jpg",
+   "depth": "frames/00018_depth.jpg",
+   "state": "reach",
+   "detector": "provisional: 177 mm object at 0.80 m, too coarse to fit a grasp (6 clusters on 3 surfaces)",
+   "detection": {
+    "position": [
+     1.6905496185917503,
+     0.12714848048301008,
+     0.4906990911644651
+    ],
+    "base_z": 0.4463314788183865,
+    "top_z": 0.5427828100055139,
+    "pixels": 1755,
+    "range": 0.8274525733007466,
+    "stamp": 9.186000436311588,
+    "grasp_z": 0.4906990911644651,
+    "provisional": true,
+    "footprint": 0.17745112921701794,
+    "uv": [
+     2.446509808399128,
+     103.9242152893572
+    ]
+   },
+   "estimate": [
+    1.109,
+    -0.1096,
+    0.4606
+   ],
+   "grasp_target": [
+    1.1087,
+    -0.1093,
+    0.4688
+   ],
+   "palm": [
+    0.9716,
+    -0.1808,
+    0.5256
+   ],
+   "pelvis": [
+    0.7943,
+    -0.0836,
+    0.507
+   ],
+   "closure": 0.0,
+   "vase_true": [
+    1.1081,
+    -0.109,
+    0.38
+   ],
+   "policy": "scripted"
+  },
+  {
+   "frame": 19,
+   "t": 9.701,
+   "image": "frames/00019.jpg",
+   "depth": "frames/00019_depth.jpg",
+   "state": "reach",
+   "detector": "provisional: 178 mm object at 3.29 m, too coarse to fit a grasp (12 clusters on 3 surfaces)",
+   "detection": {
+    "position": [
+     3.778938779649642,
+     -1.6875129057956624,
+     0.2691282463909164
+    ],
+    "base_z": 0.232845292536823,
+    "top_z": 0.31172127917615655,
+    "pixels": 40,
+    "range": 3.23942673557613,
+    "stamp": 9.586000455310568,
+    "grasp_z": 0.2691282463909164,
+    "provisional": true,
+    "footprint": 0.17780193514599396,
+    "uv": [
+     325.39747660284434,
+     2.9577927892370894
+    ]
+   },
+   "estimate": [
+    1.109,
+    -0.1096,
+    0.4606
+   ],
+   "grasp_target": [
+    1.1087,
+    -0.1093,
+    0.4688
+   ],
+   "palm": [
+    0.9709,
+    -0.1567,
+    0.5437
+   ],
+   "pelvis": [
+    0.7901,
+    -0.0701,
+    0.5175
+   ],
+   "closure": 0.0,
+   "vase_true": [
+    1.1081,
+    -0.109,
+    0.38
+   ],
+   "policy": "scripted"
+  },
+  {
+   "frame": 20,
+   "t": 10.201,
+   "image": "frames/00020.jpg",
+   "depth": "frames/00020_depth.jpg",
+   "state": "reach",
+   "detector": "grasp 37 mm wide, score 0.68, 11 clusters on 3 surfaces",
+   "detection": {
+    "position": [
+     1.1138960101831934,
+     -0.11163888161367291,
+     0.42937295520611535
+    ],
+    "base_z": 0.3882879496738912,
+    "top_z": 0.45455408762909144,
+    "pixels": 1846,
+    "range": 0.45175195818661407,
+    "stamp": 10.17800048342906,
+    "grasp_z": 0.42937295520611535,
+    "provisional": false,
+    "width": 0.036964052001627674,
+    "score": 0.6829855176614722,
+    "residual_mm": 3.06,
+    "upright": 0.921,
+    "uv": [
+     296.94703653432055,
+     336.1664293018114
+    ],
+    "contacts_uv": [
+     [
+      312.49644690035154,
+      332.94429612309864
+     ],
+     [
+      281.1356835146339,
+      339.4428419737907
+     ]
+    ]
+   },
+   "estimate": [
+    1.109,
+    -0.1096,
+    0.4606
+   ],
+   "grasp_target": [
+    1.1087,
+    -0.1093,
+    0.4688
+   ],
+   "palm": [
+    0.9946,
+    -0.0754,
+    0.5291
+   ],
+   "pelvis": [
+    0.79,
+    -0.0387,
+    0.5267
+   ],
+   "closure": 0.0,
+   "vase_true": [
+    1.1081,
+    -0.109,
+    0.38
+   ],
+   "policy": "scripted"
+  },
+  {
+   "frame": 21,
+   "t": 10.701,
+   "image": "frames/00021.jpg",
+   "depth": "frames/00021_depth.jpg",
+   "state": "reach",
+   "detector": "grasp 51 mm wide, score 0.89, 11 clusters on 3 surfaces",
+   "detection": {
+    "position": [
+     1.1103077077273213,
+     -0.11002533184013275,
+     0.45081950072578536
+    ],
+    "base_z": 0.4325638930859434,
+    "top_z": 0.4722499966508172,
+    "pixels": 968,
+    "range": 0.4376069415602447,
+    "stamp": 10.57800050242804,
+    "grasp_z": 0.45081950072578536,
+    "provisional": false,
+    "width": 0.05058215090570062,
+    "score": 0.8904002638847711,
+    "residual_mm": 0.94,
+    "upright": 0.027,
+    "uv": [
+     327.46028066603566,
+     325.73442785717606
+    ],
+    "contacts_uv": [
+     [
+      349.2726112707198,
+      323.52846939832943
+     ],
+     [
+      305.3834828703054,
+      327.9671328222879
+     ]
+    ]
+   },
+   "estimate": [
+    1.109,
+    -0.1096,
+    0.4606
+   ],
+   "grasp_target": [
+    1.1087,
+    -0.1093,
+    0.4688
+   ],
+   "palm": [
+    0.9995,
+    -0.0367,
+    0.528
+   ],
+   "pelvis": [
+    0.7963,
+    -0.0128,
+    0.5317
+   ],
+   "closure": 0.0,
+   "vase_true": [
+    1.1081,
+    -0.109,
+    0.38
+   ],
+   "policy": "scripted"
+  },
+  {
+   "frame": 22,
+   "t": 11.201,
+   "image": "frames/00022.jpg",
+   "depth": "frames/00022_depth.jpg",
+   "state": "reach",
+   "detector": "grasp 52 mm wide, score 0.90, 12 clusters on 3 surfaces",
+   "detection": {
+    "position": [
+     1.1099693576480933,
+     -0.11007662127985046,
+     0.4525065419775516
+    ],
+    "base_z": 0.4327793490351499,
+    "top_z": 0.4756645510838492,
+    "pixels": 1082,
+    "range": 0.43956958162527,
+    "stamp": 11.18600053130649,
+    "grasp_z": 0.4525065419775516,
+    "provisional": false,
+    "width": 0.0515028191415329,
+    "score": 0.8954287786261924,
+    "residual_mm": 0.92,
+    "upright": 0.024,
+    "uv": [
+     323.8544535429447,
+     327.82761027772574
+    ],
+    "contacts_uv": [
+     [
+      345.96461300538095,
+      325.2990963732363
+     ],
+     [
+      301.436942942215,
+      330.3912728037371
+     ]
+    ]
+   },
+   "estimate": [
+    1.109,
+    -0.1096,
+    0.4606
+   ],
+   "grasp_target": [
+    1.1087,
+    -0.1093,
+    0.4688
+   ],
+   "palm": [
+    1.0158,
+    -0.0372,
+    0.5262
+   ],
+   "pelvis": [
+    0.8022,
+    0.0059,
+    0.5346
+   ],
+   "closure": 0.0,
+   "vase_true": [
+    1.1081,
+    -0.109,
+    0.38
+   ],
+   "policy": "scripted"
+  },
+  {
+   "frame": 23,
+   "t": 11.701,
+   "image": "frames/00023.jpg",
+   "depth": "frames/00023_depth.jpg",
+   "state": "reach",
+   "detector": "grasp 54 mm wide, score 0.91, 8 clusters on 3 surfaces",
+   "detection": {
+    "position": [
+     1.109076083874214,
+     -0.10946352927824471,
+     0.45555566565615335
+    ],
+    "base_z": 0.4329751547692215,
+    "top_z": 0.4820632219147255,
+    "pixels": 1340,
+    "range": 0.44416950905484304,
+    "stamp": 11.58600055030547,
+    "grasp_z": 0.45555566565615335,
+    "provisional": false,
+    "width": 0.05400325405230264,
+    "score": 0.9066035593775056,
+    "residual_mm": 0.91,
+    "upright": 0.198,
+    "uv": [
+     346.9726842117746,
+     317.3616169911262
+    ],
+    "contacts_uv": [
+     [
+      369.7765553281443,
+      318.2840381670279
+     ],
+     [
+      324.0199345209644,
+      316.4331736469267
+     ]
+    ]
+   },
+   "estimate": [
+    1.109,
+    -0.1096,
+    0.4606
+   ],
+   "grasp_target": [
+    1.1087,
+    -0.1093,
+    0.4688
+   ],
+   "palm": [
+    1.0769,
+    0.0304,
+    0.5343
+   ],
+   "pelvis": [
+    0.8553,
+    0.1042,
+    0.5869
+   ],
+   "closure": 0.0,
+   "vase_true": [
+    1.1081,
+    -0.109,
+    0.38
+   ],
+   "policy": "scripted"
+  }
+ ]
+}

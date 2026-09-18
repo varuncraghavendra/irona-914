@@ -1,0 +1,128 @@
+[0.153s] DEBUG:colcon:Command line arguments: ['/bin/colcon', 'build', '--symlink-install']
+[0.153s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7e7eb37cac50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e7eb37ca5c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e7eb37ca5c0>>, mixin_verb=('build',))
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.243s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(irona_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(irona_sim) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(irona_sim) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(irona_sim) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(irona_sim) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(irona_sim) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(irona_sim) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(irona_sim) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(irona_sim) by extension 'ros'
+[0.252s] DEBUG:colcon.colcon_core.package_identification:Package 'irona_sim' with type 'ros.ament_cmake' and name 'irona_sim'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.277s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.277s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.280s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 414 installed packages in /opt/ros/humble
+[0.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'irona_sim' build argument 'cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'irona_sim' build argument 'cmake_target' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'irona_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'irona_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'irona_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'irona_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'irona_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'irona_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'irona_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.341s] DEBUG:colcon.colcon_core.verb:Building package 'irona_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/build/irona_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim', 'merge_install': False, 'path': '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/irona_sim', 'symlink_install': True, 'test_result_base': None}
+[0.341s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.342s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.342s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/irona_sim' with build type 'ament_cmake'
+[0.342s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/irona_sim'
+[0.346s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.346s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.346s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.357s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/build/irona_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /bin/cmake /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/irona_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim
+[1.599s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/build/irona_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /bin/cmake /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/irona_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim
+[1.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/build/irona_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /bin/cmake --build /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/build/irona_sim -- -j32 -l32
+[1.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/build/irona_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /bin/cmake --build /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/build/irona_sim -- -j32 -l32
+[1.671s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/build/irona_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /bin/cmake --install /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/build/irona_sim
+[2.781s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(irona_sim)
+[2.783s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/build/irona_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /bin/cmake --install /home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/build/irona_sim
+[2.789s] Level 1:colcon.colcon_core.environment:checking '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim' for CMake module files
+[2.790s] Level 1:colcon.colcon_core.environment:checking '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim' for CMake config files
+[2.791s] Level 1:colcon.colcon_core.shell:create_environment_hook('irona_sim', 'cmake_prefix_path')
+[2.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/hook/cmake_prefix_path.ps1'
+[2.792s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/hook/cmake_prefix_path.dsv'
+[2.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/hook/cmake_prefix_path.sh'
+[2.794s] Level 1:colcon.colcon_core.environment:checking '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/lib'
+[2.794s] Level 1:colcon.colcon_core.environment:checking '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/bin'
+[2.794s] Level 1:colcon.colcon_core.environment:checking '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/lib/pkgconfig/irona_sim.pc'
+[2.795s] Level 1:colcon.colcon_core.environment:checking '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/lib/python3.10/site-packages'
+[2.795s] Level 1:colcon.colcon_core.environment:checking '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/bin'
+[2.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/package.ps1'
+[2.797s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/package.dsv'
+[2.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/package.sh'
+[2.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/package.bash'
+[2.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/package.zsh'
+[2.801s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/colcon-core/packages/irona_sim)
+[2.801s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(irona_sim)
+[2.801s] Level 1:colcon.colcon_core.environment:checking '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim' for CMake module files
+[2.802s] Level 1:colcon.colcon_core.environment:checking '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim' for CMake config files
+[2.802s] Level 1:colcon.colcon_core.shell:create_environment_hook('irona_sim', 'cmake_prefix_path')
+[2.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/hook/cmake_prefix_path.ps1'
+[2.803s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/hook/cmake_prefix_path.dsv'
+[2.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/hook/cmake_prefix_path.sh'
+[2.804s] Level 1:colcon.colcon_core.environment:checking '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/lib'
+[2.804s] Level 1:colcon.colcon_core.environment:checking '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/bin'
+[2.804s] Level 1:colcon.colcon_core.environment:checking '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/lib/pkgconfig/irona_sim.pc'
+[2.804s] Level 1:colcon.colcon_core.environment:checking '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/lib/python3.10/site-packages'
+[2.804s] Level 1:colcon.colcon_core.environment:checking '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/bin'
+[2.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/package.ps1'
+[2.805s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/package.dsv'
+[2.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/package.sh'
+[2.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/package.bash'
+[2.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/irona_sim/package.zsh'
+[2.807s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/irona_sim/share/colcon-core/packages/irona_sim)
+[2.807s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.807s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.807s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.807s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.817s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.817s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.817s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.837s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.837s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/local_setup.ps1'
+[2.838s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/_local_setup_util_ps1.py'
+[2.839s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/setup.ps1'
+[2.841s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/local_setup.sh'
+[2.841s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/_local_setup_util_sh.py'
+[2.842s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/setup.sh'
+[2.843s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/local_setup.bash'
+[2.844s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/setup.bash'
+[2.845s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/local_setup.zsh'
+[2.845s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/varun/homerobot/Irona_914_IsaacSim_5x(1)/irona_914/ros2/install/setup.zsh'

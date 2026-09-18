@@ -1,0 +1,338 @@
+{
+ "state": "enclose",
+ "detections": 57,
+ "frames": 60,
+ "estimate": [
+  1.1089922939799775,
+  -0.10957837753119057,
+  0.4606323057150534
+ ],
+ "grasp_target": [
+  1.1086592446196806,
+  -0.10931129376923665,
+  0.4687774185110795
+ ],
+ "reach_error_mm": 156.9,
+ "grasp_ik_residual_mm": null,
+ "corrections": 0,
+ "attempts": 0,
+ "grasp_policy": "scripted",
+ "policy": null,
+ "enclosed_mm": null,
+ "attached_at": null,
+ "grasp_source": {
+  "method": "VLAD-Grasp-derived geometry (local, training-free)",
+  "reference": "arXiv:2511.05791 stages 2-3; stage 1 goal-image replaced by an analytic circle-fit antipodal proxy",
+  "support_z": 0.37,
+  "provisional": false,
+  "clearance_m": 0.07,
+  "clusters": [
+   {
+    "points": 10005,
+    "base_z": 0.38577993999969407,
+    "top_z": 0.6693510647118309,
+    "height": 0.28357112471213686,
+    "footprint": 0.7666448006936397,
+    "centroid": [
+     1.3005324609660815,
+     -2.1001535900805304,
+     0.4990466076285104
+    ],
+    "above_support": 0.015779939999693904,
+    "support_z": 0.37,
+    "graspable": false,
+    "score": null
+   },
+   {
+    "points": 3591,
+    "base_z": 0.3844309285901718,
+    "top_z": 0.4783793926833987,
+    "height": 0.09394846409322688,
+    "footprint": 0.06271820272634919,
+    "centroid": [
+     1.105098482697088,
+     -0.11707996106361784,
+     0.4311176463998068
+    ],
+    "above_support": 0.014430928590171643,
+    "support_z": 0.37,
+    "graspable": true,
+    "score": 0.841
+   },
+   {
+    "points": 3943,
+    "base_z": 0.2869164702892315,
+    "top_z": 0.6576245282393451,
+    "height": 0.37070805795011363,
+    "footprint": 0.9949164386260808,
+    "centroid": [
+     1.2411485190577305,
+     -2.100155901083388,
+     0.43687846328223
+    ],
+    "above_support": 0.016916470289231433,
+    "support_z": 0.27,
+    "graspable": false,
+    "score": null
+   },
+   {
+    "points": 26946,
+    "base_z": 0.33927424830947156,
+    "top_z": 0.42582521042655513,
+    "height": 0.08655096211708357,
+    "footprint": 0.7155089785015104,
+    "centroid": [
+     1.340214716406157,
+     -0.17646905082737177,
+     0.3609619266073883
+    ],
+    "above_support": 0.06927424830947149,
+    "support_z": 0.27,
+    "graspable": false,
+    "score": null
+   },
+   {
+    "points": 6544,
+    "base_z": 0.4549451435484391,
+    "top_z": 0.6773616035231279,
+    "height": 0.22241645997468878,
+    "footprint": 0.6050354057595486,
+    "centroid": [
+     1.3425117016439634,
+     -2.100152005528013,
+     0.5429278878805113
+    ],
+    "above_support": 0.0149451435484389,
+    "support_z": 0.44,
+    "graspable": false,
+    "score": null
+   },
+   {
+    "points": 939,
+    "base_z": 0.45235097304941774,
+    "top_z": 0.481615489309076,
+    "height": 0.029264516259658258,
+    "footprint": 0.05120757151877468,
+    "centroid": [
+     1.102965068552802,
+     -0.1316365771421167,
+     0.46513532266438534
+    ],
+    "above_support": 0.012350973049417513,
+    "support_z": 0.44,
+    "graspable": false,
+    "score": null
+   }
+  ],
+  "grasp": {
+   "centre": [
+    1.1084,
+    -0.1098,
+    0.4427
+   ],
+   "width_mm": 51.7,
+   "fit_residual_mm": 1.01,
+   "score": 0.841,
+   "slice_fraction": 0.62,
+   "slice_points": 1360,
+   "upright": 0.895,
+   "closing": [
+    0.9584,
+    0.2855,
+    -0.0
+   ],
+   "approach": [
+    0.2855,
+    -0.9584,
+    0.0
+   ],
+   "contacts": [
+    [
+     1.0836,
+     -0.1172,
+     0.4427
+    ],
+    [
+     1.1332,
+     -0.1025,
+     0.4427
+    ]
+   ]
+  }
+ },
+ "grasp_width_mm": 53.0,
+ "grip_offset_mm": 22.1,
+ "support_z": 0.42,
+ "place": null,
+ "events": [
+  {
+   "t": 0.001,
+   "state": "search",
+   "text": "scanning: no frame"
+  },
+  {
+   "t": 0.401,
+   "state": "approach",
+   "text": "entered"
+  },
+  {
+   "t": 0.401,
+   "state": "approach",
+   "text": "vase at [1.107, -0.111, 0.471], 1.10 m ahead"
+  },
+  {
+   "t": 6.063,
+   "state": "approach",
+   "text": "flight is on station; latching the grasp from the hover"
+  },
+  {
+   "t": 6.063,
+   "state": "settle",
+   "text": "entered"
+  },
+  {
+   "t": 7.563,
+   "state": "settle",
+   "text": "grasp fitted 53 mm wide, 22 mm up the body, score 0.90, circle residual 0.9 mm"
+  },
+  {
+   "t": 7.563,
+   "state": "settle",
+   "text": "reaching in 3 waypoints, first IK residual 0.2 mm"
+  },
+  {
+   "t": 7.563,
+   "state": "reach",
+   "text": "entered"
+  },
+  {
+   "t": 9.363,
+   "state": "reach",
+   "text": "waypoint 1/3 reached, palm 141 mm off"
+  },
+  {
+   "t": 9.363,
+   "state": "reach",
+   "text": "waypoint 1 miss: target [0.993, -0.05, 0.579] commanded [0.972, -0.18, 0.546] measured [0.969, -0.184, 0.539] pelvis [0.795, -0.086, 0.51]; worst joint tracking error 0.8 deg on shoulder_roll"
+  },
+  {
+   "t": 10.763,
+   "state": "reach",
+   "text": "waypoint 2/3 reached, palm 84 mm off"
+  },
+  {
+   "t": 10.763,
+   "state": "reach",
+   "text": "waypoint 2 miss: target [1.042, -0.075, 0.469] commanded [1.004, -0.031, 0.536] measured [1.0, -0.034, 0.529] pelvis [0.797, -0.01, 0.532]; worst joint tracking error 0.9 deg on shoulder_pitch"
+  },
+  {
+   "t": 11.963,
+   "state": "reach",
+   "text": "waypoint 3/3 reached, palm 157 mm off"
+  },
+  {
+   "t": 11.963,
+   "state": "reach",
+   "text": "waypoint 3 miss: target [1.109, -0.109, 0.469] commanded [1.174, 0.031, 0.479] measured [1.17, 0.035, 0.476] pelvis [0.987, 0.179, 0.621]; worst joint tracking error 0.6 deg on shoulder_pitch"
+  },
+  {
+   "t": 11.963,
+   "state": "enclose",
+   "text": "entered"
+  }
+ ],
+ "vase_rest": [
+  1.1079937141832215,
+  -0.09999354794610252,
+  0.43380054637641896
+ ],
+ "vase_final": [
+  1.1081106662750244,
+  -0.10902588069438934,
+  0.37999427318573
+ ],
+ "vase_settled": [
+  1.1080976724624634,
+  -0.1090255081653595,
+  0.38044458627700806
+ ],
+ "vase_lift_m": -0.0005,
+ "vase_lift_vs_build_centre_m": -0.0538,
+ "vase_drift_before_contact_mm": 9.0,
+ "grasp_assist": true,
+ "scene": "house",
+ "object": {
+  "name": "vase",
+  "radius_m": 0.0265,
+  "height_m": 0.1441,
+  "grasp_fraction": 0.42,
+  "hue_window": [
+   295.0,
+   352.0
+  ]
+ },
+ "scene_report": {
+  "vase_path": "/World/Vase",
+  "centre": [
+   1.1079937141832215,
+   -0.09999354794610252,
+   0.43380054637641896
+  ],
+  "base_z": 0.3617389979569836,
+  "asset_wait_s": 0.0,
+  "radius": 0.029165548742212,
+  "height": 0.1441230968388707,
+  "grasp_z": 0.4222706986293093,
+  "table_edge": 0.9780059919952007,
+  "table_top": 0.3617389979569836
+ },
+ "fallen": true,
+ "flight": {
+  "phase": "grasp",
+  "cut": false,
+  "gear": "up",
+  "origin": [
+   0.0156,
+   -0.0,
+   0.4546
+  ],
+  "grasp_station": [
+   0.829,
+   0.0405,
+   0.5396
+  ],
+  "frozen_station": [
+   0.8192,
+   0.0408,
+   0.5396
+  ],
+  "final_pelvis": [
+   1.0436,
+   0.1875,
+   0.6157
+  ],
+  "return_error_mm": 1045.0,
+  "phases": [
+   {
+    "t": 2.0,
+    "phase": "launch"
+   },
+   {
+    "t": 3.003,
+    "phase": "scan"
+   },
+   {
+    "t": 3.004,
+    "phase": "cruise"
+   },
+   {
+    "t": 6.062,
+    "phase": "poise"
+   },
+   {
+    "t": 6.063,
+    "phase": "grasp"
+   }
+  ]
+ }
+}

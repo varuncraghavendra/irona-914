@@ -1,0 +1,23 @@
+{
+  "runtime_verified": {
+    "isaac_sim": false,
+    "ros2": false,
+    "rviz": false
+  },
+  "checks": {
+    "facial_features_removed": true,
+    "five_fingers_per_hand_16_dof_each": true,
+    "hand_targets_and_velocity_limits": true,
+    "camera_usd_and_ros_optical_axes_and_fov": true,
+    "native_lidar_32_channels_360_by_30_deg": true,
+    "urdf_usd_kinematic_and_limit_agreement": true,
+    "authored_ros_graph_node_and_connection_contract": true,
+    "python_syntax_rviz_yaml": true
+  },
+  "limitations": [
+    "Graph structure, sensor schemas and transforms checked offline; node execution, RTX output, DDS transport and RViz displays untested here.",
+    "Independent MuJoCo checks use simplified collisions. USD joint friction is PhysX-specific; no claim of friction equivalence.",
+    "Nominal sensor extrinsics and pinhole intrinsics are design values; replace with measured hardware calibration.",
+    "CAD joint pieces are geometry prototypes; full-range shell clearance and hardware fit are not certified."
+  ]
+}

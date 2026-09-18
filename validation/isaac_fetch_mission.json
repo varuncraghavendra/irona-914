@@ -1,0 +1,482 @@
+{
+  "state": "failed",
+  "detections": 205,
+  "frames": 599,
+  "estimate": [
+    2.8332530884313503,
+    -0.778900564066487,
+    0.7448843053580522
+  ],
+  "grasp_target": [
+    1.1082660547334655,
+    -0.10929152800113384,
+    0.4702757825758055
+  ],
+  "reach_error_mm": 7.1,
+  "grasp_ik_residual_mm": null,
+  "corrections": 0,
+  "attempts": 2,
+  "grasp_policy": "scripted",
+  "policy": null,
+  "enclosed_mm": 79.0,
+  "attached_at": null,
+  "grasp_source": {
+    "method": "VLAD-Grasp-derived geometry (local, training-free)",
+    "reference": "arXiv:2511.05791 stages 2-3; stage 1 goal-image replaced by an analytic circle-fit antipodal proxy",
+    "support_z": 0.65,
+    "provisional": false,
+    "clearance_m": 0.639,
+    "clusters": [
+      {
+        "points": 7636,
+        "base_z": 0.4252787788971472,
+        "top_z": 0.5995871280881973,
+        "height": 0.17430834919105004,
+        "footprint": 0.23627442620068487,
+        "centroid": [
+          1.6515757481346354,
+          0.20171571900018387,
+          0.5323002080275308
+        ],
+        "above_support": 0.05527877889714705,
+        "support_z": 0.37,
+        "graspable": false,
+        "score": null
+      },
+      {
+        "points": 7202,
+        "base_z": 0.39085182332809,
+        "top_z": 0.811452908127959,
+        "height": 0.420601084799869,
+        "footprint": 1.2254603365129393,
+        "centroid": [
+          2.3677714161307417,
+          -2.099998172162984,
+          0.6019875843261214
+        ],
+        "above_support": 0.020851823328089825,
+        "support_z": 0.37,
+        "graspable": false,
+        "score": null
+      },
+      {
+        "points": 4340,
+        "base_z": 0.39225366549842905,
+        "top_z": 0.8119467428957448,
+        "height": 0.4196930773973157,
+        "footprint": 1.6928656577391223,
+        "centroid": [
+          3.956269638531031,
+          0.01761016275311656,
+          0.6125194116070769
+        ],
+        "above_support": 0.022253665498428887,
+        "support_z": 0.37,
+        "graspable": false,
+        "score": null
+      },
+      {
+        "points": 2030,
+        "base_z": 0.3904557976454421,
+        "top_z": 0.8055840277946446,
+        "height": 0.41512823014920247,
+        "footprint": 0.4045945382849721,
+        "centroid": [
+          4.349999361265406,
+          0.9221556460537265,
+          0.5980235792329714
+        ],
+        "above_support": 0.02045579764544192,
+        "support_z": 0.37,
+        "graspable": false,
+        "score": null
+      },
+      {
+        "points": 9279,
+        "base_z": 0.523380906005547,
+        "top_z": 0.6030149330229976,
+        "height": 0.07963402701745059,
+        "footprint": 0.21972932639588935,
+        "centroid": [
+          1.6696127927298836,
+          0.21073317963354332,
+          0.5584422807416384
+        ],
+        "above_support": 0.013380906005546755,
+        "support_z": 0.51,
+        "graspable": false,
+        "score": null
+      },
+      {
+        "points": 14545,
+        "base_z": 0.5308320569484871,
+        "top_z": 0.9513377562042128,
+        "height": 0.4205056992557257,
+        "footprint": 1.2343578893487008,
+        "centroid": [
+          2.3812366005860994,
+          -2.0999981156841185,
+          0.742091916754002
+        ],
+        "above_support": 0.020832056948486888,
+        "support_z": 0.51,
+        "graspable": false,
+        "score": null
+      },
+      {
+        "points": 9150,
+        "base_z": 0.5324157600324079,
+        "top_z": 0.9509917068458944,
+        "height": 0.41857594681348653,
+        "footprint": 1.6689782931268033,
+        "centroid": [
+          3.960852322174863,
+          0.0015976628518104656,
+          0.7413762134705473
+        ],
+        "above_support": 0.02241576003240764,
+        "support_z": 0.51,
+        "graspable": false,
+        "score": null
+      },
+      {
+        "points": 4032,
+        "base_z": 0.5308533188547935,
+        "top_z": 0.9506772486199951,
+        "height": 0.41982392976520166,
+        "footprint": 0.3937197249125281,
+        "centroid": [
+          4.349999065362901,
+          0.9160354433124975,
+          0.7394824359926645
+        ],
+        "above_support": 0.020853318854793246,
+        "support_z": 0.51,
+        "graspable": false,
+        "score": null
+      },
+      {
+        "points": 1706,
+        "base_z": 0.5823503452892087,
+        "top_z": 0.6138166005742537,
+        "height": 0.031466255285044986,
+        "footprint": 0.16888411835377376,
+        "centroid": [
+          1.7147031590132322,
+          0.22212322478846092,
+          0.5922153473634189
+        ],
+        "above_support": 0.01235034528920842,
+        "support_z": 0.57,
+        "graspable": false,
+        "score": null
+      },
+      {
+        "points": 14612,
+        "base_z": 0.590877232241905,
+        "top_z": 1.0113658355596753,
+        "height": 0.42048860331777027,
+        "footprint": 1.2365191446088712,
+        "centroid": [
+          2.3868538580056953,
+          -2.099998091207919,
+          0.8021598140265719
+        ],
+        "above_support": 0.020877232241904742,
+        "support_z": 0.57,
+        "graspable": false,
+        "score": null
+      },
+      {
+        "points": 9405,
+        "base_z": 0.6168965282219905,
+        "top_z": 1.01095956880966,
+        "height": 0.3940630405876695,
+        "footprint": 1.6599460613060946,
+        "centroid": [
+          3.9637028374220304,
+          -0.004046128968574612,
+          0.7952390108987354
+        ],
+        "above_support": 0.0468965282219902,
+        "support_z": 0.57,
+        "graspable": false,
+        "score": null
+      },
+      {
+        "points": 4012,
+        "base_z": 0.5908156656525697,
+        "top_z": 1.0107341814403932,
+        "height": 0.41991851578782347,
+        "footprint": 0.38895693046359375,
+        "centroid": [
+          4.34999894063059,
+          0.9132362366554098,
+          0.7996264285969791
+        ],
+        "above_support": 0.020815665652569426,
+        "support_z": 0.57,
+        "graspable": false,
+        "score": null
+      }
+    ],
+    "grasp": null
+  },
+  "grasp_width_mm": 42.1,
+  "grip_offset_mm": 65.9,
+  "support_z": 0.51,
+  "place": null,
+  "events": [
+    {
+      "t": 0.001,
+      "state": "search",
+      "text": "scanning: no frame"
+    },
+    {
+      "t": 0.401,
+      "state": "approach",
+      "text": "entered"
+    },
+    {
+      "t": 0.401,
+      "state": "approach",
+      "text": "vase at [1.107, -0.111, 0.471], 1.10 m ahead"
+    },
+    {
+      "t": 30.801,
+      "state": "approach",
+      "text": "vase below the camera at 0.45 m; closing in on the latched estimate"
+    },
+    {
+      "t": 37.759,
+      "state": "approach",
+      "text": "in range on a provisional detection; holding position until the grasp fit lands"
+    },
+    {
+      "t": 38.779,
+      "state": "approach",
+      "text": "in range at 0.262 m ahead, +0.040 m off the grasp line; stopping the gait"
+    },
+    {
+      "t": 38.779,
+      "state": "settle",
+      "text": "entered"
+    },
+    {
+      "t": 42.8,
+      "state": "settle",
+      "text": "grasp fitted 42 mm wide, 66 mm up the body, score 0.70, circle residual 0.9 mm"
+    },
+    {
+      "t": 42.8,
+      "state": "settle",
+      "text": "reaching in 3 waypoints, first IK residual 0.1 mm"
+    },
+    {
+      "t": 42.8,
+      "state": "reach",
+      "text": "entered"
+    },
+    {
+      "t": 44.6,
+      "state": "reach",
+      "text": "waypoint 1/3 reached, palm 184 mm off"
+    },
+    {
+      "t": 44.6,
+      "state": "reach",
+      "text": "waypoint 1 miss: target [0.994, -0.048, 0.58] commanded [0.987, 0.004, 0.575] measured [0.975, -0.04, 0.398] pelvis [0.895, 0.057, 0.456]; worst joint tracking error 79.0 deg on wrist_pitch"
+    },
+    {
+      "t": 46.0,
+      "state": "reach",
+      "text": "waypoint 2/3 reached, palm 5 mm off"
+    },
+    {
+      "t": 47.2,
+      "state": "reach",
+      "text": "waypoint 3/3 reached, palm 5 mm off"
+    },
+    {
+      "t": 47.2,
+      "state": "enclose",
+      "text": "entered"
+    },
+    {
+      "t": 48.1,
+      "state": "enclose",
+      "text": "palm on the vase within 5 mm"
+    },
+    {
+      "t": 48.1,
+      "state": "close",
+      "text": "entered"
+    },
+    {
+      "t": 49.4,
+      "state": "close",
+      "text": "nothing enclosed (69 mm), reaching again 12 mm deeper"
+    },
+    {
+      "t": 49.4,
+      "state": "settle",
+      "text": "re-settling before the second attempt"
+    },
+    {
+      "t": 50.9,
+      "state": "settle",
+      "text": "reaching in 3 waypoints, first IK residual 0.2 mm"
+    },
+    {
+      "t": 50.9,
+      "state": "reach",
+      "text": "entered"
+    },
+    {
+      "t": 52.7,
+      "state": "reach",
+      "text": "waypoint 1/3 reached, palm 88 mm off"
+    },
+    {
+      "t": 52.7,
+      "state": "reach",
+      "text": "waypoint 1 miss: target [1.018, -0.033, 0.58] commanded [1.018, -0.04, 0.578] measured [0.971, -0.088, 0.529] pelvis [0.896, 0.06, 0.456]; worst joint tracking error 32.3 deg on forearm_roll"
+    },
+    {
+      "t": 54.1,
+      "state": "reach",
+      "text": "waypoint 2/3 reached, palm 5 mm off"
+    },
+    {
+      "t": 55.3,
+      "state": "reach",
+      "text": "waypoint 3/3 reached, palm 7 mm off"
+    },
+    {
+      "t": 55.3,
+      "state": "enclose",
+      "text": "entered"
+    },
+    {
+      "t": 56.2,
+      "state": "enclose",
+      "text": "palm on the vase within 7 mm"
+    },
+    {
+      "t": 56.2,
+      "state": "close",
+      "text": "entered"
+    },
+    {
+      "t": 57.5,
+      "state": "close",
+      "text": "nothing enclosed (80 mm), reaching again 24 mm deeper"
+    },
+    {
+      "t": 57.5,
+      "state": "settle",
+      "text": "re-settling before the second attempt"
+    },
+    {
+      "t": 59.0,
+      "state": "settle",
+      "text": "reaching in 3 waypoints, first IK residual 0.2 mm"
+    },
+    {
+      "t": 59.0,
+      "state": "reach",
+      "text": "entered"
+    },
+    {
+      "t": 60.8,
+      "state": "reach",
+      "text": "waypoint 1/3 reached, palm 65 mm off"
+    },
+    {
+      "t": 60.8,
+      "state": "reach",
+      "text": "waypoint 1 miss: target [1.027, -0.041, 0.58] commanded [1.027, -0.047, 0.578] measured [0.992, -0.086, 0.547] pelvis [0.895, 0.06, 0.456]; worst joint tracking error 41.1 deg on forearm_roll"
+    },
+    {
+      "t": 62.2,
+      "state": "reach",
+      "text": "waypoint 2/3 reached, palm 5 mm off"
+    },
+    {
+      "t": 63.4,
+      "state": "reach",
+      "text": "waypoint 3/3 reached, palm 7 mm off"
+    },
+    {
+      "t": 63.4,
+      "state": "enclose",
+      "text": "entered"
+    },
+    {
+      "t": 64.3,
+      "state": "enclose",
+      "text": "palm on the vase within 7 mm"
+    },
+    {
+      "t": 64.3,
+      "state": "close",
+      "text": "entered"
+    },
+    {
+      "t": 65.6,
+      "state": "close",
+      "text": "giving up on the grasp"
+    },
+    {
+      "t": 65.6,
+      "state": "failed",
+      "text": "entered"
+    }
+  ],
+  "vase_rest": [
+    1.1079937141832215,
+    -0.09999354794610252,
+    0.43380054637641896
+  ],
+  "vase_final": [
+    1.153204083442688,
+    -0.0797276645898819,
+    0.4044800400733948
+  ],
+  "vase_settled": [
+    1.1080976724624634,
+    -0.1090255081653595,
+    0.38044458627700806
+  ],
+  "vase_lift_m": 0.024,
+  "vase_lift_vs_build_centre_m": -0.0293,
+  "vase_drift_before_contact_mm": 9.0,
+  "grasp_assist": true,
+  "scene": "house",
+  "object": {
+    "name": "vase",
+    "radius_m": 0.0211,
+    "height_m": 0.1441,
+    "grasp_fraction": 0.42,
+    "hue_window": [
+      295.0,
+      352.0
+    ]
+  },
+  "scene_report": {
+    "vase_path": "/World/Vase",
+    "centre": [
+      1.1079937141832215,
+      -0.09999354794610252,
+      0.43380054637641896
+    ],
+    "base_z": 0.3617389979569836,
+    "asset_wait_s": 0.0,
+    "radius": 0.029165548742212,
+    "height": 0.1441230968388707,
+    "grasp_z": 0.4222706986293093,
+    "table_edge": 0.9780059919952007,
+    "table_top": 0.3617389979569836
+  },
+  "fallen": false
+}

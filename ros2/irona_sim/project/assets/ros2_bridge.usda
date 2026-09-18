@@ -1,0 +1,342 @@
+#usda 1.0
+(
+    defaultPrim = "World"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "World"
+{
+    def "IronaROS"
+    {
+        def OmniGraph "State"
+        {
+            token evaluator:name = "execution"
+            token pipelineStage = "pipelineStageSimulation"
+
+            def OmniGraphNode "Tick"
+            {
+                custom token node:type = "omni.graph.action.OnPlaybackTick"
+                custom int node:typeVersion = 1
+                custom uint outputs:tick
+            }
+
+            def OmniGraphNode "Context"
+            {
+                custom bool inputs:useDomainIDEnvVar = 1
+                custom token node:type = "isaacsim.ros2.bridge.ROS2Context"
+                custom int node:typeVersion = 1
+                custom uint64 outputs:context
+            }
+
+            def OmniGraphNode "Time"
+            {
+                custom bool inputs:resetOnStop = 0
+                custom token node:type = "isaacsim.core.nodes.IsaacReadSimulationTime"
+                custom int node:typeVersion = 1
+                custom double outputs:simulationTime
+            }
+
+            def OmniGraphNode "Clock"
+            {
+                custom uint64 inputs:context
+                uint64 inputs:context.connect = </World/IronaROS/State/Context.outputs:context>
+                custom uint inputs:execIn
+                uint inputs:execIn.connect = </World/IronaROS/State/Tick.outputs:tick>
+                custom double inputs:timeStamp
+                double inputs:timeStamp.connect = </World/IronaROS/State/Time.outputs:simulationTime>
+                custom string inputs:topicName = "/clock"
+                custom token node:type = "isaacsim.ros2.bridge.ROS2PublishClock"
+                custom int node:typeVersion = 1
+            }
+
+            def OmniGraphNode "JointState"
+            {
+                custom uint64 inputs:context
+                uint64 inputs:context.connect = </World/IronaROS/State/Context.outputs:context>
+                custom uint inputs:execIn
+                uint inputs:execIn.connect = </World/IronaROS/State/Tick.outputs:tick>
+                rel inputs:targetPrim = </World/Irona/Links/pelvis>
+                custom double inputs:timeStamp
+                double inputs:timeStamp.connect = </World/IronaROS/State/Time.outputs:simulationTime>
+                custom string inputs:topicName = "/joint_states"
+                custom token node:type = "isaacsim.ros2.bridge.ROS2PublishJointState"
+                custom int node:typeVersion = 1
+            }
+
+            def OmniGraphNode "BaseTF"
+            {
+                custom string inputs:childFrameId = "pelvis"
+                custom uint64 inputs:context
+                uint64 inputs:context.connect = </World/IronaROS/State/Context.outputs:context>
+                custom uint inputs:execIn
+                uint inputs:execIn.connect = </World/IronaROS/State/Tick.outputs:tick>
+                custom string inputs:parentFrameId = "world"
+                custom quatd inputs:rotation = (1, 0, 0, 0)
+                custom double inputs:timeStamp
+                double inputs:timeStamp.connect = </World/IronaROS/State/Time.outputs:simulationTime>
+                custom string inputs:topicName = "/tf"
+                custom vector3d inputs:translation = (0.015, 0, 0.455)
+                custom token node:type = "isaacsim.ros2.bridge.ROS2PublishRawTransformTree"
+                custom int node:typeVersion = 1
+            }
+
+            def OmniGraphNode "Command"
+            {
+                custom uint64 inputs:context
+                uint64 inputs:context.connect = </World/IronaROS/State/Context.outputs:context>
+                custom uint inputs:execIn
+                uint inputs:execIn.connect = </World/IronaROS/State/Tick.outputs:tick>
+                custom string inputs:topicName = "/irona/arm_hand_command"
+                custom token node:type = "isaacsim.ros2.bridge.ROS2SubscribeJointState"
+                custom int node:typeVersion = 2
+            }
+        }
+
+        def OmniGraph "Color"
+        {
+            token evaluator:name = "execution"
+            token pipelineStage = "pipelineStageSimulation"
+
+            def OmniGraphNode "Tick"
+            {
+                custom token node:type = "omni.graph.action.OnPlaybackTick"
+                custom int node:typeVersion = 1
+                custom uint outputs:tick
+            }
+
+            def OmniGraphNode "Context"
+            {
+                custom bool inputs:useDomainIDEnvVar = 1
+                custom token node:type = "isaacsim.ros2.bridge.ROS2Context"
+                custom int node:typeVersion = 1
+                custom uint64 outputs:context
+            }
+
+            def OmniGraphNode "Once"
+            {
+                custom uint inputs:execIn
+                uint inputs:execIn.connect = </World/IronaROS/Color/Tick.outputs:tick>
+                custom token node:type = "isaacsim.core.nodes.IsaacRunOneSimulationFrame"
+                custom int node:typeVersion = 1
+                custom uint outputs:step
+            }
+
+            def OmniGraphNode "Product"
+            {
+                rel inputs:cameraPrim = </World/Irona/Links/head/Sensors/color>
+                custom bool inputs:enabled = 1
+                custom uint inputs:execIn
+                uint inputs:execIn.connect = </World/IronaROS/Color/Once.outputs:step>
+                custom uint inputs:height = 400
+                custom uint inputs:width = 640
+                custom token node:type = "isaacsim.core.nodes.IsaacCreateRenderProduct"
+                custom int node:typeVersion = 1
+                custom uint outputs:execOut
+                custom token outputs:renderProductPath
+            }
+
+            def OmniGraphNode "Image"
+            {
+                custom uint64 inputs:context
+                uint64 inputs:context.connect = </World/IronaROS/Color/Context.outputs:context>
+                custom uint inputs:execIn
+                uint inputs:execIn.connect = </World/IronaROS/Color/Product.outputs:execOut>
+                custom string inputs:frameId = "camera_color_optical_frame"
+                custom uint inputs:frameSkipCount = 1
+                custom uint64 inputs:queueSize = 2
+                custom token inputs:renderProductPath
+                token inputs:renderProductPath.connect = </World/IronaROS/Color/Product.outputs:renderProductPath>
+                custom bool inputs:resetSimulationTimeOnStop = 0
+                custom string inputs:topicName = "/irona/camera/color/image_raw"
+                custom token inputs:type = "rgb"
+                custom bool inputs:useSystemTime = 0
+                custom token node:type = "isaacsim.ros2.bridge.ROS2CameraHelper"
+                custom int node:typeVersion = 2
+            }
+
+            def OmniGraphNode "Info"
+            {
+                custom uint64 inputs:context
+                uint64 inputs:context.connect = </World/IronaROS/Color/Context.outputs:context>
+                custom uint inputs:execIn
+                uint inputs:execIn.connect = </World/IronaROS/Color/Product.outputs:execOut>
+                custom string inputs:frameId = "camera_color_optical_frame"
+                custom uint inputs:frameSkipCount = 1
+                custom uint64 inputs:queueSize = 2
+                custom token inputs:renderProductPath
+                token inputs:renderProductPath.connect = </World/IronaROS/Color/Product.outputs:renderProductPath>
+                custom bool inputs:resetSimulationTimeOnStop = 0
+                custom string inputs:topicName = "/irona/camera/color/camera_info"
+                custom bool inputs:useSystemTime = 0
+                custom token node:type = "isaacsim.ros2.bridge.ROS2CameraInfoHelper"
+                custom int node:typeVersion = 1
+            }
+        }
+
+        def OmniGraph "Depth"
+        {
+            token evaluator:name = "execution"
+            token pipelineStage = "pipelineStageSimulation"
+
+            def OmniGraphNode "Tick"
+            {
+                custom token node:type = "omni.graph.action.OnPlaybackTick"
+                custom int node:typeVersion = 1
+                custom uint outputs:tick
+            }
+
+            def OmniGraphNode "Context"
+            {
+                custom bool inputs:useDomainIDEnvVar = 1
+                custom token node:type = "isaacsim.ros2.bridge.ROS2Context"
+                custom int node:typeVersion = 1
+                custom uint64 outputs:context
+            }
+
+            def OmniGraphNode "Once"
+            {
+                custom uint inputs:execIn
+                uint inputs:execIn.connect = </World/IronaROS/Depth/Tick.outputs:tick>
+                custom token node:type = "isaacsim.core.nodes.IsaacRunOneSimulationFrame"
+                custom int node:typeVersion = 1
+                custom uint outputs:step
+            }
+
+            def OmniGraphNode "Product"
+            {
+                rel inputs:cameraPrim = </World/Irona/Links/head/Sensors/depth>
+                custom bool inputs:enabled = 1
+                custom uint inputs:execIn
+                uint inputs:execIn.connect = </World/IronaROS/Depth/Once.outputs:step>
+                custom uint inputs:height = 360
+                custom uint inputs:width = 640
+                custom token node:type = "isaacsim.core.nodes.IsaacCreateRenderProduct"
+                custom int node:typeVersion = 1
+                custom uint outputs:execOut
+                custom token outputs:renderProductPath
+            }
+
+            def OmniGraphNode "Image"
+            {
+                custom uint64 inputs:context
+                uint64 inputs:context.connect = </World/IronaROS/Depth/Context.outputs:context>
+                custom uint inputs:execIn
+                uint inputs:execIn.connect = </World/IronaROS/Depth/Product.outputs:execOut>
+                custom string inputs:frameId = "camera_depth_optical_frame"
+                custom uint inputs:frameSkipCount = 1
+                custom uint64 inputs:queueSize = 2
+                custom token inputs:renderProductPath
+                token inputs:renderProductPath.connect = </World/IronaROS/Depth/Product.outputs:renderProductPath>
+                custom bool inputs:resetSimulationTimeOnStop = 0
+                custom string inputs:topicName = "/irona/camera/depth/image_rect_raw"
+                custom token inputs:type = "depth"
+                custom bool inputs:useSystemTime = 0
+                custom token node:type = "isaacsim.ros2.bridge.ROS2CameraHelper"
+                custom int node:typeVersion = 2
+            }
+
+            def OmniGraphNode "Info"
+            {
+                custom uint64 inputs:context
+                uint64 inputs:context.connect = </World/IronaROS/Depth/Context.outputs:context>
+                custom uint inputs:execIn
+                uint inputs:execIn.connect = </World/IronaROS/Depth/Product.outputs:execOut>
+                custom string inputs:frameId = "camera_depth_optical_frame"
+                custom uint inputs:frameSkipCount = 1
+                custom uint64 inputs:queueSize = 2
+                custom token inputs:renderProductPath
+                token inputs:renderProductPath.connect = </World/IronaROS/Depth/Product.outputs:renderProductPath>
+                custom bool inputs:resetSimulationTimeOnStop = 0
+                custom string inputs:topicName = "/irona/camera/depth/camera_info"
+                custom bool inputs:useSystemTime = 0
+                custom token node:type = "isaacsim.ros2.bridge.ROS2CameraInfoHelper"
+                custom int node:typeVersion = 1
+            }
+
+            def OmniGraphNode "Points"
+            {
+                custom uint64 inputs:context
+                uint64 inputs:context.connect = </World/IronaROS/Depth/Context.outputs:context>
+                custom uint inputs:execIn
+                uint inputs:execIn.connect = </World/IronaROS/Depth/Product.outputs:execOut>
+                custom string inputs:frameId = "camera_depth_optical_frame"
+                custom uint inputs:frameSkipCount = 1
+                custom uint64 inputs:queueSize = 2
+                custom token inputs:renderProductPath
+                token inputs:renderProductPath.connect = </World/IronaROS/Depth/Product.outputs:renderProductPath>
+                custom bool inputs:resetSimulationTimeOnStop = 0
+                custom string inputs:topicName = "/irona/camera/depth/points"
+                custom token inputs:type = "depth_pcl"
+                custom bool inputs:useSystemTime = 0
+                custom token node:type = "isaacsim.ros2.bridge.ROS2CameraHelper"
+                custom int node:typeVersion = 2
+            }
+        }
+
+        def OmniGraph "Lidar"
+        {
+            token evaluator:name = "execution"
+            token pipelineStage = "pipelineStageSimulation"
+
+            def OmniGraphNode "Tick"
+            {
+                custom token node:type = "omni.graph.action.OnPlaybackTick"
+                custom int node:typeVersion = 1
+                custom uint outputs:tick
+            }
+
+            def OmniGraphNode "Context"
+            {
+                custom bool inputs:useDomainIDEnvVar = 1
+                custom token node:type = "isaacsim.ros2.bridge.ROS2Context"
+                custom int node:typeVersion = 1
+                custom uint64 outputs:context
+            }
+
+            def OmniGraphNode "Once"
+            {
+                custom uint inputs:execIn
+                uint inputs:execIn.connect = </World/IronaROS/Lidar/Tick.outputs:tick>
+                custom token node:type = "isaacsim.core.nodes.IsaacRunOneSimulationFrame"
+                custom int node:typeVersion = 1
+                custom uint outputs:step
+            }
+
+            def OmniGraphNode "Product"
+            {
+                rel inputs:cameraPrim = </World/Irona/Links/head/Sensors/lidar>
+                custom bool inputs:enabled = 1
+                custom uint inputs:execIn
+                uint inputs:execIn.connect = </World/IronaROS/Lidar/Once.outputs:step>
+                custom uint inputs:height = 1
+                custom uint inputs:width = 1
+                custom token node:type = "isaacsim.core.nodes.IsaacCreateRenderProduct"
+                custom int node:typeVersion = 1
+                custom uint outputs:execOut
+                custom token outputs:renderProductPath
+            }
+
+            def OmniGraphNode "Points"
+            {
+                custom uint64 inputs:context
+                uint64 inputs:context.connect = </World/IronaROS/Lidar/Context.outputs:context>
+                custom uint inputs:execIn
+                uint inputs:execIn.connect = </World/IronaROS/Lidar/Product.outputs:execOut>
+                custom string inputs:frameId = "lidar_link"
+                custom uint inputs:frameSkipCount = 0
+                custom bool inputs:fullScan = 1
+                custom uint64 inputs:queueSize = 2
+                custom token inputs:renderProductPath
+                token inputs:renderProductPath.connect = </World/IronaROS/Lidar/Product.outputs:renderProductPath>
+                custom bool inputs:resetSimulationTimeOnStop = 0
+                custom string inputs:topicName = "/irona/lidar/points"
+                custom token inputs:type = "point_cloud"
+                custom bool inputs:useSystemTime = 0
+                custom token node:type = "isaacsim.ros2.bridge.ROS2RtxLidarHelper"
+                custom int node:typeVersion = 1
+            }
+        }
+    }
+}
+

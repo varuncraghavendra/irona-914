@@ -1,6 +1,6 @@
 # Irona - The Flying Dexterous Humanoid
 
-
+![Irona](irona.png)
 
 A **914.4 mm / 3-foot** Irona-inspired humanoid with native USD physics, two custom DYNAMIXEL-style seven-axis arms, two five-finger hands, an expressionless D455-style RGB-D sensor head, and a **360° × 30° 3D RTX lidar**. Includes CAD, printable exterior parts, ROS 2 launch files, RViz configuration, walking and simulated jet-flight controllers.
 
